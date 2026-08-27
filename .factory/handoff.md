@@ -1,17 +1,12 @@
-# Research handoff
+# Research handoff: education
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the research work order `research-education-0827-183516-3`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added exactly 12 researched education opportunity briefs in `briefs/research-education-0827-183516-3.json`.
+- Added the requested one-line-per-brief summary in `briefs/research-education-0827-183516-3.md`.
+- Evidence URLs are unique across briefs. Research included 17 varied queries and direct reading of 40 public HN threads and GitHub issues; the selected evidence is from 2025–2026.
+- No products were built and no product state records were created, because this work order requested research briefs only.
 
-Verify with:
+Verification: run `python3 -m json.tool briefs/research-education-0827-183516-3.json >/dev/null` and confirm the array length is 12.
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+Left intentionally untouched: the pre-existing modified `graphify-out/cache/stat-index.json` file.
