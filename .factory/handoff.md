@@ -1,17 +1,17 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed `research-small-business-0827-231101-13` without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-small-business-0827-231101-13.json`: exactly 12 `RESEARCHED` utility briefs, each with two distinct directly fetched public evidence URLs (HN plus GitHub), with no evidence URL shared between briefs.
+- Added `briefs/research-small-business-0827-231101-13.md`: one why-now line per brief.
+- Surveyed the existing brief and backlog slug file (not present); none of the new slugs overlap the existing devtools portfolio.
+- Research coverage: 54 differently phrased HN/GitHub/Lobsters searches, 26 fetched HN item threads, and directly fetched GitHub issue records. GitHub global issue search was rate-limited, so repository issue-list and individual issue endpoints were used instead. Reddit was tried twice and blocked.
 
-Verify with:
+Verification:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq 'length == 12 and all(.[]; .state == "RESEARCHED" and (.evidence | length >= 2))' briefs/research-small-business-0827-231101-13.json
+jq -r '.[].evidence[].url' briefs/research-small-business-0827-231101-13.json | sort | uniq -d
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+No product source, deployment, or generated assets were added. The pre-existing unrelated modification at `graphify-out/cache/stat-index.json` was intentionally left untouched and uncommitted.
