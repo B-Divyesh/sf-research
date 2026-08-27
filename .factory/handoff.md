@@ -1,17 +1,12 @@
-# Research handoff
+# Research handoff: health-home
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the research work order without building a product. The committed artifacts are:
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- `briefs/research-health-home-0827-183803-4.json` — exactly 12 schema-complete opportunity briefs.
+- `briefs/research-health-home-0827-183803-4.md` — one-line rationale per brief.
 
-Verify with:
+Research coverage: more than 15 distinct public-source search queries were run, Reddit was tried twice and was blocked, and more than 25 distinct 2025–26 Hacker News/GitHub threads/issues were fetched and read. Each of the 12 briefs cites two unique evidence URLs; no URL is reused by another brief, and every brief spans Hacker News plus GitHub.
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
+Verification: run `jq 'length == 12 and ([.[].slug] | unique | length == 12)' briefs/research-health-home-0827-183803-4.json` and `jq -e 'all(.[]; (.evidence | length >= 2) and .state == "RESEARCHED")' briefs/research-health-home-0827-183803-4.json`.
 
-Nothing remains to build or deploy for this research-only work order.
+No product state files or implementation were created, as requested. The pre-existing modification to `graphify-out/cache/stat-index.json` was left untouched.
