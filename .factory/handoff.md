@@ -1,17 +1,10 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-utilities-0827-183726-0`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-utilities-0827-183726-0.json` with exactly 12 utility opportunity briefs, each citing two unique public sources that were directly fetched.
+- Added `briefs/research-utilities-0827-183726-0.md` with one concise why-now line per brief.
+- Reviewed the existing research JSON and checked `.factory/backlog-slugs.txt` (not present); no existing slug was reused.
+- Research included 15 varied search queries and direct reading of 25 distinct HN threads, plus direct verification of cited GitHub issues.
 
-Verify with:
-
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+Verification: `python3 -m json.tool briefs/research-utilities-0827-183726-0.json >/dev/null` and a short schema/count check can be run locally. No product was built and no external services require configuration.
