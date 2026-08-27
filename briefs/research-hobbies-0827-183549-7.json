@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "bike-check-card",
+    "title": "Bike Check Card",
+    "territory": "utilities",
+    "user": "A self-maintaining cyclist who needs to capture a fault's exact symptoms, component state, photos, and ride context before deciding whether to pause riding or ask a mechanic/community for help.",
+    "evidence": [
+      {
+        "url": "https://github.com/OpenTracksApp/OpenTracks/issues/2142",
+        "date": "2025-07-26",
+        "quote_or_summary": "A rider asks for an alarm when wheel-sensor speed materially disagrees with GPS after intermittent sensor failure; the present app silently reports only the bad reading."
+      },
+      {
+        "url": "https://bicycles.stackexchange.com/questions/96738/when-does-a-damaged-tire-in-this-case-a-gp-5000-with-sidewall-cut-need-replace",
+        "date": "2025-05-07",
+        "quote_or_summary": "A rider documents pressure, mileage, visible fibres, and riding plans while asking whether a damaged tyre can still be used—exactly the facts that are otherwise scattered across a post."
+      }
+    ],
+    "recurrence": "Two independent 2025 threads expose the same high-stakes capture problem: a defect or conflicting reading must be described accurately before someone can help. Severity is high because an incomplete record can lead to a wasted shop visit or an unsafe ride.",
+    "current_workaround": "Take ad-hoc phone photos, write a long forum post, and try to remember pressure, mileage, and sensor readings.",
+    "incumbents_and_gap": "Strava and Garmin record rides; OpenTracks records tracks; bike-maintenance apps schedule services. None gives a fast, shareable, component-aware fault card with evidence and no safety verdict.",
+    "smallest_useful_product": "Offline form for bike, component, mileage, pressure, symptom timeline, sensor-vs-GPS reading, and annotated photos; exports a single private link/PDF. Non-goals: diagnosing safety, recommending replacement, telemetry ingestion, or social feeds.",
+    "success_measure": "In a 20-cyclist test, at least 12 create and share a complete check card in under four minutes, with at least 80% containing bike, component, symptom, and one measurement.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — a privacy-first utility is valuable at the moment of a real problem and should not hold safety records hostage to a subscription.",
+    "constraints": "Make the no-safety-advice boundary explicit; keep photos local until the user exports; avoid claiming compatibility with a component manufacturer's warranty process.",
+    "est_build_effort": "S",
+    "why_distinct": "This is an evidence-capture and handoff tool, not another ride tracker or maintenance reminder.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "route-fidelity-check",
+    "title": "Route Fidelity Check",
+    "territory": "utilities",
+    "user": "A cyclist or club ride leader who has a deliberate GPX route and needs to know whether a navigation app/device silently rerouted it before riders follow it.",
+    "evidence": [
+      {
+        "url": "https://github.com/organicmaps/organicmaps/issues/13236",
+        "date": "2026-07-28",
+        "quote_or_summary": "A walking-club route creator says automatic completion reconnects waypoints on a nonsensical path and requests that only segments between deliberate waypoints be optimized."
+      },
+      {
+        "url": "https://bicycles.stackexchange.com/questions/97098/ridewithgps-versus-garmin-edge-540",
+        "date": "2025-07-13",
+        "quote_or_summary": "A RideWithGPS route containing a rail trail becomes nearby roads after the Garmin handoff despite the trail being visible in Garmin's map."
+      }
+    ],
+    "recurrence": "Two independent 2025–2026 route-authoring reports describe route mutation at the handoff layer. Severity is high for group rides because the leader may discover a bad route only while navigating.",
+    "current_workaround": "Manually inspect the route in each app/device, add many shaping points, or discover the deviation after export.",
+    "incumbents_and_gap": "RideWithGPS, Garmin Connect, Komoot, and Organic Maps plan routes, but each owns its routing engine. There is no neutral, tiny preflight that compares an intended GPX line with an exported/re-rendered line.",
+    "smallest_useful_product": "Browser tool that accepts two GPX files, aligns them, highlights divergences over a user-set distance, and emits a printable cue/checklist. Non-goals: route planning, turn-by-turn navigation, accounts, or map-data editing.",
+    "success_measure": "On a 30-pair corpus of planned and exported GPX files, the tool flags 90% of known material detours and produces a reviewable result in under 15 seconds.",
+    "artifact_class": "static-web",
+    "monetization": "free — it is a focused trust-building utility that can seed later paid club export packs if demand appears.",
+    "constraints": "Process GPX locally; use permissively licensed base-map tiles only if a map preview is included; clearly distinguish geometric difference from a claim that a route is safe or legal.",
+    "est_build_effort": "M",
+    "why_distinct": "It audits a route handoff instead of competing to be the next route planner.",
+    "confidence": 5,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "game-night-score-ledger",
+    "title": "Game Night Score Ledger",
+    "territory": "games-creative",
+    "user": "A board-game host running games with score tracks that wrap, teams, or many rounds who needs an auditable scoreboard that does not interrupt play.",
+    "evidence": [
+      {
+        "url": "https://github.com/mregni/BoardGameTracker/issues/22",
+        "date": "2026-01-19",
+        "quote_or_summary": "A current board-game tracker explicitly requests a game-night page for creating and managing RSVPs, showing that play-session support is separate from a collection catalog."
+      },
+      {
+        "url": "https://boardgames.stackexchange.com/questions/64602/tracking-hundreds-of-points-in-stone-age",
+        "date": "2026-08-24",
+        "quote_or_summary": "A Stone Age player cannot track laps once the physical 0–99 score track wraps and resorts to borrowing Carcassonne lap counters."
+      }
+    ],
+    "recurrence": "Two independent 2026 requests show session administration and score-overflow failures during play. Severity is medium-high: the physical game state becomes disputed or cumbersome at the table.",
+    "current_workaround": "Paper, borrowed counters, a generic calculator, or a large all-purpose collection app.",
+    "incumbents_and_gap": "BoardGameGeek logs plays, and BG Stats has broad tracking. Neither is optimized for a one-screen, no-account, table-facing ledger with laps, teams, and an exportable event receipt.",
+    "smallest_useful_product": "A share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and team totals; guests can view but not edit; export CSV/image. Non-goals: game rules engines, BGG catalog sync, chat, ratings, or ads.",
+    "success_measure": "At least 15 of 20 test sessions finish with a saved score record and no manual recalculation, while first setup takes under 60 seconds.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — hosts can reasonably pay for a polished offline table tool, without forcing players into accounts.",
+    "constraints": "Support local-first shared state and conflict-safe host controls; do not reproduce copyrighted game rules or artwork.",
+    "est_build_effort": "S",
+    "why_distinct": "A session instrument for awkward physical scoreboards, not a collection database or generic score-counter clone.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "shelf-rotation-picklist",
+    "title": "Shelf Rotation Picklist",
+    "territory": "games-creative",
+    "user": "A board gamer with a growing shelf who wants a fair, practical next-play shortlist based on neglect, player count, setup burden, and what is actually available tonight.",
+    "evidence": [
+      {
+        "url": "https://github.com/mregni/BoardGameTracker/issues/31",
+        "date": "2026-01-25",
+        "quote_or_summary": "The feature request is concise and direct: show games not played in over x months."
+      },
+      {
+        "url": "https://boardgames.stackexchange.com/questions/61929/how-could-you-best-run-a-limited-event-with-only-random-bulk",
+        "date": "2025-05-17",
+        "quote_or_summary": "An organizer with 2,000+ bulk cards calls sorting and entering them into a collection app a nightmare while trying to make a fun event from what they already own."
+      }
+    ],
+    "recurrence": "Two independent 2025–2026 organizers have surplus inventory but lack a lightweight way to turn it into an actionable session choice. Severity is medium: the result is unused purchases and planning friction.",
+    "current_workaround": "Scroll a collection, spin a randomizer, use a spreadsheet, or never revisit the shelf-of-shame.",
+    "incumbents_and_gap": "BoardGameGeek and BG Stats retain ownership/play data; generic randomizers ignore setup, players, and event constraints. The gap is an explainable shortlist rather than another catalog.",
+    "smallest_useful_product": "Local CSV/manual import of title, last-played, player range, minutes, setup friction, and tags; filters tonight's constraints and creates a 3–5 game rotation with a visible reason for each pick. Non-goals: recommendations from scraped ratings, marketplace prices, or full collection management.",
+    "success_measure": "Among 25 collectors, 60% who import at least 20 games save a generated shortlist twice within 30 days.",
+    "artifact_class": "static-web",
+    "monetization": "free — the narrow transparent picker has a low support burden and can validate whether paid family/club shared shelves are wanted.",
+    "constraints": "Do not scrape BoardGameGeek or use its branding/data without permission; imports must be user-provided; make the scoring rule inspectable rather than LLM-generated.",
+    "est_build_effort": "S",
+    "why_distinct": "It converts neglected owned items into a constraint-aware play plan, rather than duplicating a game library.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "boardgame-session-notes",
+    "title": "Boardgame Session Notes",
+    "territory": "games-creative",
+    "user": "A game group that wants a compact record of a particular play—starting state, disputes, house rules, score laps, and outcomes—without losing it when an item leaves the collection.",
+    "evidence": [
+      {
+        "url": "https://github.com/Progrunning/BoardGamesCompanion/issues/347",
+        "date": "2026-08-06",
+        "quote_or_summary": "A current BoardGamesCompanion task preserves import progress/retry/backoff because users otherwise have to babysit a queued BoardGameGeek collection import."
+      },
+      {
+        "url": "https://boardgames.stackexchange.com/questions/61701/how-to-count-matadors-in-skat-if-you-dont-have-a-good-memory",
+        "date": "2025-01-07",
+        "quote_or_summary": "A Skat player asks how to reconstruct an initial hand after tricks are collected because the information is lost and nobody can reliably remember it."
+      }
+    ],
+    "recurrence": "These two independent reports show that catalog history and in-session state are both fragile: import pipelines are unreliable, while physical information disappears after play. Severity is medium for groups that revisit games or settle disputes.",
+    "current_workaround": "Trust memory, keep paper notes, or rely on a remote collection import to be available at the table.",
+    "incumbents_and_gap": "BoardGameGeek/BG Stats retain broad play logs; rulebook apps explain rules. Neither offers a local, game-agnostic session notebook that starts from a pasted title and survives catalog deletion or API outages.",
+    "smallest_useful_product": "Offline session template with participants, pre-play state/photo, reusable house-rule snippets, event timeline, and final score; export a single Markdown/PDF receipt. Non-goals: rules lookup, automated scoring, BGG import, or replacing a campaign manager.",
+    "success_measure": "In 15 repeat groups, at least 10 reopen a prior session note during a subsequent play or rules discussion within six weeks.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — durable local records are a clear paid utility without network service costs.",
+    "constraints": "Do not distribute rule text, game art, or community data; keep notes local by default and make exports user-controlled.",
+    "est_build_effort": "S",
+    "why_distinct": "It protects ephemeral session context, not another online collection or rules encyclopedia.",
+    "confidence": 3,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "metadata-change-receipt",
+    "title": "Metadata Change Receipt",
+    "territory": "utilities",
+    "user": "A photographer or small archive manager who needs to batch-plan and verify date, caption, keyword, and IPTC edits without trusting a black-box library import job.",
+    "evidence": [
+      {
+        "url": "https://github.com/immich-app/immich/issues/24520",
+        "date": "2025-12-11",
+        "quote_or_summary": "A fresh Immich instance with roughly 460,000 assets sees the metadata-extraction queue grow to about 650,000 and never drain, making the library's metadata state untrustworthy."
+      },
+      {
+        "url": "https://photo.stackexchange.com/questions/136943/is-there-a-way-to-automate-metadata-keywords-captions-in-lightroom-classic",
+        "date": "2025-08-25",
+        "quote_or_summary": "A Lightroom user with large sets asks for tools or plug-ins to automate titles, captions, and keywords directly into IPTC because manual work is too time-consuming."
+      }
+    ],
+    "recurrence": "One 2025 professional-style batch-edit request and one large-library extraction failure show a recurring trust problem: photographers cannot easily prove what metadata should have changed. Severity rises sharply with library size.",
+    "current_workaround": "Run Lightroom/ExifTool/import jobs, inspect random files, and keep a separate spreadsheet of intended changes.",
+    "incumbents_and_gap": "Lightroom Classic, Immich, PhotoPrism, and ExifTool can change or extract fields. The unresolved gap is a human-readable before/after receipt and exception list independent of a catalog vendor.",
+    "smallest_useful_product": "Local desktop-web workflow that accepts exported metadata CSVs, defines a field transformation, previews affected rows, and produces a signed before/after receipt plus exceptions CSV. Non-goals: writing image files, AI captioning, cloud DAM, or replacing Lightroom.",
+    "success_measure": "At least 90% of a 10,000-row fixture's intended edits are represented exactly once in the receipt, and users can identify every exception without opening individual images.",
+    "artifact_class": "static-web",
+    "monetization": "one-time — auditability is a bounded, professional utility and does not require a hosted account.",
+    "constraints": "Run entirely client-side; protect filenames/location data; clearly state that CSV verification does not prove pixels or embedded XMP were written.",
+    "est_build_effort": "M",
+    "why_distinct": "It is an audit layer around existing metadata tools, not a photo organizer or thin AI tagger.",
+    "confidence": 5,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "raw-sidecar-sanity",
+    "title": "RAW Sidecar Sanity",
+    "territory": "utilities",
+    "user": "A photographer importing RAW plus camera JPEG pairs who needs to catch impossible dimensions, aspect ratios, or timestamps before a catalog makes bad thumbnails and timelines.",
+    "evidence": [
+      {
+        "url": "https://github.com/immich-app/immich/issues/29251",
+        "date": "2026-06-22",
+        "quote_or_summary": "A Sony ARW import is reported as 5120×7168 instead of 4672×7008, while the camera JPEG sidecar is correct; the user observes visible aspect-ratio distortion."
+      },
+      {
+        "url": "https://photo.stackexchange.com/questions/138340/changing-the-date-of-a-photo-taken-on-a-digital-camera",
+        "date": "2026-01-10",
+        "quote_or_summary": "After correcting EXIF dates with ExifTool, a camera still displays the old date/category, illustrating that a seemingly fixed metadata field can disagree across consumers."
+      }
+    ],
+    "recurrence": "Two independent 2026 cases show consumer disagreement over fundamental photo facts: dimensions/aspect in one and capture dates in another. Severity is high before a bulk import because errors propagate into derived previews and folders.",
+    "current_workaround": "Open files one by one in several apps, compare against JPEGs, or discover defects after catalog import.",
+    "incumbents_and_gap": "ExifTool exposes fields and DAMs show their own interpretation. No lightweight preflight focuses on pairwise contradictions and clearly says which reader reported what.",
+    "smallest_useful_product": "Local drag-and-drop checker for a folder manifest or selected RAW/JPEG pairs; reports dimension, aspect, timestamp, and basename conflicts with a CSV export. Non-goals: decoding every RAW, correcting metadata, importing to a DAM, or cloud upload.",
+    "success_measure": "On a labelled corpus of 200 valid and intentionally mismatched pairs, detect at least 95% of injected date/aspect/basename conflicts with under 3% false positives.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — preflight is occasional but has clear value when an archive is at risk.",
+    "constraints": "Browser RAW parsing coverage will be incomplete; document supported metadata readers; never modify originals; avoid retaining image bytes.",
+    "est_build_effort": "M",
+    "why_distinct": "It checks agreement among files and readers before import instead of becoming a photo catalog.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "photo-stack-proof",
+    "title": "Photo Stack Proof",
+    "territory": "utilities",
+    "user": "An iPhone/RAW photographer with years of exports who needs to verify that same-name images, videos, and sidecars really belong together before a DAM stacks or deletes them.",
+    "evidence": [
+      {
+        "url": "https://github.com/photoprism/photoprism/issues/5799",
+        "date": "2026-08-27",
+        "quote_or_summary": "PhotoPrism users request embedded content-identifier verification because name-only grouping can merge unrelated rollover files into one card with mismatched thumbnails, labels, and Live Photo previews."
+      },
+      {
+        "url": "https://photo.stackexchange.com/questions/138426/difference-between-exif-image-datetimeoriginal-and-exif-photo-datetimeoriginal",
+        "date": "2026-03-06",
+        "quote_or_summary": "A photographer cannot choose between two similarly named DateTimeOriginal tags and asks which reliably records when a JPEG was captured."
+      }
+    ],
+    "recurrence": "Two independent 2026 reports show that filename and a single timestamp are weak identity signals. Severity is high because false stacks can make distinct originals appear as one asset.",
+    "current_workaround": "Trust the DAM's grouping, rename files manually, or inspect EXIF fields with specialist tools.",
+    "incumbents_and_gap": "PhotoPrism, Lightroom, Immich, and Apple Photos stack media, but their grouping logic is not a portable proof report users can run before import or deletion.",
+    "smallest_useful_product": "Local analyser that groups candidate pairs by basename, reads available capture/content IDs and timestamps, and labels each as verified, ambiguous, or conflict; exports a review CSV. Non-goals: auto-merge/delete, a DAM, face recognition, or cloud backups.",
+    "success_measure": "On 100 labelled candidate groups, correctly separate at least 90% of deliberately colliding basenames and never mark a conflict group safe without a matching strong identifier.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — users pay for a careful preflight before a migration, not ongoing hosting.",
+    "constraints": "Never delete or rename files; content-ID support varies by format; describe heuristic confidence honestly; keep potentially sensitive metadata on-device.",
+    "est_build_effort": "M",
+    "why_distinct": "It is a conservative identity-verification tool, not another automatic photo-stacking feature.",
+    "confidence": 5,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "practice-next-card",
+    "title": "Practice Next Card",
+    "territory": "games-creative",
+    "user": "A self-directed musician who needs to leave a precise, encouraging next action at a troublesome measure instead of accumulating paper notes or stalling between lessons.",
+    "evidence": [
+      {
+        "url": "https://github.com/musescore/MuseScore/issues/34720",
+        "date": "2026-08-27",
+        "quote_or_summary": "A musician asks for a score comment pop-up for notes such as “fix bar 37”; today they write reminders on scraps of paper."
+      },
+      {
+        "url": "https://music.stackexchange.com/questions/143952/ive-hit-a-wall-practicing-alone-after-8-years-of-having-a-teacher-and-i-need-h",
+        "date": "2026-06-30",
+        "quote_or_summary": "After losing affordable instruction, a musician says unguided practice of scales/exercises drains enjoyment and they have hit a skill wall."
+      }
+    ],
+    "recurrence": "Two independent 2026 musicians describe missing continuity between sessions: one loses measure-specific reminders, another loses direction without a teacher. Severity is high enough to stop regular practice.",
+    "current_workaround": "Paper scraps, generic to-do lists, memory, or a broad habit tracker detached from the actual piece.",
+    "incumbents_and_gap": "MuseScore stores notation and many practice apps count minutes. The gap is a tiny local queue of measure-specific next actions, evidence of attempts, and an end-of-session handoff—not a lesson platform.",
+    "smallest_useful_product": "Offline cards with piece name, measure/range, one next action, timer, perceived outcome, and optional photo/link to the user's own score; show only today's 3 cards. Non-goals: score hosting, AI feedback, metronome, social coaching, or copyrighted sheet-music distribution.",
+    "success_measure": "In a four-week pilot, at least 60% of activated users complete two or more cards per week and reopen a prior card at least once.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — the product holds personal practice notes and should remain usable offline without a subscription.",
+    "constraints": "Do not ingest or redistribute copyrighted scores; store only user-entered measure references; avoid health/skill-improvement claims.",
+    "est_build_effort": "S",
+    "why_distinct": "It captures the next concrete action at the music, rather than merely tracking streaks or generating advice.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "rehearsal-section-cues",
+    "title": "Rehearsal Section Cues",
+    "territory": "games-creative",
+    "user": "A small ensemble leader or multi-instrument player who needs a clear, printable cue sheet for where a rehearsal section begins, who plays on each pass, and what is difficult there.",
+    "evidence": [
+      {
+        "url": "https://github.com/musescore/MuseScore/issues/34630",
+        "date": "2026-08-19",
+        "quote_or_summary": "A notation user asks for previous/next rehearsal-mark hints and jumping because, after moving to a random point in a piece, they are often disoriented about exactly where they are."
+      },
+      {
+        "url": "https://music.stackexchange.com/questions/140722/how-to-tell-whether-a-piece-is-too-difficult-for-me",
+        "date": "2025-06-01",
+        "quote_or_summary": "A player considering a fast solo asks how to decide independently whether a passage is realistically learnable before committing serious practice."
+      }
+    ],
+    "recurrence": "One 2025 readiness question and one active 2026 navigation request expose the same rehearsal-planning gap: the score alone does not state the practical work at each section. Severity is medium-high for limited rehearsal time.",
+    "current_workaround": "Markup on photocopies, separate emails, or trying to encode rehearsal intent into notation software.",
+    "incumbents_and_gap": "MuseScore, forScore, and Setlist apps manage scores/setlists. They do not produce a fast, score-agnostic section cue card that an ensemble can agree on without editing the source notation.",
+    "smallest_useful_product": "A printable/mobile cue-sheet builder: section label, repeat number, active players, one technical risk, tempo target, and completion status. Non-goals: score rendering, playback, automated difficulty scoring, cloud rehearsal rooms, or copyrighted chart storage.",
+    "success_measure": "In 10 ensemble rehearsals, leaders create a usable sheet in under eight minutes and participants report fewer than one clarification per repeated section on average.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — an ensemble-friendly print/export utility has clear event value with no ongoing infrastructure need.",
+    "constraints": "Use only user-entered section labels and measure references; do not host sheet music; support accessible high-contrast printable output.",
+    "est_build_effort": "S",
+    "why_distinct": "It lives beside notation as a rehearsal-operating sheet, not as a competing notation editor.",
+    "confidence": 3,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "catch-photo-log",
+    "title": "Catch Photo Log",
+    "territory": "utilities",
+    "user": "An angler who takes a catch photo and needs a fast, private record of where/when it happened plus the tackle and setup facts useful on the next trip.",
+    "evidence": [
+      {
+        "url": "https://github.com/ed-p-may/lincolns-reel-records/issues/3",
+        "date": "2026-08-10",
+        "quote_or_summary": "A fishing-journal user explicitly requests that a selected catch photo populate time, date, and location from its metadata, falling back to manual entry only when absent."
+      },
+      {
+        "url": "https://outdoors.stackexchange.com/questions/30148/how-to-determine-how-much-weight-a-trotline-needs",
+        "date": "2025-04-09",
+        "quote_or_summary": "An angler trying a 100-metre trotline records line, snood, weight, target fish, lake, and fairway context while asking how to choose an anchor—trip setup is materially more than a catch count."
+      }
+    ],
+    "recurrence": "Two independent 2025–2026 fishing threads require structured field capture: photo facts for one and detailed rig/site context for the other. Severity is medium because remembered details are what make a trip learnable.",
+    "current_workaround": "Camera roll plus notes, spreadsheet, a social catch app, or re-entering GPS/date manually.",
+    "incumbents_and_gap": "Fishbrain and Anglr emphasize community, maps, and catch feeds; generic logbooks record catches. The gap is a local photo-first session card that preserves detailed setup without exposing a fishing spot.",
+    "smallest_useful_product": "Offline PWA that reads optional photo EXIF, then prompts for species, rig, bait/lure, water conditions, line/anchor setup, and private location precision; exports CSV/PDF. Non-goals: fish identification, bite prediction, social feed, public maps, or regulatory advice.",
+    "success_measure": "At least 70% of 30 trial session records retain a photo-derived time/date plus three manually chosen setup fields, with median entry time under 90 seconds.",
+    "artifact_class": "pwa-offline",
+    "monetization": "one-time — private, offline field records are credible as a small paid companion and avoid funding through location-data exploitation.",
+    "constraints": "Location must be private and removable/rounded; never advise on catch limits or anchoring safety; EXIF access requires explicit browser permission and local processing.",
+    "est_build_effort": "S",
+    "why_distinct": "It is a private learning log for rig/context, not another public catch map or AI fish-ID wrapper.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "bird-sighting-proof-card",
+    "title": "Bird Sighting Proof Card",
+    "territory": "utilities",
+    "user": "A birder with an uncertain observation who needs to package photo, sound, time, location precision, field marks, and identification uncertainty for later review without oversharing sensitive locations.",
+    "evidence": [
+      {
+        "url": "https://github.com/inbo/bird-tracking/issues/285",
+        "date": "2026-07-08",
+        "quote_or_summary": "A bird-tracking team wants metadata from separate GPS-tracker technology sheets combined because managing fragmented observation metadata is difficult."
+      },
+      {
+        "url": "https://outdoors.stackexchange.com/questions/30446/what-is-this-seabird-in-deerness-orkney-islands-fulmar-kittiwake-or-other",
+        "date": "2026-04-02",
+        "quote_or_summary": "A birder with distant photos and inconclusive Merlin sound/photo suggestions cannot distinguish fulmars from kittiwakes and supplies date, place, and observation context."
+      }
+    ],
+    "recurrence": "Two 2026 bird-data cases show that observation evidence is fragmented across photos, tools, tracker metadata, and memory. Severity is medium-high: uncertainty remains unresolved and sensitive site data may be shared too broadly.",
+    "current_workaround": "Post a prose description with attachments, keep separate spreadsheets, or rely on an identification app's single suggestion.",
+    "incumbents_and_gap": "Merlin and eBird identify/record birds; research platforms manage tracking data. The gap is a tool-neutral evidence packet that records uncertainty and deliberately controls location precision before sharing.",
+    "smallest_useful_product": "Offline proof-card builder with photo/audio attachments, extracted timestamp, rounded location options, field-mark checklist, candidate/confidence notes, and shareable PDF/JSON. Non-goals: automated species identification, public sighting map, eBird submission, or research GPS management.",
+    "success_measure": "In a 20-card pilot, 80% of shared cards include date, precision-controlled place, one evidence attachment, and an explicit confidence level; no exported card includes exact coordinates unless the user opts in.",
+    "artifact_class": "pwa-offline",
+    "monetization": "free — a privacy-respecting evidence format can earn trust first and has negligible recurring cost.",
+    "constraints": "Sensitive-species and nesting locations require safe defaults; do not imply an identification is authoritative; user media and coordinates remain local until export.",
+    "est_build_effort": "S",
+    "why_distinct": "It improves the quality and safety of uncertain observations without pretending to replace bird-identification or citizen-science networks.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  }
+]
