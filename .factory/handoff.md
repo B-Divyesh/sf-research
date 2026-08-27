@@ -1,17 +1,24 @@
-# Research handoff
+# Research handoff: small-business
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-small-business-0827-183533-5`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-small-business-0827-183533-5.json`: exactly 12 `RESEARCHED` small-business utility briefs.
+- Added `briefs/research-small-business-0827-183533-5.md`: one-line why-now summary for each brief.
+- Read the existing briefs and checked for an existing backlog-slug file before selection. There were no existing small-business slugs to avoid.
+- Research covered 20 HN query phrasings and 45 individually fetched 2025–26 HN/GitHub threads/issues. The final briefs use 24 non-reused, directly fetched evidence URLs; each has one HN and one GitHub source.
 
-Verify with:
+Verification:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+python3 - <<'PY'
+import json
+d=json.load(open('briefs/research-small-business-0827-183533-5.json'))
+assert len(d) == 12
+assert len({x['slug'] for x in d}) == 12
+urls=[e['url'] for x in d for e in x['evidence']]
+assert len(urls) == len(set(urls)) == 24
+print('valid:', len(d), 'briefs')
+PY
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+No product was built and no product-state files were created: this work order requested research artifacts only. A pre-existing unrelated modification, `graphify-out/cache/stat-index.json`, was intentionally left uncommitted.
