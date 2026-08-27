@@ -1,17 +1,23 @@
-# Research handoff
+# Research handoff: games-creative
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-games-creative-0827-230850-1`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-games-creative-0827-230850-1.json` with exactly 12 `games-creative` opportunity briefs.
+- Each brief has two actually fetched, unique public evidence URLs (24 URLs total) across Hacker News and GitHub; no evidence URL is shared between briefs.
+- Added the one-line-per-brief summary at `briefs/research-games-creative-0827-230850-1.md`.
+- Added a `products/<slug>.json` state record for every researched concept, all at `SPECIFIED`; no product was built.
 
-Verify with:
+Verification run:
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+```sh
+python3 - <<'PY'
+import json
+a = json.load(open('briefs/research-games-creative-0827-230850-1.json'))
+urls = [e['url'] for b in a for e in b['evidence']]
+assert len(a) == 12 and len(urls) == len(set(urls)) == 24
+print('valid')
+PY
+git diff --check
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+The pre-existing modification to `graphify-out/cache/stat-index.json` was left untouched and is intentionally not part of this work order.
