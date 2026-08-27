@@ -1,0 +1,362 @@
+[
+  {
+    "slug": "function-flow-canvas",
+    "title": "Function Flow Canvas",
+    "territory": "devtools-data",
+    "user": "Engineers onboarding to an unfamiliar service who need to follow one request path across functions, files, and types without opening an unbounded set of editor tabs.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/46345827",
+        "date": "2025-12-21",
+        "quote_or_summary": "In an Ask HN thread about wished-for developer tools, a commenter asks for a function call graph where clicking a call opens its callee with relevant calls and structs highlighted."
+      },
+      {
+        "url": "https://github.com/colbymchenry/codegraph/issues/648",
+        "date": "2026-06-02",
+        "quote_or_summary": "The 35-reaction CodeGraph roadmap consolidates ongoing requests for source-code graph support across many languages, underscoring the cross-language nature of code navigation demand."
+      }
+    ],
+    "recurrence": "A direct 2025 request plus a 2026, 35-reaction language-support tracker; the pain recurs whenever a developer must form a local mental model of a large code path.",
+    "current_workaround": "Use editor go-to-definition/back stacks, manually split tabs, draw temporary diagrams, or ask a teammate for a tour.",
+    "incumbents_and_gap": "VS Code and JetBrains expose call hierarchies, while CodeGraph provides broad indexing. None makes a deliberately small, task-scoped, shareable path canvas from one chosen function the primary artifact.",
+    "smallest_useful_product": "A local CLI using an installed language server to emit one self-contained HTML canvas for a selected symbol: inbound/outbound calls, type hops, source snippets, and collapsible depth. Non-goals: repository-wide AI search, code editing, or hosted code indexing.",
+    "success_measure": "In a pilot, 70% of users can answer a five-step request-path question in under ten minutes after generating a canvas, versus their documented baseline.",
+    "artifact_class": "cli",
+    "monetization": "one-time — a local analysis utility has episodic, high-value use and should not require source upload or a recurring seat fee.",
+    "constraints": "Parse locally; support only language servers that are already installed; exclude generated/vendor paths by default; never send source code to a service.",
+    "est_build_effort": "M",
+    "why_distinct": "It is a constrained code-reading artifact, not another IDE, code graph database, or LLM codebase chat.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "api-scenario-patch",
+    "title": "API Scenario Patch",
+    "territory": "devtools-data",
+    "user": "Small API teams that need to review a realistic, multi-step request scenario in Git without sharing a hosted API-client workspace.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/46942116",
+        "date": "2026-02-09",
+        "quote_or_summary": "An Ask HN poster reports Postman capping free team collaboration at one user; replies recommend plaintext, Git-tracked request collections as an alternative."
+      },
+      {
+        "url": "https://github.com/usebruno/bruno/issues/5965",
+        "date": "2025-11-03",
+        "quote_or_summary": "A Bruno user requests saving multiple payload/parameter sets for one API call so tests can be switched without rewriting or losing prior data."
+      }
+    ],
+    "recurrence": "Two independent API-client communities in late 2025 and 2026 describe lost scenario context and the cost of hosted collaboration limits.",
+    "current_workaround": "Duplicate requests in Postman/Bruno, paste curl commands into pull requests, or maintain loosely related JSON files and README notes.",
+    "incumbents_and_gap": "Postman and Insomnia optimize interactive clients; Bruno stores collections locally. The gap is a reviewable patch containing an ordered scenario, extracted variables, redacted observed responses, and reviewer notes — not a whole client workspace.",
+    "smallest_useful_product": "A CLI/proxy that records an opted-in sequence of HTTP exchanges, replaces configured secrets with placeholders, extracts selected response values into named variables, and writes a deterministic Markdown plus YAML scenario patch. Non-goals: being a REST client, cloud collaboration suite, or API test framework.",
+    "success_measure": "At least 50% of pilot scenario patches are reviewed in a normal pull request without a reviewer asking for an external workspace or copied credentials.",
+    "artifact_class": "cli",
+    "monetization": "free — Git-native interoperability and trustworthy local redaction are stronger adoption levers than a paid collaboration gate.",
+    "constraints": "Default-deny recording of authorization headers, cookies, and bodies; redact JSON paths before writing; make replay explicit and disabled by default.",
+    "est_build_effort": "M",
+    "why_distinct": "The product captures a reviewable change narrative for an API flow; it does not compete to replace the user's everyday HTTP client or duplicate a fixture matrix runner.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "agent-secret-capsule",
+    "title": "Agent Secret Capsule",
+    "territory": "devtools-data",
+    "user": "Developers allowing a coding or browser agent to use a narrowly scoped credential who need the command to succeed without exposing the raw credential in prompts, terminal output, or tool traces.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/46719363",
+        "date": "2026-01-22",
+        "quote_or_summary": "Ask HN explicitly asks how to secure local secrets when agents need broad local access and prompt injection or tool misuse makes the machine no longer feel trusted."
+      },
+      {
+        "url": "https://github.com/Infisical/infisical/issues/7666",
+        "date": "2026-08-14",
+        "quote_or_summary": "An Infisical user reports a Mac agent repeatedly printing Cloudflare keys while performing a task, even after being told to stop revealing secrets."
+      }
+    ],
+    "recurrence": "A direct security-practice request and a concrete 2026 secret-disclosure incident show both anticipated and observed severity.",
+    "current_workaround": "Put secrets in environment variables, give an agent broad shell access, manually redact output, use a separate sandbox, or prohibit the action altogether.",
+    "incumbents_and_gap": "1Password, Doppler, Infisical, and OS keychains store secrets; agent sandboxes isolate environments. The missing small layer is a per-command secret lease with output scrubbing and an auditable expiry receipt.",
+    "smallest_useful_product": "A local CLI that injects a selected secret only into a named subprocess or localhost credential broker, strips exact and encoded values from captured stdout/stderr, expires the lease, and writes a no-value receipt. Non-goals: secret-manager replacement, browser automation, or autonomous approval of new scopes.",
+    "success_measure": "Across 100 controlled agent-tool invocations, no configured secret appears in captured terminal output while 95%+ of authorized calls complete successfully.",
+    "artifact_class": "cli",
+    "monetization": "one-time — security-sensitive local tooling benefits from an inspectable binary and no recurring access tax.",
+    "constraints": "Use the OS keychain where available; warn that redaction cannot prevent exfiltration through an authorized network call; protect against shell history and child-process inheritance; no telemetry by default.",
+    "est_build_effort": "M",
+    "why_distinct": "It governs one agent action and its observable output, rather than storing another copy of the team's secrets.",
+    "confidence": 5,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "release-env-fingerprint",
+    "title": "Release Env Fingerprint",
+    "territory": "devtools-data",
+    "user": "Engineers shipping the same service through local, CI, staging, and production environments who need to find missing, extra, or differently resolved configuration without revealing values.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/46563367",
+        "date": "2026-01-10",
+        "quote_or_summary": "A local-first secret-manager builder cites .env values being shared in Slack, committed to Git, drifting across machines, and breaking deployments without a clear audit trail or rollback."
+      },
+      {
+        "url": "https://github.com/github/docs/issues/40410",
+        "date": "2025-09-16",
+        "quote_or_summary": "A GitHub Docs issue describes a self-hosted versus hosted runner environment-variable context difference that can cause workflow failures."
+      }
+    ],
+    "recurrence": "Both a 2025 CI context failure and a 2026 developer report identify configuration drift as a release problem, not merely a secret-storage preference.",
+    "current_workaround": "Compare .env files by hand, print variable names in logs, maintain spreadsheets, or discover the mismatch only after a failed deploy.",
+    "incumbents_and_gap": "Doppler, Infisical, 1Password, and dotenvx distribute secrets. They do not provide a portable release-time fingerprint that proves configuration shape and selected safe invariants match across execution contexts.",
+    "smallest_useful_product": "A CLI that captures a name/type/presence fingerprint from an approved command, compares signed fingerprints by environment, and enforces rules such as required prefixes, endpoint host allowlists, and value hashes for explicitly non-secret values. Non-goals: secret storage, deployment, or reading values back from cloud secret managers.",
+    "success_measure": "A pilot catches 90% of seeded missing/renamed/context-only variables before deployment while recording no secret value in its report.",
+    "artifact_class": "cli",
+    "monetization": "free — broad shell and CI compatibility matters more than centralizing sensitive deployment configuration.",
+    "constraints": "Never persist raw environment values; salt hashes per project; explicitly classify allowlisted non-secrets; support POSIX shell and GitHub Actions first.",
+    "est_build_effort": "S",
+    "why_distinct": "It verifies the shape and safe properties of a release environment instead of becoming another vault or dotenv file manager.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "migration-commit-witness",
+    "title": "Migration Commit Witness",
+    "territory": "devtools-data",
+    "user": "Backend teams reviewing SQL migrations who need a concrete record of what committed, what rolled back, and which rollback claim was actually exercised before production.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/40036536",
+        "date": "2024-04-15",
+        "quote_or_summary": "In a 23-comment Ask HN thread on reviewing and deploying SQL, users describe Git/Liquibase workflows but note that teams are often poor at ensuring changelogs have a usable revert capability."
+      },
+      {
+        "url": "https://github.com/flyway/flyway/issues/4209",
+        "date": "2026-02-26",
+        "quote_or_summary": "A Flyway issue reports a deferred constraint violation at commit that leaves DDL created while the migration is incorrectly marked successful."
+      }
+    ],
+    "recurrence": "The review thread and a current migration-engine failure expose the same high-severity boundary: a green migration tool result is not necessarily a safe, reversible database state.",
+    "current_workaround": "Rely on migration framework status, review raw SQL in a pull request, keep manually written rollback notes, and inspect a disposable database after the fact.",
+    "incumbents_and_gap": "Flyway, Liquibase, Atlas, and ORM migrations apply and track changes. They do not center a portable before/after commit witness that checks transaction boundaries, schema/data assertions, and an optional exercised rollback.",
+    "smallest_useful_product": "A CI CLI that runs an existing migration command against a disposable database, snapshots selected schema/data invariants before and after commit, optionally runs a supplied rollback, and emits a signed Markdown/JSON witness. Non-goals: generating migrations, replacing a migration engine, or touching production databases.",
+    "success_measure": "In seeded CI cases involving deferred constraints and non-transactional DDL, the witness flags every partial-commit outcome that the underlying migration command reports as successful.",
+    "artifact_class": "cli",
+    "monetization": "one-time — teams can adopt it per repository and retain the evidence artifact without subscribing to a database intermediary.",
+    "constraints": "Only use ephemeral/test credentials; require explicit rollback scripts; database dialect behavior must be labeled rather than generalized; never auto-run rollback in production.",
+    "est_build_effort": "M",
+    "why_distinct": "It independently proves migration outcomes and rollback claims; it is not a competing migration DSL or schema-diff product.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "ci-outage-witness",
+    "title": "CI Outage Witness",
+    "territory": "devtools-data",
+    "user": "Maintainers of critical GitHub Actions pipelines who need an evidence bundle that distinguishes a repository failure, runner failure, and platform degradation when logs are delayed or absent.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/44500807",
+        "date": "2025-07-08",
+        "quote_or_summary": "An Ask HN report says GitHub Actions runs stretched from 5–10 to 20–30 minutes and sometimes failed with no logs while the public status page showed no issue."
+      },
+      {
+        "url": "https://github.com/actions/runner/issues/3857",
+        "date": "2025-05-13",
+        "quote_or_summary": "A 116-reaction runner issue reports vague 'Runner not found' failures across several self-hosted architectures, restarts, and token exhaustion without a clear cause."
+      }
+    ],
+    "recurrence": "Independent hosted and self-hosted reports in 2025 show that opaque CI failures can consume maintainer time and trigger misleading retries.",
+    "current_workaround": "Refresh GitHub status, rerun jobs, inspect scattered runner journals, paste screenshots into incidents, or wait for a provider acknowledgement.",
+    "incumbents_and_gap": "GitHub Actions provides run pages and status history; Datadog and Better Stack monitor external services. Neither creates a compact, repository-owned witness that correlates queue, runner, API, log-availability, and retry evidence for one failed run.",
+    "smallest_useful_product": "A GitHub CLI extension that snapshots run metadata, job transitions, available logs, runner diagnostics, GitHub status components, and retry lineage into one redacted incident bundle. Non-goals: replacing CI, auto-retrying jobs, or claiming root cause from insufficient evidence.",
+    "success_measure": "For 20 pilot incidents, maintainers classify the failure as code, runner, or probable platform degradation within 15 minutes in at least 80% of cases.",
+    "artifact_class": "cli",
+    "monetization": "free — incident bundles are most useful when every open-source and small-team maintainer can attach them without a monitoring subscription.",
+    "constraints": "Use read-only GitHub scopes; strip tokens, repository secrets, and log lines matching configured patterns; label status observations with their timestamp and uncertainty.",
+    "est_build_effort": "M",
+    "why_distinct": "It is an after-the-fact diagnostic receipt for a single CI incident, not an uptime monitor or CI dashboard.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "webmcp-safety-check",
+    "title": "WebMCP Safety Check",
+    "territory": "devtools-data",
+    "user": "Web teams exposing WebMCP/browser automation tools who need to inspect which operations can mutate state, use a real profile, or access an origin before an agent is allowed to call them.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/47085076",
+        "date": "2026-02-20",
+        "quote_or_summary": "An Ask HN discussion shows developer confusion about how WebMCP is reachable and what browser-resident tool calls mean in practical deployments."
+      },
+      {
+        "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/issues/3305",
+        "date": "2026-08-25",
+        "quote_or_summary": "The MCP proposal says browser-automation servers vary on fresh versus real browsers, origin-scoped credentials, human approval, and before/after evidence, with no standard discovery mechanism."
+      }
+    ],
+    "recurrence": "WebMCP adoption questions and a protocol-level safety-contract proposal in 2026 point to a new, concrete inspection need before browser agent exposure broadens.",
+    "current_workaround": "Read prose tool descriptions, trust server defaults, manually inspect scripts, or disable browser automation entirely.",
+    "incumbents_and_gap": "Browser DevTools inspect network activity and MCP Inspector exercises protocol traffic. Neither gives a product owner a policy-oriented inventory of declared browser-agent safety properties and missing claims.",
+    "smallest_useful_product": "A browser extension plus CLI that reads a WebMCP/MCP manifest or session transcript, classifies tools by read/mutate/external-navigation/credential scope, and fails CI on missing approval or evidence declarations. Non-goals: executing agent tasks, scraping pages, or deciding whether a vendor is trustworthy.",
+    "success_measure": "In a test corpus of tool manifests, the checker identifies every intentionally omitted mutation/approval declaration and generates a review card in under one minute.",
+    "artifact_class": "browser-extension",
+    "monetization": "free — an open policy format needs ecosystem adoption; paid compliance packs could be considered only after a standard settles.",
+    "constraints": "Treat server declarations as claims, not proof; avoid collecting browser content; track the evolving WebMCP/MCP specifications without inventing compatibility guarantees.",
+    "est_build_effort": "M",
+    "why_distinct": "It is a static/sessional safety inspector for browser-agent surfaces, not an MCP server, agent, or generic browser automation product.",
+    "confidence": 3,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "journey-failure-receipts",
+    "title": "Journey Failure Receipts",
+    "territory": "devtools-data",
+    "user": "Teams using Playwright for critical user journeys who need the exact visual and DOM state at each failed soft assertion, not only the page state after the test finishes.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/47045671",
+        "date": "2026-02-17",
+        "quote_or_summary": "A developer built synthetic monitoring after a client's site returned 200 while its Add to Cart flow was broken for six hours because of a silent JavaScript error."
+      },
+      {
+        "url": "https://github.com/microsoft/playwright/issues/40819",
+        "date": "2026-05-13",
+        "quote_or_summary": "A Playwright feature request asks for screenshots at each expect.soft() failure because the HTML report currently shows only the final page state."
+      }
+    ],
+    "recurrence": "A production false-green incident and a current Playwright request identify the same loss of diagnostic evidence in browser-flow testing.",
+    "current_workaround": "Capture a final trace/video, add ad-hoc screenshots around assertions, rerun a flaky flow interactively, or inspect a page that has already moved past the failure.",
+    "incumbents_and_gap": "Playwright offers traces, videos, and HTML reports; Checkly and Datadog run synthetic checks. The gap is a tiny reporter that emits an assertion-level, scrubbed evidence receipt for the test suite teams already run.",
+    "smallest_useful_product": "An npm Playwright reporter/helper that captures screenshot, selected DOM/accessibility snapshot, console errors, network summary, and masked form state at each configured soft assertion, then emits one static receipt per failure. Non-goals: hosted monitoring, test orchestration, or visual-regression replacement.",
+    "success_measure": "In a pilot set of failed journey tests, engineers identify the failing UI state without rerunning the test in at least 75% of cases.",
+    "artifact_class": "library-npm",
+    "monetization": "free — an open test reporter should be easy to install in CI; paid retention would be a separate future service.",
+    "constraints": "Mask selectors and fields before capture; cap artifacts; make network bodies opt-in; ensure receipts do not expose credentials or customer data in CI artifacts.",
+    "est_build_effort": "S",
+    "why_distinct": "It improves the evidence granularity of existing browser tests instead of offering another synthetic-monitoring dashboard.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "restore-drill-attestor",
+    "title": "Restore Drill Attestor",
+    "territory": "devtools-data",
+    "user": "Indie SaaS operators and small platform teams who need repeatable proof that a database backup can restore into an isolated target and pass application-specific sanity checks.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/45287692",
+        "date": "2025-09-18",
+        "quote_or_summary": "A backup-service validation thread notes that backup urgency often appears only after a major outage, while small teams lack resources to manage backup tooling."
+      },
+      {
+        "url": "https://github.com/restic/restic/issues/5041",
+        "date": "2024-09-02",
+        "quote_or_summary": "A 22-reaction Restic issue details the operational complexity of append-only backup protection and the need for a separate trusted management host in compromise scenarios."
+      }
+    ],
+    "recurrence": "The 2025 small-team concern and the high-interest backup-security discussion both show that retained backups do not equal an operationally trustworthy recovery path.",
+    "current_workaround": "Trust a cloud snapshot badge, run a manual restore during an incident, or maintain a fragile shell script with no durable evidence.",
+    "incumbents_and_gap": "RDS snapshots, pgBackRest, WAL-G, Restic, and managed backup services create backups. They do not provide a vendor-neutral drill runner that records an isolated restore, user-defined health checks, cleanup, and a compact attestation.",
+    "smallest_useful_product": "A CLI that invokes an existing restore command into a disposable container/database, runs declarative row-count/schema/application checks, destroys the target, and writes a timestamped attestation with durations and no data values. Non-goals: storing backups, replacing backup engines, or promising ransomware protection.",
+    "success_measure": "A pilot team completes a scheduled restore drill in under 20 minutes and can show an attestation no older than 30 days for each protected database.",
+    "artifact_class": "cli",
+    "monetization": "one-time — recovery verification should remain portable even if the team's backup provider changes.",
+    "constraints": "Require isolated non-production targets and explicit destructive-target confirmation; never copy production data to a shared service; use encrypted local temporary storage only when unavoidable.",
+    "est_build_effort": "M",
+    "why_distinct": "It validates recovery and produces evidence; it neither stores data nor tries to become a backup vendor.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "sqlite-workload-lab",
+    "title": "SQLite Workload Lab",
+    "territory": "devtools-data",
+    "user": "Developers shipping SQLite, FTS5, or SQLite extensions who need reproducible performance and CPU-compatibility evidence before publishing an optimization claim or binary release.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/45259929",
+        "date": "2025-09-16",
+        "quote_or_summary": "A developer benchmarking SQLite FTS5 PRAGMAs says repeated tests made them less certain of the results and how to describe them."
+      },
+      {
+        "url": "https://github.com/asg017/sqlite-vec/issues/302",
+        "date": "2026-06-10",
+        "quote_or_summary": "A sqlite-vec issue reproduces a release wheel crashing with SIGILL on older x86_64 CPUs because build-machine AVX/AVX2 flags leaked into published artifacts."
+      }
+    ],
+    "recurrence": "The 2025 FTS measurement uncertainty and a 2026 binary-compatibility regression show that a SQLite workload result needs reproducible workload, build, and hardware context.",
+    "current_workaround": "Write one-off benchmark scripts, paste timings into a README, test on the developer's own CPU, or find compatibility failures after release.",
+    "incumbents_and_gap": "sqlite3's shell, hyperfine, Criterion, and benchmark frameworks time commands; package CI builds artifacts. The gap is a SQLite-aware lab record combining PRAGMAs/schema/workload, explain plans, CPU feature matrix, and portable result comparison.",
+    "smallest_useful_product": "A CLI that executes declarative SQLite workloads in containers or QEMU profiles, captures SQLite version/compile options/PRAGMAs/query plans/CPU flags, and generates a diffable Markdown/JSON report. Non-goals: a database ORM, hosted benchmark farm, or automatic query tuning.",
+    "success_measure": "A release candidate is tested against at least three declared CPU profiles and a regression greater than 15% is detected from a committed baseline in CI.",
+    "artifact_class": "cli",
+    "monetization": "free — transparent, reproducible benchmark records are valuable precisely when they can be checked by open-source maintainers.",
+    "constraints": "Clearly separate emulator from hardware results; pin SQLite builds and fixture data; do not claim statistically significant improvements without repeated-run methodology.",
+    "est_build_effort": "M",
+    "why_distinct": "It is a reproducibility and portability harness for SQLite workloads, not another SQLite GUI or vector database.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "log-duplicate-lens",
+    "title": "Log Duplicate Lens",
+    "territory": "devtools-data",
+    "user": "Operators of Loki or JSON log pipelines who need to quantify accidental duplicate ingestion across streams before it distorts search results, alert counts, and storage cost.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/42710839",
+        "date": "2025-01-15",
+        "quote_or_summary": "A team asks for a logging SaaS that can ingest and query logs quickly, while replies describe expensive/overcomplicated alternatives and difficult configuration tradeoffs."
+      },
+      {
+        "url": "https://github.com/grafana/loki/issues/18760",
+        "date": "2025-08-07",
+        "quote_or_summary": "A 13-reaction Loki issue explains that automatic stream sharding can put resent identical log lines in different streams, defeating normal de-duplication."
+      }
+    ],
+    "recurrence": "The general 2025 difficulty of choosing usable logging and a concrete 2025 Loki duplicate-ingestion mechanism make log amplification a costly, easily missed operational problem.",
+    "current_workaround": "Manually search log windows, infer duplicates from message text, adjust labels/retries, or accept inflated volume and noisy alerts.",
+    "incumbents_and_gap": "Loki, Elasticsearch, Datadog, and OpenObserve search and retain logs; they do not make a bounded duplicate-amplification investigation and remediation hint a small local diagnostic workflow.",
+    "smallest_useful_product": "A CLI that samples Loki JSON exports or newline-delimited logs, fingerprints messages with configurable timestamp tolerance, groups cross-stream near-duplicates, estimates volume/alert inflation, and emits label/retry evidence. Non-goals: log ingestion, hosted retention, or deleting records from a provider.",
+    "success_measure": "On labeled sample data, the tool finds at least 90% of intentionally duplicated events and keeps false-positive groups below 5% after configured normalization.",
+    "artifact_class": "cli",
+    "monetization": "one-time — an offline investigation tool should operate on an export without retaining a customer's logs.",
+    "constraints": "Sample and process locally; support redaction before reports; do not infer that identical messages are erroneous without presenting the stream/retry evidence; handle high-cardinality inputs with bounded memory.",
+    "est_build_effort": "S",
+    "why_distinct": "It diagnoses a specific amplification failure mode in an existing log stack, rather than becoming another log platform or dashboard.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "api-profile-guard",
+    "title": "API Profile Guard",
+    "territory": "devtools-data",
+    "user": "Developers switching API requests among development, staging, and production who need an unmistakable, policy-checked preflight before a request uses the wrong base URL, environment file, or credential class.",
+    "evidence": [
+      {
+        "url": "https://hn.algolia.com/api/v1/items/48305290",
+        "date": "2026-05-28",
+        "quote_or_summary": "An Ask HN poster says default API tooling is cloud based, offline alternatives are moving toward subscriptions, and asks whether the fallback is curl."
+      },
+      {
+        "url": "https://github.com/usebruno/bruno/issues/7217",
+        "date": "2026-02-19",
+        "quote_or_summary": "A 12-reaction Bruno request asks for seamless .env.dev/.env.staging/.env.prod switching rather than the current single workspace .env file."
+      }
+    ],
+    "recurrence": "2026 API-tool pricing/control frustration and a separate multi-environment workflow request point to a persistent unsafe context-switching gap.",
+    "current_workaround": "Rename .env files, use separate collections, edit base URLs by hand, rely on color conventions, or fall back to curl with copied variables.",
+    "incumbents_and_gap": "Postman, Bruno, Insomnia, and dotenv tools store or select environments. They do not provide a standalone, client-agnostic preflight policy that can block a destructive request based on the resolved profile while keeping secret values local.",
+    "smallest_useful_product": "A local proxy/CLI wrapper that resolves named env files, displays a non-secret profile fingerprint, validates host/method/path/body policies, requires an explicit production acknowledgement, and logs a no-value receipt. Non-goals: an HTTP client GUI, secret vault, API gateway, or request history cloud.",
+    "success_measure": "In a seeded test set, the guard blocks 100% of requests aimed at a forbidden production host or missing required profile variable before any network connection is opened.",
+    "artifact_class": "cli",
+    "monetization": "free — a cross-client safety convention needs low-friction adoption and must not force users into another API platform.",
+    "constraints": "Never log headers or bodies by default; profile parsing must not execute shell expressions; provide explicit allowlists for production operations; work without a network connection except for the guarded request.",
+    "est_build_effort": "S",
+    "why_distinct": "It adds a portable safety checkpoint around existing clients and curl, not a new REST client or another API test suite.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  }
+]
