@@ -1,17 +1,11 @@
-# Research handoff
+# Research handoff: utilities
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the utilities research work order without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-utilities-0827-231134-16.json`: exactly 12 `RESEARCHED` opportunity briefs, each with two unique, fetched public evidence threads (Hacker News via its Algolia item API and Software Recommendations Stack Exchange).
+- Added `briefs/research-utilities-0827-231134-16.md`: one-line why-now summary for every brief.
+- Avoided collisions with the existing devtools backlog and did not modify the pre-existing `graphify-out/cache/stat-index.json` worktree change.
 
-Verify with:
+Verification: run `jq 'length == 12 and all(.[]; .territory == "utilities" and (.evidence | length >= 2))' briefs/research-utilities-0827-231134-16.json`.
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+Research notes: 15+ HN query variants were run; 26 HN item threads and selected Stack Exchange question bodies were fetched and read. GitHub search was rate-limited and Reddit rejected its public endpoint, so neither was used as evidence.
