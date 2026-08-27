@@ -1,17 +1,16 @@
-# Research handoff
+# Research handoff — research-games-creative-0827-183459-1
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the games/creative research work order without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-games-creative-0827-183459-1.json`: exactly 12 `RESEARCHED` opportunity briefs, each with two distinct, fetched public evidence URLs (one Hacker News and one GitHub issue).
+- Added `briefs/research-games-creative-0827-183459-1.md`: one-line why-now summary for each brief.
+- Surveyed existing brief slugs before selection; none duplicate the prior devtools backlog.
+- Read 34 public HN threads/comments and GitHub issues after running 15 varied searches. Brief citations only use 2025–2026 evidence.
 
-Verify with:
+Verification:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq 'length == 12 and all(.[]; .territory == "games-creative" and (.evidence | length >= 2))' briefs/research-games-creative-0827-183459-1.json
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+No product code, deployment, or product-state files were created. The pre-existing modified `graphify-out/cache/stat-index.json` was left untouched and is intentionally not part of this work-order commit.
