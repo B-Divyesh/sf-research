@@ -1,17 +1,16 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-ventures-0828-174606-2`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-ventures-0828-174606-2.json`: exactly 12 venture-scale opportunity briefs, each with two unique evidence URLs actually fetched from Hacker News and GitHub.
+- Added `briefs/research-ventures-0828-174606-2.md`: one-line "why now" summary for each brief.
+- Read the existing brief backlog and avoided its existing slugs/ideas. The pre-existing unrelated modification to `graphify-out/cache/stat-index.json` was left untouched.
 
-Verify with:
+Verification:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq 'length' briefs/research-ventures-0828-174606-2.json
+jq -r '.[].evidence[].url' briefs/research-ventures-0828-174606-2.json | sort | uniq -d
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+The JSON parses and reports 12 entries; the duplicate-evidence check has no output. No product was built or deployed.
