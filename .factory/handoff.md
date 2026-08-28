@@ -1,17 +1,18 @@
-# Research handoff
+# Research handoff: education
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-education-0828-134457-3`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-education-0828-134457-3.json`: exactly 12 researched education opportunity briefs, each with two unique fetched public evidence URLs from Hacker News and DEV Community.
+- Added `briefs/research-education-0828-134457-3.md`: one-line why-now summary per brief.
+- Audited the existing brief JSON; no backlog slug file was present and the new slugs do not overlap the existing research brief.
+- Performed 15 varied HN discovery searches and read 25 distinct HN item threads, plus the cited DEV Community sources. Reddit returned a non-JSON block response, so it was not used as evidence.
 
-Verify with:
+Verification:
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
+`jq 'length' briefs/research-education-0828-134457-3.json`
 
-Nothing remains to build or deploy for this research-only work order.
+`jq -e 'all(.[]; (.evidence|length) >= 2 and (.evidence|length) <= 4)' briefs/research-education-0828-134457-3.json`
+
+`git diff --check`
+
+No product was built. The unrelated pre-existing modification at `graphify-out/cache/stat-index.json` was left untouched.
