@@ -1,27 +1,17 @@
 # Catalogue curation handoff
 
-## Done
+Created and committed the 500-product `curation.json` and the companion `curation.md`.
 
-- Curated all 497 supplied live products into eight store-style shelves.
-- Added 98 releases missing from the prior catalogue and removed ten entries absent from the current source list.
-- Rated every listing, kept every catalogue line under 110 characters, and selected exactly 12 featured products.
-- Checked every featured URL with curl. All returned HTTP 200 and are marked RELEASED.
-- Wrote the featured rationale and five first-screen copy fixes in `curation.md`.
+- The catalogue uses eight store shelves and every live product has one kind, shelf, interest rating, reason, plain-language `why` line, and up to three tags.
+- The live product feed was reconciled before writing. Fifteen new live releases were added and twelve no-longer-live entries were removed.
+- Exactly 12 featured releases remain. Each featured URL was opened with `curl`; all returned HTTP 200 and exposed a clear title and description on the first screen.
+- `curation.md` lists the featured editorial rationale and five first screens that should be improved next.
 
-## Verify
-
-Run:
+Verify with:
 
 ```bash
-jq empty curation.json
-node - <<'NODE'
-const c = require('./curation.json');
-console.log(c.products.length, c.categories.length, c.products.filter(p => p.featured).length);
-NODE
+jq '{products:(.products|length), featured:([.products[]|select(.featured)]|length)}' curation.json
+jq -e '[.products[] | select((.why|length) > 110 or (.tags|length) > 3)] | length == 0' curation.json
 ```
 
-Expected output: `497 8 12`.
-
-## Left
-
-No build or deploy is required for this research repository. The five repair targets in `curation.md` are recommendations for the product perfection loop.
+No product software was built or changed.

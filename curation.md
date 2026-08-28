@@ -1,5 +1,7 @@
 # Featured picks
 
+These 12 were checked live for a clear, working first screen and selected to show distinct kinds of finished software.
+
 - `accessible-explanation-checkin` — Students explain an answer and state confidence before a teacher responds. That reveals misunderstanding a score alone cannot show.
 - `audio-gap-loop` — It turns a learner's own clip into a private listen, speak, and check exercise. The supplied material makes practice immediately relevant.
 - `change-diff-inbox` — It watches chosen page regions and shows a semantic change for review. That is more useful than screenshot monitoring that mostly produces noise.

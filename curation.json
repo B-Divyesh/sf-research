@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T17:59:36.338Z",
+  "generated": "2026-08-28T18:59:49.171Z",
   "categories": [
     {
       "id": "make",
@@ -48,7 +48,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "A11y Interaction Trace makes its case through Browser extension that records explicitly started test sessions, captures keyboard/focus events, opt-in screenshots, and a narrowed accessibility snapshot; It makes a specialist task visible enough for another person to review.",
+      "reason": "Browser extension that records explicitly started test sessions, captures keyboard/focus events, opt-in screenshots, and a narrowed accessibility snapshot.",
       "why": "Record keyboard actions and focus changes, then export one trace file for an accessibility bug report.",
       "featured": false,
       "tags": [
@@ -113,7 +113,7 @@
       "kind": "product",
       "category": "access",
       "interest": 5,
-      "reason": "A local PWA that accepts page images/OCR JSON, overlays detected blocks and reading order, lets a user relabel table cells and headers, and exports HTML/CSV. The concrete check is more useful than a generic accessibility score.",
+      "reason": "A local PWA that accepts page images/OCR JSON, overlays detected blocks and reading order, lets a user relabel table cells and headers, and exports HTML/CSV.",
       "why": "Check OCR tables for reading order and export accessible HTML or CSV.",
       "featured": false,
       "tags": [
@@ -152,7 +152,7 @@
       "kind": "game",
       "category": "play",
       "interest": 5,
-      "reason": "Tempo Lab makes its case through Offline web metronome with bounded random drift, ramp, delayed-beat, and recovery drills; save/share a tiny session preset and export a practice log.; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline web metronome with bounded random drift, ramp, delayed-beat, and recovery drills; save/share a tiny session preset and export a practice log.",
       "why": "Build repeatable tempo-variation drills with a precise, offline metronome.",
       "featured": false,
       "tags": [
@@ -165,7 +165,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "A library plus local verifier that wraps tool calls, creates signed hash-chain receipts before/after execution, supports an outbox for failed writes. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "A library plus local verifier that wraps tool calls, creates signed hash-chain receipts before/after execution, supports an outbox for failed writes.",
       "why": "Signed, privacy-preserving receipts for consequential agent actions.",
       "featured": false,
       "tags": [
@@ -192,7 +192,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "What separates Agent Kill-Switch Drill is its design brief: A local CLI that declares named kill paths (proxy deny rule, credential revoke command, deployment scale, queue pause), runs safe dry-run drills, verifies each; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local CLI that declares named kill paths (proxy deny rule, credential revoke command, deployment scale, queue pause), runs safe dry-run drills, verifies each.",
       "why": "Rehearse and document an allowlisted agent capability stop path.",
       "featured": false,
       "tags": [
@@ -218,7 +218,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "What separates Agent Secret Capsule is its design brief: A local CLI that injects a selected secret only into a named subprocess or localhost credential broker, strips exact and encoded values from captured; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local CLI that injects a selected secret only into a named subprocess or localhost credential broker, strips exact and encoded values from captured.",
       "why": "Give a coding agent one temporary credential without placing its value in the prompt or receipt.",
       "featured": false,
       "tags": [
@@ -236,6 +236,20 @@
       "featured": false,
       "tags": [
         "developer"
+      ]
+    },
+    {
+      "slug": "alert-config-change-ledger",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "It turns opaque alert-rule edits into a reviewable history, which is much more useful than discovering a change during an outage.",
+      "why": "Compare alert rules with a saved baseline and see what changed over time.",
+      "featured": false,
+      "tags": [
+        "alerts",
+        "git",
+        "cli"
       ]
     },
     {
@@ -257,25 +271,12 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "Android Backup Receipt makes its case through Android app that inventories chosen SAF folders, computes a privacy-preserving manifest, compares it with an attached USB/WebDAV/S3 destination, and produces a; It makes a specialist task visible enough for another person to review.",
+      "reason": "Android app that inventories chosen SAF folders, computes a privacy-preserving manifest, compares it with an attached USB/WebDAV/S3 destination, and produces a.",
       "why": "Check whether the photos and files you chose are present in a backup destination. Files stay on your device.",
       "featured": false,
       "tags": [
         "install",
         "app"
-      ]
-    },
-    {
-      "slug": "android-compat-scout",
-      "kind": "installable",
-      "category": "install",
-      "interest": 2,
-      "reason": "Practical before a sideload, but it is a one-off compatibility check.",
-      "why": "Check whether an Android device can run an app.",
-      "featured": false,
-      "tags": [
-        "android",
-        "compatibility"
       ]
     },
     {
@@ -362,7 +363,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Fixture Matrix earns attention for A local CLI that reads an OpenAPI operation plus JSON fixtures, runs a Cartesian or named matrix, and emits a colorized HTML/JSON failure diff. Non-goals; The audience is defined, but the need is real and poorly served by broad tools.",
+      "reason": "Fixture Matrix earns attention for A local CLI that reads an OpenAPI operation plus JSON fixtures, runs a Cartesian or named matrix, and emits a colorized HTML/JSON failure diff.",
       "why": "Run one API endpoint across a reviewable matrix of local JSON fixtures.",
       "featured": false,
       "tags": [
@@ -375,7 +376,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "API Profile Guard makes its case through A local proxy/CLI wrapper that resolves named env files, displays a non-secret profile fingerprint, validates host/method/path/body policies, requires an; It makes a specialist task visible enough for another person to review.",
+      "reason": "A local proxy/CLI wrapper that resolves named env files, displays a non-secret profile fingerprint, validates host/method/path/body policies, requires an.",
       "why": "Block API requests that do not match the chosen environment or policy.",
       "featured": false,
       "tags": [
@@ -400,7 +401,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The decisive choice in Version Replay is A local CLI that stores redacted HTTP/webhook fixtures with version labels, replays them to localhost, and reports header/body/schema differences by version.; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A local CLI that stores redacted HTTP/webhook fixtures with version labels, replays them to localhost, and reports header/body/schema differences by version.",
       "why": "Capture, redact, compare, and replay old webhook contracts against localhost.",
       "featured": false,
       "tags": [
@@ -426,7 +427,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "APK Release Pocket makes its case through CLI plus static release bundle that verifies APK signatures/version codes, generates a QR install page, records compatible ABI/SDK facts, and keeps signed; It makes a specialist task visible enough for another person to review.",
+      "reason": "CLI plus static release bundle that verifies APK signatures/version codes, generates a QR install page, records compatible ABI/SDK facts, and keeps signed.",
       "why": "Check a signed Android APK and publish an install page.",
       "featured": false,
       "tags": [
@@ -502,7 +503,7 @@
       "kind": "game",
       "category": "play",
       "interest": 2,
-      "reason": "Chain Cards makes its case through A local web tool that packages ordered effect recommendations/commands with audition checkpoints, timestamp labels, and a portable JSON card; it can launch; It makes a specialist task visible enough for another person to review.",
+      "reason": "A local web tool that packages ordered effect recommendations/commands with audition checkpoints, timestamp labels, and a portable JSON card; it can launch.",
       "why": "Build, audition, and share repeatable audio repair chains without uploading a recording.",
       "featured": false,
       "tags": [
@@ -579,7 +580,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "A static web tool that accepts weekly hours, IANA zones, and a date range, then renders overlap/DST boundary cases and exports an ICS/CSV expected-slot. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "A static web tool that accepts weekly hours, IANA zones, and a date range, then renders overlap/DST boundary cases and exports an ICS/CSV expected-slot.",
       "why": "Audit booking availability across daylight-saving changes.",
       "featured": false,
       "tags": [
@@ -617,7 +618,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "What separates Backup Coverage Ledger is its design brief: Offline/shared YAML-or-CSV ledger with asset records, backup targets, last proof date, recovery instructions, expiry alerts, and a printable restore drill; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Offline/shared YAML-or-CSV ledger with asset records, backup targets, last proof date, recovery instructions, expiry alerts, and a printable restore drill.",
       "why": "Record backup coverage and proof that files restore.",
       "featured": false,
       "tags": [
@@ -644,7 +645,7 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Bank CSV Intake Check makes its case through Local drag-and-drop CSV/OFX preflight that identifies delimiter/encoding/date/decimal assumptions, duplicate and missing transaction candidates, balance; It makes a specialist task visible enough for another person to review.",
+      "reason": "Local drag-and-drop CSV/OFX preflight that identifies delimiter/encoding/date/decimal assumptions, duplicate and missing transaction candidates, balance.",
       "why": "Check a bank CSV or OFX for silent row loss and ambiguous assumptions before importing it into your books.",
       "featured": false,
       "tags": [
@@ -709,7 +710,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 5,
-      "reason": "The decisive choice in Open, filter and pivot multi-million-row CSVs entirely in the browser is Static page: drop CSV/TSV/XLSX; DuckDB-WASM loads it (streamed, up to a few GB with OPFS); virtual grid; column stats; filter builder, sort, group-by; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Static page: drop CSV/TSV/XLSX; DuckDB-WASM loads it (streamed, up to a few GB with OPFS); virtual grid; column stats; filter builder, sort, group-by.",
       "why": "Filter, summarize, query and export large CSV files in your browser.",
       "featured": false,
       "tags": [
@@ -734,7 +735,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Bike Service Receipts is more than a label because it includes Offline-first PWA with bike profiles, one-tap service receipts (actions, photo, cost, odometer), rule-based reminders, and CSV/PDF export. Non-goals; The value is in keeping the awkward last step from becoming someone’s memory problem.",
+      "reason": "Bike Service Receipts is more than a label because it includes Offline-first PWA with bike profiles, one-tap service receipts (actions, photo, cost, odometer), rule-based reminders, and CSV/PDF export.",
       "why": "Keep bicycle service receipts and get maintenance reminders privately.",
       "featured": false,
       "tags": [
@@ -786,7 +787,7 @@
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "The decisive choice in Bills Runway is Offline PWA with starting balance, recurring/one-off bills, paydays, optional manual spending, and a 30/60-day daily balance projection with a low-buffer; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline PWA with starting balance, recurring/one-off bills, paydays, optional manual spending, and a 30/60-day daily balance projection with a low-buffer.",
       "why": "See your balance after the bills you already know about.",
       "featured": false,
       "tags": [
@@ -799,7 +800,7 @@
       "kind": "installable",
       "category": "play",
       "interest": 4,
-      "reason": "What separates Nightjar Slicer is its design brief: Local CLI that reads WAV/FLAC headers, makes fixed or silence-aware chunks, emits a timestamped manifest and spectrogram thumbnails, and can resume a failed; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Local CLI that reads WAV/FLAC headers, makes fixed or silence-aware chunks, emits a timestamped manifest and spectrogram thumbnails, and can resume a failed.",
       "why": "Split long bird recordings into resumable, analyzer-ready clips with a private local CLI.",
       "featured": false,
       "tags": [
@@ -813,7 +814,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Bird ID Evidence Card is Offline-first mobile web form for recording date/location precision, visual traits, call notes, candidate species, confidence, and links to user-selected; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline-first mobile web form for recording date/location precision, visual traits, call notes, candidate species, confidence, and links to user-selected.",
       "why": "Record what you saw and heard before you log an uncertain bird sighting.",
       "featured": false,
       "tags": [
@@ -865,7 +866,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The decisive choice in Booking Side Notes is Local companion PWA that imports a day’s ICS events and attaches nonblocking, time-anchored notes, checkboxes, and reminder status; print or export a daily; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Local companion PWA that imports a day’s ICS events and attaches nonblocking, time-anchored notes, checkboxes, and reminder status; print or export a daily.",
       "why": "Keep operational notes beside appointments without blocking bookable time.",
       "featured": false,
       "tags": [
@@ -917,7 +918,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "Offline-capable facilitator web app: author one problem, add up to six approach branches, collect anonymous ‘try this’ votes, reveal hints/branches, and export. The hands-on interaction makes the idea more memorable than a passive reference.",
+      "reason": "Offline-capable facilitator web app: author one problem, add up to six approach branches, collect anonymous ‘try this’ votes, reveal hints/branches, and export.",
       "why": "Explore branching math problems together on one local board.",
       "featured": false,
       "tags": [
@@ -944,7 +945,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "A local web tool that accepts pasted event fields or an ICS file and creates accessible plain text, a compact image/PDF card, timezone equivalents, joining. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "A local web tool that accepts pasted event fields or an ICS file and creates accessible plain text, a compact image/PDF card, timezone equivalents, joining.",
       "why": "Turn an event or ICS file into a clear, timezone-safe card for chat, email, or print.",
       "featured": false,
       "tags": [
@@ -970,7 +971,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 3,
-      "reason": "What separates Calm Scroll is its design brief: A browser extension that detects autoplay, transforms, smooth-scroll, sticky animation, and parallax; offers a one-click stable reading mode plus per-site; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A browser extension that detects autoplay, transforms, smooth-scroll, sticky animation, and parallax; offers a one-click stable reading mode plus per-site.",
       "why": "Stop parallax, autoplay, and distracting page motion in your browser.",
       "featured": false,
       "tags": [
@@ -980,24 +981,11 @@
       ]
     },
     {
-      "slug": "calorie-week-view",
-      "kind": "utility",
-      "category": "life",
-      "interest": 2,
-      "reason": "A clear private view, yet nutrition tracking has no shortage of capable alternatives.",
-      "why": "See a week of meals and calories in one view.",
-      "featured": false,
-      "tags": [
-        "food",
-        "tracking"
-      ]
-    },
-    {
       "slug": "camera-effect-postcard",
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "Phone-first local web app with face landmarks, three original geometric effects, portrait-safe crop guides, timer, and PNG download. The focused constraint gives makers a clearer starting point than a blank canvas.",
+      "reason": "Phone-first local web app with face landmarks, three original geometric effects, portrait-safe crop guides, timer, and PNG download.",
       "why": "Make a playful geometric postcard with your camera. Your photo stays on this device.",
       "featured": false,
       "tags": [
@@ -1023,7 +1011,7 @@
       "kind": "extension",
       "category": "make",
       "interest": 4,
-      "reason": "CLI/browser extension that captures a canvas's accessibility/text tree and bounding boxes before export, compares it to rendered PNG/PDF OCR/layout, and emits. The focused constraint gives makers a clearer starting point than a blank canvas.",
+      "reason": "CLI/browser extension that captures a canvas's accessibility/text tree and bounding boxes before export, compares it to rendered PNG/PDF OCR/layout, and emits.",
       "why": "Compare a live canvas with its PNG or PDF export.",
       "featured": false,
       "tags": [
@@ -1037,7 +1025,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "The decisive choice in Canvas Regression Reel is An npm recorder/reporter for browser canvas games: capture a seeded input trace, render checkpoint PNGs, compare tolerantly, and emit a self-contained HTML; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "An npm recorder/reporter for browser canvas games: capture a seeded input trace, render checkpoint PNGs, compare tolerantly, and emit a self-contained HTML.",
       "why": "Replay game inputs and find the first visual canvas regression.",
       "featured": false,
       "tags": [
@@ -1051,7 +1039,7 @@
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "What separates Caption Clarity is its design brief: A local WebVTT/SRT player and standards-compliant video overlay with profiles for emphasis, line length, pause-on-keyword, and user-defined confusing terms.; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local WebVTT/SRT player and standards-compliant video overlay with profiles for emphasis, line length, pause-on-keyword, and user-defined confusing terms.",
       "why": "Play local video with captions shaped around the words you find hard to hear.",
       "featured": false,
       "tags": [
@@ -1064,7 +1052,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 4,
-      "reason": "Caption Confidence makes its case through Local web app/extension that imports VTT/SRT or reads an exposed HTML5 track, highlights user-defined sound-confusion pairs and low-confidence timing gaps; It makes a specialist task visible enough for another person to review.",
+      "reason": "Local web app/extension that imports VTT/SRT or reads an exposed HTML5 track, highlights user-defined sound-confusion pairs and low-confidence timing gaps.",
       "why": "Find uncertain words in captions and replay the current line.",
       "featured": false,
       "tags": [
@@ -1078,7 +1066,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "A browser extension that transforms captions already exposed by the page: selectable emphasis rules for names, speaker changes, bracketed sound cues. The concrete check is more useful than a generic accessibility score.",
+      "reason": "A browser extension that transforms captions already exposed by the page: selectable emphasis rules for names, speaker changes, bracketed sound cues.",
       "why": "Highlight names, speaker labels, sound cues, and saved words in captions already shown by a page.",
       "featured": false,
       "tags": [
@@ -1092,7 +1080,7 @@
       "kind": "product",
       "category": "access",
       "interest": 2,
-      "reason": "What separates Caption Fix Queue is its design brief: A local drag-and-drop SRT/VTT checker that flags improbable repeats, blank runs, unsupported characters, long reading-speed cues, inconsistent speaker names; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local drag-and-drop SRT/VTT checker that flags improbable repeats, blank runs, unsupported characters, long reading-speed cues, inconsistent speaker names.",
       "why": "Find caption lines that need review before small video teams and community educators publish.",
       "featured": false,
       "tags": [
@@ -1118,7 +1106,7 @@
       "kind": "utility",
       "category": "access",
       "interest": 2,
-      "reason": "What separates Caption Style Checker is its design brief: A local drag-and-drop WebVTT/SRT/TTML linter that previews several accessible styles and reports lost semantics, overlong reading speed, missing speaker; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local drag-and-drop WebVTT/SRT/TTML linter that previews several accessible styles and reports lost semantics, overlong reading speed, missing speaker.",
       "why": "Check caption files for lost meaning, speed, speaker cues, and placement before upload.",
       "featured": false,
       "tags": [
@@ -1145,7 +1133,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Dose Witness makes its case through A local-first PWA for one household: medication cards, scheduled doses, an explicit given/skipped/uncertain status, caregiver initials, offline printable; It makes a specialist task visible enough for another person to review.",
+      "reason": "A local-first PWA for one household: medication cards, scheduled doses, an explicit given/skipped/uncertain status, caregiver initials, offline printable.",
       "why": "Record given, skipped, or uncertain medication doses for an older relative on one household board.",
       "featured": false,
       "tags": [
@@ -1222,7 +1210,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Offline PWA with repeatable check cards, required evidence slots, completion/sign-off timestamps, overdue view, and a read-only evidence-bundle export.. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "Offline PWA with repeatable check cards, required evidence slots, completion/sign-off timestamps, overdue view, and a read-only evidence-bundle export..",
       "why": "Check.",
       "featured": false,
       "tags": [
@@ -1261,7 +1249,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "CI Outage Witness makes its case through A GitHub CLI extension that snapshots run metadata, job transitions, available logs, runner diagnostics, GitHub status components, and retry lineage into one; It makes a specialist task visible enough for another person to review.",
+      "reason": "A GitHub CLI extension that snapshots run metadata, job transitions, available logs, runner diagnostics, GitHub status components, and retry lineage into one.",
       "why": "Capture a redacted evidence bundle for one opaque GitHub Actions incident.",
       "featured": false,
       "tags": [
@@ -1376,7 +1364,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 5,
-      "reason": "The decisive choice in Browser-based interactive call/dependency graph explorer for local codebases (Sourcetrail successor) is v1 is a static web app: drag a folder (File System Access API) or run `npx codegraph` to index; tree-sitter-wasm extracts definitions, calls and imports per; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "v1 is a static web app: drag a folder (File System Access API) or run `npx codegraph` to index; tree-sitter-wasm extracts definitions, calls and imports per.",
       "why": "Trace functions, calls, imports, and source in a local code graph for unfamiliar codebases.",
       "featured": false,
       "tags": [
@@ -1478,7 +1466,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "What separates Signal Check is its design brief: Browser extension that samples the visible page/screenshot, detects repeated color-only legend/status distinctions, simulates selected deficiencies locally; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Browser extension that samples the visible page/screenshot, detects repeated color-only legend/status distinctions, simulates selected deficiencies locally.",
       "why": "Check charts and status dashboards for meaning carried only by color before you act.",
       "featured": false,
       "tags": [
@@ -1558,7 +1546,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 2,
-      "reason": "Concept Card Workshop earns attention for A static-web card-set composer with four card roles, printable cut sheets, a facilitator timer, and a no-account join code for optional projection. Non-goals; The audience is defined, but the need is real and poorly served by broad tools.",
+      "reason": "Concept Card Workshop earns attention for A static-web card-set composer with four card roles, printable cut sheets, a facilitator timer, and a no-account join code for optional projection.",
       "why": "Make printable concept cards for lessons and workshops.",
       "featured": false,
       "tags": [
@@ -1576,19 +1564,6 @@
       "tags": [
         "local",
         "offline"
-      ]
-    },
-    {
-      "slug": "confidential-file-handoff",
-      "kind": "utility",
-      "category": "life",
-      "interest": 3,
-      "reason": "The handoff record is a sensible missing step when sensitive work changes hands.",
-      "why": "Prepare a record for handing over private files.",
-      "featured": false,
-      "tags": [
-        "files",
-        "privacy"
       ]
     },
     {
@@ -1646,7 +1621,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "The decisive choice in Context Cloze is A browser tool to paste a sentence, mark one or two blanks, attach a definition/note, and run typed-answer practice with printable and CSV export. Non-goals; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A browser tool to paste a sentence, mark one or two blanks, attach a definition/note, and run typed-answer practice with printable and CSV export.",
       "why": "Build a private sentence bank and practice retrieving vocabulary in context.",
       "featured": false,
       "tags": [
@@ -1698,7 +1673,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "What separates Single-binary package registry proxy that enforces dependency cooldowns at the network layer is its design brief: v1 is one static binary (Go or Rust) exposing npm-registry, PyPI simple-index and Cargo sparse-index endpoints that proxy to upstream, cache tarballs; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "v1 is one static binary (Go or Rust) exposing npm-registry, PyPI simple-index and Cargo sparse-index endpoints that proxy to upstream, cache tarballs.",
       "why": "Block npm, PyPI, and Cargo packages until their release cooldown ends.",
       "featured": false,
       "tags": [
@@ -1736,7 +1711,7 @@
       "kind": "extension",
       "category": "tools",
       "interest": 1,
-      "reason": "What separates CSS Cause Map is its design brief: Browser extension adds an element picker, captures computed layout plus ancestor constraints, ranks the CSS properties contributing to selected; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Browser extension adds an element picker, captures computed layout plus ancestor constraints, ranks the CSS properties contributing to selected.",
       "why": "Find the CSS rules and parent elements most likely causing an element's size, position, or unwanted gap.",
       "featured": false,
       "tags": [
@@ -1746,24 +1721,11 @@
       ]
     },
     {
-      "slug": "csv-import-cleanroom",
-      "kind": "utility",
-      "category": "life",
-      "interest": 3,
-      "reason": "A local clean-up step is genuinely useful where customer or financial files cannot be uploaded.",
-      "why": "Clean a CSV file before importing it elsewhere.",
-      "featured": false,
-      "tags": [
-        "csv",
-        "privacy"
-      ]
-    },
-    {
       "slug": "csv-import-contract",
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "A local PWA that profiles CSV/XLSX parsing, proposes a column map and deterministic validations, lets users define transformations, and exports a JSON. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "A local PWA that profiles CSV/XLSX parsing, proposes a column map and deterministic validations, lets users define transformations, and exports a JSON.",
       "why": "Prepare a repeatable CSV import plan for a system migration.",
       "featured": false,
       "tags": [
@@ -1776,7 +1738,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Offline web app that accepts two CSVs, lets users choose one or more key columns, detects adds/removes/field changes, resolves duplicate keys, and exports a. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "Offline web app that accepts two CSVs, lets users choose one or more key columns, detects adds/removes/field changes, resolves duplicate keys, and exports a.",
       "why": "Export by business key and export an explainable, field-level change report.",
       "featured": false,
       "tags": [
@@ -1789,7 +1751,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "The decisive choice in Cycle Blocks is A browser timeline that imports numbered PNGs, defines cyclic blocks and offsets, previews the resulting loop, and exports a constrained sprite sheet plus; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A browser timeline that imports numbered PNGs, defines cyclic blocks and offsets, previews the resulting loop, and exports a constrained sprite sheet plus.",
       "why": "Block and budget-safe sprite sheets, locally in your browser.",
       "featured": false,
       "tags": [
@@ -1827,7 +1789,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Data Engine Switchboard makes its case through A Python CLI that runs declared Pandas/Polars transformations on redacted fixtures, checks value/schema/order parity, collects time and peak-memory samples; It makes a specialist task visible enough for another person to review.",
+      "reason": "A Python CLI that runs declared Pandas/Polars transformations on redacted fixtures, checks value/schema/order parity, collects time and peak-memory samples.",
       "why": "Check a Pandas-to-Polars migration on local, bounded sample fixtures.",
       "featured": false,
       "tags": [
@@ -1839,7 +1801,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "What separates DB Access Receipts is its design brief: A local proxy/CLI with named allowlisted query templates, row/column caps, mandatory human confirmation for novel queries, and signed JSON audit receipts.; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local proxy/CLI with named allowlisted query templates, row/column caps, mandatory human confirmation for novel queries, and signed JSON audit receipts.",
       "why": "Approve read-only SQLite queries and keep signed receipts.",
       "featured": false,
       "tags": [
@@ -1903,7 +1865,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Devcontainer Backend Doctor makes its case through A CLI that statically inspects devcontainer.json and Compose, probes a selected local backend, and reports incompatibilities for mounts, privileged mode; It makes a specialist task visible enough for another person to review.",
+      "reason": "A CLI that statically inspects devcontainer.json and Compose, probes a selected local backend, and reports incompatibilities for mounts, privileged mode.",
       "why": "Predict devcontainer problems before changing container backends.",
       "featured": false,
       "tags": [
@@ -1912,11 +1874,24 @@
       ]
     },
     {
+      "slug": "diagram-source-studio",
+      "kind": "installable",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Keeping diagram source beside a renderer-version preview tackles the compatibility problem that makes technical diagrams rot.",
+      "why": "Write a diagram, preview renderer versions, and export the source with the image.",
+      "featured": false,
+      "tags": [
+        "diagrams",
+        "desktop"
+      ]
+    },
+    {
       "slug": "dialog-only-switch",
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "What separates Dialog Only Switch is its design brief: An offline local-video/WebVTT viewer with a reversible dialogue-only filter, an always-visible transcript, and a one-key reveal of suppressed cues. Non-goals; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "An offline local-video/WebVTT viewer with a reversible dialogue-only filter, an always-visible transcript, and a one-key reveal of suppressed cues.",
       "why": "Watch your own local video with editable, dialogue-only WebVTT captions. Private, offline, and reversible.",
       "featured": false,
       "tags": [
@@ -1929,7 +1904,7 @@
       "kind": "installable",
       "category": "access",
       "interest": 2,
-      "reason": "Dictation Repair Book makes its case through A local tray utility that watches user-approved before/after transcript edits, proposes pronunciation-to-spelling rules, lets the user approve/export a; It makes a specialist task visible enough for another person to review.",
+      "reason": "A local tray utility that watches user-approved before/after transcript edits, proposes pronunciation-to-spelling rules, lets the user approve/export a.",
       "why": "Turn dictation corrections into a private reusable vocabulary book.",
       "featured": false,
       "tags": [
@@ -1969,7 +1944,7 @@
       "kind": "product",
       "category": "make",
       "interest": 2,
-      "reason": "Doodle to Game is more than a label because it includes A tablet-friendly offline PWA with three fixed games (dodge, collect, top-down maze). It captures a drawing or photo of paper art, removes a simple background; The value is in keeping the awkward last step from becoming someone’s memory problem.",
+      "reason": "Doodle to Game is more than a label because it includes A tablet-friendly offline PWA with three fixed games (dodge, collect, top-down maze).",
       "why": "Turn two drawings into a tiny game with a child.",
       "featured": false,
       "tags": [
@@ -1995,7 +1970,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Compare two folder trees and find duplicate folders — in the browser, no install is Static PWA using the File System Access API: pick folder A and B (or one root), hash files in workers (size-first, then content), compute per-folder Merkle; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Static PWA using the File System Access API: pick folder A and B (or one root), hash files in workers (size-first, then content), compute per-folder Merkle.",
       "why": "Compare folders in your browser, find exact duplicates, and review differences without uploading files.",
       "featured": false,
       "tags": [
@@ -2122,8 +2097,21 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "The decisive choice in Explain Then Check is A local prompt runner: choose a concept, record or type an explanation under headings (what, why, failure case), mark missing pieces, and schedule only those; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A local prompt runner: choose a concept, record or type an explanation under headings (what, why, failure case), mark missing pieces, and schedule only those.",
       "why": "Practice explaining what, why, and failure cases—then retry only what you missed.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "explanation-lab",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "The prompt sequence asks learners to find boundaries and counterexamples, so it practises understanding rather than recall alone.",
+      "why": "Record explanations, examples, and counterexamples, then revisit the ones that need work.",
       "featured": false,
       "tags": [
         "learning",
@@ -2214,7 +2202,7 @@
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "The decisive choice in Work Receipt is A local PWA with start/stop/manual sessions, project/outcome notes, optional links to commits/files, and a branded weekly PDF receipt for attachment to an; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A local PWA with start/stop/manual sessions, project/outcome notes, optional links to commits/files, and a branded weekly PDF receipt for attachment to an.",
       "why": "Log freelance work and create a weekly client receipt.",
       "featured": false,
       "tags": [
@@ -2227,7 +2215,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 3,
-      "reason": "Desktop CLI that scans source/destination metadata, lets users select a conflict policy, estimates net bytes and temporary headroom, and emits a deterministic. A local tool earns attention when it solves this task without an account.",
+      "reason": "Desktop CLI that scans source/destination metadata, lets users select a conflict policy, estimates net bytes and temporary headroom, and emits a deterministic.",
       "why": "Check whether a local copy will fit and resolve conflicts before moving it.",
       "featured": false,
       "tags": [
@@ -2240,7 +2228,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "What separates Finish One Pantry is its design brief: Offline mobile PWA with a pinned shelf of recurring packages and one Finish button that decrements a simple reserve count and adds an item to a local list at; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Offline mobile PWA with a pinned shelf of recurring packages and one Finish button that decrements a simple reserve count and adds an item to a local list at.",
       "why": "List pantry packages to replace when you finish them.",
       "featured": false,
       "tags": [
@@ -2274,11 +2262,25 @@
       ]
     },
     {
+      "slug": "flag-stale-guard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Expiry metadata and a removal checklist give feature flags an ending, addressing the neglected code that usually outlives them.",
+      "why": "Find old feature flags, assign owners, and prepare their removal.",
+      "featured": false,
+      "tags": [
+        "flags",
+        "github",
+        "cli"
+      ]
+    },
+    {
       "slug": "flaky-test-casefile",
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "The decisive choice in Flaky Test Casefile is Playwright reporter that packages retries, normalizes timing noise, clusters matching failures, and renders a static casefile; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Playwright reporter that packages retries, normalizes timing noise, clusters matching failures, and renders a static casefile.",
       "why": "Group flaky Playwright retries and find the first divergence.",
       "featured": false,
       "tags": [
@@ -2317,7 +2319,7 @@
       "kind": "product",
       "category": "make",
       "interest": 2,
-      "reason": "The decisive choice in Flipbook Trace is Local browser app: choose a local video, trim 1–5 seconds, select FPS and threshold/edge preview, export numbered PNGs and a PDF contact sheet. Non-goals; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Local browser app: choose a local video, trim 1–5 seconds, select FPS and threshold/edge preview, export numbered PNGs and a PDF contact sheet.",
       "why": "Choose a local video, pick frames, and export numbered PNGs or a printable tracing sheet.",
       "featured": false,
       "tags": [
@@ -2356,7 +2358,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "v1: single binary/Docker with config `source: github org X → target: forgejo instance Y`. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "v1: single binary/Docker with config `source: github org X → target: forgejo instance Y`.",
       "why": "Mirror a GitHub organization to Forgejo, Codeberg, or GitLab and keep a local JSON archive.",
       "featured": false,
       "tags": [
@@ -2368,7 +2370,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "What separates Repair Queue is its design brief: A local importer for Anki CSV/review exports that ranks items by recent failure ratio and response time, then offers revise, split, suspend, and archive; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local importer for Anki CSV/review exports that ranks items by recent failure ratio and response time, then offers revise, split, suspend, and archive.",
       "why": "Find and repair ambiguous or persistently forgotten Anki cards. Your study history stays on this device.",
       "featured": false,
       "tags": [
@@ -2394,7 +2396,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Freezer Life Ledger makes its case through Barcode/name entry, one-tap Open/Freeze/Finish actions, best-before date, location, and a ‘use next’ list; It makes a specialist task visible enough for another person to review.",
+      "reason": "Barcode/name entry, one-tap Open/Freeze/Finish actions, best-before date, location, and a ‘use next’ list.",
       "why": "Track opened, frozen, and finished packages privately on your device.",
       "featured": false,
       "tags": [
@@ -2406,7 +2408,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "Frequency Feel makes its case through Offline interactive page with a safe synthetic sound, draggable filter/EQ controls, synchronized frequency response, before/after loudness-matched playback; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline interactive page with a safe synthetic sound, draggable filter/EQ controls, synchronized frequency response, before/after loudness-matched playback.",
       "why": "Hear and see what a filter changes with a safe synthesized loop and a live frequency-response map.",
       "featured": false,
       "tags": [
@@ -2432,7 +2434,7 @@
       "kind": "game",
       "category": "learn",
       "interest": 2,
-      "reason": "A printable/static challenge deck for ages 10–16: each card has a build/explain/critique task, material limits, reflection prompts, and a parent/peer rubric. The structure gives practice a purpose beyond another generic card deck.",
+      "reason": "A printable/static challenge deck for ages 10–16: each card has a build/explain/critique task, material limits, reflection prompts, and a parent/peer rubric.",
       "why": "Build a private portfolio with printable math and computing challenges for ages 10–16.",
       "featured": false,
       "tags": [
@@ -2444,7 +2446,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "Game Night Score Ledger is more than a label because it includes A share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and team totals; guests can view but not edit; export CSV/image. Non-goals; The value is in keeping the awkward last step from becoming someone’s memory problem.",
+      "reason": "Game Night Score Ledger is more than a label because it includes A share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and team totals; guests can view but not edit; export CSV/image.",
       "why": "Track teams, rounds, and scores during board-game nights.",
       "featured": false,
       "tags": [
@@ -2469,7 +2471,7 @@
       "kind": "utility",
       "category": "access",
       "interest": 2,
-      "reason": "The decisive choice in Generative Palette A11y is Browser tool that accepts a palette plus a small canvas preview or frame sequence, simulates common color-vision differences, reports confusable regions; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Browser tool that accepts a palette plus a small canvas preview or frame sequence, simulates common color-vision differences, reports confusable regions.",
       "why": "Inspect generative palettes under color-vision simulations.",
       "featured": false,
       "tags": [
@@ -2559,7 +2561,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "An offline deck builder with glyph, pronunciation, meaning, example sentence, and optional user-recorded audio. The structure gives practice a purpose beyond another generic card deck.",
+      "reason": "An offline deck builder with glyph, pronunciation, meaning, example sentence, and optional user-recorded audio.",
       "why": "Practise script-heavy languages with three-layer recall cards.",
       "featured": false,
       "tags": [
@@ -2572,7 +2574,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "What separates Photo Delta Archive is its design brief: A desktop CLI that ingests successive user-downloaded Takeout archives, normalizes sidecars, de-duplicates by content plus metadata, builds a dated delta; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A desktop CLI that ingests successive user-downloaded Takeout archives, normalizes sidecars, de-duplicates by content plus metadata, builds a dated delta.",
       "why": "Export on your computer and restore any saved snapshot.",
       "featured": false,
       "tags": [
@@ -2598,7 +2600,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "What separates Haptic Speaking Pacer is its design brief: A watch companion that learns a baseline from a short practice sample, detects only speech activity/estimated words-per-minute, and sends configurable haptic; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A watch companion that learns a baseline from a short practice sample, detects only speech activity/estimated words-per-minute, and sends configurable haptic.",
       "why": "Feel discreet haptic cues while you practise speaking pace.",
       "featured": false,
       "tags": [
@@ -2611,7 +2613,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "The decisive choice in Headless, Tailwind-native calendar/scheduler library with free resource-timeline views is v1 (npm, framework-agnostic core + React adapter): day/week/month views with continuous vertical month scrolling, a horizontal resource-timeline view; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "v1 (npm, framework-agnostic core + React adapter): day/week/month views with continuous vertical month scrolling, a horizontal resource-timeline view.",
       "why": "Build calendar and resource timeline views with TypeScript.",
       "featured": false,
       "tags": [
@@ -2663,7 +2665,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "Health Visit Packet makes its case through Browser-only packet builder: paste/import selected values, attach source/date, add questions and a medication list, then generate a printable PDF and encrypted; It makes a specialist task visible enough for another person to review.",
+      "reason": "Browser-only packet builder: paste/import selected values, attach source/date, add questions and a medication list, then generate a printable PDF and encrypted.",
       "why": "Record.",
       "featured": false,
       "tags": [
@@ -2703,7 +2705,7 @@
       "kind": "installable",
       "category": "make",
       "interest": 4,
-      "reason": "CLI that runs a sketch through a small local device matrix, records frame-time/input-lag traces and golden frames, then writes a plain-language publish card.. The focused constraint gives makers a clearer starting point than a blank canvas.",
+      "reason": "CLI that runs a sketch through a small local device matrix, records frame-time/input-lag traces and golden frames, then writes a plain-language publish card..",
       "why": "Check creative coding sketches on dense phone and tablet screens.",
       "featured": false,
       "tags": [
@@ -2861,7 +2863,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "The decisive choice in Importance Weighted Review is A local CSV/Anki-export policy editor that maps tags or numeric fields such as frequency, exam weight, and safety criticality to review targets, then previews; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A local CSV/Anki-export policy editor that maps tags or numeric fields such as frequency, exam weight, and safety criticality to review targets, then previews.",
       "why": "Turn your own card fields into a transparent, importance-weighted review policy—privately in your browser.",
       "featured": false,
       "tags": [
@@ -2870,24 +2872,11 @@
       ]
     },
     {
-      "slug": "in-class-draft-ticket",
-      "kind": "product",
-      "category": "learn",
-      "interest": 3,
-      "reason": "It creates a focused classroom moment, but teachers need to see its review flow immediately.",
-      "why": "Collect short student drafts during class.",
-      "featured": false,
-      "tags": [
-        "classroom",
-        "writing"
-      ]
-    },
-    {
       "slug": "incident-fingerprint-preview",
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The case for Fingerprint Preview rests on A CLI/library that imports redacted event JSON, evaluates a small fingerprint-rule DSL, and reports split/merge deltas with representative frames. Non-goals; It fits beside an existing workflow instead of asking the user to replace it.",
+      "reason": "The case for Fingerprint Preview rests on A CLI/library that imports redacted event JSON, evaluates a small fingerprint-rule DSL, and reports split/merge deltas with representative frames.",
       "why": "Preview how incident fingerprint rules split or merge events.",
       "featured": false,
       "tags": [
@@ -2921,11 +2910,24 @@
       ]
     },
     {
+      "slug": "integration-changelog-watch",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Watching explicit vendor feeds against human-written rules is a restrained way to catch breaking changes without another noisy dashboard.",
+      "why": "Watch vendor changelogs and flag the updates that match your rules.",
+      "featured": false,
+      "tags": [
+        "changelog",
+        "monitoring"
+      ]
+    },
+    {
       "slug": "interview-recall-deck",
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "What separates Interview Recall Deck is its design brief: An offline PWA that turns a user’s own projects into short prompt/evidence cards, supports a timed but pausable voice-or-text rehearsal, and surfaces a; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "An offline PWA that turns a user’s own projects into short prompt/evidence cards, supports a timed but pausable voice-or-text rehearsal, and surfaces a.",
       "why": "Turn real projects into cards and rehearse your work examples for interviews in short, pausable rounds.",
       "featured": false,
       "tags": [
@@ -2951,7 +2953,7 @@
       "kind": "product",
       "category": "access",
       "interest": 2,
-      "reason": "The decisive choice in Invoice Packet is Offline pack builder with configurable checklist templates, file hashes, missing-item flags, accountant notes, and ZIP/PDF manifest export; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline pack builder with configurable checklist templates, file hashes, missing-item flags, accountant notes, and ZIP/PDF manifest export.",
       "why": "Build complete, verifiable invoice evidence packets privately in your browser.",
       "featured": false,
       "tags": [
@@ -2964,7 +2966,7 @@
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "The case for Send-Date Ledger rests on Offline invoice issue register: import or enter a PDF/amount, record draft, issued, sent, due, and paid events, and export a monthly ledger. Non-goals; It fits beside an existing workflow instead of asking the user to replace it.",
+      "reason": "The case for Send-Date Ledger rests on Offline invoice issue register: import or enter a PDF/amount, record draft, issued, sent, due, and paid events, and export a monthly ledger.",
       "why": "Record when invoices are drafted, sent, due, and paid.",
       "featured": false,
       "tags": [
@@ -2990,7 +2992,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The decisive choice in Run Proof is A self-hostable receiver and CLI that accepts signed start/finish heartbeats, imports a CI check snapshot, and renders a one-page missed/late/contradictory-run; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A self-hostable receiver and CLI that accepts signed start/finish heartbeats, imports a CI check snapshot, and renders a one-page missed/late/contradictory-run.",
       "why": "Signed, portable evidence that scheduled work really ran and finished.",
       "featured": false,
       "tags": [
@@ -3002,7 +3004,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "An npm Playwright reporter/helper that captures screenshot, selected DOM/accessibility snapshot, console errors, network summary, and masked form state at each. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "An npm Playwright reporter/helper that captures screenshot, selected DOM/accessibility snapshot, console errors, network summary, and masked form state at each.",
       "why": "Capture a scrubbed receipt when a Playwright soft assertion fails, before later test steps change the page.",
       "featured": false,
       "tags": [
@@ -3065,7 +3067,7 @@
       "kind": "game",
       "category": "play",
       "interest": 5,
-      "reason": "What separates Kitchen Table: ad-free, account-free classic family board games across phones in the same room or async is its design brief: Room-code lobby; v1 ships three public-domain games with original art: a Parcheesi/Ludo-style race, a dots-and-boxes, and a simple dice-score game. Realtime; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Room-code lobby; v1 ships three public-domain games with original art: a Parcheesi/Ludo-style race, a dots-and-boxes, and a simple dice-score game.",
       "why": "Play a pawn race, dots and boxes, or five dice on separate phones.",
       "featured": false,
       "tags": [
@@ -3105,7 +3107,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Kube Permission Evidence makes its case through A read-only CLI that collects RBAC objects, evaluates a bounded subject/resource matrix, and creates a Markdown/JSON evidence packet listing every binding; It makes a specialist task visible enough for another person to review.",
+      "reason": "A read-only CLI that collects RBAC objects, evaluates a bounded subject/resource matrix, and creates a Markdown/JSON evidence packet listing every binding.",
       "why": "Trace Kubernetes access and export audit evidence.",
       "featured": false,
       "tags": [
@@ -3155,7 +3157,7 @@
       "kind": "game",
       "category": "learn",
       "interest": 2,
-      "reason": "A browser canvas with named actors, a timeline of enter/move/say/highlight ranges, JavaScript data export, and self-contained SVG/MP4 render.. The structure gives practice a purpose beyond another generic card deck.",
+      "reason": "A browser canvas with named actors, a timeline of enter/move/say/highlight ranges, JavaScript data export, and self-contained SVG/MP4 render..",
       "why": "Build readable, code-portable cue sheets for cartoon-like lesson animations.",
       "featured": false,
       "tags": [
@@ -3164,11 +3166,24 @@
       ]
     },
     {
+      "slug": "lesson-tab-card",
+      "kind": "product",
+      "category": "make",
+      "interest": 3,
+      "reason": "A small keyboard-first editor that prints and shares playable tab cards has a clearer purpose than another general music document.",
+      "why": "Write guitar tab, check it, and print or share a playing card.",
+      "featured": false,
+      "tags": [
+        "music",
+        "notation"
+      ]
+    },
+    {
       "slug": "life-lab-notebook",
       "kind": "game",
       "category": "play",
       "interest": 2,
-      "reason": "What separates Life Lab Notebook is its design brief: Static web lab with Life-like and continuous presets, adjustable clock/season modifiers, side-by-side rule comparison, named snapshots, and a single-file; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Static web lab with Life-like and continuous presets, adjustable clock/season modifiers, side-by-side rule comparison, named snapshots, and a single-file.",
       "why": "Compare cellular automata rules and share repeatable experiments.",
       "featured": false,
       "tags": [
@@ -3240,16 +3255,17 @@
       ]
     },
     {
-      "slug": "local-live-captions",
+      "slug": "local-meeting-export",
       "kind": "installable",
       "category": "install",
       "interest": 4,
-      "reason": "Private live captions solve a real access need and deserve a stronger presence than most utilities.",
-      "why": "Show live captions on your computer without sending audio away.",
+      "reason": "Local transcription with a personal glossary and exportable files is a credible answer for meetings that should not enter a hosted recorder.",
+      "why": "Transcribe selected audio on your Mac and save the notes in your own files.",
       "featured": false,
       "tags": [
-        "captions",
-        "privacy"
+        "transcript",
+        "mac",
+        "private"
       ]
     },
     {
@@ -3269,7 +3285,7 @@
       "kind": "installable",
       "category": "make",
       "interest": 2,
-      "reason": "Local Sketch Deck makes its case through Desktop app with cards, editable text/buttons/images, five inspectable actions (show, hide, change text, play sound, go to card), local project files; It makes a specialist task visible enough for another person to review.",
+      "reason": "Desktop app with cards, editable text/buttons/images, five inspectable actions (show, hide, change text, play sound, go to card), local project files.",
       "why": "Keep a local deck of sketches for drawing practice.",
       "featured": false,
       "tags": [
@@ -3282,7 +3298,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "What separates Cross-ecosystem lockfile release-age auditor and CI gate is its design brief: reading direct and transitive dependency ages across eight lockfile formats; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "reading direct and transitive dependency ages across eight lockfile formats.",
       "why": "Audit the release age of direct and transitive dependencies already resolved in eight lockfile formats.",
       "featured": false,
       "tags": [
@@ -3308,7 +3324,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "What separates Log Duplicate Lens is its design brief: A CLI that samples Loki JSON exports or newline-delimited logs, fingerprints messages with configurable timestamp tolerance, groups cross-stream; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A CLI that samples Loki JSON exports or newline-delimited logs, fingerprints messages with configurable timestamp tolerance, groups cross-stream.",
       "why": "Find duplicate Loki logs across streams before they inflate alerts and storage.",
       "featured": false,
       "tags": [
@@ -3421,11 +3437,25 @@
       ]
     },
     {
+      "slug": "mail-attachment-archive",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "It treats old email attachments as an archive to preserve and inspect, rather than another inbox to manage.",
+      "why": "Index email attachments locally, remove duplicates, and find missing archive files.",
+      "featured": false,
+      "tags": [
+        "email",
+        "archive",
+        "desktop"
+      ]
+    },
+    {
       "slug": "maintenance-proof-book",
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Maintenance Proof Book is Offline property timeline with repair cards, receipt/photo attachment, part/vendor fields, next-due date, and a single PDF export; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline property timeline with repair cards, receipt/photo attachment, part/vendor fields, next-due date, and a single PDF export.",
       "why": "Keep repairs, contractors, parts, receipts, photos and next service dates together—privately on your device.",
       "featured": false,
       "tags": [
@@ -3438,7 +3468,7 @@
       "kind": "utility",
       "category": "learn",
       "interest": 3,
-      "reason": "What separates Math Textbook Margins is its design brief: Static web lesson wrapper: teacher supplies page links/owned excerpts and adds prediction, worked-step, and misconception prompts; students export a one-page; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Static web lesson wrapper: teacher supplies page links/owned excerpts and adds prediction, worked-step, and misconception prompts; students export a one-page.",
       "why": "Put a prediction, a worked step, and one check beside any math reading.",
       "featured": false,
       "tags": [
@@ -3494,19 +3524,6 @@
       "tags": [
         "play",
         "offline"
-      ]
-    },
-    {
-      "slug": "med-handoff-card",
-      "kind": "utility",
-      "category": "life",
-      "interest": 3,
-      "reason": "A clear handoff can prevent serious confusion, so the narrow task carries real weight.",
-      "why": "Make a medication card for the next caregiver.",
-      "featured": false,
-      "tags": [
-        "medication",
-        "care"
       ]
     },
     {
@@ -3579,7 +3596,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Migration Commit Witness makes its case through A CI CLI that runs an existing migration command against a disposable database, snapshots selected schema/data invariants before and after commit, optionally; It makes a specialist task visible enough for another person to review.",
+      "reason": "A CI CLI that runs an existing migration command against a disposable database, snapshots selected schema/data invariants before and after commit, optionally.",
       "why": "Run SQL migrations on a confirmed test database and save before, after, and rollback checks as a witness.",
       "featured": false,
       "tags": [
@@ -3591,7 +3608,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 5,
-      "reason": "Milkdrop Web: mic-driven, beat-aware music visualizer for TVs and projectors — no audio routing is more than a label because it includes Full-screen WebGL visualizer with 12 original shader presets driven by mic FFT + onset/beat detection (tempo estimate, downbeat emphasis). Auto-rotate presets; The value is in keeping the awkward last step from becoming someone’s memory problem.",
+      "reason": "Milkdrop Web: mic-driven, beat-aware music visualizer for TVs and projectors — no audio routing is more than a label because it includes Full-screen WebGL visualizer with 12 original shader presets driven by mic FFT + onset/beat detection (tempo estimate, downbeat emphasis).",
       "why": "Show music-reactive visuals from a microphone on a TV or projector.",
       "featured": false,
       "tags": [
@@ -3641,7 +3658,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Static playground with six motion intents, editable position/rotation curves, onion-path preview, 2/4/8-frame comparison, and CSS/JS export.. The focused constraint gives makers a clearer starting point than a blank canvas.",
+      "reason": "Static playground with six motion intents, editable position/rotation curves, onion-path preview, 2/4/8-frame comparison, and CSS/JS export..",
       "why": "Turn motion into editable position and rotation curves.",
       "featured": false,
       "tags": [
@@ -3679,7 +3696,7 @@
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "Simple quarterly income/expense ledger for UK sole traders under MTD makes its case through PWA: add income/expense lines (date, amount, category mapped to HMRC boxes, note, optional receipt photo stored locally), quarter view with running totals; It makes a specialist task visible enough for another person to review.",
+      "reason": "PWA: add income/expense lines (date, amount, category mapped to HMRC boxes, note, optional receipt photo stored locally), quarter view with running totals.",
       "why": "Track quarterly income and expenses in your browser for UK sole traders using Making Tax Digital records.",
       "featured": false,
       "tags": [
@@ -3714,19 +3731,6 @@
       ]
     },
     {
-      "slug": "music-practice-stability",
-      "kind": "product",
-      "category": "play",
-      "interest": 3,
-      "reason": "Consistency is the hard part of practice, and this measures it without pretending to teach music.",
-      "why": "Track whether music practice stays steady over time.",
-      "featured": false,
-      "tags": [
-        "music",
-        "practice"
-      ]
-    },
-    {
       "slug": "name-vibration-captions",
       "kind": "installable",
       "category": "access",
@@ -3758,7 +3762,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Next Step Cards is An offline PWA with one active card: task name, next 2-minute action, required link/file, why it matters, and a completion/park decision. It can schedule a; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "An offline PWA with one active card: task name, next 2-minute action, required link/file, why it matters, and a completion/park decision.",
       "why": "Write one clear next action before an interruption, then return without reopening a full plan.",
       "featured": false,
       "tags": [
@@ -3784,7 +3788,7 @@
       "kind": "extension",
       "category": "play",
       "interest": 4,
-      "reason": "Note Rehearsal Router makes its case through Browser extension plus local markdown folder watcher: present one untriaged note at a time and create exactly one local ‘recall’, ‘solve’, ‘teach’, ‘do’; It makes a specialist task visible enough for another person to review.",
+      "reason": "Browser extension plus local markdown folder watcher: present one untriaged note at a time and create exactly one local ‘recall’, ‘solve’, ‘teach’, ‘do’.",
       "why": "Route local Markdown notes into one deliberate recall, solve, teach, do, or archive action.",
       "featured": false,
       "tags": [
@@ -3941,7 +3945,7 @@
       "kind": "utility",
       "category": "money",
       "interest": 2,
-      "reason": "What separates Owner Cash Check is its design brief: Offline PWA where the owner enters account balance, dated committed outgoings, expected invoice dates, and a reserve; it displays 13-week low point, confidence; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Offline PWA where the owner enters account balance, dated committed outgoings, expected invoice dates, and a reserve; it displays 13-week low point, confidence.",
       "why": "Forecast 13 weeks of cash for an owner-run business.",
       "featured": false,
       "tags": [
@@ -4056,7 +4060,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 3,
-      "reason": "The decisive choice in Passkey Extension Check is A browser extension that inventories password/passkey provider extensions and browser settings, runs a non-secret WebAuthn capability check, and generates a; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A browser extension that inventories password/passkey provider extensions and browser settings, runs a non-secret WebAuthn capability check, and generates a.",
       "why": "Find overlapping passkey providers and prepare a recovery route before your next critical sign-in.",
       "featured": false,
       "tags": [
@@ -4083,7 +4087,7 @@
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "Payout Reconciliation Casefile makes its case through Offline matcher for three CSV exports that groups expected fees, refunds, timing windows, and unmatched records into shareable Markdown/CSV casefiles.; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline matcher for three CSV exports that groups expected fees, refunds, timing windows, and unmatched records into shareable Markdown/CSV casefiles.",
       "why": "Export—privately, in your browser.",
       "featured": false,
       "tags": [
@@ -4227,7 +4231,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "Local CLI that inventories a folder plus XMP sidecars, compares declared source/destination capabilities, and emits a handoff manifest showing portable, lossy. A local tool earns attention when it solves this task without an account.",
+      "reason": "Local CLI that inventories a folder plus XMP sidecars, compares declared source/destination capabilities, and emits a handoff manifest showing portable, lossy.",
       "why": "Check which photo metadata and photo edit settings survive before you move a RAW archive between tools.",
       "featured": false,
       "tags": [
@@ -4280,7 +4284,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "Photo Exit Manifest makes its case through A local CLI that reads export inventories and destination folder reports, compares counts/hashes/dates/albums where available, records desired backup/mirror; It makes a specialist task visible enough for another person to review.",
+      "reason": "A local CLI that reads export inventories and destination folder reports, compares counts/hashes/dates/albums where available, records desired backup/mirror.",
       "why": "Check a Google Photos export and create a migration report.",
       "featured": false,
       "tags": [
@@ -4307,7 +4311,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "A local folder/CSV-driven queue that groups images by shoot, offers reusable caption tokens and controlled vocabularies, previews changes, and writes XMP. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "A local folder/CSV-driven queue that groups images by shoot, offers reusable caption tokens and controlled vocabularies, previews changes, and writes XMP.",
       "why": "Queue photo metadata and XMP sidecars for review.",
       "featured": false,
       "tags": [
@@ -4320,7 +4324,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "What separates Photo Stack Proof is its design brief: Local analyser that groups candidate pairs by basename, reads available capture/content IDs and timestamps, and labels each as verified, ambiguous; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Local analyser that groups candidate pairs by basename, reads available capture/content IDs and timestamps, and labels each as verified, ambiguous.",
       "why": "Verify that same-name photos, videos, and sidecars really belong together before you stack, import, or delete.",
       "featured": false,
       "tags": [
@@ -4346,7 +4350,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "The decisive choice in Photo Walk Scratchbook is An offline tablet PWA with a short photo-walk prompt deck, a local-import contact sheet, stylus crop/line annotations, and an exportable one-page session; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "An offline tablet PWA with a short photo-walk prompt deck, a local-import contact sheet, stylus crop/line annotations, and an exportable one-page session.",
       "why": "Plan photo walks with contact sheets and framing notes.",
       "featured": false,
       "tags": [
@@ -4406,19 +4410,6 @@
       ]
     },
     {
-      "slug": "pocket-reconcile",
-      "kind": "utility",
-      "category": "money",
-      "interest": 2,
-      "reason": "Private reconciliation is valuable, but this looks like a modest helper rather than a destination app.",
-      "why": "Match a small set of payments against a record.",
-      "featured": false,
-      "tags": [
-        "payments",
-        "finance"
-      ]
-    },
-    {
       "slug": "podcast-recall-loop",
       "kind": "product",
       "category": "learn",
@@ -4449,7 +4440,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "What separates Practice Loop Notebook is its design brief: Offline PWA that stores locally supplied audio/video references, A/B markers, a metronome ramp or variability plan, repetition counts, and a short; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Offline PWA that stores locally supplied audio/video references, A/B markers, a metronome ramp or variability plan, repetition counts, and a short.",
       "why": "Loop difficult passages, plan deliberate repetitions, and keep a private practice trail on your device.",
       "featured": false,
       "tags": [
@@ -4462,7 +4453,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "Practice Next Card makes its case through Offline cards with piece name, measure/range, one next action, timer, perceived outcome, and optional photo/link to the user's own score; show only today's 3; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline cards with piece name, measure/range, one next action, timer, perceived outcome, and optional photo/link to the user's own score; show only today's 3.",
       "why": "Leave one precise next action at the troublesome measure, ready for your next practice session.",
       "featured": false,
       "tags": [
@@ -4526,7 +4517,7 @@
       "kind": "installable",
       "category": "access",
       "interest": 5,
-      "reason": "What separates Private Call Captions is its design brief: A desktop app that transcribes the selected microphone locally into a high-contrast resizable caption window, supports correction hotkeys and local export; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A desktop app that transcribes the selected microphone locally into a high-contrast resizable caption window, supports correction hotkeys and local export.",
       "why": "Read one chosen microphone as private captions on your computer.",
       "featured": false,
       "tags": [
@@ -4540,7 +4531,7 @@
       "kind": "product",
       "category": "money",
       "interest": 5,
-      "reason": "Private Statement Review makes its case through Offline CSV importer with a remembered local mapping, merchant merge/split rules, recurring-charge candidates, month comparison, and exportable review; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline CSV importer with a remembered local mapping, merchant merge/split rules, recurring-charge candidates, month comparison, and exportable review.",
       "why": "Review bank CSVs privately in your browser. No account, bank link, or statement upload.",
       "featured": false,
       "tags": [
@@ -4592,7 +4583,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "The case for Proof Motion Canvas rests on Static web editor for cards, arrows, numeric labels, and named timed intervals; playback has step controls and exports one self-contained HTML page. Non-goals; It fits beside an existing workflow instead of asking the user to replace it.",
+      "reason": "The case for Proof Motion Canvas rests on Static web editor for cards, arrows, numeric labels, and named timed intervals; playback has step controls and exports one self-contained HTML page.",
       "why": "Turn a short argument into an inspectable animated visual with named claims and explicit timing.",
       "featured": false,
       "tags": [
@@ -4638,24 +4629,11 @@
       ]
     },
     {
-      "slug": "quote-approval-receipt",
-      "kind": "product",
-      "category": "money",
-      "interest": 3,
-      "reason": "A traceable yes is valuable when freelance work later becomes disputed.",
-      "why": "Record a client approval for a quote.",
-      "featured": false,
-      "tags": [
-        "quotes",
-        "clients"
-      ]
-    },
-    {
       "slug": "quote-decision-log",
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "The decisive choice in Quote Decision is Local quote checklist with one reviewer, send-ready status, accept/decline page, expiry date, and signed decision export; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Local quote checklist with one reviewer, send-ready status, accept/decline page, expiry date, and signed decision export.",
       "why": "Review quotes before they leave, then preserve the client's exact decision.",
       "featured": false,
       "tags": [
@@ -4668,7 +4646,7 @@
       "kind": "product",
       "category": "access",
       "interest": 2,
-      "reason": "A local graph/timeline tool that accepts CSV or manual entries for quote, invoice, payment, credit, and delivery. The concrete check is more useful than a generic accessibility score.",
+      "reason": "A local graph/timeline tool that accepts CSV or manual entries for quote, invoice, payment, credit, and delivery.",
       "why": "Trace a quote through deliveries, invoices, credits and payments in one private, explainable thread.",
       "featured": false,
       "tags": [
@@ -4707,7 +4685,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "The decisive choice in RAW Recipe Cards is Offline web simulator using licensed Creative Commons practice images: five cards such as recover sky or shape color, three exposed controls, before/after; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline web simulator using licensed Creative Commons practice images: five cards such as recover sky or shape color, three exposed controls, before/after.",
       "why": "Five deliberate photo-editing drills that teach the reason behind every move.",
       "featured": false,
       "tags": [
@@ -4760,7 +4738,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Reading Archive Pack is A local converter for Pocket/Instapaper/Wallabag exports that creates one Markdown file per item with metadata and annotations, optionally attaches; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A local converter for Pocket/Instapaper/Wallabag exports that creates one Markdown file per item with metadata and annotations, optionally attaches.",
       "why": "Export into an archive ZIP of editable Markdown files.",
       "featured": false,
       "tags": [
@@ -4875,19 +4853,6 @@
       ]
     },
     {
-      "slug": "receipt-to-room",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Connecting proof of purchase to a physical room makes insurance records easier to rebuild later.",
-      "why": "Turn receipts into room-by-room home records.",
-      "featured": false,
-      "tags": [
-        "receipts",
-        "home"
-      ]
-    },
-    {
       "slug": "recipe-exit-pack",
       "kind": "utility",
       "category": "life",
@@ -4918,7 +4883,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 2,
-      "reason": "A local browser extension that extracts Recipe JSON-LD, preserves the canonical URL and attribution, shows a field-by-field editable preview, and exports. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "A local browser extension that extracts Recipe JSON-LD, preserves the canonical URL and attribution, shows a field-by-field editable preview, and exports.",
       "why": "Capture editable web recipe cards and keep the publisher source attached.",
       "featured": false,
       "tags": [
@@ -4931,7 +4896,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "A read-only-config CLI/Kubernetes CronJob that restores the newest backup into an isolated target, runs declared SQL invariants and migration checks, then. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "A read-only-config CLI/Kubernetes CronJob that restores the newest backup into an isolated target, runs declared SQL invariants and migration checks, then.",
       "why": "Restore the newest Postgres backup and check critical data.",
       "featured": false,
       "tags": [
@@ -4943,7 +4908,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "A printable/mobile cue-sheet builder: section label, repeat number, active players, one technical risk, tempo target, and completion status. The hands-on interaction makes the idea more memorable than a passive reference.",
+      "reason": "A printable/mobile cue-sheet builder: section label, repeat number, active players, one technical risk, tempo target, and completion status.",
       "why": "Build a clear, printable rehearsal section cue sheet that works offline.",
       "featured": false,
       "tags": [
@@ -4955,7 +4920,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "What separates Rehearsal Sightline is its design brief: Static web app that imports MusicXML locally, lets a player mark rehearsal ranges, renders a configurable look-ahead strip, and exports a printable cue sheet.; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Static web app that imports MusicXML locally, lets a player mark rehearsal ranges, renders a configurable look-ahead strip, and exports a printable cue sheet.",
       "why": "Turn your own MusicXML score into a calm, playable rehearsal queue with a configurable musical sightline.",
       "featured": false,
       "tags": [
@@ -4993,7 +4958,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The decisive choice in Release Env Fingerprint is A CLI that captures a name/type/presence fingerprint from an approved command, compares signed fingerprints by environment, and enforces rules such as required; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A CLI that captures a name/type/presence fingerprint from an approved command, compares signed fingerprints by environment, and enforces rules such as required.",
       "why": "Compare release settings without exposing secrets.",
       "featured": false,
       "tags": [
@@ -5005,7 +4970,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "What separates Remote File Handoff Manifest is its design brief: CLI that builds a signed JSON/HTML manifest with relative paths, sizes, hashes, optional expiry/contact fields, and a recipient-side verifier; optional; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "CLI that builds a signed JSON/HTML manifest with relative paths, sizes, hashes, optional expiry/contact fields, and a recipient-side verifier; optional.",
       "why": "Create a signed file list, then find missing, changed, and extra files in a folder handoff.",
       "featured": false,
       "tags": [
@@ -5043,7 +5008,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 2,
-      "reason": "Remote Web Task Recipes makes its case through A browser extension where a user or support worker records named, keyboard-reachable visual landmarks for one browser app and attaches concise spoken task; It makes a specialist task visible enough for another person to review.",
+      "reason": "A browser extension where a user or support worker records named, keyboard-reachable visual landmarks for one browser app and attaches concise spoken task.",
       "why": "Save visual landmarks and task steps for repeated work in hard-to-use browser software.",
       "featured": false,
       "tags": [
@@ -5070,7 +5035,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The decisive choice in Rep Range Compass is Offline PWA with one exercise card: log weight/reps/RIR, apply a configurable rep-range rule, show the next-set cue and export/import CSV; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline PWA with one exercise card: log weight/reps/RIR, apply a configurable rep-range rule, show the next-set cue and export/import CSV.",
       "why": "Log rep ranges and decide whether to repeat or increase.",
       "featured": false,
       "tags": [
@@ -5083,7 +5048,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 2,
-      "reason": "PWA that imports or accepts a calendar event, creates a reschedule/cancel card, opens the user's SMS/email composer with a confirmation link, and records. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "PWA that imports or accepts a calendar event, creates a reschedule/cancel card, opens the user's SMS/email composer with a confirmation link, and records.",
       "why": "Create a private record when an appointment changes.",
       "featured": false,
       "tags": [
@@ -5117,6 +5082,20 @@
       ]
     },
     {
+      "slug": "restore-drill-attestor",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Destroying a disposable restore target after checking it gives backup claims real evidence instead of a green checkbox.",
+      "why": "Run a restore in a disposable target and save the checks that passed.",
+      "featured": false,
+      "tags": [
+        "backup",
+        "restore",
+        "cli"
+      ]
+    },
+    {
       "slug": "restore-rehearsal-card",
       "kind": "installable",
       "category": "install",
@@ -5134,7 +5113,7 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Release Ledger earns attention for Local job ledger with deposit, milestone, release, refund, and balance events; a client-facing receipt; and a red/amber/green release status. Non-goals; The audience is defined, but the need is real and poorly served by broad tools.",
+      "reason": "Release Ledger earns attention for Local job ledger with deposit, milestone, release, refund, and balance events; a client-facing receipt; and a red/amber/green release status.",
       "why": "Track deposits, milestones, and decisions to release work.",
       "featured": false,
       "tags": [
@@ -5147,7 +5126,7 @@
       "kind": "installable",
       "category": "play",
       "interest": 2,
-      "reason": "Retro Save Portability makes its case through Desktop utility that detects supported emulator save locations, fingerprints games and save formats, makes timestamped portable bundles, and warns before; It makes a specialist task visible enough for another person to review.",
+      "reason": "Desktop utility that detects supported emulator save locations, fingerprints games and save formats, makes timestamped portable bundles, and warns before.",
       "why": "Move retro game saves safely between emulators and computers with a read-only scan and portable bundles.",
       "featured": false,
       "tags": [
@@ -5198,7 +5177,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "Browser tool that accepts two GPX files, aligns them, highlights divergences over a user-set distance, and emits a printable cue/checklist. The job is real, but its appeal depends on a person already facing that task.",
+      "reason": "Browser tool that accepts two GPX files, aligns them, highlights divergences over a user-set distance, and emits a printable cue/checklist.",
       "why": "Compare an intended GPX route with an exported route and spot silent rerouting before you ride.",
       "featured": false,
       "tags": [
@@ -5211,7 +5190,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "What separates Route Intent Planner is its design brief: A GPX/web planner that accepts a rough trace or named mandatory segments, locks those corridors, optimizes only gaps, and flags off-intent sections. Non-goals; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A GPX/web planner that accepts a rough trace or named mandatory segments, locks those corridors, optimizes only gaps, and flags off-intent sections.",
       "why": "Lock the roads and paths you mean to ride, inspect every gap, and export a route that preserves your intent.",
       "featured": false,
       "tags": [
@@ -5236,7 +5215,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 4,
-      "reason": "Rubric Comment Queue makes its case through Web app: import plain text or paste excerpts, attach a rubric criterion, choose/edit a teacher-written comment block, add one personal next step, then export; It makes a specialist task visible enough for another person to review.",
+      "reason": "Web app: import plain text or paste excerpts, attach a rubric criterion, choose/edit a teacher-written comment block, add one personal next step, then export.",
       "why": "Review teacher-written feedback, personalize every comment, and export when it is ready.",
       "featured": false,
       "tags": [
@@ -5248,7 +5227,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 4,
-      "reason": "The practical detail in Rubric Revision Loop is Teacher-created rubric-code library, pasteable short feedback links, student revision checklist with before/after excerpt, and teacher review queue. Non-goals; That detail is exactly what an improvised spreadsheet or note tends to lose.",
+      "reason": "The practical detail in Rubric Revision Loop is Teacher-created rubric-code library, pasteable short feedback links, student revision checklist with before/after excerpt, and teacher review queue.",
       "why": "Turn reusable teacher rubric codes into concrete student revision evidence.",
       "featured": false,
       "tags": [
@@ -5292,19 +5271,6 @@
       "tags": [
         "scans",
         "reading"
-      ]
-    },
-    {
-      "slug": "scan-repair-local",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Local repair suits private documents and is more credible than a service that asks for uploads.",
-      "why": "Repair scanned pages on your computer.",
-      "featured": false,
-      "tags": [
-        "scans",
-        "privacy"
       ]
     },
     {
@@ -5403,7 +5369,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Season Gap Garden makes its case through Offline bed list, sow/transplant/expected-clear dates, a calendar strip showing open windows, user-defined successor templates, and season CSV export.; It makes a specialist task visible enough for another person to review.",
+      "reason": "Offline bed list, sow/transplant/expected-clear dates, a calendar strip showing open windows, user-defined successor templates, and season CSV export.",
       "why": "Spot open bed windows and plan what comes next using your own garden dates.",
       "featured": false,
       "tags": [
@@ -5429,7 +5395,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The decisive choice in Secret Finding Triage is A CLI that consumes SARIF/JSON findings, renders a local HTML/Markdown triage card with line-numbered masked context, entropy/type clues, and a signed; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A CLI that consumes SARIF/JSON findings, renders a local HTML/Markdown triage card with line-numbered masked context, entropy/type clues, and a signed.",
       "why": "Turn SARIF and Gitleaks findings into locally masked evidence cards with signed resolution records.",
       "featured": false,
       "tags": [
@@ -5480,7 +5446,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Observability Fit Check has a concrete hook: CLI that ingests a bounded OTLP sample, estimates cardinality/storage/query load, and emits comparable local compose profiles and retention budgets. Non-goals; The narrowness makes the outcome easier to understand and act on.",
+      "reason": "Observability Fit Check has a concrete hook: CLI that ingests a bounded OTLP sample, estimates cardinality/storage/query load, and emits comparable local compose profiles and retention budgets.",
       "why": "Estimate self-hosted observability storage, cardinality, and resource fit from a local OTLP sample.",
       "featured": false,
       "tags": [
@@ -5532,7 +5498,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "The decisive choice in Session Layout Capsule is Local web dashboard that saves named layouts of tabs, MIDI cue panels, timers, and text notes; offers a restore checklist and a printable QR handoff.; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Local web dashboard that saves named layouts of tabs, MIDI cue panels, timers, and text notes; offers a restore checklist and a printable QR handoff.",
       "why": "Save and restore the links, MIDI cues, timers, and notes around a creative session.",
       "featured": false,
       "tags": [
@@ -5606,6 +5572,19 @@
       ]
     },
     {
+      "slug": "shopping-list-handoff",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Normalising quantities into a printable handoff solves the mundane moment when one person shops from another person’s recipe.",
+      "why": "Turn ingredients into one clear, checkable shopping list.",
+      "featured": false,
+      "tags": [
+        "shopping",
+        "print"
+      ]
+    },
+    {
       "slug": "sideload-readiness",
       "kind": "installable",
       "category": "install",
@@ -5623,7 +5602,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "Embeddable JS recorder that captures named controls/events (not student identity), lets authors add prediction/observation prompts, and exports a. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "Embeddable JS recorder that captures named controls/events (not student identity), lets authors add prediction/observation prompts, and exports a.",
       "why": "Record a browser simulation’s reasoning path and export an accessible replay lesson.",
       "featured": false,
       "tags": [
@@ -5662,7 +5641,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "What separates Skill Drill Studio is its design brief: A static web authoring tool for three drill types—ordered steps, exact command input, and image hotspot—with deterministic answer checks and shareable JSON; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A static web authoring tool for three drill types—ordered steps, exact command input, and image hotspot—with deterministic answer checks and shareable JSON.",
       "why": "Build short procedural drills with deterministic feedback, then share them as portable JSON files.",
       "featured": false,
       "tags": [
@@ -5687,7 +5666,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "Solo Practice Bridge makes its case through Local web workbook with a repertoire goal, one observed obstacle, a timed drill/piece alternation, success cue, spaced revisit dates, and printable; It makes a specialist task visible enough for another person to review.",
+      "reason": "Local web workbook with a repertoire goal, one observed obstacle, a timed drill/piece alternation, success cue, spaced revisit dates, and printable.",
       "why": "Connect one music drill to a piece you want to play.",
       "featured": false,
       "tags": [
@@ -5700,7 +5679,7 @@
       "kind": "game",
       "category": "play",
       "interest": 4,
-      "reason": "The decisive choice in Hookback is PWA that accepts a local audio clip, loops an A/B region, records a short microphone or MIDI answer, estimates contour/pitch distance, and keeps a lightweight; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "PWA that accepts a local audio clip, loops an A/B region, records a short microphone or MIDI answer, estimates contour/pitch distance, and keeps a lightweight.",
       "why": "Learn melodies by ear from short clips you choose. Private, local, and offline-ready.",
       "featured": false,
       "tags": [
@@ -5831,7 +5810,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "What separates Frame UV Lab is its design brief: A local web lab that imports a sheet and frame map, previews common UV-aware effects over any selected frame, and exports annotated GLSL snippets plus generic; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A local web lab that imports a sheet and frame map, previews common UV-aware effects over any selected frame, and exports annotated GLSL snippets plus generic.",
       "why": "Preview per-frame sprite effects and export reliable UV coordinates—locally in your browser.",
       "featured": false,
       "tags": [
@@ -5844,7 +5823,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "SQLite Sync Guard makes its case through CLI scans a configured sync root for SQLite DB/WAL/SHM files, detects active locks, explains risk, produces a consistent SQLite backup plus manifest; It makes a specialist task visible enough for another person to review.",
+      "reason": "CLI scans a configured sync root for SQLite DB/WAL/SHM files, detects active locks, explains risk, produces a consistent SQLite backup plus manifest.",
       "why": "Warn when SQLite files are unsafe to copy and create a verified transfer backup before folder sync.",
       "featured": false,
       "tags": [
@@ -5890,6 +5869,20 @@
       ]
     },
     {
+      "slug": "stream-reader-compass",
+      "kind": "extension",
+      "category": "access",
+      "interest": 3,
+      "reason": "A heading-based transcript and stable links can make fast-moving message streams usable without pretending to replace the original site.",
+      "why": "Turn a message stream into a navigable local transcript you can copy or export.",
+      "featured": false,
+      "tags": [
+        "reading",
+        "access",
+        "extension"
+      ]
+    },
+    {
       "slug": "study-material-import-check",
       "kind": "utility",
       "category": "learn",
@@ -5906,7 +5899,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "The decisive choice in Subclient Worklog is Offline PWA with payer, end client, work order, timer/manual entries, deliverable links, and a one-click client-neutral PDF/CSV worklog; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "Offline PWA with payer, end client, work order, timer/manual entries, deliverable links, and a one-click client-neutral PDF/CSV worklog.",
       "why": "Keep worklogs that prove subcontract work from payer to client.",
       "featured": false,
       "tags": [
@@ -5932,7 +5925,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 5,
-      "reason": "The decisive choice in Supabase Exit Map is CLI reads Supabase project config/migrations and produces a dependency map, portable SQL checklist, and replacement choices with effort flags. Non-goals; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "CLI reads Supabase project config/migrations and produces a dependency map, portable SQL checklist, and replacement choices with effort flags.",
       "why": "Inventory Supabase dependencies and plan a lower-risk move to plain Postgres or self-hosted components.",
       "featured": false,
       "tags": [
@@ -5984,7 +5977,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Tab Playbook is more than a label because it includes A static web editor for a limited open chord/tab markup, with playback-free fretboard, interval, scale, and transposition views plus shareable URLs. Non-goals; The value is in keeping the awkward last step from becoming someone’s memory problem.",
+      "reason": "Tab Playbook is more than a label because it includes A static web editor for a limited open chord/tab markup, with playback-free fretboard, interval, scale, and transposition views plus shareable URLs.",
       "why": "Write guitar tab exercises and inspect notes, intervals, scales, and transpositions.",
       "featured": false,
       "tags": [
@@ -5996,7 +5989,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 3,
-      "reason": "The decisive choice in Tab Sunset List is A browser extension that tags tabs with an expiry date and decision type, presents a daily small review queue, and exports kept items to browser bookmarks; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A browser extension that tags tabs with an expiry date and decision type, presents a daily small review queue, and exports kept items to browser bookmarks.",
       "why": "Give stale tabs an expiry date and a daily decision queue.",
       "featured": false,
       "tags": [
@@ -6022,7 +6015,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "v1: `tdiff a.parquet b.parquet --key id` prints row counts added/removed/modified, per-column change counts, schema differences and sample changed rows. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "v1: `tdiff a.parquet b.parquet --key id` prints row counts added/removed/modified, per-column change counts, schema differences and sample changed rows.",
       "why": "Compare keyed CSV, Parquet, and Arrow data snapshots from Python, Git, or DVC.",
       "featured": false,
       "tags": [
@@ -6074,7 +6067,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 5,
-      "reason": "What separates Telemetry Budget Guard is its design brief: A CLI that consumes a bounded redacted OTLP sample and collector config, estimates cardinality/storage/egress deltas for rule changes, and fails a declared; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "A CLI that consumes a bounded redacted OTLP sample and collector config, estimates cardinality/storage/egress deltas for rule changes, and fails a declared.",
       "why": "Estimate OpenTelemetry cost and cardinality before merge.",
       "featured": false,
       "tags": [
@@ -6086,7 +6079,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Telemetry Export Receipts has a concrete hook: A self-hostable reverse proxy/sidecar for approved telemetry-export endpoints that enforces query bounds and emits signed JSON/Markdown receipts. Non-goals; The narrowness makes the outcome easier to understand and act on.",
+      "reason": "Telemetry Export Receipts has a concrete hook: A self-hostable reverse proxy/sidecar for approved telemetry-export endpoints that enforces query bounds and emits signed JSON/Markdown receipts.",
       "why": "Export and issue signed, human-readable audit receipts.",
       "featured": false,
       "tags": [
@@ -6120,6 +6113,48 @@
       ]
     },
     {
+      "slug": "terminal-recall",
+      "kind": "installable",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Encrypted local command history with redacted export is a useful balance between finding past work and not leaking it.",
+      "why": "Search selected terminal sessions locally and export a redacted record when needed.",
+      "featured": false,
+      "tags": [
+        "terminal",
+        "search",
+        "private"
+      ]
+    },
+    {
+      "slug": "terminal-screenreader-mode",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Flattening terminal redraws into a timestamped transcript addresses a real barrier that flashy command-line tools often ignore.",
+      "why": "Read terminal output as a stable transcript with headings and links.",
+      "featured": false,
+      "tags": [
+        "terminal",
+        "access",
+        "cli"
+      ]
+    },
+    {
+      "slug": "theory-playalong-sidecar",
+      "kind": "product",
+      "category": "play",
+      "interest": 3,
+      "reason": "The in-key history makes MIDI practice observable without turning every wrong note into a score or a scolding.",
+      "why": "Play along with local audio and see which notes fit the key.",
+      "featured": false,
+      "tags": [
+        "music",
+        "midi",
+        "practice"
+      ]
+    },
+    {
       "slug": "thought-parking",
       "kind": "product",
       "category": "life",
@@ -6150,7 +6185,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Local viewer for exported Google Maps Timeline JSON makes its case through opening a Google Maps Timeline export locally instead of asking a map service to inspect it; It makes a specialist task visible enough for another person to review.",
+      "reason": "opening a Google Maps Timeline export locally instead of asking a map service to inspect it.",
       "why": "Browse and export Google Maps Timeline JSON privately, in your browser.",
       "featured": false,
       "tags": [
@@ -6198,7 +6233,7 @@
       "kind": "product",
       "category": "make",
       "interest": 2,
-      "reason": "Static browser game with short editable Python-like snippets, variable-table prediction, branch-path selection, reveal-after-commit, and original. The focused constraint gives makers a clearer starting point than a blank canvas.",
+      "reason": "Static browser game with short editable Python-like snippets, variable-table prediction, branch-path selection, reveal-after-commit, and original.",
       "why": "Predict a short Python program before seeing its result.",
       "featured": false,
       "tags": [
@@ -6316,12 +6351,26 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "Local PWA to log one confused pair, attach text/audio/own mnemonic, rotate text-to-audio and audio-to-text retries, and export resolved pairs as CSV.. The structure gives practice a purpose beyond another generic card deck.",
+      "reason": "Local PWA to log one confused pair, attach text/audio/own mnemonic, rotate text-to-audio and audio-to-text retries, and export resolved pairs as CSV..",
       "why": "Repair the vocabulary pairs you keep mixing up with short text and audio retries.",
       "featured": false,
       "tags": [
         "learning",
         "offline"
+      ]
+    },
+    {
+      "slug": "vram-fieldtest",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Explicit hardware coverage and captured thermals make this more honest than a single benchmark number, though it remains a specialist diagnostic.",
+      "why": "Test available video memory safely and save a hardware report.",
+      "featured": false,
+      "tags": [
+        "hardware",
+        "gpu",
+        "cli"
       ]
     },
     {
@@ -6341,7 +6390,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "Web Audio Route Map earns attention for A dependency-free JS library plus demo that renders a live, keyboard-accessible node/route map from an explicit graph declaration and exports SVG. Non-goals; The audience is defined, but the need is real and poorly served by broad tools.",
+      "reason": "Web Audio Route Map earns attention for A dependency-free JS library plus demo that renders a live, keyboard-accessible node/route map from an explicit graph declaration and exports SVG.",
       "why": "Publish a clear, accessible SVG map beside any small Web Audio signal chain.",
       "featured": false,
       "tags": [
@@ -6354,7 +6403,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "What separates Winter Ride Window is its design brief: Static web planner where riders enter route exposure and personal thresholds, then receive a cited condition checklist, daylight/battery plan, and 'unknowns to; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Static web planner where riders enter route exposure and personal thresholds, then receive a cited condition checklist, daylight/battery plan, and 'unknowns to.",
       "why": "Compare a winter cycling forecast with your own limits and route exposure.",
       "featured": false,
       "tags": [
@@ -6366,7 +6415,7 @@
       "kind": "game",
       "category": "play",
       "interest": 5,
-      "reason": "Wordlist Arcade: paste a vocab list, get six playable classroom games, unlimited and account-free earns attention for One textarea: 'word — definition' pairs (or word → translation). Instantly generates 6 original game templates from the same list: match-up; The audience is defined, but the need is real and poorly served by broad tools.",
+      "reason": "Wordlist Arcade: paste a vocab list, get six playable classroom games, unlimited and account-free earns attention for One textarea: 'word — definition' pairs (or word → translation).",
       "why": "Make six vocabulary games for class from one word list.",
       "featured": false,
       "tags": [
@@ -6404,7 +6453,7 @@
       "kind": "extension",
       "category": "tools",
       "interest": 5,
-      "reason": "The decisive choice in Workspace History Porter is A browser extension plus local sidecar that stores an encrypted workspace journal, bookmarks terminal/PR/test URLs, and exports an interoperable handoff file.; This is most helpful at a handoff, import, release, or decision point where small omissions matter.",
+      "reason": "A browser extension plus local sidecar that stores an encrypted workspace journal, bookmarks terminal/PR/test URLs, and exports an interoperable handoff file.",
       "why": "Carry encrypted workspace notes and links between browsers.",
       "featured": false,
       "tags": [
@@ -6418,7 +6467,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "A CLI that reads sandbox.toml, compiles workspace/file/network/process policy to macOS Seatbelt or Linux bubblewrap, probes enforcement, and emits a capability. The narrow workflow has real engineering value, even if it remains specialist.",
+      "reason": "A CLI that reads sandbox.toml, compiles workspace/file/network/process policy to macOS Seatbelt or Linux bubblewrap, probes enforcement, and emits a capability.",
       "why": "Compile a sandbox file into coding-agent boundaries for Linux or macOS.",
       "featured": false,
       "tags": [
@@ -6456,7 +6505,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "What separates Zoom Workflow Check is its design brief: Playwright-compatible CLI that records a short keyboard path, reruns it at 200% and 400%, captures focused-element visibility/clipping/scrollability; The useful judgment is made before the mistake becomes hard to undo.",
+      "reason": "Playwright-compatible CLI that records a short keyboard path, reruns it at 200% and 400%, captures focused-element visibility/clipping/scrollability.",
       "why": "Replay a real keyboard workflow at 200% and 400% browser zoom and keep the evidence local.",
       "featured": false,
       "tags": [
