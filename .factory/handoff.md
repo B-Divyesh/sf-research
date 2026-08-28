@@ -2,11 +2,11 @@
 
 ## Done
 
-- Curated all 409 live products into eight store-style shelves.
-- Added the 42 newly indexed releases and removed nine no-longer-live entries.
-- Rated every release, kept all `why` lines below 110 characters, and selected exactly 12 features.
-- Checked each featured URL with `curl`; all returned HTTP 200 and are in `RELEASED` state.
-- Wrote the feature rationale and five first-screen copy fixes in `curation.md`.
+- Curated all 497 supplied live products into eight store-style shelves.
+- Added 98 releases missing from the prior catalogue and removed ten entries absent from the current source list.
+- Rated every listing, kept every catalogue line under 110 characters, and selected exactly 12 featured products.
+- Checked every featured URL with curl. All returned HTTP 200 and are marked RELEASED.
+- Wrote the featured rationale and five first-screen copy fixes in `curation.md`.
 
 ## Verify
 
@@ -14,11 +14,14 @@ Run:
 
 ```bash
 jq empty curation.json
-node -e 'const d=require("./curation.json"); console.log(d.products.length, d.categories.length, d.products.filter(p => p.featured).length)'
+node - <<'NODE'
+const c = require('./curation.json');
+console.log(c.products.length, c.categories.length, c.products.filter(p => p.featured).length);
+NODE
 ```
 
-Expected output: `409 8 12`.
+Expected output: `497 8 12`.
 
 ## Left
 
-The 12 feature URLs were checked with curl. No build or deploy is required for this research repository.
+No build or deploy is required for this research repository. The five repair targets in `curation.md` are recommendations for the product perfection loop.
