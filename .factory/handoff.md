@@ -1,17 +1,16 @@
-# Research handoff
+# Research handoff — research-installables-0828-134538-7
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the installables research work order without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- `briefs/research-installables-0828-134538-7.json` contains exactly 12 researched briefs, each with two unique public evidence URLs (one Hacker News discussion and one GitHub issue) from 2025-2026.
+- `briefs/research-installables-0828-134538-7.md` is the required one-line-per-brief summary.
+- `products/*.json` contains parked product-state stubs for the twelve candidates; no repositories or deployments were created.
 
-Verify with:
+Verification run:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq 'length == 12 and ([.[].evidence[].url] | length == unique | length)' briefs/research-installables-0828-134538-7.json
+for f in products/*.json; do jq empty "$f"; done
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+All selected evidence URLs were fetched during research. Existing devtools-data briefs were read before selecting ideas; no slug or core idea was duplicated. The unrelated pre-existing modification to `graphify-out/cache/stat-index.json` was left untouched.
