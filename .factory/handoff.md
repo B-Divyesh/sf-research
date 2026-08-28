@@ -1,17 +1,18 @@
-# Research handoff
+# Research handoff: utilities
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-utilities-0828-134421-0`; no product was built or deployed.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added exactly 12 `RESEARCHED` utilities opportunity briefs in `briefs/research-utilities-0828-134421-0.json`.
+- Added the required one-line-per-brief summary in `briefs/research-utilities-0828-134421-0.md`.
+- Added a `PARKED` product-state record for each researched slug under `products/`, ready for a later admission decision.
+- Read the existing devtools research brief and checked for `.factory/backlog-slugs.txt` before selecting slugs; no utilities ideas or slug list existed to duplicate.
+- Research used 40+ varied public-source searches and read 60+ distinct Hacker News/Algolia threads. The final evidence records are 24 unique, actually fetched 2025–2026 thread URLs; no evidence URL is shared between briefs.
 
-Verify with:
+Verify:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq -e 'length == 12 and all(.[]; .territory == "utilities" and (.evidence | length >= 2) and .state == "RESEARCHED")' briefs/research-utilities-0828-134421-0.json
+jq -e '([.[].evidence[].url] | length) == ([.[].evidence[].url] | unique | length)' briefs/research-utilities-0828-134421-0.json
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+No build, deployment, credentials, or follow-up work remains. The pre-existing `graphify-out/cache/stat-index.json` modification was left untouched.
