@@ -1,17 +1,12 @@
-# Research handoff
+# Handoff — research-small-business-0828-070151-5
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the small-business research work order without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-small-business-0828-070151-5.json`: exactly 12 schema-complete, `RESEARCHED` opportunity briefs.
+- Added `briefs/research-small-business-0828-070151-5.md`: one-line rationale per brief.
+- Read the existing brief and checked for a backlog-slug file (none was present); no prior small-business slug was duplicated.
+- Evidence was fetched from 25+ distinct public thread pages after varied HN/GitHub searches. Every brief has two fetched, unique evidence URLs, one HN and one GitHub issue; URLs are not shared between briefs.
 
-Verify with:
+Verification: `jq 'length == 12 and all(.[]; (.evidence | length) >= 2)' briefs/research-small-business-0828-070151-5.json`
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+Left untouched: pre-existing modification to `graphify-out/cache/stat-index.json`.
