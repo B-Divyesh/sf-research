@@ -1,17 +1,17 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed `research-installables-0828-093012-7` without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added exactly 12 `RESEARCHED` installable-software opportunity briefs in `briefs/research-installables-0828-093012-7.json` and a one-line summary in the matching Markdown file.
+- Added one parked product-state record per brief under `products/`; no repositories, releases, or deployments were created.
+- Each brief contains two fetched, distinct evidence URLs. The research covered 15 HN search phrasings and opened 25 HN threads, then cross-checked candidates against public GitHub issue pages and Lobsters where useful.
+- Existing research was reviewed and overlapping slugs/ideas were avoided. The unrelated pre-existing modification `graphify-out/cache/stat-index.json` was left untouched.
 
 Verify with:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+python3 -c 'import json; d=json.load(open("briefs/research-installables-0828-093012-7.json")); assert len(d)==12; assert len({x["slug"] for x in d})==12; assert len({e["url"] for x in d for e in x["evidence"]})==24'
+git status --short
 ```
 
 Nothing remains to build or deploy for this research-only work order.
