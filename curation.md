@@ -1,22 +1,22 @@
 # Featured picks
 
-- `accessible-explanation-checkin` — Students can explain an answer and show how sure they are, giving teachers feedback they can actually use.
-- `audio-gap-loop` — A learner’s own clip becomes a listen, speak, and check loop rather than a bare audio player.
-- `change-diff-inbox` — It monitors only the parts of a page that matter and gives engineers a reviewable change instead of a screenshot flood.
-- `claim-ready-homebook` — A private home inventory with claim exports is an unusually high-value use of an offline record.
-- `mechanism-playground` — Building working gears, cams, and linkages is both a satisfying toy and a sound way to learn mechanics.
-- `open-quiz-arena` — Account-free live quizzes with no player cap remove the two obstacles that routinely make classroom quiz tools fail.
-- `pairplay-motion` — Spare phones become motion controllers, giving a group game a physical hook rather than another shared-screen quiz.
-- `parallel-ebook-reader` — Reading two DRM-free editions side by side and exporting aligned sentences is a rare, concrete capability for language learners.
-- `quote-acceptance-packet` — ScopeStamp makes quote approval explicit and leaves a freelancer with a useful record when the job changes.
-- `static-qr-no-signup` — Static codes, local generation, and no redirect service make an ordinary QR generator meaningfully more trustworthy.
-- `android-select-speak-canvas` — Selecting text in an image and hearing it on-device is a clear assistive job with a direct first action.
-- `creative-cartridge` — Six finite activities give a child or family something to start and finish instead of another empty canvas.
+- `accessible-explanation-checkin` — It asks students to explain an answer and state confidence before a teacher responds. That produces a far more useful teaching signal than another score alone.
+- `audio-gap-loop` — A learner can turn their own clip into a private listen, speak, and check exercise. The user-supplied material makes the practice immediately relevant.
+- `change-diff-inbox` — It watches only selected page regions and presents a semantic change for review. That is a meaningful alternative to screenshot monitoring that produces mostly noise.
+- `claim-ready-homebook` — A private inventory becomes valuable precisely when something has gone wrong. Claim exports make this a durable household record, not just a list of possessions.
+- `mechanism-playground` — Gears, cams, and linkages can be assembled and tested as a toy. The same interaction teaches mechanical relationships without turning into a lesson plan.
+- `open-quiz-arena` — Live classroom quizzes work without accounts or player caps. Removing both restrictions makes the product unusually practical for a real teacher in front of a room.
+- `pairplay-motion` — Spare phones become motion controllers for short room games. That physical hook makes it distinct from the catalogue's other shared-screen games.
+- `parallel-ebook-reader` — Readers can align their own DRM-free editions and export sentence pairs. That is a concrete capability for language learners, rather than a vague reading aid.
+- `quote-acceptance-packet` — It records exactly what was quoted and what the client agreed to. Freelancers get evidence that remains useful when a job changes shape.
+- `static-qr-no-signup` — It creates static QR codes locally, with no redirect service between the maker and the destination. Those details matter more than usual for a tool people trust with printed links.
+- `android-select-speak-canvas` — A person can select text in an image and hear it on-device. The first action is clear and the accommodation addresses a real barrier.
+- `creative-cartridge` — Six bounded activities give a child or family something to start and finish. It is a more convincing creative product than an empty canvas with a prompt.
 
 # First screens that need work
 
-- `timeline-json-viewer` — “Field Atlas” gives no clue that it opens an exported Google Maps Timeline file; lead with that job and a sample file action.
-- `motion-curve-playground` — “Shape the pause. See the feel.” is a metaphor; say that it edits motion curves and shows the result frame by frame.
-- `dyslexia-reading-resume` — “Stop reading. Not your progress.” is clever but hides the core promise: save the exact sentence and resume with reading support.
-- `recall-calibrator` — “Setting the press.” does not tell a learner what is calibrated; name recall confidence and show the first practice card.
-- `mechanism-playground` — The first headline is the product name, so visitors miss that they can build and test moving mechanisms until they read further.
+- `timeline-json-viewer` — “Field Atlas” does not say that it opens an exported Google Maps Timeline file. Lead with that job and offer a sample-file action.
+- `motion-curve-playground` — “Shape the pause. See the feel.” is a metaphor. Say that it edits motion curves and shows the animation frame by frame.
+- `dyslexia-reading-resume` — “Stop reading. Not your progress.” is memorable but hides the job. Name the saved sentence, the resume action, and the reading support.
+- `recall-calibrator` — “Setting the press.” gives a cold visitor no clue about recall confidence. Name the practice cards and show the first one immediately.
+- `mechanism-playground` — The first headline is the product name. Lead with building and testing moving mechanisms, then let the name support it.
