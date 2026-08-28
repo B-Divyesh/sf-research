@@ -1,16 +1,23 @@
 # Catalogue curation handoff
 
-Created and committed `curation.json` and `curation.md` for all 376 live products.
+## Done
 
-Verification performed:
+- Curated `curation.json` into eight store-style shelves.
+- Rated every indexed release, with 12 featured picks and plain-language `why` lines.
+- Checked every featured URL with `curl` (all returned HTTP 200) and reviewed the featured and copy-problem screens in Chromium.
+- Wrote `curation.md` with the featured rationale and five first-screen copy fixes.
 
-- `jq` confirms 376 product records, eight shelves, exactly 12 featured products, valid kinds, and `why` lines no longer than 110 characters.
-- The 12 featured URLs were fetched with `curl`; each returned HTTP 200 and a legible title/first-screen description.
-- Ratings are conservative: 48 five-star entries (12.8%) and 60 four-star entries (16.0%).
+## Verify
 
-There is no build step for this research repository. Inspect the curated data with:
+Run:
 
-```sh
-jq '.products | length' curation.json
-jq '[.products[] | select(.featured)] | length' curation.json
+```bash
+jq empty curation.json
+node -e 'const d=require("./curation.json"); console.log(d.products.length, d.categories.length, d.products.filter(p => p.featured).length)'
 ```
+
+Expected output: `376 8 12`.
+
+## Note
+
+The deployed `https://hello-factory.sociobot.in/products.json` index returned 376 unique products during this run, despite the work order saying 377. No product was invented to close that discrepancy.
