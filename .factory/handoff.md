@@ -1,17 +1,18 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed the `research-utilities-0828-070053-0` work order without building a product.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added exactly 12 `RESEARCHED` utilities opportunity briefs to `briefs/research-utilities-0828-070053-0.json`.
+- Added the requested one-line-per-brief summary to `briefs/research-utilities-0828-070053-0.md`.
+- Research covered more than 15 varied searches and 27 individually fetched HN/GitHub threads/issues. Each of the 12 briefs has two actually fetched 2025–2026 evidence URLs, one HN item endpoint and one GitHub issue page; all 24 cited URLs are distinct across briefs.
+- Reviewed the existing devtools brief file and `.factory/backlog-slugs.txt` if present. There was no utilities portfolio conflict.
+- Preserved the pre-existing unrelated modification at `graphify-out/cache/stat-index.json`.
 
 Verify with:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq '{brief_count:length, evidence_count:([.[].evidence[].url]|length), distinct_evidence_count:([.[].evidence[].url]|unique|length)}' briefs/research-utilities-0828-070053-0.json
+jq -e 'all(.[]; .territory == "utilities" and (.evidence | length >= 2 and length <= 4) and .state == "RESEARCHED")' briefs/research-utilities-0828-070053-0.json
 ```
 
 Nothing remains to build or deploy for this research-only work order.
