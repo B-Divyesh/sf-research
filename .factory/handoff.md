@@ -1,17 +1,10 @@
-# Research handoff
+# Catalogue curation handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Created and committed `curation.json` for the 352 products named in the work order, plus `curation.md` with the featured-pick rationale and five first-screen copy fixes.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+Verification performed:
 
-Verify with:
+- `jq` checks confirm 352 unique products, eight shelves, 12 featured products, allowed kinds, `why` lines at or below 110 characters, and the requested interest-score caps.
+- Each featured URL returned HTTP 200. Its title and description were checked from the live first response.
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+The public feed currently contains 365 products. The 13 products not present in the supplied work-order list were deliberately excluded so the curation remains scoped to the requested 352.

@@ -1,0 +1,4584 @@
+{
+  "generated": "2026-08-28T10:55:59.550Z",
+  "categories": [
+    {
+      "id": "make",
+      "title": "Make things",
+      "blurb": "Make a visual, lesson, rehearsal, or small creative project."
+    },
+    {
+      "id": "life",
+      "title": "Organise your life",
+      "blurb": "Keep the small records, plans, and handoffs that make a day run."
+    },
+    {
+      "id": "money",
+      "title": "Money & paperwork",
+      "blurb": "Prepare clear records for work, payments, tax, and claims."
+    },
+    {
+      "id": "learn",
+      "title": "Learn & teach",
+      "blurb": "Practise, explain, and run classes without a bloated platform."
+    },
+    {
+      "id": "play",
+      "title": "Play & sound",
+      "blurb": "Play games, make music, and explore small interactive ideas."
+    },
+    {
+      "id": "access",
+      "title": "See & hear better",
+      "blurb": "Adjust reading, captions, speech, and colour to suit your needs."
+    },
+    {
+      "id": "tools",
+      "title": "Tools for developers",
+      "blurb": "Inspect, test, move, and keep software systems honest."
+    },
+    {
+      "id": "install",
+      "title": "Install on your computer",
+      "blurb": "Use focused apps and command-line tools outside the browser."
+    }
+  ],
+  "products": [
+    {
+      "slug": "accessible-table-ocr-check",
+      "kind": "product",
+      "category": "access",
+      "interest": 5,
+      "reason": "Its job is accepts page images/OCR JSON, overlays detected blocks and reading order, lets a user relabel table cel, but its verifying state keeps it off the front shelf.",
+      "why": "Use it to accept page images/OCR JSON, overlays detected blocks and reading order, lets a user.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "agent-action-receipt",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is plus local verifier that wraps tool calls, creates signed hash-chain receipts before/after execution, supports, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for plus local verifier that wraps tool calls, creates signed hash-chain receipts.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "agent-kill-switch-drill",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is declares named kill paths (proxy deny rule, credential revoke command, deployment scale, queue pause), but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for declares named kill paths (proxy deny rule, credential revoke command, deployment scale.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "android-backup-receipt",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is android app that inventories chosen SAF folders, computes a privacy-preserving manifest, compares it with an attached US, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for android app that inventories chosen SAF folders, computes a privacy-preserving manifest.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "animatic-event-strip",
+      "kind": "product",
+      "category": "make",
+      "interest": 2,
+      "reason": "Its job is offline timeline with image cards, waveform snippets, named markers, frame-range labels, and JSON/CSV export for Godot/U, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline timeline with image cards, waveform snippets, named markers, frame-range labels.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "apk-release-pocket",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI plus static release bundle that verifies APK signatures/version codes, generates a QR install page, records compatib, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for cLI plus static release bundle that verifies APK signatures/version codes, generates a.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "message-archive-audit",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline inspector for exported MBOX/EML and attachment folders: inventory messages and attachments, flag broken referenc, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline inspector for exported MBOX/EML and attachment folders: inventory messages and.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "backfill-timecards",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline weekly board that imports calendar events, clones prior patterns, fills project→client mappings, records explain, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline weekly board that imports calendar events, clones prior patterns, fills.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "batch-artifact-export",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is installable CLI that reads a manifest of local converters, validates inputs, runs deterministic batched exports, normali, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for installable CLI that reads a manifest of local converters, validates inputs, runs.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bench-bin-bom",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is with bin locations, part photo/value/quantity, CSV BOM paste, shortage and substitute notes, and a p, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for with bin locations, part photo/value/quantity, CSV BOM paste, shortage and substitute.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "bookmark-escape-hatch",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is local browser/CLI utility that imports HTML/JSON/CSV exports, normalizes URLs/tags/dates, detects duplicates and malform, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local browser/CLI utility that imports HTML/JSON/CSV exports, normalizes.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "appointment-capacity-map",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is local planning PWA with staff, services, shared resources, overlap rules, and a visual what-can-book-now matrix, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local planning PWA with staff, services, shared resources, overlap rules, and a visual.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "caption-placement-check",
+      "kind": "installable",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a local drag-and-drop WebVTT/SRT plus video checker that samples frames, detects subtitle overlap with faces and dense t, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local drag-and-drop WebVTT/SRT plus video checker that samples frames, detects.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "photo-metadata-queue",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a local folder/CSV-driven queue that groups images by shoot, offers reusable caption tokens and controlled vocabularies, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local folder/CSV-driven queue that groups images by shoot, offers reusable caption.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "audio-chain-cards",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is packages ordered effect recommendations/commands with audition checkpoints, timestamp labels, and, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for packages ordered effect recommendations/commands with audition checkpoints, timestamp.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "scope-variation-board",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is with clients, a base quote, line-item change cards, an immutable approval link/receipt, and CSV/PDF export, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for with clients, a base quote, line-item change cards, an immutable approval link/receipt.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "client-decision-receipt",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a hosted decision link with Accept, Request changes, or Decline; selected line items/scope are frozen into a dated recei, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a hosted decision link with Accept, Request changes, or Decline; selected line.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "code-listen-cursor",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a VS Code extension that reads selected code or the current line using language-aware punctuation rules, exposes cursor, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a VS Code extension that reads selected code or the current line using language-aware.",
+      "featured": false,
+      "tags": [
+        "access",
+        "extension"
+      ]
+    },
+    {
+      "slug": "concept-card-workshop",
+      "kind": "utility",
+      "category": "make",
+      "interest": 2,
+      "reason": "Its job is a static-web card-set composer with four card roles, printable cut sheets, a facilitator timer, and a no-account join co, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a static-web card-set composer with four card roles, printable cut sheets, a facilitator.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "context-cloze-workbench",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is to paste a sentence, mark one or two blanks, attach a definition/note, and run typed-answer practice with, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for to paste a sentence, mark one or two blanks, attach a definition/note, and run.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "context-recall-cards",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is offline-first PWA for creating a word card from a learner-written sentence and optional recording; it schedules listen, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline-first PWA for creating a word card from a learner-written sentence and optional.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "daily-range-puzzle",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is static daily seeded hex-board puzzle with fixed map scale, one cooperative link, keyboard/touch controls, and a spoiler, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for static daily seeded hex-board puzzle with fixed map scale, one cooperative link.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "compliance-evidence-pack",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a local-first checklist builder with filing-period folders, attachments, a missing-evidence list, and a zipped/PDF index, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local-first checklist builder with filing-period folders, attachments, a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "dialog-only-switch",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is an offline local-video/WebVTT viewer with a reversible dialogue-only filter, an always-visible transcript, and a one-key, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for an offline local-video/WebVTT viewer with a reversible dialogue-only filter, an.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "dictation-repair-book",
+      "kind": "installable",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a local tray utility that watches user-approved before/after transcript edits, proposes pronunciation-to-spelling rules, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local tray utility that watches user-approved before/after transcript edits, proposes.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "durable-set-log",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is for reusable routines, one-tap set completion, edit-safe append-only local log, and CSV export/import, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for for reusable routines, one-tap set completion, edit-safe append-only local log, and CSV.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "env-contract-check",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is validates .env files against a typed contract, applies Docker/Node/Python parser profiles, flags unset/unused, but its verifying state keeps it off the front shelf.",
+      "why": "Use it to validate .env files against a typed contract, applies Docker/Node/Python parser.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "exif-clock-repair",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline desktop/PWA tool that scans a selected folder, groups date-field conflicts by likely timezone/camera pattern, pr, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline desktop/PWA tool that scans a selected folder, groups date-field conflicts by.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "flipbook-proof",
+      "kind": "product",
+      "category": "make",
+      "interest": 2,
+      "reason": "Its job is client-side web app that ingests a local short clip, lets the user choose frame count and crop, shows adjacent-frame oni, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for client-side web app that ingests a local short clip, lets the user choose frame count.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "generative-palette-a11y",
+      "kind": "utility",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is browser tool that accepts a palette plus a small canvas preview or frame sequence, simulates common color-vision differe, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for browser tool that accepts a palette plus a small canvas preview or frame sequence.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "relationship-safe-payment-followup",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is with invoice amount/due date, contact preference, follow-up cadence, notes, and editable email/WhatsApp copy, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for with invoice amount/due date, contact preference, follow-up cadence, notes, and editable.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "glance-cart",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is an Android app with a lock-screen/home-screen widget, large one-tap item advance, optional local speech-to-text capture, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for an Android app with a lock-screen/home-screen widget, large one-tap item advance.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "glyph-bridge-cards",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is an offline deck builder with glyph, pronunciation, meaning, example sentence, and optional user-recorded audio; practice, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for an offline deck builder with glyph, pronunciation, meaning, example sentence, and.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "haptic-speaking-pacer",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is a watch companion that learns a baseline from a short practice sample, detects only speech activity/estimated words-per, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a watch companion that learns a baseline from a short practice sample, detects only.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "health-export-cleaner",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is browser-only tool that reads a supported health CSV/XML export, selects date range and record types, drops identifiers/G, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for browser-only tool that reads a supported health CSV/XML export, selects date range and.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "health-visit-packet",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is browser-only packet builder: paste/import selected values, attach source/date, add questions and a medication list, then, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for browser-only packet builder: paste/import selected values, attach source/date, add.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "home-care-evidence",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is local PWA with a maintenance card containing the observed issue, photos, vendor/DIY note, receipt attachment, due interv, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local PWA with a maintenance card containing the observed issue, photos, vendor/DIY.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "kid-algorithm-stations",
+      "kind": "game",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is printable four-station packs: instruction writer, executor, debugger, and tester; includes sequen, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for printable four-station packs: instruction writer, executor, debugger, and tester.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "import-reconciliation-ledger",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline web app that maps CSV columns, applies visible transforms, computes before/after totals and stable row fingerpri, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline web app that maps CSV columns, applies visible transforms, computes before/after.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "inclusive-game-jam-cards",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is goal, control, obstacle, feedback, and accessibility choices that produces a one-screen HTML gam, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for goal, control, obstacle, feedback, and accessibility choices that produces a one-screen.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "invoice-evidence-pack",
+      "kind": "product",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is offline pack builder with configurable checklist templates, file hashes, missing-item flags, accountant notes, and ZIP/P, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline pack builder with configurable checklist templates, file hashes, missing-item.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "kindred-coop",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is a two-player invite-link PWA with three 15-minute asymmetric picture-and-signal puzzles, illustrated first-run control c, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a two-player invite-link PWA with three 15-minute asymmetric picture-and-signal puzzles.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "accessible-photo-catalog",
+      "kind": "product",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is local browser catalog for one folder: huge thumbnails, adjustable contrast and text, keyboard-only keep/reject/tag/renam, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local browser catalog for one folder: huge thumbnails, adjustable contrast and text.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "lesson-motion-cues",
+      "kind": "game",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is a browser canvas with named actors, a timeline of enter/move/say/highlight ranges, JavaScript data export, and self-cont, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a browser canvas with named actors, a timeline of enter/move/say/highlight ranges.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "life-lab-notebook",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is static web lab with Life-like and continuous presets, adjustable clock/season modifiers, side-by-side rule comparison, n, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for static web lab with Life-like and continuous presets, adjustable clock/season modifiers.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "local-sketch-deck",
+      "kind": "installable",
+      "category": "make",
+      "interest": 2,
+      "reason": "Its job is desktop app with cards, editable text/buttons/images, five inspectable actions (show, hide, change text, play sound, go, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for desktop app with cards, editable text/buttons/images, five inspectable actions (show.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "app"
+      ]
+    },
+    {
+      "slug": "maintenance-proof-book",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline property timeline with repair cards, receipt/photo attachment, part/vendor fields, next-due date, and a single P, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline property timeline with repair cards, receipt/photo attachment, part/vendor.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "offline-payment-matchbox",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is offline CSV importer for invoices and transactions, deterministic/date-amount-reference match suggestions, manual confir, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline CSV importer for invoices and transactions, deterministic/date-amount-reference.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "midi-roundtrip-check",
+      "kind": "installable",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is local desktop utility that opens a MIDI file, visualizes channel/program/controller timelines, flags likely unsupported, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local desktop utility that opens a MIDI file, visualizes channel/program/controller.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "payout-reconciliation-casefile",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is offline matcher for three CSV exports that groups expected fees, refunds, timing windows, and unmatched records into sha, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline matcher for three CSV exports that groups expected fees, refunds, timing.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "payout-reconciliation-explainer",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is imports three CSVs (orders/events, payout, bank), applies transparent matching rules, shows fees, but its verifying state keeps it off the front shelf.",
+      "why": "Use it to import three CSVs (orders/events, payout, bank), applies transparent matching rules.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "photo-cull-review",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is desktop-local PWA that indexes selected folders, groups exact hashes and visually similar burst candidates, presents sid, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for desktop-local PWA that indexes selected folders, groups exact hashes and visually.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "private-call-captions",
+      "kind": "installable",
+      "category": "access",
+      "interest": 5,
+      "reason": "Its job is transcribes the selected microphone locally into a high-contrast resizable caption window, supports c, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for transcribes the selected microphone locally into a high-contrast resizable caption.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "project-install-capsule",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is generates a rootless container/VM capsule from a declared install command, exposes only an empty workspace an, but its verifying state keeps it off the front shelf.",
+      "why": "Use it to generate a rootless container/VM capsule from a declared install command, exposes only.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "calm-language-routine",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is a local-first PWA with one bounded daily set, optional weekly planning, a one-tap archive-with-reason action, and export, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local-first PWA with one bounded daily set, optional weekly planning, a one-tap.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "quote-decision-log",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is local quote checklist with one reviewer, send-ready status, accept/decline page, expiry date, and signed decision export, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for local quote checklist with one reviewer, send-ready status, accept/decline page, expiry.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "quote-review-gate",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is a shareable local quote-review page: upload or paste a quote, flag price/scope fields, request one approver, collect app, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a shareable local quote-review page: upload or paste a quote, flag price/scope fields.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "receipt-tax-packet",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is captures/imports receipt images, records amount/date/category/claim note, hashes the original, and expo, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for captures/imports receipt images, records amount/date/category/claim note, hashes the.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "relational-fixture-scrubber",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a PostgreSQL-first CLI with a YAML classification map, deterministic keyed pseudonyms, referential-integrity checks, and, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a PostgreSQL-first CLI with a YAML classification map, deterministic keyed pseudonyms.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "forgetting-repair-queue",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is anki CSV/review exports that ranks items by recent failure ratio and response time, then offers rev, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for anki CSV/review exports that ranks items by recent failure ratio and response time, then.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "retro-save-portability",
+      "kind": "installable",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is desktop utility that detects supported emulator save locations, fingerprints games and save formats, makes timestamped p, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for desktop utility that detects supported emulator save locations, fingerprints games and.",
+      "featured": false,
+      "tags": [
+        "play",
+        "app"
+      ]
+    },
+    {
+      "slug": "job-liveness-proof",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a self-hostable receiver and CLI that accepts signed start/finish heartbeats, imports a CI check snapshot, and renders a, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a self-hostable receiver and CLI that accepts signed start/finish heartbeats, imports a.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "semantic-color-proof",
+      "kind": "installable",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a local screenshot tool where users mark two or more semantic states (for example success/warning/error), then receive c, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local screenshot tool where users mark two or more semantic states (for example.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "invoice-approval-gate",
+      "kind": "product",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a local-first PWA that stores a quote/invoice PDF, recipient, amount, approver, and one approve/reject comment; it relea, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for a local-first PWA that stores a quote/invoice PDF, recipient, amount, approver, and one.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "shared-capacity-slots",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline capacity simulator: define people/resources/service requirements, import busy ICS blocks, calculate offerable sl, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for offline capacity simulator: define people/resources/service requirements, import busy.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "subclient-worklog",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is with payer, end client, work order, timer/manual entries, deliverable links, and a one-click client-neutral, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for with payer, end client, work order, timer/manual entries, deliverable links, and a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "offline-syllabus-practice",
+      "kind": "installable",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is an Android offline package player that imports a teacher-authored topic manifest, questions, worked answers, and lightwe, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for an Android offline package player that imports a teacher-authored topic manifest.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "tax-evidence-pack",
+      "kind": "installable",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is encrypted local desktop app: drag receipts/invoices, tag tax year/category/transaction reference, flag missing evidence, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for encrypted local desktop app: drag receipts/invoices, tag tax year/category/transaction.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "telemetry-export-receipts",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is approved telemetry-export endpoints that enforces query bounds and emits signe, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for approved telemetry-export endpoints that enforces query bounds and emits signe.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "transcript-redaction-gate",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is an offline CLI/library that recognizes common terminal and JSONL transcript formats, applies policy rules and entropy/cr, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for an offline CLI/library that recognizes common terminal and JSONL transcript formats.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "family-weekboard",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is weekly board with people/lane colors, recurring events, printable view, and standard ICS import/export; s, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for weekly board with people/lane colors, recurring events, printable view, and standard ICS.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "workspace-sandbox-manifest",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is reads sandbox.toml, compiles workspace/file/network/process policy to macOS Seatbelt or Linux bubblewrap, pro, but its verifying state keeps it off the front shelf.",
+      "why": "Use it to read sandbox.toml, compiles workspace/file/network/process policy to macOS Seatbelt or.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "zoom-workflow-check",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is playwright-compatible CLI that records a short keyboard path, reruns it at 200% and 400%, captures focused-element visib, but its verifying state keeps it off the front shelf.",
+      "why": "Get a tool for playwright-compatible CLI that records a short keyboard path, reruns it at 200% and.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "a11y-interaction-trace",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is records explicitly started test sessions, captures keyboard/focus events, opt-in screenshots, and, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to record explicitly started test sessions, captures keyboard/focus events, opt-in.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "accessible-explanation-checkin",
+      "kind": "product",
+      "category": "access",
+      "interest": 5,
+      "reason": "Its job is one prompt, one optional voice/text explanation, one confidence rating, and, a complete answer rather than another general tracker.",
+      "why": "Ask students to explain an answer by voice or text, then review their confidence.",
+      "featured": true,
+      "tags": [
+        "access"
+      ]
+    },
+    {
+      "slug": "automation-action-receipts",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a local sidecar/CLI protocol that accepts declared tool events, chains hashes, signs an exportable JSON/HTML receipt, an, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a local sidecar/CLI protocol that accepts declared tool events, chains hashes, signs an.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "actuals-job-sequencer",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is up to five active jobs: ordered steps, actual finish date, non-working days, dependency shifts, and a co, a real but narrow task.",
+      "why": "Get a tool for up to five active jobs: ordered steps, actual finish date, non-working days, dependency.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "agent-secret-capsule",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is injects a selected secret only into a named subprocess or localhost credential broker, strips exact and, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for injects a selected secret only into a named subprocess or localhost credential broker.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "agent-write-barrier",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is wrapper that launches an agent in a constrained directory, snapshots allowed and adjacent paths, blocks writes out, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for wrapper that launches an agent in a constrained directory, snapshots allowed and.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "android-backup-coverage",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is an Android app that inventories configured source folders, computes local file manifests, reads a user-selected destinat, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for an Android app that inventories configured source folders, computes local file.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "android-site-blocker-private",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is android app: local VpnService DNS interceptor with user-managed block list (wildcards), import/export list, optional unl, a real but narrow task.",
+      "why": "Get a tool for android app: local VpnService DNS interceptor with user-managed block list (wildcards).",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "remote-screen-reader",
+      "kind": "installable",
+      "category": "access",
+      "interest": 5,
+      "reason": "Its job is android app that photographs/streams a selected screen region, performs on-device OCR, reads only changed lines on a pus, a complete answer rather than another general tracker.",
+      "why": "Get a tool for android app that photographs/streams a selected screen region, performs on-device OCR.",
+      "featured": false,
+      "tags": [
+        "access",
+        "app"
+      ]
+    },
+    {
+      "slug": "api-example-linter",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is cLI extracts JSON/curl examples from Markdown/OpenAPI, validates them against a chosen operation/schema, optionally runs, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for cLI extracts JSON/curl examples from Markdown/OpenAPI, validates them against a chosen.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "api-profile-guard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a local proxy/CLI wrapper that resolves named env files, displays a non-secret profile fingerprint, validates host/metho, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a local proxy/CLI wrapper that resolves named env files, displays a non-secret profile.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "api-scenario-patch",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a CLI/proxy that records an opted-in sequence of HTTP exchanges, replaces configured secrets with placeholders, extracts, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a CLI/proxy that records an opted-in sequence of HTTP exchanges, replaces configured.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "config-apply-witness",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a plugin-based CLI with one initial Supabase adapter that records a config input hash, fetches safe readback, and produc, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a plugin-based CLI with one initial Supabase adapter that records a config input hash.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "arazzo-proof-runner",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI supports a documented Arazzo subset, executes against a selected environment, captures redacted request/response met, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI supports a documented Arazzo subset, executes against a selected environment.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "async-trace-stitcher",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is accepts redacted JSON/NDJSON exports from logs and webhooks, correlates configured IDs and timestam, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to accept redacted JSON/NDJSON exports from logs and webhooks, correlates configured IDs.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "audio-gap-loop",
+      "kind": "product",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is a browser-only audio practice player: import personally owned clips, mark a transcript line, set listen/pause/repeat cad, a complete answer rather than another general tracker.",
+      "why": "Loop a line in your own audio, speak it back, and practise at your pace.",
+      "featured": true,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "audio-reflection-markers",
+      "kind": "product",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is mobile-first PWA for user-supplied audio/video links or local files: one-button timestamp marker, typed/voice takeaway, which is specific enough to reward a curious click.",
+      "why": "Get a tool for mobile-first PWA for user-supplied audio/video links or local files: one-button.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "gh-account-autoswitch",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is v1: a small Go binary installed as a `gh` shim (or via `gh extension install`) that reads `~/.config/gh-accounts.toml` r, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1: a small Go binary installed as a `gh` shim (or via `gh extension install`) that.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "availability-dst-audit",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is a static web tool that accepts weekly hours, IANA zones, and a date range, then renders overlap/DST boundary cases and e, a real but narrow task.",
+      "why": "Get a tool for a static web tool that accepts weekly hours, IANA zones, and a date range, then renders.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "s3-console",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is v1 is a static single-page app (also shipped as a tiny Docker image) that stores endpoint credentials in the browser onl, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1 is a static single-page app (also shipped as a tiny Docker image) that stores.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "backup-coverage-ledger",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline/shared YAML-or-CSV ledger with asset records, backup targets, last proof date, recovery instructions, expiry ale, a real but narrow task.",
+      "why": "Get a tool for offline/shared YAML-or-CSV ledger with asset records, backup targets, last proof date.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bank-csv-intake-check",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is local drag-and-drop CSV/OFX preflight that identifies delimiter/encoding/date/decimal assumptions, duplicate and missing, a real but narrow task.",
+      "why": "Get a tool for local drag-and-drop CSV/OFX preflight that identifies delimiter/encoding/date/decimal.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bike-check-card",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline form for bike, component, mileage, pressure, symptom timeline, sensor-vs-GPS reading, and annotated photos; expo, a real but narrow task.",
+      "why": "Get a tool for offline form for bike, component, mileage, pressure, symptom timeline, sensor-vs-GPS.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bike-service-receipts",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline-first PWA with bike profiles, one-tap service receipts (actions, photo, cost, odometer), rule-based reminders, a, a real but narrow task.",
+      "why": "Get a tool for offline-first PWA with bike profiles, one-tap service receipts (actions, photo, cost.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bike-service-timeline",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is with bikes, components, service entries, receipts/photos, mileage/date triggers, and one chronological all-b, a real but narrow task.",
+      "why": "Get a tool for with bikes, components, service entries, receipts/photos, mileage/date triggers, and one.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "billable-receipt-split",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is stores a receipt image, creates manual line items, allocates each line across jobs with billable flags, a real but narrow task.",
+      "why": "Get a tool for stores a receipt image, creates manual line items, allocates each line across jobs with.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bird-id-evidence-card",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline-first mobile web form for recording date/location precision, visual traits, call notes, candidate species, confi, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for offline-first mobile web form for recording date/location precision, visual traits, call.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bird-sighting-proof-card",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is offline proof-card builder with photo/audio attachments, extracted timestamp, rounded location options, field-mark check, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for offline proof-card builder with photo/audio attachments, extracted timestamp, rounded.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "boardgame-session-notes",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is offline session template with participants, pre-play state/photo, reusable house-rule snippets, event timeline, and fina, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline session template with participants, pre-play state/photo, reusable house-rule.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "booking-side-notes",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local companion PWA that imports a day’s ICS events and attaches nonblocking, time-anchored notes, checkboxes, and remin, a real but narrow task.",
+      "why": "Get a tool for local companion PWA that imports a day’s ICS events and attaches nonblocking.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bookmark-import-audit",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is a fully local web app that reads Netscape bookmark HTML, builds a path-aware inventory, flags lossy-import hazards and d, a real but narrow task.",
+      "why": "Get a tool for a fully local web app that reads Netscape bookmark HTML, builds a path-aware inventory.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bookmark-merge-map",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline browser app that imports two bookmark HTML exports, normalizes canonical URLs, pairs likely duplicates, surfaces, a real but narrow task.",
+      "why": "Get a tool for offline browser app that imports two bookmark HTML exports, normalizes canonical URLs.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "branching-problem-circle",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is offline-capable facilitator web app: author one problem, add up to six approach branches, collect anonymous ‘try this’ v, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline-capable facilitator web app: author one problem, add up to six approach.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "code-graph-explorer",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is v1 is a static web app: drag a folder (File System Access API) or run `npx codegraph` to index; tree-sitter-wasm extract, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1 is a static web app: drag a folder (File System Access API) or run `npx codegraph` to.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "local-pdf-forms-signer",
+      "kind": "utility",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is static page using pdf-lib/pdf.js: open a PDF, drag text/checkbox/date fields onto pages, fill existing AcroForm fields, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static page using pdf-lib/pdf.js: open a PDF, drag text/checkbox/date fields onto pages.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "calendar-handoff-card",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is accepts pasted event fields or an ICS file and creates accessible plain text, a compact image/PDF, a real but narrow task.",
+      "why": "Use it to accept pasted event fields or an ICS file and creates accessible plain text, a compact.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "calm-scroll",
+      "kind": "extension",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is detects autoplay, transforms, smooth-scroll, sticky animation, and parallax; offers a one-click, a real but narrow task.",
+      "why": "Use it to detect autoplay, transforms, smooth-scroll, sticky animation, and parallax; offers a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "canvas-regression-reel",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is an npm recorder/reporter for browser canvas games: capture a seeded input trace, render checkpoint PNGs, compare toleran, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for an npm recorder/reporter for browser canvas games: capture a seeded input trace, render.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "model-capacity-sentinel",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a self-hostable probe runner that sends user-supplied synthetic canaries, records status/latency/validated JSON invarian, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a self-hostable probe runner that sends user-supplied synthetic canaries, records.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "caption-clarity",
+      "kind": "product",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is emphasis, line length, pause-on-keywor, which is specific enough to reward a curious click.",
+      "why": "Get a tool for emphasis, line length, pause-on-keywor.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "caption-confidence",
+      "kind": "extension",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is local web app/extension that imports VTT/SRT or reads an exposed HTML5 track, highlights user-defined sound-confusion pa, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local web app/extension that imports VTT/SRT or reads an exposed HTML5 track, highlights.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "caption-cues",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is transforms captions already exposed by the page: selectable emphasis rules for names, speaker c, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for transforms captions already exposed by the page: selectable emphasis rules for names.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "caption-fix-queue",
+      "kind": "product",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is a local drag-and-drop SRT/VTT checker that flags improbable repeats, blank runs, unsupported characters, long reading-sp, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a local drag-and-drop SRT/VTT checker that flags improbable repeats, blank runs.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "capture-clock-repair",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is groups by camera/source, flags timezone and filename/date conflicts, proposes reversible XMP sidecar pa, a real but narrow task.",
+      "why": "Use it to group by camera/source, flags timezone and filename/date conflicts, proposes reversible.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "caregiver-last-action",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is two devices: one-tap event start/stop, prominent last-action board, correction history, and enc, a real but narrow task.",
+      "why": "Get a tool for two devices: one-tap event start/stop, prominent last-action board, correction history.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "collection-import-reconciler",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local drag-and-drop CSV/JSON preflight that maps columns, normalizes identifiers, reports added/changed/missing/collidin, a real but narrow task.",
+      "why": "Get a tool for local drag-and-drop CSV/JSON preflight that maps columns, normalizes identifiers.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "catch-photo-log",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is reads optional photo EXIF, then prompts for species, rig, bait/lure, water conditions, line/anchor setu, a real but narrow task.",
+      "why": "Use it to read optional photo EXIF, then prompts for species, rig, bait/lure, water conditions.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "change-diff-inbox",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is a self-hostable watcher with CSS selectors, structured-data extraction, noise thresholds, and a compact semantic diff in, a complete answer rather than another general tracker.",
+      "why": "Watch chosen page sections and review the meaningful changes.",
+      "featured": true,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "ci-outage-witness",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a GitHub CLI extension that snapshots run metadata, job transitions, available logs, runner diagnostics, GitHub status c, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a GitHub CLI extension that snapshots run metadata, job transitions, available logs.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "claim-ready-homebook",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is item photos, value/date/serial/receipt, container and room location, plus an encrypted export that creat, a complete answer rather than another general tracker.",
+      "why": "Build a private home inventory and export evidence for an insurance claim.",
+      "featured": true,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "classroom-algorithm-cards",
+      "kind": "game",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is printable role cards, instruction cards, challenge cards, and a one-page facilitation guide for 2, a real but narrow task.",
+      "why": "Get a tool for printable role cards, instruction cards, challenge cards, and a one-page facilitation.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "client-offboarding-kit",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local wizard for asset list, owners, links, transfer/revoke actions, support window, and client acknowledgement; exports, a real but narrow task.",
+      "why": "Get a tool for local wizard for asset list, owners, links, transfer/revoke actions, support window, and.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "cloud-exit-evidence",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is compares a cloud-provider export/listing or sync manifest with an offline destination, classifies cover, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to compare a cloud-provider export/listing or sync manifest with an offline destination.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "code-echo",
+      "kind": "extension",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is for documentation and code-review pages that reads a selected line/token with programmable punctuati, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for for documentation and code-review pages that reads a selected line/token with.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "code-path-lens",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is an LSP/tree-sitter CLI and static viewer that starts at a symbol, follows a bounded call/type/data path, and emits a sou, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for an LSP/tree-sitter CLI and static viewer that starts at a symbol, follows a bounded.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "collection-escape-hatch",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is reads Postman v2.1 plus one target export (initially Bruno/Hoppscotch), checks requests, folders, varia, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to read Postman v2.1 plus one target export (initially Bruno/Hoppscotch), checks requests.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "collector-pressure-lab",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI loads a Collector config and a bounded OTLP/OTLP-like traffic sample, replays configurable bursts against a local co, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI loads a Collector config and a bounded OTLP/OTLP-like traffic sample, replays.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "color-context",
+      "kind": "product",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is a local image/PDF viewer with sampled-color callouts, high-contrast texture overlays, user labels, and exportable annota, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a local image/PDF viewer with sampled-color callouts, high-contrast texture overlays.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "color-meaning-lens",
+      "kind": "extension",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is lets users map page colors to patterns and short labels (for example PASS, WARN, FAIL), with a, which is specific enough to reward a curious click.",
+      "why": "Use it to let users map page colors to patterns and short labels (for example PASS, WARN, FAIL).",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "motion-comfort-card",
+      "kind": "game",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is creates a per-game comfort card: symptom triggers, ordered settings to try (head bob, shake, blur, FOV, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to create a per-game comfort card: symptom triggers, ordered settings to try (head bob.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "duplicate-folder-finder-web",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is static PWA using the File System Access API: pick folder A and B (or one root), hash files in workers (size-first, then, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static PWA using the File System Access API: pick folder A and B (or one root), hash.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "comprehensible-input-log",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is an offline log where users save a source, duration/pages, self-rate understanding, record up to three recurring unknown, a real but narrow task.",
+      "why": "Get a tool for an offline log where users save a source, duration/pages, self-rate understanding.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "concept-case-bridge",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local case-card editor: author a compact scenario, tag the technical concept and domain signal, hide the decision, and r, a real but narrow task.",
+      "why": "Get a tool for local case-card editor: author a compact scenario, tag the technical concept and domain.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "config-drift-timeline",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is ingests redacted dotenv/YAML/JSON snapshots from named environments, normalizes values, and emits a tim, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for ingests redacted dotenv/YAML/JSON snapshots from named environments, normalizes values.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "config-rationale-guard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is pairs strict JSON/YAML/TOML with adjacent rationale annotations, validates schema and annotation targets, and, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for pairs strict JSON/YAML/TOML with adjacent rationale annotations, validates schema and.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "comic-reference-sheet-board",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is local board with character reference slots, named attributes, prop checklist, 4–12 panel shot cards, and print/PDF expor, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local board with character reference slots, named attributes, prop checklist, 4–12 panel.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "forge-sync",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is v1: single binary/Docker with config `source: github org X → target: forgejo instance Y`; polls for new repos, creates t, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1: single binary/Docker with config `source: github org X → target: forgejo instance.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "creative-cartridge",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is a downloadable PWA bundle with six tiny local activities (sound painting, shape stories, camera-free stop-motion cards, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a downloadable PWA bundle with six tiny local activities (sound painting, shape stories.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "lockfile-age-audit",
+      "kind": "library",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is cross-ecosystem lockfile release-age auditor and CI gate, a complete answer rather than another general tracker.",
+      "why": "Get a tool for cross-ecosystem lockfile release-age auditor and CI gate.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "css-cause-map",
+      "kind": "extension",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is adds an element picker, captures computed layout plus ancestor constraints, ranks the CSS properties c, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for adds an element picker, captures computed layout plus ancestor constraints, ranks the.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "csv-import-contract",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is profiles CSV/XLSX parsing, proposes a column map and deterministic validations, lets users define trans, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for profiles CSV/XLSX parsing, proposes a column map and deterministic validations, lets.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "csv-keyed-diff",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline web app that accepts two CSVs, lets users choose one or more key columns, detects adds/removes/field changes, re, a real but narrow task.",
+      "why": "Get a tool for offline web app that accepts two CSVs, lets users choose one or more key columns.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "cycle-block-animator",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is a browser timeline that imports numbered PNGs, defines cyclic blocks and offsets, previews the resulting loop, and expor, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a browser timeline that imports numbered PNGs, defines cyclic blocks and offsets.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "data-engine-switchboard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a Python CLI that runs declared Pandas/Polars transformations on redacted fixtures, checks value/schema/order parity, co, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a Python CLI that runs declared Pandas/Polars transformations on redacted fixtures.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "db-access-receipts",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a local proxy/CLI with named allowlisted query templates, row/column caps, mandatory human confirmation for novel querie, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a local proxy/CLI with named allowlisted query templates, row/column caps, mandatory.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "delivery-acceptance-receipt",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local web app that hashes a selected file manifest or service checklist, creates a client acknowledgement page, records, a real but narrow task.",
+      "why": "Get a tool for local web app that hashes a selected file manifest or service checklist, creates a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "creative-tech-demo-recorder",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is browser recorder that captures a selected tab plus optional mic, lets the maker mark one interaction beat and one captio, which is specific enough to reward a curious click.",
+      "why": "Get a tool for browser recorder that captures a selected tab plus optional mic, lets the maker mark one.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "devcontainer-backend-doctor",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is statically inspects devcontainer.json and Compose, probes a selected local backend, and reports incompatibili, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for statically inspects devcontainer.json and Compose, probes a selected local backend, and.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "dev-diagnostic-packet",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is runs an opt-in project diagnostic manifest, captures tool versions/config hashes/redacted logs/reproduction c, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to run an opt-in project diagnostic manifest, captures tool versions/config hashes/redacted.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "cookbook-print-run",
+      "kind": "utility",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a static offline web app that accepts Markdown/JSON recipe files, selects recipes and servings, creates a paginated prin, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a static offline web app that accepts Markdown/JSON recipe files, selects recipes and.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "doodle-to-game",
+      "kind": "product",
+      "category": "make",
+      "interest": 2,
+      "reason": "Its job is a tablet-friendly offline PWA with three fixed games (dodge, collect, top-down maze), but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a tablet-friendly offline PWA with three fixed games (dodge, collect, top-down maze).",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "care-dose-board",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is one household: medication cards, scheduled doses, an explicit given/skipped/uncertain status, care, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for one household: medication cards, scheduled doses, an explicit given/skipped/uncertain.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "takeout-photo-metadata-fixer",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is static PWA: select the extracted Takeout folder (or zips), preview matches/unmatched, write EXIF from JSON (JPEG/HEIC/PN, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static PWA: select the extracted Takeout folder (or zips), preview matches/unmatched.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "supplier-due-board",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is an offline due-date board with supplier, amount, due date, attachment, paid date, and a weekly printable list, a real but narrow task.",
+      "why": "Get a tool for an offline due-date board with supplier, amount, due date, attachment, paid date, and a.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "ear-in-context",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is three modules sharing one engine: interval/scale-degree ID within a cadence context, progression ID with proper voice le, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for three modules sharing one engine: interval/scale-degree ID within a cadence context.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "early-pay-terms",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is a local terms calculator and invoice attachment generator: choose discount basis, tax treatment, dates, and currency rou, a real but narrow task.",
+      "why": "Get a tool for a local terms calculator and invoice attachment generator: choose discount basis, tax.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "photo-edit-portability-map",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is read-only desktop CLI that inventories a Lightroom catalog/XMP and a target folder, classifies fields as embedded, sidec, a real but narrow task.",
+      "why": "Use it to read-only desktop CLI that inventories a Lightroom catalog/XMP and a target folder.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "photo-edit-sidecar-check",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local desktop/web checker that compares source plus sidecar/export, reports pixel-bearing edit data versus portable meta, a real but narrow task.",
+      "why": "Get a tool for local desktop/web checker that compares source plus sidecar/export, reports.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "equation-audio-guide",
+      "kind": "utility",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is static web editor that accepts Markdown/LaTex, proposes deterministic spoken-math phrases and code-reading chunks, flags, which is specific enough to reward a curious click.",
+      "why": "Get a tool for static web editor that accepts Markdown/LaTex, proposes deterministic spoken-math.",
+      "featured": false,
+      "tags": [
+        "access"
+      ]
+    },
+    {
+      "slug": "event-payload-spillway",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a reverse-proxy/library pair that detects configured oversized fields, writes the original encrypted payload to S3-compa, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a reverse-proxy/library pair that detects configured oversized fields, writes the.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "exam-deadline-map",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is importing Anki CSV/review counts, an exam date, and daily minutes to produce a review/new-card calendar, a real but narrow task.",
+      "why": "Get a tool for importing Anki CSV/review counts, an exam date, and daily minutes to produce a.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "explain-then-check",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is a local prompt runner: choose a concept, record or type an explanation under headings (what, why, failure case), mark mi, a real but narrow task.",
+      "why": "Get a tool for a local prompt runner: choose a concept, record or type an explanation under headings.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "small-business-export-map",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline CSV preflight tool with saved recipient profiles, delimiter/decimal/date checks, required-column mapping, visibl, a real but narrow task.",
+      "why": "Get a tool for offline CSV preflight tool with saved recipient profiles, delimiter/decimal/date checks.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "canvas-export-proof",
+      "kind": "extension",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is cLI/browser extension that captures a canvas's accessibility/text tree and bounding boxes before export, compares it to, which is specific enough to reward a curious click.",
+      "why": "Get a tool for cLI/browser extension that captures a canvas's accessibility/text tree and bounding.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "package-cost-explorer",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is v1 static site: input name@version; fetch tarballs from the npm CDN (jsDelivr/unpkg) in the browser; resolve `exports`/`, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1 static site: input name@version; fetch tarballs from the npm CDN (jsDelivr/unpkg) in.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "family-digital-dossier",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is an offline encrypted template that records institutions, document locations, renewal dates, emergency contacts, and exec, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for an offline encrypted template that records institutions, document locations, renewal.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "feed-later-bridge",
+      "kind": "extension",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is a local-first web/extension pair that imports a user-designated RSS/Atom saved-items feed, deduplicates entries, lets th, a real but narrow task.",
+      "why": "Get a tool for a local-first web/extension pair that imports a user-designated RSS/Atom saved-items.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "file-change-space-check",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is desktop CLI that scans source/destination metadata, lets users select a conflict policy, estimates net bytes and tempora, a real but narrow task.",
+      "why": "Get a tool for desktop CLI that scans source/destination metadata, lets users select a conflict policy.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "incident-fingerprint-preview",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a CLI/library that imports redacted event JSON, evaluates a small fingerprint-rule DSL, and reports split/merge deltas w, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a CLI/library that imports redacted event JSON, evaluates a small fingerprint-rule DSL.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "finish-one-pantry",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline mobile PWA with a pinned shelf of recurring packages and one Finish button that decrements a simple reserve coun, a real but narrow task.",
+      "why": "Get a tool for offline mobile PWA with a pinned shelf of recurring packages and one Finish button that.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "firebase-environment-doctor",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is reads Firebase project files and runs explicit read-only checks to output a shareable diagnostic card w, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to read Firebase project files and runs explicit read-only checks to output a shareable.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "api-fixture-matrix",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is reads an OpenAPI operation plus JSON fixtures, runs a Cartesian or named matrix, and emits a colorized, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Use it to read an OpenAPI operation plus JSON fixtures, runs a Cartesian or named matrix, and.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "flag-removal-map",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI accepts a provider export and repositories, finds SDK/config references, records optional evaluation counts from a l, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI accepts a provider export and repositories, finds SDK/config references, records.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "flaky-test-casefile",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is playwright reporter that packages retries, normalizes timing noise, clusters matching failures, and renders a static cas, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for playwright reporter that packages retries, normalizes timing noise, clusters matching.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "folder-recipe-switcher",
+      "kind": "installable",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is writes a versioned `.photo-recipe.json` beside a folder, records camera/source heuristics and recom, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for writes a versioned `.photo-recipe.json` beside a folder, records camera/source.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "sprite-frame-lab",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is a local web lab that imports a sheet and frame map, previews common UV-aware effects over any selected frame, and export, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a local web lab that imports a sheet and frame map, previews common UV-aware effects.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "freezer-life-ledger",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is barcode/name entry, one-tap Open/Freeze/Finish actions, best-before date, location, and a ‘use next’ list, a real but narrow task.",
+      "why": "Get a tool for barcode/name entry, one-tap Open/Freeze/Finish actions, best-before date, location, and.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "frequency-feel",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is offline interactive page with a safe synthetic sound, draggable filter/EQ controls, synchronized frequency response, bef, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline interactive page with a safe synthetic sound, draggable filter/EQ controls.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "function-flow-canvas",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is using an installed language server to emit one self-contained HTML canvas for a selected symbol: inbound/out, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for using an installed language server to emit one self-contained HTML canvas for a selected.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "future-skills-portfolio",
+      "kind": "game",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is ages 10–16: each card has a build/explain/critique task, material limits, reflecti, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for ages 10–16: each card has a build/explain/critique task, material limits, reflecti.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "parent-kid-game-jam",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is with 20 printable/on-screen prompt cards, a three-step idea→asset→play loop, local project gallery, and a sh, which is specific enough to reward a curious click.",
+      "why": "Get a tool for with 20 printable/on-screen prompt cards, a three-step idea→asset→play loop, local.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "game-night-score-ledger",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and team totals; guests can view but, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "gesture-game-replay",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is nPM library and local viewer that records only timestamped pose/hand landmarks, replays them at chosen speed, compares g, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for nPM library and local viewer that records only timestamped pose/hand landmarks, replays.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "headless-scheduler",
+      "kind": "library",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is v1 (npm, framework-agnostic core + React adapter): day/week/month views with continuous vertical month scrolling, a hori, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1 (npm, framework-agnostic core + React adapter): day/week/month views with continuous.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "hearing-mode-notes",
+      "kind": "installable",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is offline Android app with one-tap place tags, mode/volume notes, optional manual sound-comfort rating, and a lock-screen, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline Android app with one-tap place tags, mode/volume notes, optional manual.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "hex-daily-notebook",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a static PWA serving one deterministic daily hex deduction puzzle, an unlimited local pencil layer with eraser, keyboard, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a static PWA serving one deterministic daily hex deduction puzzle, an unlimited local.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "browser-history-export-sentinel",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is detects installed Chromium/Firefox profiles, copies databases safely, exports normalized JSON/CSV, and, a real but narrow task.",
+      "why": "Use it to detect installed Chromium/Firefox profiles, copies databases safely, exports normalized.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "song-loop-earcoach",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is pWA that accepts a local audio clip, loops an A/B region, records a short microphone or MIDI answer, estimates contour/p, which is specific enough to reward a curious click.",
+      "why": "Get a tool for pWA that accepts a local audio clip, loops an A/B region, records a short microphone or.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "home-service-history",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is with a single job receipt: component/location, completion date, cost, contractor, warranty expiry, photos, a, a real but narrow task.",
+      "why": "Get a tool for with a single job receipt: component/location, completion date, cost, contractor.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "how-it-runs",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is one shared engine (flow graph of tanks/queues/valves rendered in 2D) and three original systems at launch: municipal wat, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for one shared engine (flow graph of tanks/queues/valves rendered in 2D) and three original.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "humane-practical-exams",
+      "kind": "product",
+      "category": "learn",
+      "interest": 5,
+      "reason": "Its job is self-hostable web app for a timed task brief, local artifact upload, candidate-written work log, checkpoint hashes, and, a complete answer rather than another general tracker.",
+      "why": "Get a tool for self-hostable web app for a timed task brief, local artifact upload, candidate-written.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "idempotency-rehearsal",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a local CLI/test-library that sends a declared event sequence to an HTTP handler, records outbound effects through adapt, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a local CLI/test-library that sends a declared event sequence to an HTTP handler.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "identity-migration-map",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is a local manifest generator taking declared identifier mappings plus filesystem/config/database read-only exports and pro, a real but narrow task.",
+      "why": "Get a tool for a local manifest generator taking declared identifier mappings plus.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "import-transform-ledger",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is compares source/target CSV headers, records mapping and deterministic transforms, previews rejects/, a real but narrow task.",
+      "why": "Use it to compare source/target CSV headers, records mapping and deterministic transforms.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "importance-weighted-review",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is a local CSV/Anki-export policy editor that maps tags or numeric fields such as frequency, exam weight, and safety critic, a real but narrow task.",
+      "why": "Get a tool for a local CSV/Anki-export policy editor that maps tags or numeric fields such as.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "interview-recall-deck",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is turns a user’s own projects into short prompt/evidence cards, supports a timed but pausable voice-or, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to turn a user’s own projects into short prompt/evidence cards, supports a timed but.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "journey-failure-receipts",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is an npm Playwright reporter/helper that captures screenshot, selected DOM/accessibility snapshot, console errors, network, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for an npm Playwright reporter/helper that captures screenshot, selected DOM/accessibility.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "tabular-file-diff",
+      "kind": "library",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is v1: `tdiff a.parquet b.parquet --key id` prints row counts added/removed/modified, per-column change counts, schema diff, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1: `tdiff a.parquet b.parquet --key id` prints row counts added/removed/modified.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "kitchen-table",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is room-code lobby; v1 ships three public-domain games with original art: a Parcheesi/Ludo-style race, a dots-and-boxes, an, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for room-code lobby; v1 ships three public-domain games with original art: a.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "knowledge-handoff-bundle",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is turns a YAML checklist and local files/URLs into a static handoff site with manifest, link checks, ownership, a real but narrow task.",
+      "why": "Use it to turn a YAML checklist and local files/URLs into a static handoff site with manifest.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "knowledge-note-bridge",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is a local Markdown-to-Anki bridge with stable card IDs, a dry-run diff, explicit archive/rename handling, and a reversible, a real but narrow task.",
+      "why": "Get a tool for a local Markdown-to-Anki bridge with stable card IDs, a dry-run diff, explicit.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "kube-permission-evidence",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a read-only CLI that collects RBAC objects, evaluates a bounded subject/resource matrix, and creates a Markdown/JSON evi, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a read-only CLI that collects RBAC objects, evaluates a bounded subject/resource matrix.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "lan-family-dayboard",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is static web dayboard that reads manually imported ICS files or a user-run LAN feed, renders a big today/tomorrow view and, a real but narrow task.",
+      "why": "Get a tool for static web dayboard that reads manually imported ICS files or a user-run LAN feed.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "line-take-match",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is imports creator-owned WAV/MP3 takes, groups them by line, shows loudness, duration, pause, and pitc, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to import creator-owned WAV/MP3 takes, groups them by line, shows loudness, duration.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "live-figure-deck",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is a static web editor with formula labels, a 2D plot, parameter sliders, named animation intervals, and export to a self-c, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a static web editor with formula labels, a 2D plot, parameter sliders, named animation.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "timeline-json-viewer",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is local viewer for exported Google Maps Timeline JSON, a complete answer rather than another general tracker.",
+      "why": "Get a tool for local viewer for exported Google Maps Timeline JSON.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "log-duplicate-lens",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is samples Loki JSON exports or newline-delimited logs, fingerprints messages with configurable timestamp tolera, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for samples Loki JSON exports or newline-delimited logs, fingerprints messages with.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "log-scrub-contract",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is with JSON/text fixture tests, path/regex/token rules, entropy checks, and a redacted before/after report tha, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for with JSON/text fixture tests, path/regex/token rules, entropy checks, and a redacted.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "math-textbook-margins",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is static web lesson wrapper: teacher supplies page links/owned excerpts and adds prediction, worked-step, and misconceptio, a real but narrow task.",
+      "why": "Get a tool for static web lesson wrapper: teacher supplies page links/owned excerpts and adds.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "math-tooling-notebook",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is static web notebook with 20 tool-literacy drills, an embedded function plotter, scratchpad, estimation reveal, and local, a real but narrow task.",
+      "why": "Get a tool for static web notebook with 20 tool-literacy drills, an embedded function plotter.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "mechanism-playground",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is mobile-friendly 2D sandbox with ten kinematic primitives, snap points, a hand crank, slow motion, and ten local puzzle c, a complete answer rather than another general tracker.",
+      "why": "Build working gears, cams, levers, and linkages in a small machine.",
+      "featured": true,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "boardgame-catalog-import-debugger",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is a browser-based URL inspector with pluggable public-page parsers that displays fetched status, detected fields, selector, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a browser-based URL inspector with pluggable public-page parsers that displays fetched.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "metadata-change-receipt",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local desktop-web workflow that accepts exported metadata CSVs, defines a field transformation, previews affected rows, a real but narrow task.",
+      "why": "Get a tool for local desktop-web workflow that accepts exported metadata CSVs, defines a field.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "midi-practice-sandbox",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a static web app that detects MIDI ports, plays/labels the received notes, measures round-trip tap timing, checks sustai, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a static web app that detects MIDI ports, plays/labels the received notes, measures.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "migration-commit-witness",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a CI CLI that runs an existing migration command against a disposable database, snapshots selected schema/data invariant, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a CI CLI that runs an existing migration command against a disposable database.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "milkdrop-web",
+      "kind": "utility",
+      "category": "make",
+      "interest": 5,
+      "reason": "Its job is full-screen WebGL visualizer with 12 original shader presets driven by mic FFT + onset/beat detection (tempo estimate, d, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for full-screen WebGL visualizer with 12 original shader presets driven by mic FFT +.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "motion-curve-playground",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is static playground with six motion intents, editable position/rotation curves, onion-path preview, 2/4/8-frame comparison, which is specific enough to reward a curious click.",
+      "why": "Get a tool for static playground with six motion intents, editable position/rotation curves, onion-path.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "multiplayer-camera-kit",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is an npm package for Canvas/WebGL games that takes player rectangles and world bounds, outputs camera position/zoom plus a, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for an npm package for Canvas/WebGL games that takes player rectangles and world bounds.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "name-vibration-captions",
+      "kind": "installable",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is android app that listens only while the user starts a local live-caption session, matches a small personal phrase list w, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for android app that listens only while the user starts a local live-caption session.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "next-step-cards",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is with one active card: task name, next 2-minute action, required link/file, why it matters, and a completi, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for with one active card: task name, next 2-minute action, required link/file, why it.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bird-audio-slicer",
+      "kind": "installable",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is local CLI that reads WAV/FLAC headers, makes fixed or silence-aware chunks, emits a timestamped manifest and spectrogram, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local CLI that reads WAV/FLAC headers, makes fixed or silence-aware chunks, emits a.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "no-ai-language-path",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is an offline routine composer combining user-selected listening, reading, speaking, and recall blocks with timer/checklist, a real but narrow task.",
+      "why": "Get a tool for an offline routine composer combining user-selected listening, reading, speaking, and.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "gha-dry-run-planner",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is v1: `ghaplan --event pull_request --base main --head feat --paths src/a.ts` prints a tree of workflows → jobs → steps wi, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1: `ghaplan --event pull_request --base main --head feat --paths src/a.ts` prints a.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "git-stage-lines",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is v1: `git stage-lines path/to/file.ts:12-18,40 other.py:3` computes the working-tree vs index diff, builds a minimal patc, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1: `git stage-lines path/to/file.ts:12-18,40 other.py:3` computes the working-tree vs.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "note-rehearsal-router",
+      "kind": "extension",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is plus local markdown folder watcher: present one untriaged note at a time and create exactly one local, which is specific enough to reward a curious click.",
+      "why": "Get a tool for plus local markdown folder watcher: present one untriaged note at a time and create.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "notes-import-preflight",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is local CLI that inventories an export archive, reports counts/types/attachment sizes/link targets, samples conversion-ris, a real but narrow task.",
+      "why": "Get a tool for local CLI that inventories an export archive, reports counts/types/attachment sizes/link.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "selfhost-observability-fit",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is cLI that ingests a bounded OTLP sample, estimates cardinality/storage/query load, and emits comparable local compose pro, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for cLI that ingests a bounded OTLP sample, estimates cardinality/storage/query load, and.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "one-sitting-idle",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is launch with one 45-minute episode: an original theme (e.g., restoring a lighthouse: light → shipping → town → storm fina, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for launch with one 45-minute episode: an original theme (e.g., restoring a lighthouse.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "open-quiz-arena",
+      "kind": "product",
+      "category": "learn",
+      "interest": 5,
+      "reason": "Its job is open Quiz Arena: account-free live classroom quiz with no player cap, a complete answer rather than another general tracker.",
+      "why": "Run a live classroom quiz without student accounts or player limits.",
+      "featured": true,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "big-csv-browser-viewer",
+      "kind": "utility",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is static page: drop CSV/TSV/XLSX; DuckDB-WASM loads it (streamed, up to a few GB with OPFS); virtual grid; column stats; f, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static page: drop CSV/TSV/XLSX; DuckDB-WASM loads it (streamed, up to a few GB with.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "openapi-collection-bridge",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is openAPI, Postman, Insomnia, Bruno, and cURL that emits destination files plus a human-readable inv, a complete answer rather than another general tracker.",
+      "why": "Get a tool for openAPI, Postman, Insomnia, Bruno, and cURL that emits destination files plus a.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "otel-token-meter",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a local OTLP collector plus static dashboard/CLI that groups token, latency, cache, and error metrics by tool/model/proj, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a local OTLP collector plus static dashboard/CLI that groups token, latency, cache, and.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "pad-light-choreographer",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is web MIDI PWA that discovers common grid pads, plays four-lane call-and-response patterns, lights target pads, and export, which is specific enough to reward a curious click.",
+      "why": "Get a tool for web MIDI PWA that discovers common grid pads, plays four-lane call-and-response.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "pairplay-motion",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is a QR-pairing PWA with a host screen, two-phone motion calibration, and three original 2–4 player reaction games; it runs, a complete answer rather than another general tracker.",
+      "why": "Turn phones into motion controllers for three in-room games.",
+      "featured": true,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "pantry-meal-gap",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local ingredient list, 20 manually entered staple meals, match score, acceptable substitutions, and auto-generated missi, a real but narrow task.",
+      "why": "Get a tool for local ingredient list, 20 manually entered staple meals, match score, acceptable.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "parallel-ebook-reader",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is an offline web reader for two DRM-free EPUBs with chapter alignment, manual paragraph anchors, side-by-side mode, and TS, a complete answer rather than another general tracker.",
+      "why": "Read two DRM-free EPUB editions side by side and export aligned sentences.",
+      "featured": true,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "passkey-extension-check",
+      "kind": "extension",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is inventories password/passkey provider extensions and browser settings, runs a non-secret WebAut, a real but narrow task.",
+      "why": "Get a tool for inventories password/passkey provider extensions and browser settings, runs a non-secret.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "ics-to-phone-calendar",
+      "kind": "utility",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is static page: drop or paste an .ics; it parses locally, lists events, validates/repairs common defects (missing DTEND, ba, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static page: drop or paste an .ics; it parses locally, lists events, validates/repairs.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "audio-graph-sketchpad",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is static web patchboard with six native nodes, animated signal path, BPM scheduler, click-to-hear A/B changes, and shareab, which is specific enough to reward a curious click.",
+      "why": "Get a tool for static web patchboard with six native nodes, animated signal path, BPM scheduler.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "sound-toy-patchcard",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is open JSON patch-card format plus embeddable widget that stores named parameters, a tiny waveform preview, optional local, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for open JSON patch-card format plus embeddable widget that stores named parameters, a tiny.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "natural-pause-recorder",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is an offline-capable browser recorder with a visible voice/pause timeline, configurable minimum silence, post-record resto, which is specific enough to reward a curious click.",
+      "why": "Get a tool for an offline-capable browser recorder with a visible voice/pause timeline, configurable.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "persistent-ink-cues",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is offline canvas overlay with transient, persistent-until-clear, and fade modes; big clear/undo controls; exported static, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline canvas overlay with transient, persistent-until-clear, and fade modes; big.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "google-photos-delta-archive",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is a desktop CLI that ingests successive user-downloaded Takeout archives, normalizes sidecars, de-duplicates by content pl, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a desktop CLI that ingests successive user-downloaded Takeout archives, normalizes.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "photo-exit-manifest",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is reads export inventories and destination folder reports, compares counts/hashes/dates/albums where avai, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to read export inventories and destination folder reports, compares.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "phone-photo-intake",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is companion desktop/Android pair that transfers a selected batch on LAN, resumes chunks, hashes files, and creates a signe, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for companion desktop/Android pair that transfers a selected batch on LAN, resumes chunks.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "photo-stack-proof",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is local analyser that groups candidate pairs by basename, reads available capture/content IDs and timestamps, and labels e, a complete answer rather than another general tracker.",
+      "why": "Get a tool for local analyser that groups candidate pairs by basename, reads available capture/content.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "photo-walk-scratchbook",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is an offline tablet PWA with a short photo-walk prompt deck, a local-import contact sheet, stylus crop/line annotations, a, which is specific enough to reward a curious click.",
+      "why": "Get a tool for an offline tablet PWA with a short photo-walk prompt deck, a local-import contact sheet.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "pixel-tile-mask",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is drag in PNG tile sheet, choose alpha/color threshold and simplification, preview collision and occlusion masks, then exp, which is specific enough to reward a curious click.",
+      "why": "Get a tool for drag in PNG tile sheet, choose alpha/color threshold and simplification, preview.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "playlist-path-linter",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is cLI that reads M3U/M3U8 plus a library root, resolves NFC/NFD variants, reports missing/ambiguous paths and invalid year, a real but narrow task.",
+      "why": "Get a tool for cLI that reads M3U/M3U8 plus a library root, resolves NFC/NFD variants, reports.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "mobile-sprite-pack",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is opens PNG/GIF/WebP, previews frames at native scale, crops/pads, quantizes to a chosen palette, and exp, which is specific enough to reward a curious click.",
+      "why": "Get a tool for opens PNG/GIF/WebP, previews frames at native scale, crops/pads, quantizes to a chosen.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "camera-effect-postcard",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is phone-first local web app with face landmarks, three original geometric effects, portrait-safe crop guides, timer, and P, which is specific enough to reward a curious click.",
+      "why": "Get a tool for phone-first local web app with face landmarks, three original geometric effects.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "practice-loop-notebook",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is stores locally supplied audio/video references, A/B markers, a metronome ramp or variability plan, repe, which is specific enough to reward a curious click.",
+      "why": "Get a tool for stores locally supplied audio/video references, A/B markers, a metronome ramp or.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "practice-next-card",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is offline cards with piece name, measure/range, one next action, timer, perceived outcome, and optional photo/link to the, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline cards with piece name, measure/range, one next action, timer, perceived outcome.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "prereq-sprint-map",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is static web/PWA planner with editable prerequisite nodes, a diagnostic checkbox per node, target-date capacity math, and, a real but narrow task.",
+      "why": "Get a tool for static web/PWA planner with editable prerequisite nodes, a diagnostic checkbox per node.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "privacy-class-checkin",
+      "kind": "product",
+      "category": "life",
+      "interest": 4,
+      "reason": "Its job is teacher-hosted local web page generates a rotating session code; students submit a pseudonymous roster token, and the te, which is specific enough to reward a curious click.",
+      "why": "Get a tool for teacher-hosted local web page generates a rotating session code; students submit a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "private-statement-review",
+      "kind": "product",
+      "category": "money",
+      "interest": 5,
+      "reason": "Its job is offline CSV importer with a remembered local mapping, merchant merge/split rules, recurring-charge candidates, month com, a complete answer rather than another general tracker.",
+      "why": "Get a tool for offline CSV importer with a remembered local mapping, merchant merge/split rules.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "pronunciation-cards",
+      "kind": "extension",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is detects user-selected terms, offers IPA/phonetic aliases and an audio preview, then appli, which is specific enough to reward a curious click.",
+      "why": "Use it to detect user-selected terms, offers IPA/phonetic aliases and an audio preview, then appli.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "proof-motion-canvas",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is static web editor for cards, arrows, numeric labels, and named timed intervals; playback has step controls and exports o, which is specific enough to reward a curious click.",
+      "why": "Get a tool for static web editor for cards, arrows, numeric labels, and named timed intervals; playback.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "checklist-evidence-binder",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is with repeatable check cards, required evidence slots, completion/sign-off timestamps, overdue view, and a re, a real but narrow task.",
+      "why": "Get a tool for with repeatable check cards, required evidence slots, completion/sign-off timestamps.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "proxy-policy-rehearsal",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is loads a declarative proxy-policy test file, mocks DNS and request headers, runs selected Anubis/Caddy/Nginx-c, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for loads a declarative proxy-policy test file, mocks DNS and request headers, runs selected.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "timing-calibrator",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a web calibration page plus JSON exporter: analyze onsets, let a maker correct an anchor grid, run a tap/click latency t, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a web calibration page plus JSON exporter: analyze onsets, let a maker correct an anchor.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "quote-to-cash-trail",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is local-first job dossier accepting drag-dropped PDFs/CSVs and manual links, showing a linear quote→approval→invoice→payme, a real but narrow task.",
+      "why": "Get a tool for local-first job dossier accepting drag-dropped PDFs/CSVs and manual links, showing a.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "raw-fit-check",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Its job is local diagnostic that samples RAW files, extracts embedded previews and codec/camera identifiers, checks them against a, a real but narrow task.",
+      "why": "Get a tool for local diagnostic that samples RAW files, extracts embedded previews and codec/camera.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "raw-edit-recipe-cards",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is offline web simulator using licensed Creative Commons practice images: five cards such as recover sky or shape color, th, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline web simulator using licensed Creative Commons practice images: five cards such.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline"
+      ]
+    },
+    {
+      "slug": "raw-sidecar-sanity",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is local drag-and-drop checker for a folder manifest or selected RAW/JPEG pairs; reports dimension, aspect, timestamp, and, a real but narrow task.",
+      "why": "Get a tool for local drag-and-drop checker for a folder manifest or selected RAW/JPEG pairs; reports.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "reading-archive-pack",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is pocket/Instapaper/Wallabag exports that creates one Markdown file per item with metadata and annot, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for pocket/Instapaper/Wallabag exports that creates one Markdown file per item with metadata.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "reading-comfort-pacer",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is with an accessible timer that requests a break only after the next user-triggered reading boundary, th, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for with an accessible timer that requests a break only after the next user-triggered.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "reading-rail",
+      "kind": "extension",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is with a movable focus rail, dimmable surrounding paragraphs, per-site line-height/letter-spacing pres, which is specific enough to reward a curious click.",
+      "why": "Get a tool for with a movable focus rail, dimmable surrounding paragraphs, per-site.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "dyslexia-reading-resume",
+      "kind": "extension",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is saves a per-page sentence anchor, offers a configurable reading strip and device TTS from that an, which is specific enough to reward a curious click.",
+      "why": "Get a tool for saves a per-page sentence anchor, offers a configurable reading strip and device TTS.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "recall-calibrator",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is a local review companion that samples typed exact/keyword recall before revealing an answer, compares it to the learner', a real but narrow task.",
+      "why": "Get a tool for a local review companion that samples typed exact/keyword recall before revealing an.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "recall-objective-map",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is with an objective tree, manual evidence tags (explain, solve, recognize), a one-question recall check, and a, a real but narrow task.",
+      "why": "Get a tool for with an objective tree, manual evidence tags (explain, solve, recognize), a one-question.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "recipe-exit-pack",
+      "kind": "utility",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is user-exported recipe files and pasted recipe text that writes a zip of human-readable Markd, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for user-exported recipe files and pasted recipe text that writes a zip of human-readable.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "recovery-drift-sentinel",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is a read-only-config CLI/Kubernetes CronJob that restores the newest backup into an isolated target, runs declared SQL inv, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a read-only-config CLI/Kubernetes CronJob that restores the newest backup into an.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "rehearsal-section-cues",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a printable/mobile cue-sheet builder: section label, repeat number, active players, one technical risk, tempo target, an, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a printable/mobile cue-sheet builder: section label, repeat number, active players, one.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "rehearsal-sightline",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is static web app that imports MusicXML locally, lets a player mark rehearsal ranges, renders a configurable look-ahead str, which is specific enough to reward a curious click.",
+      "why": "Get a tool for static web app that imports MusicXML locally, lets a player mark rehearsal ranges.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "release-env-fingerprint",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is captures a name/type/presence fingerprint from an approved command, compares signed fingerprints by environme, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for captures a name/type/presence fingerprint from an approved command, compares signed.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "retainer-release-ledger",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is local job ledger with deposit, milestone, release, refund, and balance events; a client-facing receipt; and a red/amber/, a real but narrow task.",
+      "why": "Get a tool for local job ledger with deposit, milestone, release, refund, and balance events; a.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "remote-file-handoff-manifest",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is cLI that builds a signed JSON/HTML manifest with relative paths, sizes, hashes, optional expiry/contact fields, and a re, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI that builds a signed JSON/HTML manifest with relative paths, sizes, hashes, optional.",
+      "featured": false,
+      "tags": [
+        "install",
+        "app"
+      ]
+    },
+    {
+      "slug": "remote-web-task-recipes",
+      "kind": "extension",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is where a user or support worker records named, keyboard-reachable visual landmarks for one browser ap, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for where a user or support worker records named, keyboard-reachable visual landmarks for.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "rep-range-compass",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is with one exercise card: log weight/reps/RIR, apply a configurable rep-range rule, show the next-set cue and, a real but narrow task.",
+      "why": "Get a tool for with one exercise card: log weight/reps/RIR, apply a configurable rep-range rule, show.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "backup-restore-drill",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is runs configured safe sample restores into a temporary directory, verifies hashes and selected applicati, but its polishing state keeps it off the front shelf.",
+      "why": "Use it to run configured safe sample restores into a temporary directory, verifies hashes and.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "restore-drill",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a Docker-first CLI that restores a chosen Postgres dump/volume into an isolated network, runs configurable SQL/HTTP smok, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a Docker-first CLI that restores a chosen Postgres dump/volume into an isolated network.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "deposit-drawdown-ledger",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is an offline ledger for one job: record a deposit request, payments, approved drawdowns, and remaining balance; export a b, a real but narrow task.",
+      "why": "Get a tool for an offline ledger for one job: record a deposit request, payments, approved drawdowns.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "review-backlog-restart",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is local companion that imports an Anki CSV export, asks for daily minutes and deadline, simulates three recovery plans, fl, a real but narrow task.",
+      "why": "Get a tool for local companion that imports an Anki CSV export, asks for daily minutes and deadline.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "rhythm-reader",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is choose meter, tempo, style-grammar (folk/march/swing/pop backbeat); a 2–4 bar rhythm renders as notation; count-in; you, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for choose meter, tempo, style-grammar (folk/march/swing/pop backbeat); a 2–4 bar rhythm.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "route-fidelity-check",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is browser tool that accepts two GPX files, aligns them, highlights divergences over a user-set distance, and emits a print, a real but narrow task.",
+      "why": "Get a tool for browser tool that accepts two GPX files, aligns them, highlights divergences over a.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "route-intent-planner",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is a GPX/web planner that accepts a rough trace or named mandatory segments, locks those corridors, optimizes only gaps, an, a real but narrow task.",
+      "why": "Get a tool for a GPX/web planner that accepts a rough trace or named mandatory segments, locks those.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "rss-saved-queue",
+      "kind": "product",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a self-hostable service plus browser extension that saves URL/title/tags, serves an authenticated per-user RSS/Atom queu, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a self-hostable service plus browser extension that saves URL/title/tags, serves an.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "rubric-comment-queue",
+      "kind": "product",
+      "category": "learn",
+      "interest": 4,
+      "reason": "Its job is web app: import plain text or paste excerpts, attach a rubric criterion, choose/edit a teacher-written comment block, ad, which is specific enough to reward a curious click.",
+      "why": "Get a tool for web app: import plain text or paste excerpts, attach a rubric criterion, choose/edit a.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "rubric-revision-loop",
+      "kind": "product",
+      "category": "learn",
+      "interest": 4,
+      "reason": "Its job is teacher-created rubric-code library, pasteable short feedback links, student revision checklist with before/after excerp, which is specific enough to reward a curious click.",
+      "why": "Get a tool for teacher-created rubric-code library, pasteable short feedback links, student revision.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "remote-scene-cues",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a host page with named scenes/cues and a QR-linked controller page; controller actions are logged and can POST signed we, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a host page with named scenes/cues and a QR-linked controller page; controller actions.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "quote-acceptance-packet",
+      "kind": "product",
+      "category": "money",
+      "interest": 5,
+      "reason": "Its job is offline-first web app that produces a signed, shareable quote page/PDF, records explicit accept/decline and scoped chang, a complete answer rather than another general tracker.",
+      "why": "Send a quote, record acceptance, and keep a local scope history.",
+      "featured": true,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "season-gap-garden",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is offline bed list, sow/transplant/expected-clear dates, a calendar strip showing open windows, user-defined successor tem, a real but narrow task.",
+      "why": "Get a tool for offline bed list, sow/transplant/expected-clear dates, a calendar strip showing open.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "secret-finding-triage",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is consumes SARIF/JSON findings, renders a local HTML/Markdown triage card with line-numbered masked context, en, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for consumes SARIF/JSON findings, renders a local HTML/Markdown triage card with.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "secret-sync-preflight",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI reads a key-only desired manifest and provider exports, highlights missing/extra/renamed keys, detects destination l, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI reads a key-only desired manifest and provider exports, highlights.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "invoice-send-ledger",
+      "kind": "product",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is offline invoice issue register: import or enter a PDF/amount, record draft, issued, sent, due, and paid events, and expo, which is specific enough to reward a curious click.",
+      "why": "Get a tool for offline invoice issue register: import or enter a PDF/amount, record draft, issued.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "service-notification-router",
+      "kind": "product",
+      "category": "life",
+      "interest": 4,
+      "reason": "Its job is self-hosted rules endpoint: receive a normalized booking email/webhook, map service/provider to a recipient, add a minim, which is specific enough to reward a curious click.",
+      "why": "Get a tool for self-hosted rules endpoint: receive a normalized booking email/webhook, map.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "session-layout-capsule",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is local web dashboard that saves named layouts of tabs, MIDI cue panels, timers, and text notes; offers a restore checklis, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local web dashboard that saves named layouts of tabs, MIDI cue panels, timers, and text.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "set-context-log",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is with a fast set row (weight, reps, RPE, one-tap caveat), a next-session recall card, and CSV/JSON export, a real but narrow task.",
+      "why": "Get a tool for with a fast set row (weight, reps, RPE, one-tap caveat), a next-session recall card, and.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "payout-bundle-matcher",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "Its job is local CSV matcher for one processor payout and one sales/invoice export: reconcile gross sales, fees, refunds, timing sh, a real but narrow task.",
+      "why": "Get a tool for local CSV matcher for one processor payout and one sales/invoice export: reconcile gross.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "bgg-import-normalizer",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is static web converter that imports a BGG collection export, lets users map statuses/ratings/comments to a target-neutral, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static web converter that imports a BGG collection export, lets users map.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "shelf-rotation-picklist",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is local CSV/manual import of title, last-played, player range, minutes, setup friction, and tags; filters tonight's constr, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for local CSV/manual import of title, last-played, player range, minutes, setup friction.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "animation-shot-runner",
+      "kind": "installable",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is local CLI reading a shot manifest, invoking allowlisted renderer commands, caching frame sequences, producing contact sh, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local CLI reading a shot manifest, invoking allowlisted renderer commands, caching frame.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "photo-edit-ledger",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Its job is local CLI that inventories a folder plus XMP sidecars, compares declared source/destination capabilities, and emits a ha, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for local CLI that inventories a folder plus XMP sidecars, compares declared.",
+      "featured": false,
+      "tags": [
+        "install",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "color-meaning-audit",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is samples the visible page/screenshot, detects repeated color-only legend/status distinctions, simu, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for samples the visible page/screenshot, detects repeated color-only legend/status.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "sim-lab-replay",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is embeddable JS recorder that captures named controls/events (not student identity), lets authors add prediction/observati, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for embeddable JS recorder that captures named controls/events (not student identity), lets.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "mtd-quarterly-ledger",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is pWA: add income/expense lines (date, amount, category mapped to HMRC boxes, note, optional receipt photo stored locally), but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for pWA: add income/expense lines (date, amount, category mapped to HMRC boxes, note.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "sing-to-controller",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is an in-browser calibrator that maps pitch bands, onset, sustained sound, and silence to a virtual controller state and ex, which is specific enough to reward a curious click.",
+      "why": "Get a tool for an in-browser calibrator that maps pitch bands, onset, sustained sound, and silence to a.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "cooldown-registry-proxy",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is v1 is one static binary (Go or Rust) exposing npm-registry, PyPI simple-index and Cargo sparse-index endpoints that prox, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for v1 is one static binary (Go or Rust) exposing npm-registry, PyPI simple-index and Cargo.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "hifi-sketch-check",
+      "kind": "installable",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is cLI that runs a sketch through a small local device matrix, records frame-time/input-lag traces and golden frames, then, which is specific enough to reward a curious click.",
+      "why": "Get a tool for cLI that runs a sketch through a small local device matrix, records frame-time/input-lag.",
+      "featured": false,
+      "tags": [
+        "creative",
+        "offline",
+        "app"
+      ]
+    },
+    {
+      "slug": "skill-decision-drills",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "Its job is offline scenario editor/player: author a decision tree with photo/text prompts, consequences, hint path, and debrief; re, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for offline scenario editor/player: author a decision tree with photo/text prompts.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "skill-drill-studio",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is three drill types—ordered steps, exact command input, and image hotspot—with determinist, which is specific enough to reward a curious click.",
+      "why": "Get a tool for three drill types—ordered steps, exact command input, and image hotspot—with determinist.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "solo-practice-bridge",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is local web workbook with a repertoire goal, one observed obstacle, a timed drill/piece alternation, success cue, spaced r, which is specific enough to reward a curious click.",
+      "why": "Get a tool for local web workbook with a repertoire goal, one observed obstacle, a timed drill/piece.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "songsketch-anykey",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is pWA with drum grid, free-pitch piano roll, one editable pitch curve, loop/export MIDI and a self-contained HTML share fi, which is specific enough to reward a curious click.",
+      "why": "Get a tool for pWA with drum grid, free-pitch piano roll, one editable pitch curve, loop/export MIDI.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "source-trail-workbook",
+      "kind": "product",
+      "category": "learn",
+      "interest": 2,
+      "reason": "Its job is offline-first workbook with structured entries for question, query, source metadata, credibility notes, supporting/contr, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for offline-first workbook with structured entries for question, query, source metadata.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "source-to-recall-gate",
+      "kind": "extension",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is and PWA that saves a selected passage locally, requires one paraphrase, one cue, and one use-case befo, a real but narrow task.",
+      "why": "Get a tool for and PWA that saves a selected passage locally, requires one paraphrase, one cue, and one.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "split-pass-through-costs",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Its job is where a user photographs or attaches one supplier bill, divides its total into named rows, marks each row bi, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for where a user photographs or attaches one supplier bill, divides its total into named.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
+      "slug": "sqlite-sync-guard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is cLI scans a configured sync root for SQLite DB/WAL/SHM files, detects active locks, explains risk, produces a consistent, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for cLI scans a configured sync root for SQLite DB/WAL/SHM files, detects active locks.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "static-qr-no-signup",
+      "kind": "utility",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is static page with type tabs, live preview, SVG/PNG export, batch CSV → ZIP, and a built-in decoder to verify scanability, a complete answer rather than another general tracker.",
+      "why": "Create static QR codes for links, Wi-Fi, contacts, and text without sign-up.",
+      "featured": true,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "mbox-takeout-viewer",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is static PWA: open .mbox (or .mbox.gz) via streamed reads; build header index (from/to/date/subject/size) with progress; s, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static PWA: open .mbox (or .mbox.gz) via streamed reads; build header index.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "pen-latency-lab",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a local web test pad plus embeddable JS probe that records anonymized pointer timing, draws raw versus smoothed traces, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a local web test pad plus embeddable JS probe that records anonymized pointer timing.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "study-material-import-check",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is a static-web CSV/TSV/text inspector that previews rows, identifies blank/duplicate/broken-media fields, maps columns int, a real but narrow task.",
+      "why": "Get a tool for a static-web CSV/TSV/text inspector that previews rows, identifies.",
+      "featured": false,
+      "tags": [
+        "learning"
+      ]
+    },
+    {
+      "slug": "supabase-exit-map",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is cLI reads Supabase project config/migrations and produces a dependency map, portable SQL checklist, and replacement choi, a complete answer rather than another general tracker.",
+      "why": "Get a tool for cLI reads Supabase project config/migrations and produces a dependency map, portable SQL.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "sync-conflict-lens",
+      "kind": "library",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is plus local viewer that accepts a simple operation-log format, replays two replicas, highlights causal order an, a complete answer rather than another general tracker.",
+      "why": "Get a tool for plus local viewer that accepts a simple operation-log format, replays two replicas.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "library"
+      ]
+    },
+    {
+      "slug": "tab-markup-playground",
+      "kind": "utility",
+      "category": "make",
+      "interest": 4,
+      "reason": "Its job is a limited open chord/tab markup, with playback-free fretboard, interval, scale, and transpositio, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a limited open chord/tab markup, with playback-free fretboard, interval, scale, and.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "tab-sunset-list",
+      "kind": "extension",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is tags tabs with an expiry date and decision type, presents a daily small review queue, and expor, a real but narrow task.",
+      "why": "Get a tool for tags tabs with an expiry date and decision type, presents a daily small review queue.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "tableclock",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is single screen: add 2–8 players, choose mode (count-up, bank, Fischer increment, fixed per-turn), tap to end turn; big co, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for single screen: add 2–8 players, choose mode (count-up, bank, Fischer increment, fixed.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "android-select-speak-canvas",
+      "kind": "installable",
+      "category": "access",
+      "interest": 5,
+      "reason": "Its job is an Android accessibility-service companion: a user invokes a floating button, draws one rectangle, gets on-device OCR an, a complete answer rather than another general tracker.",
+      "why": "Select text in an image and hear it read aloud on your Android device.",
+      "featured": true,
+      "tags": [
+        "access",
+        "app"
+      ]
+    },
+    {
+      "slug": "telemetry-budget-guard",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is consumes a bounded redacted OTLP sample and collector config, estimates cardinality/storage/egress deltas for, a complete answer rather than another general tracker.",
+      "why": "Get a tool for consumes a bounded redacted OTLP sample and collector config, estimates.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
+      "slug": "tempo-earcheck",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is with tap-tempo, accented-meter click, named tempo trials, and a compact practice card that records a startin, which is specific enough to reward a curious click.",
+      "why": "Get a tool for with tap-tempo, accented-meter click, named tempo trials, and a compact practice card.",
+      "featured": false,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "adaptive-metronome-lab",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is offline web metronome with bounded random drift, ramp, delayed-beat, and recovery drills; save/share a tiny session pres, a complete answer rather than another general tracker.",
+      "why": "Practise tempo changes with metronome drills that run offline.",
+      "featured": true,
+      "tags": [
+        "play",
+        "offline"
+      ]
+    },
+    {
+      "slug": "floorplan-text-dsl",
+      "kind": "utility",
+      "category": "make",
+      "interest": 5,
+      "reason": "Its job is static split-pane editor: left a small DSL (units, scale, wall from/to thickness, door/window on wall at offset, label, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for static split-pane editor: left a small DSL (units, scale, wall from/to thickness.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "multiplayer-update-lens",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is drop-in JS client/server probe that records tick duration, room size, bytes/messages per room, and emits a self-containe, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for drop-in JS client/server probe that records tick duration, room size, bytes/messages per.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "time-budget-new-cards",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is an offline companion that ingests review duration/history or a CSV, estimates the marginal time cost of new cards, and r, a real but narrow task.",
+      "why": "Get a tool for an offline companion that ingests review duration/history or a CSV, estimates the.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "timezone-slot-proof",
+      "kind": "utility",
+      "category": "life",
+      "interest": 2,
+      "reason": "Its job is a static web tool that imports an ICS availability window or accepts weekly hours, renders the next 18 months of slots f, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for a static web tool that imports an ICS availability window or accepts weekly hours.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "daily-safe-to-spend",
+      "kind": "product",
+      "category": "life",
+      "interest": 5,
+      "reason": "Its job is where a user enters current cash, mandatory future bills, and protected envelopes; it computes a conservativ, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for where a user enters current cash, mandatory future bills, and protected envelopes; it.",
+      "featured": false,
+      "tags": [
+        "local",
+        "offline"
+      ]
+    },
+    {
+      "slug": "clean-family-coop-room",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Its job is a two-device PWA with three original, turn-based co-op microgames, six-digit room codes, reconnect support, and no accou, which is specific enough to reward a curious click.",
+      "why": "Get a tool for a two-device PWA with three original, turn-based co-op microgames, six-digit room codes.",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "tour-route-intent",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is static web GPX planner that lets a user lock segments/waypoints and attach terse intent notes (surface, water, ferry, av, a real but narrow task.",
+      "why": "Get a tool for static web GPX planner that lets a user lock segments/waypoints and attach terse intent.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "trace-context-probe",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a Node CLI/test helper that inserts named async-boundary probes, records expected versus observed trace/span lineage, an, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a Node CLI/test helper that inserts named async-boundary probes, records expected versus.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "api-version-replay",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is stores redacted HTTP/webhook fixtures with version labels, replays them to localhost, and reports heade, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for stores redacted HTTP/webhook fixtures with version labels, replays them to localhost.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline"
+      ]
+    },
+    {
+      "slug": "viewport-fact-sheet",
+      "kind": "extension",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Its job is plus Playwright helper that selects an element and exports its box model, relevant computed-style de, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for plus Playwright helper that selects an element and exports its box model, relevant.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "vocab-confusion-log",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Its job is local PWA to log one confused pair, attach text/audio/own mnemonic, rotate text-to-audio and audio-to-text retries, and, a real but narrow task.",
+      "why": "Get a tool for local PWA to log one confused pair, attach text/audio/own mnemonic, rotate text-to-audio.",
+      "featured": false,
+      "tags": [
+        "learning",
+        "offline"
+      ]
+    },
+    {
+      "slug": "wallpage",
+      "kind": "utility",
+      "category": "make",
+      "interest": 5,
+      "reason": "Its job is full-screen page with ~10 original generative scenes (flow fields, Pong-Wars-like cellular duels, fractal flames, tide/c, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for full-screen page with ~10 original generative scenes (flow fields, Pong-Wars-like.",
+      "featured": false,
+      "tags": [
+        "creative"
+      ]
+    },
+    {
+      "slug": "web-audio-route-map",
+      "kind": "library",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Its job is a dependency-free JS library plus demo that renders a live, keyboard-accessible node/route map from an explicit graph de, useful specialist plumbing rather than a broad browsing destination.",
+      "why": "Get a tool for a dependency-free JS library plus demo that renders a live, keyboard-accessible.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "library"
+      ]
+    },
+    {
+      "slug": "winter-ride-window",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Its job is static web planner where riders enter route exposure and personal thresholds, then receive a cited condition checklist, a real but narrow task.",
+      "why": "Get a tool for static web planner where riders enter route exposure and personal thresholds, then.",
+      "featured": false,
+      "tags": [
+        "local"
+      ]
+    },
+    {
+      "slug": "wordlist-arcade",
+      "kind": "game",
+      "category": "play",
+      "interest": 5,
+      "reason": "Its job is one textarea: 'word — definition' pairs (or word → translation), but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for one textarea: 'word — definition' pairs (or word → translation).",
+      "featured": false,
+      "tags": [
+        "play"
+      ]
+    },
+    {
+      "slug": "field-time-invoice-proof",
+      "kind": "product",
+      "category": "access",
+      "interest": 4,
+      "reason": "Its job is with start/stop/manual sessions, project/outcome notes, optional links to commits/files, and a branded weekl, which is specific enough to reward a curious click.",
+      "why": "Get a tool for with start/stop/manual sessions, project/outcome notes, optional links to commits/files.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline"
+      ]
+    },
+    {
+      "slug": "workspace-history-porter",
+      "kind": "extension",
+      "category": "tools",
+      "interest": 5,
+      "reason": "Its job is plus local sidecar that stores an encrypted workspace journal, bookmarks terminal/PR/test URLs, and, a complete answer rather than another general tracker.",
+      "why": "Get a tool for plus local sidecar that stores an encrypted workspace journal, bookmarks.",
+      "featured": false,
+      "tags": [
+        "developer",
+        "offline",
+        "extension"
+      ]
+    },
+    {
+      "slug": "low-vision-workspace-profiles",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Its job is with named profiles per domain: independent text scale, line spacing, contrast, cursor halo and a ho, but its polishing state keeps it off the front shelf.",
+      "why": "Get a tool for with named profiles per domain: independent text scale, line spacing, contrast, cursor.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "extension"
+      ]
+    }
+  ]
+}
