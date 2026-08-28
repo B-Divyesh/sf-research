@@ -1,17 +1,23 @@
-# Research handoff
+## Research handoff: research-installables-0828-070214-7
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed installable-software research only; no product was built.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-installables-0828-070214-7.json`: exactly 12 `RESEARCHED` opportunity briefs, each with two distinct, fetched public-source URLs (Hacker News/Algolia and GitHub), scoped v1/non-goals, constraints, and a falsifiable success metric.
+- Added `briefs/research-installables-0828-070214-7.md`: one-line portfolio summary per brief.
+- Research coverage included 15 varied Hacker News search queries, 25 individually fetched HN threads, and public issue data from installable-software projects. Existing brief slugs were checked before drafting.
 
-Verify with:
+Verification:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+python3 - <<'PY'
+import json
+briefs = json.load(open('briefs/research-installables-0828-070214-7.json'))
+assert len(briefs) == 12
+assert len({b['slug'] for b in briefs}) == 12
+assert all(len(b['evidence']) >= 2 for b in briefs)
+print('valid briefs:', len(briefs))
+PY
+git diff --check
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+The pre-existing modification to `graphify-out/cache/stat-index.json` was left untouched.
