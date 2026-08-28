@@ -1,17 +1,22 @@
-# Research handoff
+# Research handoff: education
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-education-0828-070127-3`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-education-0828-070127-3.json` with exactly 12 `RESEARCHED` opportunity briefs.
+- Added `briefs/research-education-0828-070127-3.md` with one why-now line for each brief.
+- Surveyed 15+ varied public-source search queries and read 26 distinct HN threads/GitHub issues. Every brief has two fetched public evidence URLs from two sites, and all 24 evidence URLs are unique across the array.
+- No product was built and no product state files were created; this work order is research-only.
 
 Verify with:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+python3 -m json.tool briefs/research-education-0828-070127-3.json >/dev/null
+python3 - <<'PY'
+import json
+d = json.load(open('briefs/research-education-0828-070127-3.json'))
+u = [e['url'] for x in d for e in x['evidence']]
+assert len(d) == 12 and len(u) == len(set(u)) == 24
+PY
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+The pre-existing modification to `graphify-out/cache/stat-index.json` was left untouched.
