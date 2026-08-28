@@ -1,17 +1,11 @@
 # Research handoff
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-ventures-0828-174543-1`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-ventures-0828-174543-1.json` with exactly 12 startup-grade opportunity briefs, each marked `scale: "venture"` and supported by two unique fetched evidence URLs from Hacker News and GitHub.
+- Added `briefs/research-ventures-0828-174543-1.md` with the requested one-line-per-brief summary.
+- Read the existing research brief and preserved the pre-existing unrelated modification to `graphify-out/cache/stat-index.json`.
 
-Verify with:
+Verification: run `jq 'length' briefs/research-ventures-0828-174543-1.json` (expected `12`) and `jq empty briefs/research-ventures-0828-174543-1.json`.
 
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+No product was built or released.
