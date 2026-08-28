@@ -1,10 +1,16 @@
 # Catalogue curation handoff
 
-Created and committed `curation.json` for the 352 products named in the work order, plus `curation.md` with the featured-pick rationale and five first-screen copy fixes.
+Created and committed `curation.json` and `curation.md` for all 376 live products.
 
 Verification performed:
 
-- `jq` checks confirm 352 unique products, eight shelves, 12 featured products, allowed kinds, `why` lines at or below 110 characters, and the requested interest-score caps.
-- Each featured URL returned HTTP 200. Its title and description were checked from the live first response.
+- `jq` confirms 376 product records, eight shelves, exactly 12 featured products, valid kinds, and `why` lines no longer than 110 characters.
+- The 12 featured URLs were fetched with `curl`; each returned HTTP 200 and a legible title/first-screen description.
+- Ratings are conservative: 48 five-star entries (12.8%) and 60 four-star entries (16.0%).
 
-The public feed currently contains 365 products. The 13 products not present in the supplied work-order list were deliberately excluded so the curation remains scoped to the requested 352.
+There is no build step for this research repository. Inspect the curated data with:
+
+```sh
+jq '.products | length' curation.json
+jq '[.products[] | select(.featured)] | length' curation.json
+```

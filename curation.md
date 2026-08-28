@@ -1,22 +1,22 @@
 # Featured picks
 
-- `adaptive-metronome-lab` — Tempo Lab turns deliberate timing practice into a set of drills, rather than offering another click track.
-- `accessible-explanation-checkin` — It gives students more than a text box and gives teachers a usable account of the student’s confidence.
-- `android-select-speak-canvas` — TapRead Canvas has an instantly legible job: select words in an image and hear them, on the device.
-- `audio-gap-loop` — The listen–speak–repeat loop is a distinctive, practical way to work with audio a learner already owns.
-- `change-diff-inbox` — It narrows web monitoring to the changes an engineer might actually care about, instead of reporting pixel noise.
-- `claim-ready-homebook` — A portable home inventory and claim evidence is high-stakes, comprehensible, and better served without a subscription.
-- `mechanism-playground` — This is a real toy as well as a teaching aid: the first screen promises moving parts, and the product delivers them.
-- `open-quiz-arena` — A live classroom quiz without accounts or a player cap solves a stubborn practical classroom problem cleanly.
-- `pairplay-motion` — Turning spare phones into motion controllers makes a room game immediately more inviting than another screen-only quiz.
-- `parallel-ebook-reader` — Reading two DRM-free editions together and exporting aligned sentences is a rare, concrete capability for language readers.
-- `quote-acceptance-packet` — ScopeStamp makes the awkward moment of quote approval explicit and leaves behind a record a freelancer can use.
-- `static-qr-no-signup` — It does the ordinary QR job with the unusually valuable promise of static codes, local generation, and no redirect service.
+- `accessible-explanation-checkin` — A student can explain an answer in voice or text and show how sure they are; that produces feedback a teacher can act on.
+- `audio-gap-loop` — It turns a learner's own clip into a listen, speak, and check loop, which is more useful than a bare audio player.
+- `change-diff-inbox` — Engineers can watch only the parts of a page they care about and review meaningful changes instead of screenshots.
+- `claim-ready-homebook` — A private home inventory with claim exports is an unusually high-value use of an offline-first record.
+- `mechanism-playground` — Building working gears, cams, and linkages is both an immediately satisfying toy and a sound way to learn mechanics.
+- `open-quiz-arena` — Account-free live quizzes with no player cap remove the two obstacles that routinely make classroom quiz tools fail.
+- `pairplay-motion` — Spare phones become motion controllers, giving a group game a physical hook rather than another shared-screen quiz.
+- `parallel-ebook-reader` — Reading two DRM-free editions side by side and exporting aligned sentences is a rare, concrete capability for language learners.
+- `quote-acceptance-packet` — ScopeStamp makes quote approval explicit and leaves a freelancer with a useful record when the job changes.
+- `static-qr-no-signup` — Static codes, local generation, and no redirect service make an ordinary QR generator meaningfully more trustworthy.
+- `android-select-speak-canvas` — Selecting text in an image and hearing it on-device is a clear assistive job with a direct first action.
+- `creative-cartridge` — Six self-contained activities make this a useful little box of prompts for a child or a quiet afternoon, not just another blank canvas.
 
 # First screens that need work
 
-- `actuals-job-sequencer` — The first heading is the product name, not the job; “move downstream dates from actual finish dates” belongs in the headline and next action.
-- `booking-side-notes` — “Keep the note.” is memorable but does not say which notes, beside what, or what a visitor should do first.
-- `caregiver-last-action` — “Know what happened last.” leaves the caregiver handoff context out of the headline, which makes a sensitive tool feel cryptic.
-- `set-context-log` — “Remember the set,” is a fragment and does not explain that this is for lifting-set details or show the first logging action.
-- `a11y-interaction-trace` — “Make focus failures visible.” names an outcome but not the test-session capture workflow, so a new visitor cannot tell what is recorded or how to start.
+- `actuals-job-sequencer` — The product name leads; the screen should first say that it moves later job dates after an actual finish date and offer a sample schedule.
+- `booking-side-notes` — “Keep the note.” does not say that these are notes beside bookings, or show what will happen after the first note is added.
+- `caregiver-last-action` — “Know what happened last.” omits the caregiver handoff context and is too cryptic for a sensitive record.
+- `set-context-log` — “Remember the set” is a fragment; the first screen needs to say it logs lifting-set details and offer a fast first entry.
+- `a11y-interaction-trace` — “Make focus failures visible” hides the capture workflow; say that it records a keyboard session and turns it into a bug report.
