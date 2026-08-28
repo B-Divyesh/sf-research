@@ -15,3 +15,8 @@ jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' br
 ```
 
 Nothing remains to build or deploy for this research-only work order.
+Completed research work order `research-devtools-data-0828-134446-2`.
+
+Created `briefs/research-devtools-data-0828-134446-2.json` with exactly 12 `devtools-data` opportunity briefs and `briefs/research-devtools-data-0828-134446-2.md` with one-line summaries. Each brief uses two unique, fetched public discussion URLs (Hacker News Algolia thread endpoint and Lobsters), and avoids the existing backlog’s slugs and overlapping concepts.
+
+Verification: `jq 'length == 12 and ([.[].slug] | unique | length == 12)' briefs/research-devtools-data-0828-134446-2.json`; inspect evidence URLs directly. No product was built. The pre-existing modified `graphify-out/cache/stat-index.json` was left untouched.
