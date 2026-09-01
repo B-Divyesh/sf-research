@@ -1,17 +1,17 @@
-# Research handoff
+# Research handoff: browser-games
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Completed work order `research-browser-games-0901-204337-3`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+- Added `briefs/research-browser-games-0901-204337-3.json`: exactly 12 `games-creative` browser-game opportunity briefs, each with two fetched, unique public evidence URLs.
+- Added `briefs/research-browser-games-0901-204337-3.md`: one-line why-now summary for every brief.
+- Added twelve `products/<slug>.json` records in `SPECIFIED` state, with proposed repository, sociobot host, and initial visual direction.
 
-Verify with:
+Verification run:
 
 ```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
+jq -e 'length == 12 and ([.[].evidence[].url] | length == (unique | length))' briefs/research-browser-games-0901-204337-3.json
+for f in products/{pocket-pitlane,couch-crew,last-lap-luck,beat-postcard,seed-sprint,first-move-friends,patient-rail,closing-bell,codekick,mnemonic-mercenary,five-minute-heist,founder-fork}.json; do jq -e '.state == "SPECIFIED" and .artifact_class == "browser-game"' "$f"; done
+git diff --check
 ```
 
-Nothing remains to build or deploy for this research-only work order.
+No game was built or deployed. The unrelated pre-existing modification in `graphify-out/cache/stat-index.json` was intentionally not included in this work order's commit.
