@@ -1,16 +1,18 @@
 # Catalogue curation handoff
 
-Created `curation.json` for 631 products across eight store-style shelves and `curation.md` with the 12 featured picks plus five first-screen copy issues.
+Updated the Hello Factory catalogue for the 635-product inventory.
 
-The featured pages were checked with `curl`; all returned HTTP 200. The featured list contains exactly 12 released, product-like picks. Practice tools and scorekeepers were kept out of `game` unless they are games in their own right.
+- `curation.json` has eight store-style shelves, one curation record per supplied slug, and exactly 12 featured products.
+- The old list’s eight retired records were removed and its twelve current omissions were added.
+- Placeholder descriptions that only said “Use [product name]” were replaced with plain task descriptions.
+- The featured URLs were fetched on 2026-09-01; every one returned HTTP 200 and is in `RELEASED` state.
+- `curation.md` records the featured editorial choices and five first-screen copy problems for the repair loop.
 
-Verify the data with:
+Verify with:
 
 ```sh
-jq '{products:(.products|length),featured:([.products[]|select(.featured)|.slug])}' curation.json
-jq -e '([.products[]|select(.featured)]|length == 12) and ([.products[]|select((.why|length)>110)]|length == 0)' curation.json
+jq -e '(.products | length == 635) and ([.products[] | select(.featured)] | length == 12)' curation.json
+jq -e '([.products[] | select((.why | length) > 110 or (.tags | length) > 3)] | length == 0)' curation.json
 ```
 
-No application build is needed; this repository only contains the research and curation artefacts.
-
-The pre-existing `graphify-out/cache/stat-index.json` worktree change was left untouched.
+No build is required: this is a research and curation repository. The pre-existing change in `graphify-out/cache/stat-index.json` was intentionally left uncommitted.

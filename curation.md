@@ -1,6 +1,6 @@
 # Featured picks
 
-All twelve were opened at their live addresses. They returned successfully and gave a visitor a usable first screen.
+Each pick was checked at its live address on 1 September 2026; all returned HTTP 200 and stated a recognisable job on the first screen.
 
 - `audio-gap-loop` — It turns a learner’s own clip into a listen, speak, and repeat exercise, which is far more personal than a generic player.
 - `claim-ready-homebook` — A private home inventory only proves its worth after a loss; the claim export makes that difficult moment its real purpose.
