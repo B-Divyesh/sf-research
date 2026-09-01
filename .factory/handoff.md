@@ -1,17 +1,7 @@
-# Research handoff
+# Research handoff: browser-games
 
-Completed the `research-devtools-data-0827-181601-2` work order without building a product.
+Created and committed `briefs/research-browser-games-0901-204259-0.json` with exactly 12 non-overlapping browser-game opportunity briefs, each with two fetched public evidence URLs from different sites. Created the companion one-line summary at `briefs/research-browser-games-0901-204259-0.md`.
 
-- Added exactly 12 `RESEARCHED` devtools-data opportunity briefs to `briefs/research-devtools-data-0827-181601-2.json`.
-- Added the required one-line-per-brief summary to `briefs/research-devtools-data-0827-181601-2.md`.
-- Evidence URLs were fetched from HN Algolia item endpoints and GitHub public issue pages; each brief has two evidence records dated 2025–2026.
-- No pre-existing `briefs/*.json` or `.factory/backlog-slugs.txt` was present, so there were no existing ideas/slugs to exclude.
+Verification: `python3 -m json.tool briefs/research-browser-games-0901-204259-0.json >/dev/null` confirms valid JSON; the file contains 12 entries. No product was built.
 
-Verify with:
-
-```bash
-jq 'length' briefs/research-devtools-data-0827-181601-2.json
-jq -e 'all(.[]; .territory == "devtools-data" and (.evidence | length >= 2))' briefs/research-devtools-data-0827-181601-2.json
-```
-
-Nothing remains to build or deploy for this research-only work order.
+Research coverage: 15 distinct HN/GitHub/Reddit query formulations were run (Reddit returned 403 and was not retried beyond its allowed limit); 30 distinct Hacker News threads were fetched and read. Existing `briefs/*.json` was checked; no prior games briefs or backlog slug file existed. An unrelated pre-existing modification remains in `graphify-out/cache/stat-index.json` and was not touched.
