@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "couch-crew",
+    "title": "Couch Crew",
+    "territory": "games-creative",
+    "user": "Friends gathered around one laptop/TV who want a genuinely cooperative 10-minute party game where every phone has a different indispensable job.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/46344573", "date": "2025-12-21", "quote_or_summary": "Gaming Couch's maker describes no-account phones-as-controllers for eight players; an HN commenter explicitly asks for remote team play and contrasts real-time games with trivia."},
+      {"url": "https://hn.algolia.com/api/v1/items/47954074", "date": "2026-04-29", "quote_or_summary": "A SimDrive commenter says 'we need more games in this space' after describing a phone-accelerometer browser game on a separate screen."},
+      {"url": "https://gamingcouch.com", "date": "2025-12-21", "quote_or_summary": "Fetched product page identifies Gaming Couch as free browser party games for friends, corroborating the live no-install category."}
+    ],
+    "recurrence": "Two independent 2025-26 HN threads describe or explicitly request phone-controller social play; the recurring gap is cooperative action rather than another quiz pack.",
+    "current_workaround": "Use Jackbox-style trivia, pass a keyboard around, or install console/phone apps before a gathering.",
+    "incumbents_and_gap": "Jackbox and Gaming Couch establish the setup, but their breadth is competitive or trivia-led. A compact, role-asymmetric co-op game can make coordination itself the joke.",
+    "smallest_useful_product": "One host URL creates a QR lobby for 2-6 phones. In 8-12 minute missions, navigator, engineer, scanner and pilot each see partial information and coordinate a rescue ship. Non-goals: a minigame platform, voice chat, user accounts, or UGC.",
+    "success_measure": "At least 35% of completed lobbies start a second mission and median lobby setup remains under 45 seconds.",
+    "artifact_class": "browser-game",
+    "monetization": "one-time — a polished finite party game is easier to share without accounts, ads, or recurring pressure.",
+    "constraints": "Use WebRTC/data channels with a relay fallback; QR join must be same-origin and rate-limited; no microphone, contacts, or personal data required.",
+    "est_build_effort": "M",
+    "scale": "small (default)",
+    "why_distinct": "It is an asymmetric cooperative mission, not a collection of trivia prompts or a generic virtual gamepad.",
+    "confidence": 4,
+    "state": "RESEARCHED"
+  },
+  {
+    "slug": "tilt-tag", "title": "Tilt Tag", "territory": "games-creative",
+    "user": "People with a phone and three spare minutes who want a tactile browser challenge they can replay without installing anything.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48268331", "date": "2026-05-25", "quote_or_summary": "TiltBump is a no-signup mobile web tilt game; feedback asks for an easy mode, control settings, and a more meaningful high score."},
+      {"url": "https://hn.algolia.com/api/v1/items/46822282", "date": "2026-01-30", "quote_or_summary": "PadlessBox's maker reports eight phone-controller party games that work even on an older 2018 TV, confirming broad browser-controller demand."},
+      {"url": "https://tiltbump.com", "date": "2026-05-25", "quote_or_summary": "Fetched page title describes a phone-tilt block-bumping game, corroborating that the mechanic works as a direct mobile-web interaction."}
+    ],
+    "recurrence": "Two separate 2026 browser-control projects; feedback specifically exposes accessibility/calibration as an unsolved product detail.",
+    "current_workaround": "Play one-off motion demos, accept inverted controls, or download a motion-control app.",
+    "incumbents_and_gap": "TiltBump demonstrates the mechanic; most motion web demos lack handedness calibration, short structured runs, and shareable daily conditions.",
+    "smallest_useful_product": "A portrait web game: tilt a magnet to collect targets while avoiding hazards in 90-second runs. First launch offers calibration, left/right inversion, seated mode, and reduced-motion touch fallback; a daily seed changes obstacle layout. Non-goals: AR, motion tracking beyond device orientation, leaderboards requiring identity.",
+    "success_measure": "At least 70% of first-time players finish calibration and 20% play three or more runs in one session.",
+    "artifact_class": "browser-game", "monetization": "free — frictionless sharing matters more than an early paywall for a short web toy.",
+    "constraints": "DeviceOrientation permission differs on iOS; provide touch parity and never collect raw sensor data.", "est_build_effort": "S", "scale": "small (default)",
+    "why_distinct": "Accessible calibration and a replayable physics run solve the exact control objections rather than merely showcasing tilt.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "signal-salvo", "title": "Signal Salvo", "territory": "games-creative",
+    "user": "Two friends in a call who want a ten-minute tactical duel without a download, account, twitch reflex requirement, or waiting through turns.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48042110", "date": "2026-05-06", "quote_or_summary": "Naval Strike launches as no-signup simultaneous planning; players ask for more dynamic movement and clearer multi-turn planning."},
+      {"url": "https://hn.algolia.com/api/v1/items/49080616", "date": "2026-07-28", "quote_or_summary": "Dino Race is presented as a peer-to-peer two-player browser game, with HN readers calling the concept fun."}
+    ],
+    "recurrence": "Two independent 2026 browser releases select two-player, no-install play; feedback asks for richer planning rather than more spectacle.",
+    "current_workaround": "Share a chess/board-game link, use a turn-based app, or play an action game that punishes network delay.",
+    "incumbents_and_gap": "Chess sites are deep but commitment-heavy; Battleship variants hide too much information. Browser P2P examples show room-code delivery is viable but do not center simultaneous readable tactics.",
+    "smallest_useful_product": "Room-code 1v1: each player secretly queues three commands for a tiny submarine squad, then both resolve in 20-second pulses across 6 rounds. A changing current and one revealed sonar ping make each run distinct. Non-goals: progression, ranked ladder, matchmaking, or military realism.",
+    "success_measure": "60% of created rooms complete a full match and 25% of finishers immediately request a rematch.",
+    "artifact_class": "browser-game", "monetization": "free — the room-code invitation is the acquisition loop.",
+    "constraints": "Authoritative lightweight backend must prevent command peeking; reconnect token expires after a match; keep art abstract to avoid real-world conflict framing.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "Simultaneous command queues make latency-tolerant mind games, not a clone of chess, Snake, or Battleship.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "linebreak-clash", "title": "Linebreak Clash", "territory": "games-creative",
+    "user": "Pairs or small groups who want a fast browser arena game that survives a dropped connection and has more variety than classic light-cycle survival.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48733433", "date": "2026-06-30", "quote_or_summary": "Curvytron 2's discussion asks how reconnection is handled and describes community interest in CTF and zone-control variants of Curve Fever-style play."},
+      {"url": "https://hn.algolia.com/api/v1/items/49499499", "date": "2026-08-30", "quote_or_summary": "The Snaketron relaunch documents the need for server-side state in competitive browser Snake; a reader reports the site failing to load, underlining fragility in quick-play web arenas."},
+      {"url": "https://curvytron2.com", "date": "2026-06-30", "quote_or_summary": "Fetched product page identifies Curvytron 2 as a free online multiplayer browser game, corroborating the active web-arena category."}
+    ],
+    "recurrence": "Two 2026 competitive-browser threads: one asks directly about reconnection and modes, the other foregrounds insecure client state and availability.",
+    "current_workaround": "Play Curve/Snake clones, tolerate a reset after a tab hiccup, or use a larger multiplayer title.",
+    "incumbents_and_gap": "Curvytron and Snaketron cover survival; their conversations leave room for session-safe objective modes that are still legible in one screenful.",
+    "smallest_useful_product": "2-4 player room-code arena with 90-second rounds: draw temporary trails to capture relay nodes; a trail-break dash changes routes. Host-authoritative snapshots allow a 20-second rejoin. Non-goals: open chat, cosmetics economy, public player profiles, or ranked play.",
+    "success_measure": "95% of transient disconnects rejoin within 20 seconds without ending the round; median group plays four rounds.",
+    "artifact_class": "browser-game", "monetization": "free — it needs zero-friction group sharing and no behavioral ads.",
+    "constraints": "Server-authoritative collision and rate limits; random room codes must be unguessable; preset reaction pings avoid moderation burden.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "Objective capture plus reliable rejoin answers the explicit mode/reconnection gap, rather than repainting a Snake clone.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "pinpoint-daily", "title": "Pinpoint Daily", "territory": "games-creative",
+    "user": "Daily-web-game players who want a 2-4 minute skill puzzle with one fair shared course, not another word game.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/49525284", "date": "2026-09-01", "quote_or_summary": "Three Pins is a daily three-hole browser golf game; a player enjoys it despite not liking golf, but asks for more understandable ball trajectories."},
+      {"url": "https://hn.algolia.com/api/v1/items/49212848", "date": "2026-08-07", "quote_or_summary": "Ask HN explicitly seeks free, web-based games with a new puzzle every day; the thread recommends a daily Mini Golf Club mode."},
+      {"url": "https://threepins.golf", "date": "2026-09-01", "quote_or_summary": "Fetched Three Pins product page corroborates that the daily three-hole browser-game format is live and accessible on the open web."}
+    ],
+    "recurrence": "An explicit request thread plus a daily-golf launch days later show daily browser play is active beyond word puzzles, with clarity as the main product risk.",
+    "current_workaround": "Cycle through Wordle-like sites or play opaque physics golf with trial-and-error shots.",
+    "incumbents_and_gap": "Mini Golf Club and Three Pins validate daily golf. Neither source resolves the ask for immediately intelligible physics and a tiny daily commitment.",
+    "smallest_useful_product": "One shared 3-hole tabletop course a day. Drag sets aim and power, a dotted predicted arc shows bounce confidence, and each hole gives five shots. Wind and one movable bumper create daily variation. Non-goals: licensed golf, 3D courses, multiplayer, or a social feed.",
+    "success_measure": "Median first hole is completed in under 90 seconds and 25% of players return for three distinct daily seeds in a week.",
+    "artifact_class": "browser-game", "monetization": "free — a daily habit needs universal access; a later one-time course pack is optional.",
+    "constraints": "Deterministic fixed-step physics and seeded generation; disclose that local best scores are device-local unless a player opts into a nickname board.", "est_build_effort": "S", "scale": "small (default)",
+    "why_distinct": "The core promise is readable one-screen physics, not a golf simulation or a generic daily leaderboard.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "riddle-grid", "title": "Riddle Grid", "territory": "games-creative",
+    "user": "Coffee-break puzzle players fatigued by spelling games who want one short daily deduction puzzle with a satisfying reveal.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48621571", "date": "2026-06-21", "quote_or_summary": "A maker describes a no-login mobile daily word game designed for breakfast or a coffee break, combining Boggle, riddles, and rerolls."},
+      {"url": "https://hn.algolia.com/api/v1/items/49504150", "date": "2026-08-31", "quote_or_summary": "Break 5 pitches a free, tracking-free shared five-minute daily challenge, demonstrating demand for tiny synchronized web sessions."},
+      {"url": "https://www.categori.app", "date": "2026-06-21", "quote_or_summary": "Fetched Categori product page identifies it as a cozy daily word game, corroborating the breakfast-break/no-login use case."}
+    ],
+    "recurrence": "Two separate 2026 launches independently optimize around a short daily, no-login ritual; both still work in the crowded word-game space.",
+    "current_workaround": "Play word ladders, Boggle variants, and Wordle derivatives or abandon a puzzle when its vocabulary is obscure.",
+    "incumbents_and_gap": "Break 5 and Categori are word-led. There is room for a language-light daily logic game that yields an explainable deduction rather than an arbitrary dictionary check.",
+    "smallest_useful_product": "Daily 4x4 grid: arrange four illustrated clues under two rules, with exactly one final layout. Each attempt can request one visible constraint at a score cost; reveal gives a compact explanation. Non-goals: LLM judging, user-submitted clues, infinite puzzle library, or chat.",
+    "success_measure": "At least 50% of starts reach a solved or explained state and fewer than 10% use more than two hints.",
+    "artifact_class": "browser-game", "monetization": "free — the daily shared puzzle and privacy promise are the product.",
+    "constraints": "Hand-author/validate all v1 puzzles for a unique solution; avoid cultural-knowledge assumptions and tracking scripts.", "est_build_effort": "S", "scale": "small (default)",
+    "why_distinct": "It avoids the saturated spelling loop by making reasoning and its explanation the payoff.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "relay-logic", "title": "Relay Logic", "territory": "games-creative",
+    "user": "Solo logic-puzzle players who want a fresh daily puzzle that teaches its rule set by play instead of making them decode a tutorial.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/49448164", "date": "2026-08-26", "quote_or_summary": "Witstep launches free no-signup daily math and logic patterns, confirming current browser appetite for daily non-word puzzles."},
+      {"url": "https://hn.algolia.com/api/v1/items/49296747", "date": "2026-08-14", "quote_or_summary": "Gridmino offers ad-free daily logic variants including Dicesweep and Kakumino, showing makers are actively searching for twists on established logic games."},
+      {"url": "https://witstep.vercel.app", "date": "2026-08-26", "quote_or_summary": "Fetched Witstep page is titled 'Think in steps,' corroborating a live daily logic-puzzle browser category."}
+    ],
+    "recurrence": "Two new August 2026 launches target free daily logic puzzles, a clear pattern of demand and a signal that differentiation must be in onboarding rather than another clone.",
+    "current_workaround": "Learn a dense rule sheet for a niche puzzle or play familiar Minesweeper/Kakuro variants.",
+    "incumbents_and_gap": "Witstep and Gridmino provide collections and variants; a single progressive puzzle can make deduction approachable through reversible micro-actions.",
+    "smallest_useful_product": "A daily circuit-routing board with 3-5 colored signals. Players place one relay at a time; immediate local feedback teaches the constraint without revealing the solution. Runs are 3-8 minutes and daily seeds change topology. Non-goals: electricity education claims, puzzle editor, timed ads, or account streaks.",
+    "success_measure": "75% of new players finish the three-board learn-by-doing sequence and 30% attempt the next daily board.",
+    "artifact_class": "browser-game", "monetization": "free — an ad-free daily page is the credible alternative to cluttered puzzle portals.",
+    "constraints": "Every generated board must be solver-checked for a unique solution and accessible with keyboard/colorblind shapes.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "The game teaches one novel logic system through feedback rather than selling a pile of renamed classics.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "shapeshift-set", "title": "Shapeshift Set", "territory": "games-creative",
+    "user": "Daily puzzle regulars who enjoy spatial planning but want a bounded, original five-minute challenge rather than an endless block-drop app.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/49300030", "date": "2026-08-14", "quote_or_summary": "Beeb launches as a daily Blokus-inspired block puzzle, a direct 2026 example of demand for a spatial daily game."},
+      {"url": "https://hn.algolia.com/api/v1/items/49512203", "date": "2026-08-31", "quote_or_summary": "Startup Chess is another new daily puzzle launch, evidence that makers and players continue to seek a one-per-day shared challenge outside conventional word games."},
+      {"url": "https://georgemike.com/beeb", "date": "2026-08-14", "quote_or_summary": "Fetched Beeb product page corroborates an actively maintained daily block-puzzle experience."}
+    ],
+    "recurrence": "Two recent daily-game launches use distinct subject matter but the same scarce-attention format: a finite shared board every day.",
+    "current_workaround": "Play Blokus/Tetris-inspired mobile apps with endless sessions, ads, or opaque scoring.",
+    "incumbents_and_gap": "Beeb supplies block placement and Startup Chess supplies themed daily strategy. The gap is an abstract, compact spatial puzzle with an explicit end and inspectable score.",
+    "smallest_useful_product": "A shared 6x6 daily board: choose the order of five polyomino-like creatures, each mutating one neighboring tile when placed. One perfect solution and a three-tier score make runs comparable. Non-goals: licensed board-game rules, PvP, endless survival, or boosters.",
+    "success_measure": "At least 40% of players complete the daily board without undoing more than ten moves, indicating rules are learnable but not trivial.",
+    "artifact_class": "browser-game", "monetization": "free — no boosters preserves the fairness of a daily shared score.",
+    "constraints": "Use original piece language/art; seed and solver must produce a unique optimal score; retain no identity data by default.", "est_build_effort": "S", "scale": "small (default)",
+    "why_distinct": "A mutation rule creates planning depth and a finite ending, rather than a daily reskin of block placement.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "pulse-run", "title": "Pulse Run", "territory": "games-creative",
+    "user": "Desktop or keyboard players who want a quick rhythm run in a browser without licensed-song dependence, account setup, or downloadable client.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48760674", "date": "2026-07-02", "quote_or_summary": "Row to Glory is a browser Viking rhythm game rendered in one HTML file, showing a lightweight web rhythm game can be compelling."},
+      {"url": "https://hn.algolia.com/api/v1/items/47783400", "date": "2026-04-15", "quote_or_summary": "Playbach.io is introduced directly as a desktop browser rhythm game, an independent current signal for the format."},
+      {"url": "https://www.rowtoglory.com", "date": "2026-07-02", "quote_or_summary": "Fetched Row to Glory page corroborates that a browser rhythm game can package an original themed experience."}
+    ],
+    "recurrence": "Two independent browser rhythm releases in spring/summer 2026 indicate renewed interest, while the category is often blocked by music licensing or huge song libraries.",
+    "current_workaround": "Install a dedicated rhythm game, play an ad-heavy clone, or rely on YouTube/extension-driven copyrighted tracks.",
+    "incumbents_and_gap": "Osu!-style ecosystems have depth and setup cost; YouTube rhythm add-ons depend on third-party media. Small browser demos rarely make each run structurally different.",
+    "smallest_useful_product": "A 3-minute keyboard rhythm roguelite with an original generative percussion soundtrack. Between 30-second tracks, choose one modifier that changes note patterns, input lanes, or scoring. Three missed phrases ends a run. Non-goals: imported songs, user charts, copyrighted audio, or competitive ranking.",
+    "success_measure": "At least 30% of new players finish a first run and 20% start a second build in the same visit.",
+    "artifact_class": "browser-game", "monetization": "one-time — a small original soundtrack and no ads support a finite premium arcade experience.",
+    "constraints": "Commission or synthesize only original audio; meet keyboard accessibility and honor reduced-motion preference; audio must unlock only after a user gesture.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "Run-building gives original, licensable music replay value rather than copying a song-library rhythm game.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "last-light-expedition", "title": "Last Light Expedition", "territory": "games-creative",
+    "user": "Roguelike-curious browser players who want one complete 20-minute atmospheric run instead of an endless grind or a commitment-heavy dungeon crawler.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/49107487", "date": "2026-07-30", "quote_or_summary": "A Dark Cave's maker explicitly focuses on atmosphere over graphics; an HN player reports it consumed 20 minutes of a work day."},
+      {"url": "https://hn.algolia.com/api/v1/items/46448670", "date": "2025-12-31", "quote_or_summary": "qq-pwn is presented as a browser incremental roguelike and asks for feedback on progression, showing browser players are actively evaluating concise progression loops."},
+      {"url": "https://a-dark-cave.com", "date": "2026-07-30", "quote_or_summary": "Fetched A Dark Cave page describes survival and settlement building, corroborating current browser demand for atmospheric progression."}
+    ],
+    "recurrence": "Recent browser roguelike/idler launches center atmosphere and progression, while one observed play session lands exactly in a short-break-sized window.",
+    "current_workaround": "Start a large roguelike, use an idle game with no endpoint, or play an atmospheric game that lacks a satisfying short conclusion.",
+    "incumbents_and_gap": "A Dark Room descendants favor long discovery; incremental roguelikes can blur active decisions. A deliberately finished, replayable expedition is underrepresented on the open web.",
+    "smallest_useful_product": "A 15-25 minute text-and-map expedition. Each of six camps asks one irreversible choice between warmth, supplies, and a companion's trust; one weather seed and one relic alter the route. Every run reaches one of four endings. Non-goals: endless prestige, live service, procedural prose generation, or combat complexity.",
+    "success_measure": "At least 45% of starters reach an ending and 25% begin a new seed after their first ending.",
+    "artifact_class": "browser-game", "monetization": "one-time — a clear ending and offline-friendly build are better aligned with a paid small game than retention mechanics.",
+    "constraints": "Original writing/art only; local save must be optional and resettable; avoid presenting survival choices as real-world advice.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "It treats a run as a complete story with an ending, not a disguised idle treadmill.", "confidence": 4, "state": "RESEARCHED"
+  },
+  {
+    "slug": "finite-foundry", "title": "Finite Foundry", "territory": "games-creative",
+    "user": "Incremental-game players who enjoy optimizing a production loop but want to finish a satisfying campaign in one or two evenings without microtransactions or perpetual prestige.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/48250237", "date": "2026-05-23", "quote_or_summary": "Feedback on a new browser idle/clicker criticizes unclear time to step away, rapid prestige, shallow progression, and a store full of microtransactions."},
+      {"url": "https://hn.algolia.com/api/v1/items/49156135", "date": "2026-08-03", "quote_or_summary": "Idle Frontier's developer retrospective is a separate 2026 signal that hobby developers are still actively building and reflecting on idle-game progression."},
+      {"url": "https://ljvmiranda921.github.io/projects/2026/08/03/idle-frontier/", "date": "2026-08-03", "quote_or_summary": "Fetched Idle Frontier retrospective corroborates an active indie effort to reason about idle-game design."}
+    ],
+    "recurrence": "A detailed player critique and a separate current idle-development post point to an active genre whose core pacing and monetization remain contentious.",
+    "current_workaround": "Play free clickers that demand constant checks, prestige early, and sell boosts, or abandon the game once the next upgrade loses meaning.",
+    "incumbents_and_gap": "Cookie Clicker-style games excel at endlessness; the cited critique identifies a gap for clear step-away windows, real depth, and no cash-shop pressure.",
+    "smallest_useful_product": "A 90-minute factory campaign in six chapters. Set a 5-minute production plan, leave it running, return to solve one new routing constraint, then dismantle the final machine for a credits ending. Each run randomizes available contracts. Non-goals: prestige, real-time offline accrual, energy timers, ads, or in-game purchases.",
+    "success_measure": "At least 50% of players reach chapter three and post-session feedback rates the next step as clear at 4/5 or above.",
+    "artifact_class": "browser-game", "monetization": "one-time — removing boosters and indefinite retention is the product promise.",
+    "constraints": "Clearly label simulated timers; save locally and support export; no gambling-like loot mechanics or pay-to-progress systems.", "est_build_effort": "M", "scale": "small (default)",
+    "why_distinct": "It makes idle a deliberate planning cadence with a finale, directly answering the cited complaints instead of adding a nicer cash shop.", "confidence": 5, "state": "RESEARCHED"
+  },
+  {
+    "slug": "sure-shot", "title": "Sure Shot", "territory": "games-creative",
+    "user": "Curious adults who like a daily mental game and want to learn whether their confidence is calibrated through playful, varied rounds rather than standard trivia.",
+    "evidence": [
+      {"url": "https://hn.algolia.com/api/v1/items/49441660", "date": "2026-08-25", "quote_or_summary": "A 10-question browser game asks players to state confidence and produces a calibration graph, demonstrating appetite for game-like self-knowledge."},
+      {"url": "https://hn.algolia.com/api/v1/items/47028739", "date": "2026-02-15", "quote_or_summary": "MemoryStorm deliberately uses patterns, monochrome panels, audio pitches, and staged difficulty so players cannot rely on color labels alone."},
+      {"url": "https://est.alejo.ch/", "date": "2026-08-25", "quote_or_summary": "Fetched Estimates page corroborates a live confidence-calibration browser game."}
+    ],
+    "recurrence": "Two different 2026 cognitive game experiments use transparent feedback and nonstandard stimuli, suggesting a route beyond generic quizzes.",
+    "current_workaround": "Take a trivia quiz, play Simon/color memory games, or view opaque scoreboards that do not explain decision quality.",
+    "incumbents_and_gap": "The calibration game is trivia-led and MemoryStorm is an escalating recall test. Neither connects fast, nonverbal micro-challenges to an understandable personal calibration story.",
+    "smallest_useful_product": "A daily five-round game of visual estimate, pattern recall, timing, and spatial judgment. Before each answer, slide a confidence dial; the ending animates over/under-confidence by challenge type and gives one retry-free takeaway. Non-goals: diagnosis, IQ claims, account streaks, or personalized ads.",
+    "success_measure": "At least 60% of starts complete all five rounds and 30% open the calibration explanation after results.",
+    "artifact_class": "browser-game", "monetization": "free — the data-sensitive premise should work without login, tracking, or a paywall.",
+    "constraints": "Describe it as entertainment, never cognitive assessment; keep scores on device; include non-audio/color alternatives and accessible timing controls.", "est_build_effort": "S", "scale": "small (default)",
+    "why_distinct": "Confidence is the game mechanic across several original micro-challenges, not a thin quiz wrapper or a medical claim.", "confidence": 4, "state": "RESEARCHED"
+  }
+]
