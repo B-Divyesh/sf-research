@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T05:35:17Z",
+  "generated": "2026-09-02T06:00:25.834Z",
   "categories": [
     {
       "id": "make",
@@ -103,7 +103,7 @@
       "interest": 5,
       "reason": "A browser-only console that works across S3 providers is a credible escape from vendor-specific admin panels, especially when credentials stay local.",
       "why": "Browse and manage any S3-compatible storage from your browser.",
-      "featured": true,
+      "featured": false,
       "tags": [
         "storage",
         "self-hosted",
@@ -592,7 +592,7 @@
       "interest": 5,
       "reason": "The case for Wallpage: a browser 'screensaver' gallery of evolving generative scenes for TVs, second monitors and wall displays rests on Full-screen page with ~10 original generative scenes (flow fields, Pong-Wars-like cellular duels, fractal flames, tide/cloud systems), each seeded from.",
       "why": "Turn a TV, wall display, or second monitor into a calm gallery of moving browser scenes.",
-      "featured": false,
+      "featured": true,
       "tags": [
         "creative"
       ]
@@ -624,6 +624,20 @@
       ]
     },
     {
+      "slug": "visualizer-cuebook",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Marking a performer’s own audio against dependable visual scenes is a focused live-show workflow rather than a generic visualiser toy.",
+      "why": "Mark your audio with cues, preview scenes, and export a visual show plan.",
+      "featured": false,
+      "tags": [
+        "music",
+        "visuals",
+        "offline"
+      ]
+    },
+    {
       "slug": "living-room-lobby",
       "kind": "game",
       "category": "play",
@@ -648,20 +662,6 @@
       "tags": [
         "data",
         "offline",
-        "desktop"
-      ]
-    },
-    {
-      "slug": "screen-landmark-lens",
-      "kind": "installable",
-      "category": "access",
-      "interest": 4,
-      "reason": "Selected-window OCR with keyboard commands tackles the stubborn gap between inaccessible legacy software and a person who still needs to use it.",
-      "why": "Find and read visible controls in one chosen window on your computer.",
-      "featured": false,
-      "tags": [
-        "access",
-        "ocr",
         "desktop"
       ]
     },
@@ -864,20 +864,6 @@
       ]
     },
     {
-      "slug": "visualizer-cuebook",
-      "kind": "product",
-      "category": "make",
-      "interest": 4,
-      "reason": "Marking a performer’s own audio against dependable visual scenes is a focused live-show workflow rather than a generic visualiser toy.",
-      "why": "Mark your audio with cues, preview scenes, and export a visual show plan.",
-      "featured": false,
-      "tags": [
-        "music",
-        "visuals",
-        "offline"
-      ]
-    },
-    {
       "slug": "cycle-block-animator",
       "kind": "product",
       "category": "make",
@@ -940,6 +926,20 @@
         "creative",
         "offline",
         "extension"
+      ]
+    },
+    {
+      "slug": "family-archive-check",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "It asks the practical question most archive plans skip: can another person actually open the family collection after a handoff?",
+      "why": "Check whether family photos and videos have a readable second copy.",
+      "featured": true,
+      "tags": [
+        "archive",
+        "backup",
+        "app"
       ]
     },
     {
@@ -1536,6 +1536,20 @@
       ]
     },
     {
+      "slug": "screen-landmark-lens",
+      "kind": "installable",
+      "category": "access",
+      "interest": 4,
+      "reason": "Selected-window OCR with keyboard commands tackles the stubborn gap between inaccessible legacy software and a person who still needs to use it.",
+      "why": "Find and read visible controls in one chosen window on your computer.",
+      "featured": false,
+      "tags": [
+        "access",
+        "ocr",
+        "desktop"
+      ]
+    },
+    {
       "slug": "service-notification-router",
       "kind": "product",
       "category": "life",
@@ -1864,20 +1878,6 @@
       ]
     },
     {
-      "slug": "gridsong",
-      "kind": "product",
-      "category": "play",
-      "interest": 3,
-      "reason": "A shareable colour-grid sequencer with long patterns and exports is a practical classroom music tool, though its core interaction is familiar.",
-      "why": "Build a song on a colour grid, then save or export it.",
-      "featured": false,
-      "tags": [
-        "music",
-        "classroom",
-        "sequencer"
-      ]
-    },
-    {
       "slug": "legacy-change-radar",
       "kind": "devtool",
       "category": "tools",
@@ -2092,19 +2092,6 @@
       "tags": [
         "sound",
         "learning"
-      ]
-    },
-    {
-      "slug": "inventory-promise-hold",
-      "kind": "product",
-      "category": "money",
-      "interest": 3,
-      "reason": "Timed shared holds solve a real double-selling problem, but matter only to shops with scarce stock.",
-      "why": "Create timed shared holds so scarce stock is not promised twice.",
-      "featured": false,
-      "tags": [
-        "inventory",
-        "shops"
       ]
     },
     {
@@ -2335,19 +2322,6 @@
       "tags": [
         "access",
         "browser"
-      ]
-    },
-    {
-      "slug": "arithmetic-steps",
-      "kind": "product",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Counters, ten-frames, and spoken steps make the calculation visible, though it remains a focused practice drill rather than a broad maths course.",
-      "why": "Practise addition and subtraction with counters, ten-frames, and spoken steps.",
-      "featured": false,
-      "tags": [
-        "maths",
-        "practice"
       ]
     },
     {
@@ -2790,19 +2764,6 @@
       ]
     },
     {
-      "slug": "client-request-catalog",
-      "kind": "product",
-      "category": "money",
-      "interest": 3,
-      "reason": "A client-specific catalogue that records price, availability, and requests can save a small business from a messy email thread, but it is not yet a finished release.",
-      "why": "Share a client catalogue, collect requests, and export the request list.",
-      "featured": false,
-      "tags": [
-        "clients",
-        "requests"
-      ]
-    },
-    {
       "slug": "client-offboarding-kit",
       "kind": "product",
       "category": "life",
@@ -3136,20 +3097,6 @@
       ]
     },
     {
-      "slug": "family-archive-check",
-      "kind": "installable",
-      "category": "install",
-      "interest": 4,
-      "reason": "It asks the practical question most archive plans skip: can another person actually open the family collection after a handoff?",
-      "why": "Check whether family photos and videos have a readable second copy.",
-      "featured": true,
-      "tags": [
-        "archive",
-        "backup",
-        "app"
-      ]
-    },
-    {
       "slug": "family-doodle-relay",
       "kind": "game",
       "category": "make",
@@ -3266,18 +3213,6 @@
       ]
     },
     {
-      "slug": "gaze-calibration-card",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Nine targets give someone a quick baseline before relying on eye control for real work.",
-      "why": "Compare an eye-controlled pointer across nine targets before a demanding task.",
-      "featured": false,
-      "tags": [
-        "install"
-      ]
-    },
-    {
       "slug": "git-forge-exit-drill",
       "kind": "devtool",
       "category": "tools",
@@ -3300,6 +3235,20 @@
       "tags": [
         "github",
         "migration"
+      ]
+    },
+    {
+      "slug": "gridsong",
+      "kind": "product",
+      "category": "play",
+      "interest": 3,
+      "reason": "A shareable colour-grid sequencer with long patterns and exports is a practical classroom music tool, though its core interaction is familiar.",
+      "why": "Build a song on a colour grid, then save or export it.",
+      "featured": false,
+      "tags": [
+        "music",
+        "classroom",
+        "sequencer"
       ]
     },
     {
@@ -3648,20 +3597,6 @@
       "tags": [
         "reading",
         "speech"
-      ]
-    },
-    {
-      "slug": "local-data-finder",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Searching only folders and exports you choose, with every result pointing back to its source, is a clearer privacy promise than an all-seeing desktop index.",
-      "why": "Search selected folders and exported files without sending them anywhere.",
-      "featured": false,
-      "tags": [
-        "search",
-        "offline",
-        "desktop"
       ]
     },
     {
@@ -5134,6 +5069,20 @@
       ]
     },
     {
+      "slug": "dictation-repair-book",
+      "kind": "installable",
+      "category": "access",
+      "interest": 2,
+      "reason": "Turning approved dictation corrections into reusable spelling rules could save repeated friction for a small but real group of users.",
+      "why": "Turn dictation corrections into a private reusable vocabulary book.",
+      "featured": false,
+      "tags": [
+        "access",
+        "offline",
+        "app"
+      ]
+    },
+    {
       "slug": "document-history-bridge",
       "kind": "installable",
       "category": "install",
@@ -6417,20 +6366,6 @@
       "tags": [
         "local",
         "offline"
-      ]
-    },
-    {
-      "slug": "dictation-repair-book",
-      "kind": "installable",
-      "category": "access",
-      "interest": 2,
-      "reason": "Turning approved dictation corrections into reusable spelling rules could save repeated friction for a small but real group of users.",
-      "why": "Turn dictation corrections into a private reusable vocabulary book.",
-      "featured": false,
-      "tags": [
-        "access",
-        "offline",
-        "app"
       ]
     },
     {
@@ -8174,133 +8109,26 @@
       ]
     },
     {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "A six-minute auction that mixes public news with private rumours has a crisp social hook, even if it needs a group to shine.",
-      "why": "Bid on changing fictional goods in a six-minute room-code game.",
+      "slug": "bank-import-receipts",
+      "kind": "utility",
+      "category": "money",
+      "interest": 2,
+      "reason": "A local check that records exactly what entered a bookkeeping import is sensible audit hygiene, though it is too narrow to browse for casually.",
+      "why": "Check a bank CSV before import and save a record of what changed.",
       "featured": false,
       "tags": [
-        "game",
-        "multiplayer"
+        "banking",
+        "CSV",
+        "local"
       ]
     },
     {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Distinct crew roles and two-button phone controls make this a more intentional couch game than a generic party-room prototype.",
-      "why": "Work through a short heist together using two buttons on each phone.",
-      "featured": false,
-      "tags": [
-        "game",
-        "multiplayer"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "A daily puzzle that makes players plan before watching the guards react has a clean, legible challenge rather than a disposable clicker loop.",
-      "why": "Plan five moves around guard routes in a new daily museum puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily"
-      ]
-    },
-    {
-      "kind": "extension",
-      "category": "access",
-      "interest": 3,
-      "reason": "A large focus indicator and saved reading settings are useful accommodations, though the extension has to earn trust on every site.",
-      "why": "Make keyboard focus clearer and save reading settings for each site.",
-      "featured": false,
-      "tags": [
-        "access",
-        "reading",
-        "extension"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but it needs the puzzle design to carry more than the presentation.",
-      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Splitting evidence among players gives a group mystery a real reason to talk, though timed rounds can put off quieter groups.",
-      "why": "Compare private clues with friends and solve one timed browser mystery.",
-      "featured": false,
-      "tags": [
-        "game",
-        "multiplayer"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Limited tile rotations plus a clock create a readable daily routing puzzle, but it is deliberately small in scope.",
-      "why": "Rotate tiles to connect signals before the timer ends in a daily puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "The pieces changing nearby tiles gives the daily placement puzzle a worthwhile twist beyond merely filling a grid.",
-      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily"
-      ]
-    },
-    {
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Pairing each short estimation challenge with a confidence dial makes the result about judgement, not just a score.",
-      "why": "Test visual and timing judgement, then compare each answer with your confidence.",
-      "featured": false,
-      "tags": [
-        "game",
-        "daily"
-      ]
-    },
-    {
-      "kind": "product",
-      "category": "play",
-      "interest": 3,
-      "reason": "Four pads, manual slicing, and WAV export make this a focused pocket sketchpad, not another vague voice-note app.",
-      "why": "Record a voice riff, slice it into four pads, and export a loop.",
-      "featured": false,
-      "tags": [
-        "music",
-        "audio",
-        "offline"
-      ]
-    },
-    {
+      "slug": "calendar-ics-snapshots",
       "kind": "installable",
       "category": "install",
       "interest": 3,
-      "reason": "It keeps versioned calendar snapshots and points out what changed, which gives a personal calendar a real recovery plan.",
-      "why": "Save encrypted calendar snapshots and restore an earlier version when events change.",
+      "reason": "Versioned encrypted calendar snapshots give a personal calendar a credible recovery plan, even if CalDAV setup narrows the audience.",
+      "why": "Save encrypted calendar snapshots and restore events after unwanted changes.",
       "featured": false,
       "tags": [
         "calendar",
@@ -8309,10 +8137,123 @@
       ]
     },
     {
+      "slug": "closing-bell",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A six-minute auction where public headlines and private rumours change the board has a crisp social hook, but needs a group to shine.",
+      "why": "Bid on changing fictional goods in a six-minute room-code game.",
+      "featured": false,
+      "tags": [
+        "game",
+        "multiplayer",
+        "auction"
+      ]
+    },
+    {
+      "slug": "five-minute-heist",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Planning five moves before the guards react creates a legible daily puzzle rather than a disposable clicker loop.",
+      "why": "Plan five moves around guard routes in a new daily museum puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
+      "slug": "haptic-beat-relay",
+      "kind": "product",
+      "category": "play",
+      "interest": 3,
+      "reason": "Letting one device send vibration cues while another taps back makes rhythm practice social and accessible, if both phones cooperate.",
+      "why": "Send beat cues to another phone and tap back together in time.",
+      "featured": false,
+      "tags": [
+        "music",
+        "rhythm",
+        "phones"
+      ]
+    },
+    {
+      "slug": "math-circle-board",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Saving learners’ attempts and strategy notes around a weekly problem supports the conversation that makes a math circle useful, not just an answer key.",
+      "why": "Run a small math group with problem cards, attempts, and facilitator notes.",
+      "featured": false,
+      "tags": [
+        "math",
+        "teaching",
+        "groups"
+      ]
+    },
+    {
+      "slug": "pause-garden",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Making an absent player harmless is a thoughtful answer to the usual multiplayer scheduling problem, though the garden theme is otherwise familiar.",
+      "why": "Restore a garden together in short turns, even when someone steps away.",
+      "featured": false,
+      "tags": [
+        "game",
+        "co-op",
+        "multiplayer"
+      ]
+    },
+    {
+      "slug": "sure-shot",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Pairing short estimation challenges with a confidence dial makes the result about judgement, not merely a score.",
+      "why": "Test visual and timing judgement, then compare each answer with your confidence.",
+      "featured": false,
+      "tags": [
+        "game",
+        "daily",
+        "puzzle"
+      ]
+    },
+    {
+      "slug": "alert-evidence-envelope",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Attaching a signed, redacted query result to an alert could make incident handoffs less speculative, but it is specialist operations plumbing.",
+      "why": "Attach redacted query evidence to an alert before forwarding it.",
+      "featured": false,
+      "tags": [
+        "alerts",
+        "security",
+        "developer"
+      ]
+    },
+    {
+      "slug": "browser-bridge-crew",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Complementary phone panels give a short spaceship repair game a real reason for people to communicate, not just share a screen.",
+      "why": "Coordinate spaceship repairs with four to eight people on separate phones.",
+      "featured": false,
+      "tags": [
+        "game",
+        "multiplayer",
+        "co-op"
+      ]
+    },
+    {
+      "slug": "clipboard-lan-bridge",
       "kind": "installable",
       "category": "install",
       "interest": 3,
-      "reason": "Moving a snippet between nearby devices is common enough to matter, and local discovery with a visible expiry makes it less sketchy than a random sync service.",
+      "reason": "Local discovery, encryption, and visible expiry make this a more accountable way to move a snippet or file between nearby devices.",
       "why": "Send clipboard text and files between nearby devices on your local network.",
       "featured": false,
       "tags": [
@@ -8322,30 +8263,63 @@
       ]
     },
     {
-      "kind": "product",
+      "slug": "cycle-legal-profile-check",
+      "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "Checking a GPX route against local access rules solves an expensive mistake before a ride, but regional rule quality limits its reach.",
+      "reason": "Checking a GPX route against access rules can prevent a costly mistake before a ride, although its usefulness depends on local map data.",
       "why": "Check a planned GPX route for access rules for your vehicle and region.",
       "featured": false,
       "tags": [
         "cycling",
-        "routes"
+        "routes",
+        "maps"
       ]
     },
     {
+      "slug": "exam-bridge",
       "kind": "utility",
       "category": "learn",
       "interest": 3,
-      "reason": "Turning a syllabus into a confidence-led prerequisite list is sensible study planning, although it still depends on careful manual input.",
+      "reason": "Turning a syllabus into a confidence-led prerequisite list is practical study planning, though it still asks the learner to judge their own gaps.",
       "why": "Turn a syllabus into a study order based on what you know already.",
       "featured": false,
       "tags": [
         "study",
-        "planning"
+        "planning",
+        "exams"
       ]
     },
     {
+      "slug": "focus-lens",
+      "kind": "extension",
+      "category": "access",
+      "interest": 3,
+      "reason": "A large focus indicator and saved reading settings are useful accommodations, although an extension has to earn trust on every site.",
+      "why": "Make keyboard focus clearer and save reading settings for each site.",
+      "featured": false,
+      "tags": [
+        "access",
+        "reading",
+        "extension"
+      ]
+    },
+    {
+      "slug": "infra-test-evidence",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Collecting proof from infrastructure tests is valuable for a release review, but it is narrow engineering paperwork rather than a destination product.",
+      "why": "Collect test evidence from infrastructure checks for a release review.",
+      "featured": false,
+      "tags": [
+        "testing",
+        "infra",
+        "developer"
+      ]
+    },
+    {
+      "slug": "internal-event-ledger",
       "kind": "devtool",
       "category": "tools",
       "interest": 3,
@@ -8355,10 +8329,53 @@
       "tags": [
         "events",
         "self-hosted",
-        "tools"
+        "developer"
       ]
     },
     {
+      "slug": "local-sync-observer",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "A read-only view of local sync activity can settle a worrying question without changing files, but it serves a very specific troubleshooting moment.",
+      "why": "Watch local file sync activity without changing your files.",
+      "featured": false,
+      "tags": [
+        "sync",
+        "files",
+        "app"
+      ]
+    },
+    {
+      "slug": "mirror-orchard",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but the puzzle design must carry more than the presentation.",
+      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
+      "slug": "photo-cull-review",
+      "kind": "product",
+      "category": "life",
+      "interest": 4,
+      "reason": "Comparing duplicate and burst photos side by side solves an ugly, real archive chore without making people hand their library to a service.",
+      "why": "Review duplicate and burst photos side by side, then export your keep list.",
+      "featured": false,
+      "tags": [
+        "photos",
+        "local",
+        "cleanup"
+      ]
+    },
+    {
+      "slug": "pinpoint-daily",
       "kind": "game",
       "category": "play",
       "interest": 2,
@@ -8367,10 +8384,12 @@
       "featured": false,
       "tags": [
         "game",
-        "daily"
+        "daily",
+        "golf"
       ]
     },
     {
+      "slug": "review-backlog-forecast",
       "kind": "utility",
       "category": "learn",
       "interest": 3,
@@ -8379,14 +8398,58 @@
       "featured": false,
       "tags": [
         "study",
-        "planning"
+        "planning",
+        "review"
       ]
     },
     {
+      "slug": "room-code-mystery",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Splitting evidence among players gives a group mystery a real reason to talk, though timed rounds can put off quieter groups.",
+      "why": "Compare private clues with friends and solve one timed browser mystery.",
+      "featured": false,
+      "tags": [
+        "game",
+        "mystery",
+        "multiplayer"
+      ]
+    },
+    {
+      "slug": "seed-sprint",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Limited tile rotations plus a clock create a readable daily routing puzzle, but it is deliberately small in scope.",
+      "why": "Rotate tiles to connect signals before the timer ends in a daily puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
+      "slug": "shapeshift-set",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Pieces that change nearby tiles give this placement puzzle a worthwhile twist beyond merely filling a grid.",
+      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
+      "slug": "storage-aware-expiry",
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "A use-first queue that knows where food is stored tackles the moment people actually waste things, rather than pretending to automate a kitchen.",
+      "reason": "A use-first queue that knows where food is stored addresses the moment people waste things, rather than pretending to automate a kitchen.",
       "why": "Track where food is stored and see what to use first.",
       "featured": false,
       "tags": [
