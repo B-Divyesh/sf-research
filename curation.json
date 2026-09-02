@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T02:05:33Z",
+  "generated": "2026-09-02T03:16:33Z",
   "categories": [
     {
       "id": "make",
@@ -1124,20 +1124,6 @@
       ]
     },
     {
-      "slug": "calendar-ics-snapshots",
-      "kind": "installable",
-      "category": "install",
-      "interest": 4,
-      "reason": "Selective calendar snapshots make a frightening restore job safer, even if this remains a desktop niche.",
-      "why": "Save calendar copies, compare changes, and restore selected events on your computer.",
-      "featured": false,
-      "tags": [
-        "calendar",
-        "backup",
-        "desktop"
-      ]
-    },
-    {
       "slug": "calm-language-routine",
       "kind": "product",
       "category": "learn",
@@ -2150,18 +2136,6 @@
       "tags": [
         "creative",
         "offline"
-      ]
-    },
-    {
-      "slug": "cycle-legal-profile-check",
-      "kind": "product",
-      "category": "learn",
-      "interest": 2,
-      "reason": "Check a planned GPX track for bicycle and speed-pedelec access conflicts before you ride is useful niche plumbing for people with that specific task, not a destination in its own right.",
-      "why": "Check a planned GPX track for bicycle and speed-pedelec access conflicts before you ride.",
-      "featured": false,
-      "tags": [
-        "learn"
       ]
     },
     {
@@ -3580,18 +3554,6 @@
       "tags": [
         "play",
         "offline"
-      ]
-    },
-    {
-      "slug": "infra-test-evidence",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 1,
-      "reason": "Convert infrastructure test runs into JUnit and redacted evidence that reviewers can inspect locally is useful niche plumbing for developers, not a destination in its own right.",
-      "why": "Convert infrastructure test runs into JUnit and redacted evidence that reviewers can inspect locally.",
-      "featured": false,
-      "tags": [
-        "tools"
       ]
     },
     {
@@ -5057,19 +5019,6 @@
         "local",
         "offline",
         "extension"
-      ]
-    },
-    {
-      "slug": "pause-garden",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Letting an absent player become a harmless helper is a thoughtful answer to the usual frustration of scheduling a co-op game, though this one is still verifying.",
-      "why": "Restore a garden with friends in short room-code game chapters.",
-      "featured": false,
-      "tags": [
-        "co-op",
-        "garden"
       ]
     },
     {
@@ -8130,32 +8079,6 @@
       ]
     },
     {
-      "slug": "exam-bridge",
-      "kind": "product",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Starting from what a student cannot yet do is a saner planning method than another blank revision timetable, though the planner remains specialised.",
-      "why": "Turn a syllabus into a confidence-based study sequence and checklist.",
-      "featured": false,
-      "tags": [
-        "study",
-        "planning"
-      ]
-    },
-    {
-      "slug": "internal-event-ledger",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 3,
-      "reason": "A self-hosted record of internal events is sensible operational hygiene, but it competes in a crowded and technical monitoring space.",
-      "why": "Receive internal events, search their timeline, and export the record.",
-      "featured": false,
-      "tags": [
-        "events",
-        "self-hosted"
-      ]
-    },
-    {
       "slug": "last-lap-breakout",
       "kind": "game",
       "category": "play",
@@ -8166,33 +8089,6 @@
       "tags": [
         "arcade",
         "breakout"
-      ]
-    },
-    {
-      "slug": "mirror-orchard",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "The mirrored-board premise is calm and easy to understand, but its puzzle hook needs a stronger first screen to stand apart from other daily games.",
-      "why": "Grow a mirrored orchard by solving symmetry puzzles.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "symmetry"
-      ]
-    },
-    {
-      "slug": "clipboard-lan-bridge",
-      "kind": "installable",
-      "category": "install",
-      "interest": 4,
-      "reason": "Local encrypted sharing between a computer and phone solves an everyday annoyance without turning a clipboard into another cloud account.",
-      "why": "Send clipboard text and files between your paired devices on your local network.",
-      "featured": false,
-      "tags": [
-        "LAN",
-        "sharing",
-        "private"
       ]
     },
     {
@@ -8234,6 +8130,146 @@
         "games",
         "replays",
         "npm"
+      ]
+    },
+    {
+      "slug": "hotkey-runbook",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Signed YAML and typed parameter forms turn risky maintenance snippets into a reviewable desktop operation for the small group who run them.",
+      "why": "Run reviewed local YAML steps with typed inputs and a redacted history.",
+      "featured": false,
+      "tags": [
+        "yaml",
+        "operations",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "local-data-workbench",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "Keeping CSV, JSON, and Parquet files on the machine while saving a portable transform recipe makes this a persuasive bridge between spreadsheets and a data stack.",
+      "why": "Inspect local data files, clean them with saved steps, and export the result.",
+      "featured": false,
+      "tags": [
+        "data",
+        "offline",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "local-live-captions",
+      "kind": "installable",
+      "category": "access",
+      "interest": 4,
+      "reason": "Offline captions from selected system audio address a serious access need without putting calls through a transcription service, even if setup will matter.",
+      "why": "Caption selected computer audio with speech models that stay on your computer.",
+      "featured": false,
+      "tags": [
+        "captions",
+        "offline",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "focus-study-sprint",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Short sessions built from your own prompts and deliberately free of streaks give active recall a calmer shape than most study apps.",
+      "why": "Practise your own questions in a timed session and review what you missed.",
+      "featured": false,
+      "tags": [
+        "study",
+        "recall",
+        "offline"
+      ]
+    },
+    {
+      "slug": "gridsong",
+      "kind": "product",
+      "category": "play",
+      "interest": 3,
+      "reason": "A shareable colour-grid sequencer with long patterns and exports is a practical classroom music tool, though its core interaction is familiar.",
+      "why": "Build a song on a colour grid, then save or export it.",
+      "featured": false,
+      "tags": [
+        "music",
+        "classroom",
+        "sequencer"
+      ]
+    },
+    {
+      "slug": "living-room-lobby",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Making the television the shared play surface while phones stay optional is a thoughtful answer to the usual party-game exclusion problem.",
+      "why": "Host language-light party games on a TV for people in the same room.",
+      "featured": false,
+      "tags": [
+        "party",
+        "tv",
+        "family"
+      ]
+    },
+    {
+      "slug": "local-data-finder",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Searching only folders and exports you choose, with every result pointing back to its source, is a clearer privacy promise than an all-seeing desktop index.",
+      "why": "Search selected folders and exported files without sending them anywhere.",
+      "featured": false,
+      "tags": [
+        "search",
+        "offline",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "screen-landmark-lens",
+      "kind": "installable",
+      "category": "access",
+      "interest": 4,
+      "reason": "Selected-window OCR with keyboard commands tackles the stubborn gap between inaccessible legacy software and a person who still needs to use it.",
+      "why": "Find and read visible controls in one chosen window on your computer.",
+      "featured": false,
+      "tags": [
+        "access",
+        "ocr",
+        "desktop"
+      ]
+    },
+    {
+      "slug": "service-proof-loop",
+      "kind": "product",
+      "category": "money",
+      "interest": 4,
+      "reason": "Turning each field visit into a client proof page and next-job record connects the work itself to acceptance, where small service businesses often lose time.",
+      "why": "Send proof after a service visit and record the client’s response.",
+      "featured": false,
+      "tags": [
+        "service",
+        "clients",
+        "records"
+      ]
+    },
+    {
+      "slug": "vault-cross-search",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "Searching only titles, usernames, and URLs across separate KeePass vaults preserves their boundaries, but it remains specialist password-management housekeeping.",
+      "why": "Find an entry across local KeePass vaults without merging or copying secrets.",
+      "featured": false,
+      "tags": [
+        "passwords",
+        "offline",
+        "desktop"
       ]
     }
   ]
