@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T06:00:25.834Z",
+  "generated": "2026-09-02T06:32:24.186Z",
   "categories": [
     {
       "id": "make",
@@ -164,7 +164,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "reading direct and transitive dependency ages across eight lockfile formats.",
+      "reason": "Comparing the age of already locked dependencies across ecosystems gives cautious teams a useful supply-chain question to ask.",
       "why": "Audit the release age of direct and transitive dependencies already resolved in eight lockfile formats.",
       "featured": false,
       "tags": [
@@ -214,7 +214,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 5,
-      "reason": "The case for Exports-aware npm package cost explorer (install size + per-entry bundle size), fully client-side rests on v1 static site: input name@version; fetch tarballs from the npm CDN (jsDelivr/unpkg) in the browser; resolve `exports`/`main`/`module`; bundle each export.",
+      "reason": "Showing the cost of each npm export before installation makes a dependency decision more concrete than a package-page popularity contest.",
       "why": "Compare installed size and bundle size for npm package entry points before adding a dependency.",
       "featured": false,
       "tags": [
@@ -240,7 +240,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "v1 (npm, framework-agnostic core + React adapter): day/week/month views with continuous vertical month scrolling, a horizontal resource-timeline view.",
+      "reason": "A genuinely headless scheduler with resource timelines fills a stubborn UI gap, although it competes in a crowded component market.",
       "why": "Build calendar and resource timeline views with TypeScript.",
       "featured": false,
       "tags": [
@@ -265,7 +265,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 5,
-      "reason": "The point of Humane Practical Exams becomes clear in Self-hostable web app for a timed task brief, local artifact upload, candidate-written work log, checkpoint hashes, and assessor rubric with an exportable.",
+      "reason": "An open-book practical exam with an evidence trail judges real work more honestly than a locked-down quiz, if assessment rules stay clear.",
       "why": "Run open-book practical exams with evidence and clear rubrics.",
       "featured": false,
       "tags": [
@@ -303,7 +303,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "opening a Google Maps Timeline export locally instead of asking a map service to inspect it.",
+      "reason": "Google’s Timeline export is awkward to inspect; a local viewer turns a stranded personal archive into something usable.",
       "why": "Browse and export Google Maps Timeline JSON privately, in your browser.",
       "featured": false,
       "tags": [
@@ -328,7 +328,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 5,
-      "reason": "Milkdrop Web: mic-driven, beat-aware music visualizer for TVs and projectors — no audio routing is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Full-screen WebGL visualizer with 12 original shader presets driven by mic FFT + onset/beat detection (tempo estimate, downbeat emphasis).",
+      "reason": "A mic-reactive visualizer that works straight from a TV browser avoids the audio-routing obstacle that spoils many party setups.",
       "why": "Show music-reactive visuals from a microphone on a TV or projector.",
       "featured": false,
       "tags": [
@@ -364,7 +364,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 5,
-      "reason": "Static page: drop CSV/TSV/XLSX.",
+      "reason": "Local million-row CSV work is a substantial browser challenge, and a good pivot interface would make it immediately useful.",
       "why": "Filter, summarize, query and export large CSV files in your browser.",
       "featured": false,
       "tags": [
@@ -376,7 +376,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 5,
-      "reason": "OpenAPI Collection Bridge has a concrete hook: A local converter for OpenAPI, Postman, Insomnia, Bruno, and cURL that emits destination files plus a human-readable inventory of preserved, transformed.",
+      "reason": "A converter that names what was lost during an API-client migration is much more trustworthy than one that silently writes a new file.",
       "why": "Convert OpenAPI, Postman, Insomnia, Bruno, and cURL locally—with a semantic loss report.",
       "featured": false,
       "tags": [
@@ -401,7 +401,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Reading two DRM-free editions side by side and exporting matched sentences is a rare, concrete capability for language learners.",
+      "reason": "Aligning two DRM-free editions and exporting sentence pairs gives language learners a rare reason to keep their own files.",
       "why": "Privately align your own DRM-free EPUB editions, read them in parallel, and export sentence pairs.",
       "featured": false,
       "tags": [
@@ -414,7 +414,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Local analyser that groups candidate pairs by basename, reads available capture/content IDs and timestamps, and labels each as verified, ambiguous.",
+      "reason": "Checking photo, video, and sidecar groups before a destructive move tackles a boring but costly archive mistake.",
       "why": "Verify that same-name photos, videos, and sidecars really belong together before you stack, import, or delete.",
       "featured": false,
       "tags": [
@@ -427,7 +427,7 @@
       "kind": "product",
       "category": "money",
       "interest": 5,
-      "reason": "Offline CSV importer with a remembered local mapping, merchant merge/split rules, recurring-charge candidates, month comparison, and exportable review.",
+      "reason": "Private bank-file review is valuable, but it earns its place only if the reconciliation rules are clearer than a spreadsheet.",
       "why": "Review bank CSVs privately in your browser. No account, bank link, or statement upload.",
       "featured": false,
       "tags": [
@@ -477,7 +477,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Reading a huge mail archive without uploading it solves a palpable privacy and capacity problem.",
+      "reason": "Searching a huge Gmail export without an upload solves both the privacy and browser-capacity problems of a real archive.",
       "why": "Search a Gmail Takeout archive in your browser. Read messages and export selected emails.",
       "featured": false,
       "tags": [
@@ -515,7 +515,7 @@
       "kind": "product",
       "category": "play",
       "interest": 5,
-      "reason": "The point of Tableclock: a multi-device turn timer / N-player chess clock for board-game tables becomes clear in Single screen: add 2–8 players, choose mode (count-up, bank, Fischer increment, fixed per-turn), tap to end turn; big colour blocks readable across a table.",
+      "reason": "A readable shared turn clock removes the usual phone-passing fuss at a board-game table and handles more than chess.",
       "why": "Time every player’s turn on one shared phone for board-game groups of two to eight players.",
       "featured": false,
       "tags": [
@@ -577,7 +577,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Today Money is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline PWA where a user enters current cash, mandatory future bills, and protected envelopes; it computes a conservative daily amount through the next payday.",
+      "reason": "Reducing cash, bills, and protected money to one conservative daily figure answers a question most budgeting apps avoid.",
       "why": "See a daily amount after bills and protected money, without connecting a bank.",
       "featured": false,
       "tags": [
@@ -590,7 +590,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 5,
-      "reason": "The case for Wallpage: a browser 'screensaver' gallery of evolving generative scenes for TVs, second monitors and wall displays rests on Full-screen page with ~10 original generative scenes (flow fields, Pong-Wars-like cellular duels, fractal flames, tide/cloud systems), each seeded from.",
+      "reason": "A changing generative display gives an idle screen a purpose without trying to capture attention like a feed.",
       "why": "Turn a TV, wall display, or second monitor into a calm gallery of moving browser scenes.",
       "featured": true,
       "tags": [
@@ -638,31 +638,31 @@
       ]
     },
     {
-      "slug": "living-room-lobby",
-      "kind": "game",
-      "category": "play",
+      "slug": "local-live-captions",
+      "kind": "installable",
+      "category": "access",
       "interest": 4,
-      "reason": "Making the television the shared play surface while phones stay optional is a thoughtful answer to the usual party-game exclusion problem.",
-      "why": "Host language-light party games on a TV for people in the same room.",
+      "reason": "Offline captions from selected system audio address a serious access need without putting calls through a transcription service, even if setup will matter.",
+      "why": "Caption selected computer audio with speech models that stay on your computer.",
       "featured": false,
       "tags": [
-        "party",
-        "tv",
-        "family"
+        "captions",
+        "offline",
+        "desktop"
       ]
     },
     {
-      "slug": "local-data-workbench",
-      "kind": "installable",
-      "category": "install",
+      "slug": "photo-cull-review",
+      "kind": "product",
+      "category": "life",
       "interest": 4,
-      "reason": "Keeping CSV, JSON, and Parquet files on the machine while saving a portable transform recipe makes this a persuasive bridge between spreadsheets and a data stack.",
-      "why": "Inspect local data files, clean them with saved steps, and export the result.",
+      "reason": "Comparing duplicate and burst photos side by side solves an ugly, real archive chore without making people hand their library to a service.",
+      "why": "Review duplicate and burst photos side by side, then export your keep list.",
       "featured": false,
       "tags": [
-        "data",
-        "offline",
-        "desktop"
+        "photos",
+        "local",
+        "cleanup"
       ]
     },
     {
@@ -697,7 +697,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "Audio Reflection Markers has a concrete hook: Mobile-first PWA for user-supplied audio/video links or local files: one-button timestamp marker, typed/voice takeaway, optional action date, and Markdown/CSV.",
+      "reason": "Timestamped notes turn passive listening into reviewable material, especially when the recording never leaves the device.",
       "why": "Catch one useful moment from any recording, turn it into a recall cue, and revisit it later.",
       "featured": false,
       "tags": [
@@ -723,7 +723,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "The point of Boardgame Session Notes becomes clear in Offline session template with participants, pre-play state/photo, reusable house-rule snippets, event timeline, and final score; export a single Markdown/PDF.",
+      "reason": "A good session record preserves the house rules and odd moments that ordinary score trackers discard.",
       "why": "Keep private, durable notes for every boardgame session—even offline.",
       "featured": false,
       "tags": [
@@ -758,11 +758,25 @@
       ]
     },
     {
+      "slug": "browser-bridge-crew",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Complementary phone panels give a short spaceship repair game a real reason for people to communicate, not just share a screen.",
+      "why": "Coordinate spaceship repairs with four to eight people on separate phones.",
+      "featured": false,
+      "tags": [
+        "game",
+        "multiplayer",
+        "co-op"
+      ]
+    },
+    {
       "slug": "caption-clarity",
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "A local WebVTT/SRT player and standards-compliant video overlay with profiles for emphasis, line length, pause-on-keyword, and user-defined confusing terms.",
+      "reason": "Letting people control caption layout and timing serves a practical access need, not a cosmetic preference.",
       "why": "Play local video with captions shaped around the words you find hard to hear.",
       "featured": false,
       "tags": [
@@ -802,7 +816,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 4,
-      "reason": "Color Meaning Lens is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A browser extension that lets users map page colors to patterns and short labels (for example PASS, WARN, FAIL), with a per-site eyedropper and keyboard.",
+      "reason": "Replacing colour-only signals with patterns and labels makes status-heavy websites easier to read at a glance.",
       "why": "Add patterns and short labels to colors on a web page.",
       "featured": false,
       "tags": [
@@ -829,7 +843,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "The case for Continuity Board rests on Local board with character reference slots, named attributes, prop checklist, 4–12 panel shot cards, and print/PDF export.",
+      "reason": "A compact continuity board helps a comic project survive the gap between one drawing session and the next.",
       "why": "Plan character, prop, and shot continuity before you draw.",
       "featured": false,
       "tags": [
@@ -894,7 +908,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "Demo Loop has a concrete hook: Browser recorder that captures a selected tab plus optional mic, lets the maker mark one interaction beat and one caption, and exports a short WebM and poster.",
+      "reason": "A short, captioned interaction recording gives a maker a useful portfolio artifact instead of a vague demo link.",
       "why": "Capture a portfolio-ready interaction demo in one short, local-first take.",
       "featured": false,
       "tags": [
@@ -907,7 +921,7 @@
       "kind": "utility",
       "category": "access",
       "interest": 4,
-      "reason": "The point of Equation Audio Guide becomes clear in Static web editor that accepts Markdown/LaTex, proposes deterministic spoken-math phrases and code-reading chunks, flags ambiguity, and exports an audio-script.",
+      "reason": "Turning ambiguous written maths into a checked spoken script is a small but meaningful accessibility intervention.",
       "why": "Turn Markdown, LaTeX, code, tables, and figures into an editable, author-reviewed audio script.",
       "featured": false,
       "tags": [
@@ -973,7 +987,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "A local web lab that imports a sheet and frame map, previews common UV-aware effects over any selected frame, and exports annotated GLSL snippets plus generic.",
+      "reason": "Testing UV effects on a real sprite sheet before opening an engine saves a game maker from fiddly shader iteration.",
       "why": "Preview per-frame sprite effects and export reliable UV coordinates—locally in your browser.",
       "featured": false,
       "tags": [
@@ -1025,7 +1039,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "Game Night Score Ledger is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A share-by-QR PWA: host enters players, scoring increments, optional lap threshold, and team totals; guests can view but not edit; export CSV/image.",
+      "reason": "A host-controlled score board that guests can see by QR code solves a mundane tabletop problem with the right amount of software.",
       "why": "Track teams, rounds, and scores during board-game nights.",
       "featured": false,
       "tags": [
@@ -1050,7 +1064,7 @@
       "kind": "installable",
       "category": "access",
       "interest": 4,
-      "reason": "The case for Hearing Mode Notes rests on Offline Android app with one-tap place tags, mode/volume notes, optional manual sound-comfort rating, and a lock-screen reminder of the last successful setup.",
+      "reason": "Remembering which hearing settings worked in a place can spare someone repeated, tiring trial and error.",
       "why": "Record which hearing-aid mode and volume worked at each place on your device.",
       "featured": false,
       "tags": [
@@ -1103,7 +1117,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Live Figure Deck has a concrete hook: A static web editor with formula labels, a 2D plot, parameter sliders, named animation intervals, and export to a self-contained HTML slide or MP4-ready frame.",
+      "reason": "Animated parameter sketches make mathematical change visible, although the benefit depends on exports being easy to share.",
       "why": "Build one clear, formula-driven animated figure and export it as a self-contained slide.",
       "featured": false,
       "tags": [
@@ -1111,17 +1125,17 @@
       ]
     },
     {
-      "slug": "local-live-captions",
-      "kind": "installable",
-      "category": "access",
+      "slug": "living-room-lobby",
+      "kind": "game",
+      "category": "play",
       "interest": 4,
-      "reason": "Offline captions from selected system audio address a serious access need without putting calls through a transcription service, even if setup will matter.",
-      "why": "Caption selected computer audio with speech models that stay on your computer.",
+      "reason": "Making the television the shared play surface while phones stay optional is a thoughtful answer to the usual party-game exclusion problem.",
+      "why": "Host language-light party games on a TV for people in the same room.",
       "featured": false,
       "tags": [
-        "captions",
-        "offline",
-        "desktop"
+        "party",
+        "tv",
+        "family"
       ]
     },
     {
@@ -1182,7 +1196,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "The point of MIDI First Note becomes clear in A static web app that detects MIDI ports, plays/labels the received notes, measures round-trip tap timing, checks sustain/pitch-bend, and exports a redacted.",
+      "reason": "Seeing what a MIDI keyboard actually sends gives beginners a clear first diagnostic before they enter a full music app.",
       "why": "Check browser MIDI input, note mapping, pedals, pitch bend, sound, and tap timing in five private minutes.",
       "featured": false,
       "tags": [
@@ -1259,7 +1273,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Patchboard is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Static web patchboard with six native nodes, animated signal path, BPM scheduler, click-to-hear A/B changes, and shareable URL fragment.",
+      "reason": "Hearing and seeing a small signal graph makes audio routing less abstract than reading another patch diagram.",
       "why": "Build, hear, inspect, and share small Web Audio signal graphs in your browser.",
       "featured": false,
       "tags": [
@@ -1271,7 +1285,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "The case for Pausekeeper rests on An offline-capable browser recorder with a visible voice/pause timeline, configurable minimum silence, post-record restore of held pauses, and WAV export.",
+      "reason": "Restoring meaningful pauses after recording is a thoughtful correction to the usual pressure for every voice track to sound compressed.",
       "why": "Record speech locally, protect natural pauses, and export clean WAV audio.",
       "featured": false,
       "tags": [
@@ -1284,7 +1298,7 @@
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "A local reflow mode with reading position and heading navigation directly improves a document format that often fights its readers.",
+      "reason": "Reflowing a hostile PDF into a trackable reading view directly fixes a format that routinely excludes its readers.",
       "why": "Read PDFs in a clearer single-column layout.",
       "featured": false,
       "tags": [
@@ -1323,7 +1337,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Pixel Tile Mask has a concrete hook: Drag in PNG tile sheet, choose alpha/color threshold and simplification, preview collision and occlusion masks, then export Godot-compatible JSON/SVG.",
+      "reason": "Generating collision and occlusion masks from tile art removes tedious hand work for small game projects.",
       "why": "Generate editable collision and occlusion masks from your pixel-art PNG, entirely in your browser.",
       "featured": false,
       "tags": [
@@ -1335,7 +1349,7 @@
       "kind": "product",
       "category": "make",
       "interest": 4,
-      "reason": "The point of Pocket Sprite Pack becomes clear in Offline PWA that opens PNG/GIF/WebP, previews frames at native scale, crops/pads, quantizes to a chosen palette, and exports spritesheet plus JSON atlas.",
+      "reason": "A browser-based sprite prep station is handy for quick jams, provided its exports match the engines people actually use.",
       "why": "Inspect, finish, and package sprite frames into engine-ready atlases entirely on your device.",
       "featured": false,
       "tags": [
@@ -1400,7 +1414,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 4,
-      "reason": "Pronunciation Cards is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local browser extension that detects user-selected terms, offers IPA/phonetic aliases and an audio preview, then applies the pronunciation via supported.",
+      "reason": "Letting readers attach a pronunciation to unfamiliar names can reduce an everyday accessibility friction in the browser.",
       "why": "Add predictable pronunciations for technical terms and names.",
       "featured": false,
       "tags": [
@@ -1414,7 +1428,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "The case for Proof Motion Canvas rests on Static web editor for cards, arrows, numeric labels, and named timed intervals; playback has step controls and exports one self-contained HTML page.",
+      "reason": "A self-contained animated proof is easier to share and inspect than a video that loses its steps.",
       "why": "Turn a short argument into an inspectable animated visual with named claims and explicit timing.",
       "featured": false,
       "tags": [
@@ -1451,7 +1465,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 4,
-      "reason": "Reading Rail has a concrete hook: A browser extension with a movable focus rail, dimmable surrounding paragraphs, per-site line-height/letter-spacing presets, and optional browser TTS for the.",
+      "reason": "A movable reading rail is modest but concrete help for people who lose their place on dense web pages.",
       "why": "Keep your place in dense text with a movable reading rail.",
       "featured": false,
       "tags": [
@@ -1465,7 +1479,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 4,
-      "reason": "The point of Reading Resume becomes clear in Browser extension that saves a per-page sentence anchor, offers a configurable reading strip and device TTS from that anchor, then restores it after.",
+      "reason": "Saving the exact sentence where reading stopped solves a daily interruption that ordinary bookmarks handle badly.",
       "why": "Save your exact reading place and continue with voice or a reading strip.",
       "featured": false,
       "tags": [
@@ -1528,7 +1542,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "Scene Cues is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A host page with named scenes/cues and a QR-linked controller page; controller actions are logged and can POST signed webhooks to an existing game or media.",
+      "reason": "A phone controller for named live cues is useful because it gives a small show real control without a heavy control system.",
       "why": "Run live cues from a phone during rehearsals and theatre.",
       "featured": false,
       "tags": [
@@ -1593,7 +1607,7 @@
       "kind": "devtool",
       "category": "make",
       "interest": 4,
-      "reason": "Shot Runner has a concrete hook: Local CLI reading a shot manifest, invoking allowlisted renderer commands, caching frame sequences, producing contact sheets and a JSON receipt with source.",
+      "reason": "A local shot runner can make a fragile animation pipeline repeatable without forcing a studio into a hosted service.",
       "why": "Run named animation shots locally, cache frames, and preserve verifiable preview receipts from one safe CLI.",
       "featured": false,
       "tags": [
@@ -1607,7 +1621,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "The point of Sing Switch becomes clear in An in-browser calibrator that maps pitch bands, onset, sustained sound, and silence to a virtual controller state and exports a compact JSON mapping.",
+      "reason": "Mapping voice and silence to game controls opens a genuinely different input path, though calibration will make or break it.",
       "why": "Turn vocal pitch and held notes into inspectable browser game controls—locally, without training a model.",
       "featured": false,
       "tags": [
@@ -1684,7 +1698,7 @@
       "kind": "utility",
       "category": "make",
       "interest": 4,
-      "reason": "Tab Playbook is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A static web editor for a limited open chord/tab markup, with playback-free fretboard, interval, scale, and transposition views plus shareable URLs.",
+      "reason": "A limited tab format with useful fretboard views can make sharing teaching material less dependent on a proprietary editor.",
       "why": "Write guitar tab exercises and inspect notes, intervals, scales, and transpositions.",
       "featured": false,
       "tags": [
@@ -1709,7 +1723,7 @@
       "kind": "product",
       "category": "play",
       "interest": 4,
-      "reason": "The case for Tempo Earcheck rests on Offline PWA with tap-tempo, accented-meter click, named tempo trials, and a compact practice card that records a starting BPM, passed BPM, and next step.",
+      "reason": "A record of the tempo a player can really hold is more useful practice feedback than another metronome setting.",
       "why": "Hear, tap, and keep a defensible practice tempo—offline.",
       "featured": false,
       "tags": [
@@ -1734,7 +1748,7 @@
       "kind": "product",
       "category": "access",
       "interest": 4,
-      "reason": "A local PWA with start/stop/manual sessions, project/outcome notes, optional links to commits/files, and a branded weekly PDF receipt for attachment to an.",
+      "reason": "A time record tied to outcomes can make a freelancer’s invoice easier to defend without becoming surveillance software.",
       "why": "Log freelance work and create a weekly client receipt.",
       "featured": false,
       "tags": [
@@ -1840,18 +1854,6 @@
       ]
     },
     {
-      "slug": "markdown-pdf-code-proof",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 3,
-      "reason": "Check a finished Markdown PDF for broken code, page overflow, and internal links before release turns a fragile manual check into visible evidence that a team can repeat.",
-      "why": "Check a finished Markdown PDF for broken code, page overflow, and internal links before release.",
-      "featured": false,
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "slug": "typo-context-checker",
       "kind": "extension",
       "category": "tools",
@@ -1864,17 +1866,31 @@
       ]
     },
     {
-      "slug": "focus-study-sprint",
+      "slug": "haptic-beat-relay",
       "kind": "product",
-      "category": "learn",
+      "category": "play",
       "interest": 3,
-      "reason": "Short sessions built from your own prompts and deliberately free of streaks give active recall a calmer shape than most study apps.",
-      "why": "Practise your own questions in a timed session and review what you missed.",
+      "reason": "Letting one device send vibration cues while another taps back makes rhythm practice social and accessible, if both phones cooperate.",
+      "why": "Send beat cues to another phone and tap back together in time.",
       "featured": false,
       "tags": [
-        "study",
-        "recall",
-        "offline"
+        "music",
+        "rhythm",
+        "phones"
+      ]
+    },
+    {
+      "slug": "internal-event-ledger",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "A self-hosted event timeline with acknowledgements and exports is practical operational glue, not a product most people will seek out.",
+      "why": "Receive internal events, review them in one timeline, and export the record.",
+      "featured": false,
+      "tags": [
+        "events",
+        "self-hosted",
+        "developer"
       ]
     },
     {
@@ -1900,6 +1916,20 @@
       "featured": false,
       "tags": [
         "access"
+      ]
+    },
+    {
+      "slug": "pause-garden",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Making an absent player harmless is a thoughtful answer to the usual multiplayer scheduling problem, though the garden theme is otherwise familiar.",
+      "why": "Restore a garden together in short turns, even when someone steps away.",
+      "featured": false,
+      "tags": [
+        "game",
+        "co-op",
+        "multiplayer"
       ]
     },
     {
@@ -2095,6 +2125,20 @@
       ]
     },
     {
+      "slug": "storage-aware-expiry",
+      "kind": "product",
+      "category": "life",
+      "interest": 3,
+      "reason": "A use-first queue that knows where food is stored addresses the moment people waste things, rather than pretending to automate a kitchen.",
+      "why": "Track where food is stored and see what to use first.",
+      "featured": false,
+      "tags": [
+        "food",
+        "home",
+        "offline"
+      ]
+    },
+    {
       "slug": "stream-access-cues",
       "kind": "product",
       "category": "play",
@@ -2130,6 +2174,19 @@
       "tags": [
         "health",
         "notes"
+      ]
+    },
+    {
+      "slug": "tide-and-tile",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A compact route puzzle with a visible turn target is easy to grasp and replay, but the daily format alone does not make it stand out yet.",
+      "why": "Rotate water channels to make one harbor route in a daily puzzle.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "puzzle"
       ]
     },
     {
@@ -2238,7 +2295,7 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Actuals Job Sequencer has a concrete hook: Offline PWA for up to five active jobs: ordered steps, actual finish date, non-working days, dependency shifts, and a concise ‘dates changed’ client message.",
+      "reason": "Showing how a delay moves the rest of a small job plan gives a solo operator a more honest client conversation.",
       "why": "Move forecast dates after an actual finish.",
       "featured": false,
       "tags": [
@@ -2264,7 +2321,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 3,
-      "reason": "The point of Android website blocker that never phones home becomes clear in Android app: local VpnService DNS interceptor with user-managed block list (wildcards), import/export list, optional unlock delay/timer, no permissions beyond.",
+      "reason": "A local site blocker has a credible privacy stance, although Android’s technical limits need to be plain before anyone relies on it.",
       "why": "Block websites on Android without accounts or tracking.",
       "featured": false,
       "tags": [
@@ -2393,7 +2450,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Bike Service Receipts is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline-first PWA with bike profiles, one-tap service receipts (actions, photo, cost, odometer), rule-based reminders, and CSV/PDF export.",
+      "reason": "Linking work, cost, mileage, and a receipt gives a cyclist a maintenance record that can survive a phone change.",
       "why": "Keep bicycle service receipts and get maintenance reminders privately.",
       "featured": false,
       "tags": [
@@ -2406,7 +2463,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The case for Bike Service Timeline rests on Offline PWA with bikes, components, service entries, receipts/photos, mileage/date triggers, and one chronological all-bike view exportable as CSV/print.",
+      "reason": "A chronological all-bike maintenance view is a sharper tool than a generic task list for someone who keeps equipment running.",
       "why": "Keep a private, portable component-service history and next-service view for every bicycle you own.",
       "featured": false,
       "tags": [
@@ -2508,7 +2565,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The point of Bookmark Merge Map becomes clear in Offline browser app that imports two bookmark HTML exports, normalizes canonical URLs, pairs likely duplicates, surfaces conflicts and one-sided links.",
+      "reason": "Merging two bookmark exports is mundane until a browser change threatens years of saved research; then a careful local tool matters.",
       "why": "Export without uploading them.",
       "featured": false,
       "tags": [
@@ -2534,12 +2591,26 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "A local web tool that accepts pasted event fields or an ICS file and creates accessible plain text, a compact image/PDF card, timezone equivalents, joining.",
+      "reason": "A clear, accessible event card helps when calendar invitations are too fragile or hard to forward.",
       "why": "Turn an event or ICS file into a clear, timezone-safe card for chat, email, or print.",
       "featured": false,
       "tags": [
         "local",
         "offline"
+      ]
+    },
+    {
+      "slug": "calendar-ics-snapshots",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Versioned encrypted calendar snapshots give a personal calendar a credible recovery plan, even if CalDAV setup narrows the audience.",
+      "why": "Save encrypted calendar snapshots and restore events after unwanted changes.",
+      "featured": false,
+      "tags": [
+        "calendar",
+        "backup",
+        "app"
       ]
     },
     {
@@ -2667,7 +2738,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "Catalog Reconciler is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Local drag-and-drop CSV/JSON preflight that maps columns, normalizes identifiers, reports added/changed/missing/colliding rows, and emits a reviewed import.",
+      "reason": "An import preview that exposes changed and colliding records can prevent a collection move from becoming an irreversible mess.",
       "why": "Compare catalog files and export a reviewed import file.",
       "featured": false,
       "tags": [
@@ -2764,6 +2835,20 @@
       ]
     },
     {
+      "slug": "clipboard-lan-bridge",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Local discovery, encryption, and visible expiry make this a more accountable way to move a snippet or file between nearby devices.",
+      "why": "Send clipboard text and files between nearby devices on your local network.",
+      "featured": false,
+      "tags": [
+        "files",
+        "local",
+        "app"
+      ]
+    },
+    {
       "slug": "client-offboarding-kit",
       "kind": "product",
       "category": "life",
@@ -2787,6 +2872,18 @@
       "tags": [
         "teaching",
         "VS Code"
+      ]
+    },
+    {
+      "slug": "markdown-pdf-code-proof",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Check a finished Markdown PDF for broken code, page overflow, and internal links before release turns a fragile manual check into visible evidence that a team can repeat.",
+      "why": "Check a finished Markdown PDF for broken code, page overflow, and internal links before release.",
+      "featured": false,
+      "tags": [
+        "tools"
       ]
     },
     {
@@ -2864,6 +2961,20 @@
       "tags": [
         "local",
         "offline"
+      ]
+    },
+    {
+      "slug": "cycle-legal-profile-check",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Checking a GPX route against access rules can prevent a costly mistake before a ride, although its usefulness depends on local map data.",
+      "why": "Check a planned GPX route for access rules for your vehicle and region.",
+      "featured": false,
+      "tags": [
+        "cycling",
+        "routes",
+        "maps"
       ]
     },
     {
@@ -3011,7 +3122,7 @@
       "kind": "devtool",
       "category": "install",
       "interest": 3,
-      "reason": "Edit Portability Map is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Read-only desktop CLI that inventories a Lightroom catalog/XMP and a target folder, classifies fields as embedded, sidecar, catalog-only.",
+      "reason": "Separating portable photo edits from catalog-only edits gives someone leaving an app a realistic picture of what they will lose.",
       "why": "Map which Lightroom edits and metadata survive a migration.",
       "featured": false,
       "tags": [
@@ -3045,6 +3156,20 @@
       ]
     },
     {
+      "slug": "exam-bridge",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Turning a syllabus into a confidence-led prerequisite list is practical study planning, though it still asks the learner to judge their own gaps.",
+      "why": "Turn a syllabus into a study order based on what you know already.",
+      "featured": false,
+      "tags": [
+        "study",
+        "planning",
+        "exams"
+      ]
+    },
+    {
       "slug": "exam-deadline-map",
       "kind": "product",
       "category": "learn",
@@ -3062,7 +3187,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "A local prompt runner: choose a concept, record or type an explanation under headings (what, why, failure case), mark missing pieces, and schedule only those.",
+      "reason": "Asking a learner to explain before checking an answer turns revision into evidence rather than a streak mechanic.",
       "why": "Practice explaining what, why, and failure cases—then retry only what you missed.",
       "featured": false,
       "tags": [
@@ -3088,7 +3213,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "Export Map has a concrete hook: Offline CSV preflight tool with saved recipient profiles, delimiter/decimal/date checks, required-column mapping, visible transformations, and a handoff.",
+      "reason": "Making every CSV transformation visible is a sensible way to reduce handoff errors in small business records.",
       "why": "Export before handing them to your accountant.",
       "featured": false,
       "tags": [
@@ -3113,7 +3238,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 3,
-      "reason": "The point of Feed Later Bridge becomes clear in A local-first web/extension pair that imports a user-designated RSS/Atom saved-items feed, deduplicates entries, lets the user mark/annotate a compact queue.",
+      "reason": "A portable queue for saved feed items is a useful escape hatch from read-later services that treat bookmarks as captive data.",
       "why": "Turn an RSS or Atom saved-items feed into a private, finishable, exportable reading queue.",
       "featured": false,
       "tags": [
@@ -3185,6 +3310,34 @@
       "featured": false,
       "tags": [
         "tools"
+      ]
+    },
+    {
+      "slug": "focus-lens",
+      "kind": "extension",
+      "category": "access",
+      "interest": 3,
+      "reason": "A large focus indicator and saved reading settings are useful accommodations, although an extension has to earn trust on every site.",
+      "why": "Make keyboard focus clearer and save reading settings for each site.",
+      "featured": false,
+      "tags": [
+        "access",
+        "reading",
+        "extension"
+      ]
+    },
+    {
+      "slug": "focus-study-sprint",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Short sessions built from your own prompts and deliberately free of streaks give active recall a calmer shape than most study apps.",
+      "why": "Practise your own questions in a timed session and review what you missed.",
+      "featured": false,
+      "tags": [
+        "study",
+        "recall",
+        "offline"
       ]
     },
     {
@@ -3308,7 +3461,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "House Receipt is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline PWA with a single job receipt: component/location, completion date, cost, contractor, warranty expiry, photos, and next service date; export as a PDF.",
+      "reason": "A single durable home-service record is more likely to be found years later than a chain of contractor emails.",
       "why": "Keep a private, portable history of home repairs, warranties, costs and photos—right on your device.",
       "featured": false,
       "tags": [
@@ -3334,7 +3487,7 @@
       "kind": "devtool",
       "category": "install",
       "interest": 3,
-      "reason": "The case for Identity Migration Map rests on A local manifest generator taking declared identifier mappings plus filesystem/config/database read-only exports and producing dependency hits, owner.",
+      "reason": "Mapping identifier changes before a migration exposes the hard-to-see dependencies that cause long-tail account failures.",
       "why": "Inventory every dependent file, record, and integration before changing a user identifier.",
       "featured": false,
       "tags": [
@@ -3373,7 +3526,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "A local CSV/Anki-export policy editor that maps tags or numeric fields such as frequency, exam weight, and safety criticality to review targets, then previews.",
+      "reason": "Letting a learner weight study by consequence rather than a generic algorithm makes the schedule easier to defend.",
       "why": "Turn your own card fields into a transparent, importance-weighted review policy—privately in your browser.",
       "featured": false,
       "tags": [
@@ -3476,7 +3629,7 @@
       "kind": "devtool",
       "category": "install",
       "interest": 3,
-      "reason": "The point of Knowledge Note Bridge becomes clear in A local Markdown-to-Anki bridge with stable card IDs, a dry-run diff, explicit archive/rename handling, and a reversible history-preservation report.",
+      "reason": "A reversible Markdown-to-Anki bridge respects a note archive instead of treating every flashcard import as disposable.",
       "why": "Preview and safely sync Markdown cards to Anki without losing review history.",
       "featured": false,
       "tags": [
@@ -3613,6 +3766,20 @@
       ]
     },
     {
+      "slug": "math-circle-board",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Saving learners’ attempts and strategy notes around a weekly problem supports the conversation that makes a math circle useful, not just an answer key.",
+      "why": "Run a small math group with problem cards, attempts, and facilitator notes.",
+      "featured": false,
+      "tags": [
+        "math",
+        "teaching",
+        "groups"
+      ]
+    },
+    {
       "slug": "math-textbook-margins",
       "kind": "utility",
       "category": "learn",
@@ -3685,6 +3852,20 @@
       "tags": [
         "database",
         "migrations"
+      ]
+    },
+    {
+      "slug": "mirror-orchard",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but the puzzle design must carry more than the presentation.",
+      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
       ]
     },
     {
@@ -3999,7 +4180,7 @@
       "kind": "utility",
       "category": "learn",
       "interest": 3,
-      "reason": "The point of Prerequisite Sprint Map becomes clear in Static web/PWA planner with editable prerequisite nodes, a diagnostic checkbox per node, target-date capacity math, and a visible start-now lane alongside.",
+      "reason": "A visible prerequisite path makes a deadline feel actionable, especially when it names what to start today.",
       "why": "Build the smallest prerequisite sprint that gets you into the real topic now.",
       "featured": false,
       "tags": [
@@ -4152,7 +4333,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "Recall Calibrator is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local review companion that samples typed exact/keyword recall before revealing an answer, compares it to the learner's grade, and reports personal.",
+      "reason": "Comparing a learner’s confidence with their actual recall tackles the self-deception that makes many study streaks hollow.",
       "why": "Compare typed recall with your self-grade, privately and offline.",
       "featured": false,
       "tags": [
@@ -4278,6 +4459,20 @@
       ]
     },
     {
+      "slug": "review-backlog-forecast",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Showing the daily cost of three catch-up plans makes a vague study backlog discussable instead of guilt-inducing.",
+      "why": "Compare catch-up plans for a study backlog by cards and minutes per day.",
+      "featured": false,
+      "tags": [
+        "study",
+        "planning",
+        "review"
+      ]
+    },
+    {
       "slug": "review-backlog-restart",
       "kind": "product",
       "category": "learn",
@@ -4313,6 +4508,20 @@
       "tags": [
         "daily",
         "logic"
+      ]
+    },
+    {
+      "slug": "room-code-mystery",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Splitting evidence among players gives a group mystery a real reason to talk, though timed rounds can put off quieter groups.",
+      "why": "Compare private clues with friends and solve one timed browser mystery.",
+      "featured": false,
+      "tags": [
+        "game",
+        "mystery",
+        "multiplayer"
       ]
     },
     {
@@ -4456,6 +4665,20 @@
       ]
     },
     {
+      "slug": "seed-sprint",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Limited tile rotations plus a clock create a readable daily routing puzzle, but it is deliberately small in scope.",
+      "why": "Rotate tiles to connect signals before the timer ends in a daily puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
       "slug": "promptless-ml-lab",
       "kind": "product",
       "category": "learn",
@@ -4523,12 +4746,26 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Settlement Match is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Local CSV matcher for one processor payout and one sales/invoice export: reconcile gross sales, fees, refunds, timing shifts, and produce a signed-off.",
+      "reason": "Reconciling one payout against sales and fees locally is the kind of small accounting job that otherwise lingers in a spreadsheet.",
       "why": "Explain one processor payout from your sales CSVs, privately in your browser.",
       "featured": false,
       "tags": [
         "records",
         "offline"
+      ]
+    },
+    {
+      "slug": "shapeshift-set",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Pieces that change nearby tiles give this placement puzzle a worthwhile twist beyond merely filling a grid.",
+      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
       ]
     },
     {
@@ -4753,19 +4990,6 @@
       ]
     },
     {
-      "slug": "tide-and-tile",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "A compact route puzzle with a visible turn target is easy to grasp and replay, but the daily format alone does not make it stand out yet.",
-      "why": "Rotate water channels to make one harbor route in a daily puzzle.",
-      "featured": false,
-      "tags": [
-        "daily",
-        "puzzle"
-      ]
-    },
-    {
       "slug": "time-budget-new-cards",
       "kind": "product",
       "category": "life",
@@ -4917,6 +5141,20 @@
       ]
     },
     {
+      "slug": "alert-evidence-envelope",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Attaching a signed, redacted query result to an alert could make incident handoffs less speculative, but it is specialist operations plumbing.",
+      "why": "Attach redacted query evidence to an alert before forwarding it.",
+      "featured": false,
+      "tags": [
+        "alerts",
+        "security",
+        "developer"
+      ]
+    },
+    {
       "slug": "apk-provenance-locker",
       "kind": "installable",
       "category": "install",
@@ -4985,7 +5223,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "Client Decision Receipt is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A hosted decision link with Accept, Request changes, or Decline; selected line items/scope are frozen into a dated receipt and emailed to both parties.",
+      "reason": "Freezing a client’s choice and the selected scope can save a freelancer a painful argument later.",
       "why": "Get a clear accept, changes, or decline decision—and a dated, verifiable scope receipt.",
       "featured": false,
       "tags": [
@@ -5066,20 +5304,6 @@
       "tags": [
         "access",
         "offline"
-      ]
-    },
-    {
-      "slug": "dictation-repair-book",
-      "kind": "installable",
-      "category": "access",
-      "interest": 2,
-      "reason": "Turning approved dictation corrections into reusable spelling rules could save repeated friction for a small but real group of users.",
-      "why": "Turn dictation corrections into a private reusable vocabulary book.",
-      "featured": false,
-      "tags": [
-        "access",
-        "offline",
-        "app"
       ]
     },
     {
@@ -5256,7 +5480,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "Human Computer Stations is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A static generator for printable four-station packs: instruction writer, executor, debugger, and tester; includes sequencing/loop/conditional variants.",
+      "reason": "Giving children separate roles as writer, executor, debugger, and tester makes computing concepts physical and social.",
       "why": "Build a ready-to-print unplugged algorithm station pack for 8–11 year olds.",
       "featured": false,
       "tags": [
@@ -5287,6 +5511,20 @@
       "tags": [
         "play",
         "offline"
+      ]
+    },
+    {
+      "slug": "infra-test-evidence",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Collecting proof from infrastructure tests is valuable for a release review, but it is narrow engineering paperwork rather than a destination product.",
+      "why": "Collect test evidence from infrastructure checks for a release review.",
+      "featured": false,
+      "tags": [
+        "testing",
+        "infra",
+        "developer"
       ]
     },
     {
@@ -5369,7 +5607,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "Low Motion Profile Switcher is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A browser extension that applies per-site low-motion profiles: pause nonessential autoplay/animated backgrounds, suppress rapid transforms, retain explicit.",
+      "reason": "Per-site motion controls could be an important accommodation if they preserve essential interactions instead of simply breaking pages.",
       "why": "Choose a low-motion profile for each website without hiding useful progress and status feedback.",
       "featured": false,
       "tags": [
@@ -5415,19 +5653,6 @@
         "play",
         "offline",
         "app"
-      ]
-    },
-    {
-      "slug": "devcontainer-identity-audit",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 2,
-      "reason": "It catches writable-mount mistakes before a container starts, a recurring but unglamorous developer failure.",
-      "why": "Check Dev Container mount permissions before startup.",
-      "featured": false,
-      "tags": [
-        "containers",
-        "permissions"
       ]
     },
     {
@@ -5530,19 +5755,6 @@
       "featured": false,
       "tags": [
         "learning",
-        "offline"
-      ]
-    },
-    {
-      "slug": "quote-decision-log",
-      "kind": "product",
-      "category": "money",
-      "interest": 2,
-      "reason": "Local quote checklist with one reviewer, send-ready status, accept/decline page, expiry date, and signed decision export.",
-      "why": "Review quotes before they leave, then preserve the client's exact decision.",
-      "featured": false,
-      "tags": [
-        "records",
         "offline"
       ]
     },
@@ -5693,7 +5905,7 @@
       "kind": "product",
       "category": "access",
       "interest": 2,
-      "reason": "Send Gate is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local-first PWA that stores a quote/invoice PDF, recipient, amount, approver, and one approve/reject comment; it releases a final share/email draft only.",
+      "reason": "A final approval check before an invoice is sent is a narrow guardrail with disproportionate value for careful solo operators.",
       "why": "Approve quotes and invoices before they go out.",
       "featured": false,
       "tags": [
@@ -5924,7 +6136,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "Android Backup Coverage is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: An Android app that inventories configured source folders, computes local file manifests, reads a user-selected destination manifest/share, highlights.",
+      "reason": "Comparing what an Android backup claims to cover with what is actually on the phone addresses an anxiety cloud storage rarely resolves.",
       "why": "Verify that Android photos and videos reached a second backup copy, with a clear local receipt.",
       "featured": false,
       "tags": [
@@ -5975,7 +6187,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "Archive Audit is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline inspector for exported MBOX/EML and attachment folders: inventory messages and attachments, flag broken references, hash files, and create an HTML/CSV.",
+      "reason": "Auditing messages, attachments, and broken links locally gives a family archive a better chance of being usable later.",
       "why": "Audit exported email archives and their attachments locally.",
       "featured": false,
       "tags": [
@@ -5994,6 +6206,20 @@
       "tags": [
         "local",
         "offline"
+      ]
+    },
+    {
+      "slug": "bank-import-receipts",
+      "kind": "utility",
+      "category": "money",
+      "interest": 2,
+      "reason": "A receipt for a bookkeeping import is responsible audit hygiene, but its narrow audience keeps it out of the front row.",
+      "why": "Check a bank CSV before import and save a record of what changed.",
+      "featured": false,
+      "tags": [
+        "banking",
+        "CSV",
+        "local"
       ]
     },
     {
@@ -6195,7 +6421,7 @@
       "kind": "extension",
       "category": "life",
       "interest": 2,
-      "reason": "Code Echo is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A browser extension for documentation and code-review pages that reads a selected line/token with programmable punctuation and identifier pronunciation, shows.",
+      "reason": "Making dense code and documentation speakable helps developers with a real access need rather than offering a generic reader mode.",
       "why": "Read selected code aloud in short syntax chunks for developers and learners who lose their place.",
       "featured": false,
       "tags": [
@@ -6209,7 +6435,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "The case for Code Listen Cursor rests on A VS Code extension that reads selected code or the current line using language-aware punctuation rules, exposes cursor-follow and repeat shortcuts.",
+      "reason": "Language-aware speech for the current line could make code review less visually exhausting, though editor integration is a hard sell.",
       "why": "Listen to selected code as intelligible structure.",
       "featured": false,
       "tags": [
@@ -6222,7 +6448,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The case for Code Path Lens rests on An LSP/tree-sitter CLI and static viewer that starts at a symbol, follows a bounded call/type/data path, and emits a source-linked graph with explicit.",
+      "reason": "Following one bounded code path is a more humane way to enter an unfamiliar codebase than opening an enormous dependency graph.",
       "why": "Trace a bounded, source-linked path around one symbol.",
       "featured": false,
       "tags": [
@@ -6283,7 +6509,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Config Drift Timeline has a concrete hook: A local CLI that ingests redacted dotenv/YAML/JSON snapshots from named environments, normalizes values, and emits a time-ordered semantic drift report with an.",
+      "reason": "A time-ordered explanation of config drift gives an incident investigator something clearer than a pile of dotenv files.",
       "why": "Show when staging and production configuration drifted and who introduced it.",
       "featured": false,
       "tags": [
@@ -6296,7 +6522,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The point of Config Rationale Guard becomes clear in A CLI that pairs strict JSON/YAML/TOML with adjacent rationale annotations, validates schema and annotation targets, and renders a PR diff of changed.",
+      "reason": "Keeping configuration reasons beside values can make risky changes reviewable rather than merely valid.",
       "why": "Keep configuration decisions reviewable beside strict JSON, YAML, and TOML with an offline CLI.",
       "featured": false,
       "tags": [
@@ -6321,7 +6547,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "A local PWA that profiles CSV/XLSX parsing, proposes a column map and deterministic validations, lets users define transformations, and exports a JSON.",
+      "reason": "A visible import contract gives consultants a reusable way to explain what a spreadsheet will do before it touches a system.",
       "why": "Prepare a repeatable CSV import plan for a system migration.",
       "featured": false,
       "tags": [
@@ -6334,7 +6560,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "A local proxy/CLI with named allowlisted query templates, row/column caps, mandatory human confirmation for novel queries, and signed JSON audit receipts.",
+      "reason": "Signed records of constrained database access are a thoughtful guardrail where ad-hoc queries carry real risk.",
       "why": "Approve read-only SQLite queries and keep signed receipts.",
       "featured": false,
       "tags": [
@@ -6398,7 +6624,7 @@
       "kind": "product",
       "category": "make",
       "interest": 2,
-      "reason": "Doodle to Game is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A tablet-friendly offline PWA with three fixed games (dodge, collect, top-down maze).",
+      "reason": "Turning a child’s drawing into a playable little game offers a concrete creative payoff instead of another art prompt.",
       "why": "Turn two drawings into a tiny game with a child.",
       "featured": false,
       "tags": [
@@ -6411,7 +6637,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "Durable Set Log is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local PWA for reusable routines, one-tap set completion, edit-safe append-only local log, and CSV export/import.",
+      "reason": "An append-only local routine log is less flashy than a fitness social feed and more likely to preserve what actually happened.",
       "why": "Keep every confirmed set on your device.",
       "featured": false,
       "tags": [
@@ -6449,7 +6675,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The case for Fingerprint Preview rests on A CLI/library that imports redacted event JSON, evaluates a small fingerprint-rule DSL, and reports split/merge deltas with representative frames.",
+      "reason": "Previewing how incident fingerprints split or merge events lets a team test alert rules before they bury someone in noise.",
       "why": "Preview how incident fingerprint rules split or merge events.",
       "featured": false,
       "tags": [
@@ -6539,7 +6765,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The point of Function Flow Canvas becomes clear in A local CLI using an installed language server to emit one self-contained HTML canvas for a selected symbol: inbound/outbound calls, type hops, source.",
+      "reason": "A one-function call canvas is a focused map for code reading, not a decorative architecture diagram.",
       "why": "Map one function's callers, callees, types, and source into a private, self-contained HTML canvas.",
       "featured": false,
       "tags": [
@@ -6638,7 +6864,7 @@
       "kind": "product",
       "category": "access",
       "interest": 2,
-      "reason": "The point of Large Type Catalog becomes clear in Local browser catalog for one folder: huge thumbnails, adjustable contrast and text, keyboard-only keep/reject/tag/rename queue, and CSV sidecar export.",
+      "reason": "Large thumbnails and keyboard triage give people with low vision a practical way to work through their own photo folders.",
       "why": "Sort and label local photos with large controls and a complete keyboard workflow. Photos stay on this device.",
       "featured": false,
       "tags": [
@@ -6660,6 +6886,20 @@
       ]
     },
     {
+      "slug": "local-sync-observer",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "A read-only view of local sync activity can settle a worrying question without changing files, but it serves a very specific troubleshooting moment.",
+      "why": "Watch local file sync activity without changing your files.",
+      "featured": false,
+      "tags": [
+        "sync",
+        "files",
+        "app"
+      ]
+    },
+    {
       "slug": "log-incident-bundle",
       "kind": "devtool",
       "category": "tools",
@@ -6677,7 +6917,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Log Scrub Contract is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local CLI with JSON/text fixture tests, path/regex/token rules, entropy checks, and a redacted before/after report that can gate CI.",
+      "reason": "Testing redaction rules against fixtures before logs leave a system turns a privacy promise into something teams can verify.",
       "why": "Test log redaction before logs leave your environment.",
       "featured": false,
       "tags": [
@@ -6703,7 +6943,7 @@
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "Matchbox Ledger has a concrete hook: Offline CSV importer for invoices and transactions, deterministic/date-amount-reference match suggestions, manual confirmation, and an exportable.",
+      "reason": "Local invoice-to-payment matching is a justifiably small tool for people who do not want a bank connection.",
       "why": "Privately match invoice and payment CSVs in your browser.",
       "featured": false,
       "tags": [
@@ -6769,7 +7009,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Observability Fit Check has a concrete hook: CLI that ingests a bounded OTLP sample, estimates cardinality/storage/query load, and emits comparable local compose profiles and retention budgets.",
+      "reason": "Estimating telemetry load before deployment is more useful than discovering an observability bill through production traffic.",
       "why": "Estimate self-hosted observability storage, cardinality, and resource fit from a local OTLP sample.",
       "featured": false,
       "tags": [
@@ -6782,7 +7022,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "The point of OTel Token Meter becomes clear in A local OTLP collector plus static dashboard/CLI that groups token, latency, cache, and error metrics by tool/model/project and exports CSV.",
+      "reason": "A vendor-neutral view of model tokens and latency is timely, provided the collector stays clear about what it records.",
       "why": "Measure token cost, cache, latency, and errors from OpenTelemetry traces.",
       "featured": false,
       "tags": [
@@ -6834,7 +7074,7 @@
       "kind": "devtool",
       "category": "install",
       "interest": 2,
-      "reason": "A local CLI that reads export inventories and destination folder reports, compares counts/hashes/dates/albums where available, records desired backup/mirror.",
+      "reason": "An exit manifest turns a vague photo migration into a list of counts, hashes, and gaps someone can check.",
       "why": "Check a Google Photos export and create a migration report.",
       "featured": false,
       "tags": [
@@ -6861,7 +7101,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 2,
-      "reason": "Photo Upload Audit is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline desktop/PWA scanner that reads a camera export and destination, matches hashes plus Live Photo pairs, and produces a missing/duplicate/changed report.",
+      "reason": "Verifying an upload by matching originals and live-photo pairs tackles the silent failures that make photo backups scary.",
       "why": "Compare a camera export with any backup folder.",
       "featured": false,
       "tags": [
@@ -6870,11 +7110,25 @@
       ]
     },
     {
+      "slug": "pinpoint-daily",
+      "kind": "game",
+      "category": "play",
+      "interest": 2,
+      "reason": "A shared miniature golf course is immediately understandable, but the daily format is familiar and the novelty rests on execution.",
+      "why": "Take five shots at three small golf holes in a daily course.",
+      "featured": false,
+      "tags": [
+        "game",
+        "daily",
+        "golf"
+      ]
+    },
+    {
       "slug": "pixel-brief-builder",
       "kind": "product",
       "category": "make",
       "interest": 2,
-      "reason": "The case for Pixel Brief Builder rests on Static prompt builder that selects genre, palette, character count and mechanic, then outputs a 16–24-item checklist, tile template, printable storyboard.",
+      "reason": "A constrained pixel-art brief can get a small game project moving faster than an empty canvas and a vague theme.",
       "why": "Choose four limits and get a small game art checklist, tile guide, storyboard, and safe filenames.",
       "featured": false,
       "tags": [
@@ -6921,6 +7175,19 @@
       ]
     },
     {
+      "slug": "quote-decision-log",
+      "kind": "product",
+      "category": "money",
+      "interest": 2,
+      "reason": "Local quote checklist with one reviewer, send-ready status, accept/decline page, expiry date, and signed decision export.",
+      "why": "Review quotes before they leave, then preserve the client's exact decision.",
+      "featured": false,
+      "tags": [
+        "records",
+        "offline"
+      ]
+    },
+    {
       "slug": "reader-setting-transfer",
       "kind": "extension",
       "category": "access",
@@ -6938,7 +7205,7 @@
       "kind": "product",
       "category": "life",
       "interest": 2,
-      "reason": "A local converter for Pocket/Instapaper/Wallabag exports that creates one Markdown file per item with metadata and annotations, optionally attaches.",
+      "reason": "Exporting saved articles with annotations into ordinary files gives a reader control over a collection that platforms often strand.",
       "why": "Export into an archive ZIP of editable Markdown files.",
       "featured": false,
       "tags": [
@@ -6951,7 +7218,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "Reading Comfort Pacer has a concrete hook: Browser extension with an accessible timer that requests a break only after the next user-triggered reading boundary, then shows a calm full-screen distance.",
+      "reason": "A break reminder that waits for a natural stopping point is more considerate than a timer that interrupts a sentence.",
       "why": "Take distance breaks after a natural stopping point.",
       "featured": false,
       "tags": [
@@ -6965,7 +7232,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 2,
-      "reason": "The point of Recipe Exit Pack becomes clear in A browser-local importer for user-exported recipe files and pasted recipe text that writes a zip of human-readable Markdown, normalized images, JSON metadata.",
+      "reason": "A local recipe export that keeps text, images, and metadata together is a useful antidote to disappearing cooking sites.",
       "why": "Convert recipe exports into files, photos, and source links.",
       "featured": false,
       "tags": [
@@ -7044,7 +7311,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "Restore Drill is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: A local/container CLI that restores a selected sanitized or full backup into an explicit disposable Postgres version, checks extensions/roles/schema readiness.",
+      "reason": "Restoring into a disposable environment before a crisis reveals the compatibility problems a successful backup can hide.",
       "why": "Restore a Postgres backup in isolation and check compatibility.",
       "featured": false,
       "tags": [
@@ -7057,7 +7324,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 2,
-      "reason": "The case for Result Envelope rests on An npm library and CLI that turns rows/JSON into a manifest, compact summary, schema, stable page cursors, and optional streamed chunks; it includes a local.",
+      "reason": "A compact result envelope can make tool outputs easier to paginate and inspect, but it depends on adoption beyond one stack.",
       "why": "Pack tool results into summaries, schemas, and stable pages.",
       "featured": false,
       "tags": [
@@ -7184,7 +7451,7 @@
       "kind": "product",
       "category": "play",
       "interest": 2,
-      "reason": "Shelf Bridge has a concrete hook: Static web converter that imports a BGG collection export, lets users map statuses/ratings/comments to a target-neutral schema, validates duplicates.",
+      "reason": "Board-game collections deserve a transparent escape path because ratings and notes are too personal to be trapped in one site.",
       "why": "Convert a BoardGameGeek collection CSV into reviewable CSV and JSON in your browser.",
       "featured": false,
       "tags": [
@@ -7196,7 +7463,7 @@
       "kind": "product",
       "category": "play",
       "interest": 2,
-      "reason": "The point of Shelf Rotation Picklist becomes clear in Local CSV/manual import of title, last-played, player range, minutes, setup friction, and tags; filters tonight's constraints and creates a 3–5 game rotation.",
+      "reason": "Choosing tonight’s games from real constraints such as setup time and player count is more useful than randomising a shelf.",
       "why": "Pick neglected board games that fit tonight's players, time, and setup.",
       "featured": false,
       "tags": [
@@ -7275,7 +7542,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "Source Trail Workbook is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Offline-first workbook with structured entries for question, query, source metadata, credibility notes, supporting/contradicting quote, and citation export.",
+      "reason": "A structured research trail makes a learner show where a claim came from, which is more valuable than another note template.",
       "why": "Help students record how a search, checked source, and quotation support a research claim.",
       "featured": false,
       "tags": [
@@ -7314,7 +7581,7 @@
       "kind": "product",
       "category": "money",
       "interest": 2,
-      "reason": "The case for Split Cost Slip rests on A local PWA where a user photographs or attaches one supplier bill, divides its total into named rows, marks each row billable/non-billable, and exports CSV.",
+      "reason": "Splitting one supplier bill into billable rows fixes a messy freelance task without asking users to adopt accounting software.",
       "why": "Split one supplier bill into billable costs and overhead for contractor invoicing.",
       "featured": false,
       "tags": [
@@ -7379,7 +7646,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "A local CLI that stores redacted HTTP/webhook fixtures with version labels, replays them to localhost, and reports header/body/schema differences by version.",
+      "reason": "Replaying labelled API fixtures against localhost makes version drift visible before a partner finds it in production.",
       "why": "Capture, redact, compare, and replay old webhook contracts against localhost.",
       "featured": false,
       "tags": [
@@ -7392,7 +7659,7 @@
       "kind": "extension",
       "category": "tools",
       "interest": 2,
-      "reason": "Viewport Fact Sheet has a concrete hook: A browser extension plus Playwright helper that selects an element and exports its box model, relevant computed-style deltas, clipping/scroll chain, hit-test.",
+      "reason": "Exporting the facts behind a layout bug can make a front-end handoff more useful than a screenshot and a frustrated message.",
       "why": "Export exact facts about an element’s viewport position and clipping.",
       "featured": false,
       "tags": [
@@ -7431,7 +7698,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "The point of Workspace Profiles becomes clear in A browser extension with named profiles per domain: independent text scale, line spacing, contrast, cursor halo and a hotkey to temporarily magnify the focused.",
+      "reason": "Per-site reading profiles recognise that access needs change with the work, not just with a system-wide preference.",
       "why": "Save a readable text, spacing, color, cursor, and focus profile for each work site.",
       "featured": false,
       "tags": [
@@ -7472,7 +7739,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "A local CLI that declares named kill paths (proxy deny rule, credential revoke command, deployment scale, queue pause), runs safe dry-run drills, verifies each.",
+      "reason": "Practising how an agent is stopped turns a safety control into evidence instead of an untested policy document.",
       "why": "Rehearse and document an allowlisted agent capability stop path.",
       "featured": false,
       "tags": [
@@ -7534,7 +7801,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The case for Project Install Capsule rests on A CLI that generates a rootless container/VM capsule from a declared install command, exposes only an empty workspace and approved ports, shows a capability.",
+      "reason": "Showing the capabilities granted to an install command makes local setup risk easier to assess before code runs.",
       "why": "Run unfamiliar projects in reviewable, rootless capsules with no host mounts and no unrestricted network.",
       "featured": false,
       "tags": [
@@ -7594,7 +7861,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "A local CLI that injects a selected secret only into a named subprocess or localhost credential broker, strips exact and encoded values from captured.",
+      "reason": "Limiting a secret to one subprocess is a practical improvement over scattering credentials through a development shell.",
       "why": "Give a coding agent one temporary credential without placing its value in the prompt or receipt.",
       "featured": false,
       "tags": [
@@ -7619,7 +7886,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "A local proxy/CLI wrapper that resolves named env files, displays a non-secret profile fingerprint, validates host/method/path/body policies, requires an.",
+      "reason": "A non-secret profile fingerprint and an explicit request policy can stop a local API call from hitting the wrong environment.",
       "why": "Block API requests that do not match the chosen environment or policy.",
       "featured": false,
       "tags": [
@@ -7644,7 +7911,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Arazzo Proof Runner is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: CLI supports a documented Arazzo subset, executes against a selected environment, captures redacted request/response metadata and assertions, compares two.",
+      "reason": "Running Arazzo scenarios with redacted evidence makes an emerging API workflow specification testable without a hosted runner.",
       "why": "Run Arazzo workflows locally and save a redacted proof bundle for API reviews.",
       "featured": false,
       "tags": [
@@ -7656,7 +7923,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The case for Async Trace Stitcher rests on A local web app that accepts redacted JSON/NDJSON exports from logs and webhooks, correlates configured IDs and timestamps, displays a proposed timeline with.",
+      "reason": "Stitching redacted logs and webhooks into one proposed timeline can shorten the first hour of an incident investigation.",
       "why": "Build a reviewable timeline for one failed transaction from redacted log, queue, and webhook exports.",
       "featured": false,
       "tags": [
@@ -7708,7 +7975,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The point of Collector Pressure Lab becomes clear in CLI loads a Collector config and a bounded OTLP/OTLP-like traffic sample, replays configurable bursts against a local collector, records queue/latency/drop.",
+      "reason": "A local stress test for an OpenTelemetry collector is specialised plumbing, but it answers a concrete capacity question.",
       "why": "Test a bounded telemetry sample against a local Collector and find where requests queue, slow, or drop.",
       "featured": false,
       "tags": [
@@ -7721,7 +7988,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "v1: single binary/Docker with config `source: github org X → target: forgejo instance Y`.",
+      "reason": "Keeping GitHub work mirrored to another forge addresses a real exit risk, although continuous metadata sync is operationally demanding.",
       "why": "Mirror a GitHub organization to Forgejo, Codeberg, or GitLab and keep a local JSON archive.",
       "featured": false,
       "tags": [
@@ -7796,7 +8063,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The case for Firebase Environment Doctor rests on A local CLI that reads Firebase project files and runs explicit read-only checks to output a shareable diagnostic card with project identity, emulator/cloud.",
+      "reason": "A shareable read-only diagnosis can help a team understand which Firebase environment they are about to change.",
       "why": "Check the Firebase project, sign-in, emulators, and rules files before a deploy.",
       "featured": false,
       "tags": [
@@ -7834,7 +8101,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "Gesture Replay Kit has a concrete hook: NPM library and local viewer that records only timestamped pose/hand landmarks, replays them at chosen speed, compares gesture rules, and exports a scrubbed.",
+      "reason": "Recording only gesture landmarks rather than video gives game makers a more privacy-conscious way to tune controls.",
       "why": "Trace, replay gestures, and compare deterministic rules without retaining video.",
       "featured": false,
       "tags": [
@@ -7848,7 +8115,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "The point of Idempotency Rehearsal becomes clear in A local CLI/test-library that sends a declared event sequence to an HTTP handler, records outbound effects through adapters, and asserts one logical effect per.",
+      "reason": "A declared sequence that proves one logical effect helps teams test the bugs that retries otherwise hide.",
       "why": "Test that duplicate webhooks create one business effect.",
       "featured": false,
       "tags": [
@@ -7962,7 +8229,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Restore Drill has a concrete hook: A Docker-first CLI that restores a chosen Postgres dump/volume into an isolated network, runs configurable SQL/HTTP smoke assertions, records duration.",
+      "reason": "A repeatable restore drill measures whether a database backup can actually support recovery, not merely whether it completed.",
       "why": "Restore Drill helps small self-hosted teams rehearse a Postgres backup restore in an isolated Docker network.",
       "featured": false,
       "tags": [
@@ -7998,7 +8265,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The point of Secret Sync Preflight becomes clear in CLI reads a key-only desired manifest and provider exports, highlights missing/extra/renamed keys, detects destination limits and dangerous delete plans.",
+      "reason": "Spotting missing, renamed, and dangerous-to-delete secret keys before a sync gives a risky operation a needed pause.",
       "why": "Find secret-key drift before deployment.",
       "featured": false,
       "tags": [
@@ -8023,7 +8290,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "v1 is one static binary (Go or Rust) exposing npm-registry, PyPI simple-index and Cargo sparse-index endpoints that proxy to upstream, cache tarballs.",
+      "reason": "A network-layer dependency cooldown is a distinctive safeguard for teams that want to slow adoption without policing every repository.",
       "why": "Block npm, PyPI, and Cargo packages until their release cooldown ends.",
       "featured": false,
       "tags": [
@@ -8061,7 +8328,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "TickLens is compelling because it puts a concrete, local workflow ahead of an account and a dashboard: Drop-in JS client/server probe that records tick duration, room size, bytes/messages per room, and emits a self-contained HTML trace.",
+      "reason": "A compact trace of tick time, room size, and traffic gives multiplayer teams a better starting point than blaming lag on the network.",
       "why": "Measure fanout in local Socket.IO and WebSocket game rooms.",
       "featured": false,
       "tags": [
@@ -8074,7 +8341,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 1,
-      "reason": "The case for Trace Context Probe rests on A Node CLI/test helper that inserts named async-boundary probes, records expected versus observed trace/span lineage, and emits a static propagation graph with.",
+      "reason": "Making lost trace context visible across async boundaries saves engineers from debugging observability with guesswork.",
       "why": "Find the exact Node.js async boundary where OpenTelemetry trace context is lost.",
       "featured": false,
       "tags": [
@@ -8087,7 +8354,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The point of Transcript Redaction Gate becomes clear in An offline CLI/library that recognizes common terminal and JSONL transcript formats, applies policy rules and entropy/credential detectors, produces a redacted.",
+      "reason": "Testing transcript redaction locally before sharing an agent session treats sensitive debugging material with appropriate caution.",
       "why": "Redact secrets from terminal and agent transcripts before upload.",
       "featured": false,
       "tags": [
@@ -8109,353 +8376,107 @@
       ]
     },
     {
-      "slug": "bank-import-receipts",
-      "kind": "utility",
-      "category": "money",
-      "interest": 2,
-      "reason": "A local check that records exactly what entered a bookkeeping import is sensible audit hygiene, though it is too narrow to browse for casually.",
-      "why": "Check a bank CSV before import and save a record of what changed.",
+      "slug": "dawn-run",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A six-room daily run is a lean enough shape for a real habit, though the idea is familiar.",
+      "why": "Race through six short rooms in a new daily browser run.",
       "featured": false,
       "tags": [
-        "banking",
-        "CSV",
+        "daily",
+        "arcade"
+      ]
+    },
+    {
+      "slug": "finite-forge",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A finite build-before-sunset campaign is a healthier promise than another endless crafting loop.",
+      "why": "Build a beacon before sunset in a short puzzle campaign.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "campaign"
+      ]
+    },
+    {
+      "slug": "first-move-friends",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Guided turns make a niche tile duel approachable, but it needs a lively opponent to earn repeat visits.",
+      "why": "Learn a tile duel by playing guided turns with a friend.",
+      "featured": false,
+      "tags": [
+        "tiles",
+        "two players"
+      ]
+    },
+    {
+      "slug": "food-log-export-kit",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Getting data out of a food tracker is unglamorous but useful; the value depends on supporting common exports.",
+      "why": "Export your food log into files you can keep or move.",
+      "featured": false,
+      "tags": [
+        "food",
+        "export"
+      ]
+    },
+    {
+      "slug": "gaze-calibration-card",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "A quick baseline check before relying on eye input could prevent a frustrating session, even if the audience is small.",
+      "why": "Check a gaze pointer against nine targets before a demanding task.",
+      "featured": false,
+      "tags": [
+        "accessibility",
+        "eye input"
+      ]
+    },
+    {
+      "slug": "hotkey-runbook",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "Showing the exact local command before it runs addresses a real operational failure mode, not merely YAML aesthetics.",
+      "why": "Review and run local YAML procedures with a clear command preview.",
+      "featured": false,
+      "tags": [
+        "runbooks",
         "local"
       ]
     },
     {
-      "slug": "calendar-ics-snapshots",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Versioned encrypted calendar snapshots give a personal calendar a credible recovery plan, even if CalDAV setup narrows the audience.",
-      "why": "Save encrypted calendar snapshots and restore events after unwanted changes.",
-      "featured": false,
-      "tags": [
-        "calendar",
-        "backup",
-        "app"
-      ]
-    },
-    {
-      "slug": "closing-bell",
+      "slug": "last-lap-breakout",
       "kind": "game",
       "category": "play",
       "interest": 3,
-      "reason": "A six-minute auction where public headlines and private rumours change the board has a crisp social hook, but needs a group to shine.",
-      "why": "Bid on changing fictional goods in a six-minute room-code game.",
+      "reason": "An eight-lap arcade run promises a complete evening-sized challenge, but it must feel sharp to justify the click.",
+      "why": "Clear eight arcade laps and finish the run.",
       "featured": false,
       "tags": [
-        "game",
-        "multiplayer",
-        "auction"
+        "arcade",
+        "short run"
       ]
     },
     {
-      "slug": "five-minute-heist",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Planning five moves before the guards react creates a legible daily puzzle rather than a disposable clicker loop.",
-      "why": "Plan five moves around guard routes in a new daily museum puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
-      ]
-    },
-    {
-      "slug": "haptic-beat-relay",
+      "slug": "voice-riff-loop",
       "kind": "product",
       "category": "play",
       "interest": 3,
-      "reason": "Letting one device send vibration cues while another taps back makes rhythm practice social and accessible, if both phones cooperate.",
-      "why": "Send beat cues to another phone and tap back together in time.",
+      "reason": "Turning a spoken phrase into a rhythm loop is a charming musical constraint, though it is more toy than tool.",
+      "why": "Record a phrase and turn it into a repeating rhythm loop.",
       "featured": false,
       "tags": [
-        "music",
-        "rhythm",
-        "phones"
-      ]
-    },
-    {
-      "slug": "math-circle-board",
-      "kind": "product",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Saving learners’ attempts and strategy notes around a weekly problem supports the conversation that makes a math circle useful, not just an answer key.",
-      "why": "Run a small math group with problem cards, attempts, and facilitator notes.",
-      "featured": false,
-      "tags": [
-        "math",
-        "teaching",
-        "groups"
-      ]
-    },
-    {
-      "slug": "pause-garden",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Making an absent player harmless is a thoughtful answer to the usual multiplayer scheduling problem, though the garden theme is otherwise familiar.",
-      "why": "Restore a garden together in short turns, even when someone steps away.",
-      "featured": false,
-      "tags": [
-        "game",
-        "co-op",
-        "multiplayer"
-      ]
-    },
-    {
-      "slug": "sure-shot",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Pairing short estimation challenges with a confidence dial makes the result about judgement, not merely a score.",
-      "why": "Test visual and timing judgement, then compare each answer with your confidence.",
-      "featured": false,
-      "tags": [
-        "game",
-        "daily",
-        "puzzle"
-      ]
-    },
-    {
-      "slug": "alert-evidence-envelope",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 2,
-      "reason": "Attaching a signed, redacted query result to an alert could make incident handoffs less speculative, but it is specialist operations plumbing.",
-      "why": "Attach redacted query evidence to an alert before forwarding it.",
-      "featured": false,
-      "tags": [
-        "alerts",
-        "security",
-        "developer"
-      ]
-    },
-    {
-      "slug": "browser-bridge-crew",
-      "kind": "game",
-      "category": "play",
-      "interest": 4,
-      "reason": "Complementary phone panels give a short spaceship repair game a real reason for people to communicate, not just share a screen.",
-      "why": "Coordinate spaceship repairs with four to eight people on separate phones.",
-      "featured": false,
-      "tags": [
-        "game",
-        "multiplayer",
-        "co-op"
-      ]
-    },
-    {
-      "slug": "clipboard-lan-bridge",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Local discovery, encryption, and visible expiry make this a more accountable way to move a snippet or file between nearby devices.",
-      "why": "Send clipboard text and files between nearby devices on your local network.",
-      "featured": false,
-      "tags": [
-        "files",
-        "local",
-        "app"
-      ]
-    },
-    {
-      "slug": "cycle-legal-profile-check",
-      "kind": "utility",
-      "category": "life",
-      "interest": 3,
-      "reason": "Checking a GPX route against access rules can prevent a costly mistake before a ride, although its usefulness depends on local map data.",
-      "why": "Check a planned GPX route for access rules for your vehicle and region.",
-      "featured": false,
-      "tags": [
-        "cycling",
-        "routes",
-        "maps"
-      ]
-    },
-    {
-      "slug": "exam-bridge",
-      "kind": "utility",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Turning a syllabus into a confidence-led prerequisite list is practical study planning, though it still asks the learner to judge their own gaps.",
-      "why": "Turn a syllabus into a study order based on what you know already.",
-      "featured": false,
-      "tags": [
-        "study",
-        "planning",
-        "exams"
-      ]
-    },
-    {
-      "slug": "focus-lens",
-      "kind": "extension",
-      "category": "access",
-      "interest": 3,
-      "reason": "A large focus indicator and saved reading settings are useful accommodations, although an extension has to earn trust on every site.",
-      "why": "Make keyboard focus clearer and save reading settings for each site.",
-      "featured": false,
-      "tags": [
-        "access",
-        "reading",
-        "extension"
-      ]
-    },
-    {
-      "slug": "infra-test-evidence",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 2,
-      "reason": "Collecting proof from infrastructure tests is valuable for a release review, but it is narrow engineering paperwork rather than a destination product.",
-      "why": "Collect test evidence from infrastructure checks for a release review.",
-      "featured": false,
-      "tags": [
-        "testing",
-        "infra",
-        "developer"
-      ]
-    },
-    {
-      "slug": "internal-event-ledger",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 3,
-      "reason": "A self-hosted event timeline with acknowledgements and exports is practical operational glue, not a product most people will seek out.",
-      "why": "Receive internal events, review them in one timeline, and export the record.",
-      "featured": false,
-      "tags": [
-        "events",
-        "self-hosted",
-        "developer"
-      ]
-    },
-    {
-      "slug": "local-sync-observer",
-      "kind": "installable",
-      "category": "install",
-      "interest": 2,
-      "reason": "A read-only view of local sync activity can settle a worrying question without changing files, but it serves a very specific troubleshooting moment.",
-      "why": "Watch local file sync activity without changing your files.",
-      "featured": false,
-      "tags": [
-        "sync",
-        "files",
-        "app"
-      ]
-    },
-    {
-      "slug": "mirror-orchard",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but the puzzle design must carry more than the presentation.",
-      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
-      ]
-    },
-    {
-      "slug": "photo-cull-review",
-      "kind": "product",
-      "category": "life",
-      "interest": 4,
-      "reason": "Comparing duplicate and burst photos side by side solves an ugly, real archive chore without making people hand their library to a service.",
-      "why": "Review duplicate and burst photos side by side, then export your keep list.",
-      "featured": false,
-      "tags": [
-        "photos",
-        "local",
-        "cleanup"
-      ]
-    },
-    {
-      "slug": "pinpoint-daily",
-      "kind": "game",
-      "category": "play",
-      "interest": 2,
-      "reason": "A shared miniature golf course is immediately understandable, but the daily format is familiar and the novelty rests on execution.",
-      "why": "Take five shots at three small golf holes in a daily course.",
-      "featured": false,
-      "tags": [
-        "game",
-        "daily",
-        "golf"
-      ]
-    },
-    {
-      "slug": "review-backlog-forecast",
-      "kind": "utility",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Showing the daily cost of three catch-up plans makes a vague study backlog discussable instead of guilt-inducing.",
-      "why": "Compare catch-up plans for a study backlog by cards and minutes per day.",
-      "featured": false,
-      "tags": [
-        "study",
-        "planning",
-        "review"
-      ]
-    },
-    {
-      "slug": "room-code-mystery",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Splitting evidence among players gives a group mystery a real reason to talk, though timed rounds can put off quieter groups.",
-      "why": "Compare private clues with friends and solve one timed browser mystery.",
-      "featured": false,
-      "tags": [
-        "game",
-        "mystery",
-        "multiplayer"
-      ]
-    },
-    {
-      "slug": "seed-sprint",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Limited tile rotations plus a clock create a readable daily routing puzzle, but it is deliberately small in scope.",
-      "why": "Rotate tiles to connect signals before the timer ends in a daily puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
-      ]
-    },
-    {
-      "slug": "shapeshift-set",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Pieces that change nearby tiles give this placement puzzle a worthwhile twist beyond merely filling a grid.",
-      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
-      ]
-    },
-    {
-      "slug": "storage-aware-expiry",
-      "kind": "product",
-      "category": "life",
-      "interest": 3,
-      "reason": "A use-first queue that knows where food is stored addresses the moment people waste things, rather than pretending to automate a kitchen.",
-      "why": "Track where food is stored and see what to use first.",
-      "featured": false,
-      "tags": [
-        "food",
-        "home",
-        "offline"
+        "voice",
+        "rhythm"
       ]
     }
   ]

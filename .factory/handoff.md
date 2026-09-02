@@ -1,8 +1,8 @@
 # Curation handoff
 
-Updated `curation.json` and `curation.md` for the 654-product Hello Factory catalogue.
+Updated `curation.json` and `curation.md` for the 656-product Hello Factory catalogue.
 
-- Reconciled the prior curation against the live `https://hello-factory.sociobot.in/products.json` feed and curated all 654 current releases.
+- Reconciled the prior curation against the live `https://hello-factory.sociobot.in/products.json` feed and curated all 656 current releases, including the eight releases added since the previous pass.
 - Kept eight store-style shelves and supplied one valid curation record for every live product.
 - There are exactly 12 featured picks. Each feature URL was checked with `curl` and rendered Chromium on 2 September 2026; every one returned HTTP 200 and showed a recognisable first-screen job.
 - `curation.md` gives the editorial reasons for each feature and identifies five first screens needing copy work.
@@ -16,6 +16,6 @@ console.log({ products: c.products.length, featured: c.products.filter(p => p.fe
 NODE
 ```
 
-Expected: `{ products: 654, featured: 12 }`.
+Expected: `{ products: 656, featured: 12 }`.
 
 The pre-existing `graphify-out/cache/stat-index.json` modification was left untouched.

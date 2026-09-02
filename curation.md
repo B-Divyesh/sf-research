@@ -1,6 +1,6 @@
 # Featured picks
 
-Checked at their live addresses on 2 September 2026 with HTTP requests and a rendered Chromium pass: all 12 returned HTTP 200 and showed a recognisable job on the first screen. They are deliberately product-like releases rather than developer plumbing.
+Checked at their live addresses on 2 September 2026 with HTTP requests and a rendered Chromium pass: all 12 returned HTTP 200 and showed a recognisable job and first action on the first screen. They are deliberately product-like releases rather than developer plumbing.
 
 - `remote-screen-reader` — Reading only the text that changes in a chosen screen region is a considerate alternative to making an entire phone screen talk.
 - `audio-gap-loop` — It makes a learner’s own clip into a listen, speak, and repeat exercise, which is more useful than a generic audio player.
