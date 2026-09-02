@@ -1,19 +1,19 @@
 # Featured picks
 
-Checked at their live addresses with curl on 2 September 2026: all 12 returned HTTP 200 and named a recognisable job on the first screen. The accompanying catalogue contains all 642 current releases.
+Checked at their live addresses with curl on 2 September 2026: all 12 returned HTTP 200 and named a recognisable job on the first screen. The accompanying catalogue contains all 652 current releases.
 
+- `remote-screen-reader` — It reads only text that changes in a chosen screen region, which is a more considerate tool than making an entire phone screen talk.
 - `audio-gap-loop` — It turns a learner’s own clip into a listen, speak, and repeat exercise, which is far more personal than a generic player.
+- `s3-console` — One browser console for any S3-compatible store is useful precisely because it avoids provider-specific admin rituals while keeping credentials local.
 - `claim-ready-homebook` — A private home inventory only proves its worth after a loss; the claim export makes that difficult moment its real purpose.
-- `creative-cartridge` — Six bounded offline activities give a child something to start and finish instead of another blank creative canvas.
-- `floorplan-text-dsl` — Writing a plan as text makes revisions quick, while the scaled SVG, PDF, and PNG exports make it useful beyond sketching.
+- `takeout-photo-metadata-fixer` — Google Photos sidecars are an archive trap; restoring their dates and places fixes a migration failure people discover too late.
 - `kitchen-table` — Three familiar games on separate phones remove the setup barrier that often prevents a spontaneous family game.
 - `mechanism-playground` — Building gears, cams, and linkages is satisfying on its own and teaches mechanics through the interaction.
-- `one-sitting-idle` — A story-led idle game designed to end in one sitting is a welcome alternative to the genre’s endless treadmill.
 - `open-quiz-arena` — Account-free live quizzes with no player cap remove two common classroom constraints without adding a dashboard.
-- `parallel-ebook-reader` — Matching two DRM-free editions and exporting sentence pairs gives language learners a rare, specific use for books they already own.
 - `quote-acceptance-packet` — Recording the exact quote and a client’s decision can prevent a costly argument when a job changes shape.
-- `takeout-photo-metadata-fixer` — Google Photos sidecars are an archive trap; restoring their dates and places fixes a migration failure people discover too late.
-- `wordlist-arcade` — A teacher can turn one word list into six actual games without accounts, caps, or a second platform.
+- `floorplan-text-dsl` — Writing a plan as text makes revisions quick, while the scaled SVG, PDF, and PNG exports make it useful beyond sketching.
+- `creative-cartridge` — Six bounded offline activities give a child something to start and finish instead of another blank creative canvas.
+- `family-archive-check` — It checks whether another person can read a family archive, not merely whether a backup drive exists; that distinction matters in a handoff.
 
 # First screens that need work
 
