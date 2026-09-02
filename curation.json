@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T06:32:24.186Z",
+  "generated": "2026-09-02T06:58:21.356Z",
   "categories": [
     {
       "id": "make",
@@ -624,17 +624,43 @@
       ]
     },
     {
-      "slug": "visualizer-cuebook",
-      "kind": "product",
-      "category": "make",
+      "slug": "browser-bridge-crew",
+      "kind": "game",
+      "category": "play",
       "interest": 4,
-      "reason": "Marking a performer’s own audio against dependable visual scenes is a focused live-show workflow rather than a generic visualiser toy.",
-      "why": "Mark your audio with cues, preview scenes, and export a visual show plan.",
+      "reason": "Complementary phone panels give a short spaceship repair game a real reason for people to communicate, not just share a screen.",
+      "why": "Coordinate spaceship repairs with four to eight people on separate phones.",
       "featured": false,
       "tags": [
-        "music",
-        "visuals",
-        "offline"
+        "game",
+        "multiplayer",
+        "co-op"
+      ]
+    },
+    {
+      "slug": "gaze-calibration-card",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "A quick baseline check before relying on eye input could prevent a frustrating session, even if the audience is small.",
+      "why": "Check a gaze pointer against nine targets before a demanding task.",
+      "featured": false,
+      "tags": [
+        "accessibility",
+        "eye input"
+      ]
+    },
+    {
+      "slug": "hotkey-runbook",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "Showing the exact local command before it runs addresses a real operational failure mode, not merely YAML aesthetics.",
+      "why": "Review and run local YAML procedures with a clear command preview.",
+      "featured": false,
+      "tags": [
+        "runbooks",
+        "local"
       ]
     },
     {
@@ -652,17 +678,17 @@
       ]
     },
     {
-      "slug": "photo-cull-review",
-      "kind": "product",
-      "category": "life",
+      "slug": "screen-landmark-lens",
+      "kind": "installable",
+      "category": "access",
       "interest": 4,
-      "reason": "Comparing duplicate and burst photos side by side solves an ugly, real archive chore without making people hand their library to a service.",
-      "why": "Review duplicate and burst photos side by side, then export your keep list.",
+      "reason": "Selected-window OCR with keyboard commands tackles the stubborn gap between inaccessible legacy software and a person who still needs to use it.",
+      "why": "Find and read visible controls in one chosen window on your computer.",
       "featured": false,
       "tags": [
-        "photos",
-        "local",
-        "cleanup"
+        "access",
+        "ocr",
+        "desktop"
       ]
     },
     {
@@ -755,20 +781,6 @@
       "tags": [
         "play",
         "offline"
-      ]
-    },
-    {
-      "slug": "browser-bridge-crew",
-      "kind": "game",
-      "category": "play",
-      "interest": 4,
-      "reason": "Complementary phone panels give a short spaceship repair game a real reason for people to communicate, not just share a screen.",
-      "why": "Coordinate spaceship repairs with four to eight people on separate phones.",
-      "featured": false,
-      "tags": [
-        "game",
-        "multiplayer",
-        "co-op"
       ]
     },
     {
@@ -1320,6 +1332,20 @@
       ]
     },
     {
+      "slug": "photo-cull-review",
+      "kind": "product",
+      "category": "life",
+      "interest": 4,
+      "reason": "Comparing duplicate and burst photos side by side solves an ugly, real archive chore without making people hand their library to a service.",
+      "why": "Review duplicate and burst photos side by side, then export your keep list.",
+      "featured": false,
+      "tags": [
+        "photos",
+        "local",
+        "cleanup"
+      ]
+    },
+    {
       "slug": "photo-walk-scratchbook",
       "kind": "product",
       "category": "make",
@@ -1547,20 +1573,6 @@
       "featured": false,
       "tags": [
         "play"
-      ]
-    },
-    {
-      "slug": "screen-landmark-lens",
-      "kind": "installable",
-      "category": "access",
-      "interest": 4,
-      "reason": "Selected-window OCR with keyboard commands tackles the stubborn gap between inaccessible legacy software and a person who still needs to use it.",
-      "why": "Find and read visible controls in one chosen window on your computer.",
-      "featured": false,
-      "tags": [
-        "access",
-        "ocr",
-        "desktop"
       ]
     },
     {
@@ -1866,17 +1878,56 @@
       ]
     },
     {
-      "slug": "haptic-beat-relay",
-      "kind": "product",
-      "category": "play",
+      "slug": "exam-bridge",
+      "kind": "utility",
+      "category": "learn",
       "interest": 3,
-      "reason": "Letting one device send vibration cues while another taps back makes rhythm practice social and accessible, if both phones cooperate.",
-      "why": "Send beat cues to another phone and tap back together in time.",
+      "reason": "Turning a syllabus into a confidence-led prerequisite list is practical study planning, though it still asks the learner to judge their own gaps.",
+      "why": "Turn a syllabus into a study order based on what you know already.",
       "featured": false,
       "tags": [
-        "music",
-        "rhythm",
-        "phones"
+        "study",
+        "planning",
+        "exams"
+      ]
+    },
+    {
+      "slug": "family-doodle-relay",
+      "kind": "game",
+      "category": "make",
+      "interest": 3,
+      "reason": "Draw, guess, and add a detail with one trusted person in a private two-person room earns its place by making one fiddly creative step repeatable without getting in the way of the work.",
+      "why": "Draw, guess, and add a detail with one trusted person in a private two-person room.",
+      "featured": false,
+      "tags": [
+        "make"
+      ]
+    },
+    {
+      "slug": "focus-lens",
+      "kind": "extension",
+      "category": "access",
+      "interest": 3,
+      "reason": "A large focus indicator and saved reading settings are useful accommodations, although an extension has to earn trust on every site.",
+      "why": "Make keyboard focus clearer and save reading settings for each site.",
+      "featured": false,
+      "tags": [
+        "access",
+        "reading",
+        "extension"
+      ]
+    },
+    {
+      "slug": "food-log-export-kit",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Getting data out of a food tracker is unglamorous but useful; the value depends on supporting common exports.",
+      "why": "Export your food log into files you can keep or move.",
+      "featured": false,
+      "tags": [
+        "food",
+        "export"
       ]
     },
     {
@@ -1894,6 +1945,19 @@
       ]
     },
     {
+      "slug": "last-lap-breakout",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "An eight-lap arcade run promises a complete evening-sized challenge, but it must feel sharp to justify the click.",
+      "why": "Clear eight arcade laps and finish the run.",
+      "featured": false,
+      "tags": [
+        "arcade",
+        "short run"
+      ]
+    },
+    {
       "slug": "legacy-change-radar",
       "kind": "devtool",
       "category": "tools",
@@ -1907,6 +1971,20 @@
       ]
     },
     {
+      "slug": "mirror-orchard",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but the puzzle design must carry more than the presentation.",
+      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
       "slug": "no-bot-captions",
       "kind": "product",
       "category": "access",
@@ -1916,20 +1994,6 @@
       "featured": false,
       "tags": [
         "access"
-      ]
-    },
-    {
-      "slug": "pause-garden",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Making an absent player harmless is a thoughtful answer to the usual multiplayer scheduling problem, though the garden theme is otherwise familiar.",
-      "why": "Restore a garden together in short turns, even when someone steps away.",
-      "featured": false,
-      "tags": [
-        "game",
-        "co-op",
-        "multiplayer"
       ]
     },
     {
@@ -2112,6 +2176,20 @@
       ]
     },
     {
+      "slug": "shapeshift-set",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Pieces that change nearby tiles give this placement puzzle a worthwhile twist beyond merely filling a grid.",
+      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "daily",
+        "game"
+      ]
+    },
+    {
       "slug": "sound-pattern-playground",
       "kind": "product",
       "category": "play",
@@ -2122,20 +2200,6 @@
       "tags": [
         "sound",
         "learning"
-      ]
-    },
-    {
-      "slug": "storage-aware-expiry",
-      "kind": "product",
-      "category": "life",
-      "interest": 3,
-      "reason": "A use-first queue that knows where food is stored addresses the moment people waste things, rather than pretending to automate a kitchen.",
-      "why": "Track where food is stored and see what to use first.",
-      "featured": false,
-      "tags": [
-        "food",
-        "home",
-        "offline"
       ]
     },
     {
@@ -2174,19 +2238,6 @@
       "tags": [
         "health",
         "notes"
-      ]
-    },
-    {
-      "slug": "tide-and-tile",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "A compact route puzzle with a visible turn target is easy to grasp and replay, but the daily format alone does not make it stand out yet.",
-      "why": "Rotate water channels to make one harbor route in a daily puzzle.",
-      "featured": false,
-      "tags": [
-        "daily",
-        "puzzle"
       ]
     },
     {
@@ -2250,6 +2301,19 @@
       "tags": [
         "music",
         "practice"
+      ]
+    },
+    {
+      "slug": "voice-riff-loop",
+      "kind": "product",
+      "category": "play",
+      "interest": 3,
+      "reason": "Turning a spoken phrase into a rhythm loop is a charming musical constraint, though it is more toy than tool.",
+      "why": "Record a phrase and turn it into a repeating rhythm loop.",
+      "featured": false,
+      "tags": [
+        "voice",
+        "rhythm"
       ]
     },
     {
@@ -2978,6 +3042,19 @@
       ]
     },
     {
+      "slug": "dawn-run",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A six-room daily run is a lean enough shape for a real habit, though the idea is familiar.",
+      "why": "Race through six short rooms in a new daily browser run.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "arcade"
+      ]
+    },
+    {
       "slug": "db-file-sync-safety",
       "kind": "devtool",
       "category": "install",
@@ -3156,20 +3233,6 @@
       ]
     },
     {
-      "slug": "exam-bridge",
-      "kind": "utility",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Turning a syllabus into a confidence-led prerequisite list is practical study planning, though it still asks the learner to judge their own gaps.",
-      "why": "Turn a syllabus into a study order based on what you know already.",
-      "featured": false,
-      "tags": [
-        "study",
-        "planning",
-        "exams"
-      ]
-    },
-    {
       "slug": "exam-deadline-map",
       "kind": "product",
       "category": "learn",
@@ -3219,18 +3282,6 @@
       "tags": [
         "local",
         "offline"
-      ]
-    },
-    {
-      "slug": "family-doodle-relay",
-      "kind": "game",
-      "category": "make",
-      "interest": 3,
-      "reason": "Draw, guess, and add a detail with one trusted person in a private two-person room earns its place by making one fiddly creative step repeatable without getting in the way of the work.",
-      "why": "Draw, guess, and add a detail with one trusted person in a private two-person room.",
-      "featured": false,
-      "tags": [
-        "make"
       ]
     },
     {
@@ -3310,20 +3361,6 @@
       "featured": false,
       "tags": [
         "tools"
-      ]
-    },
-    {
-      "slug": "focus-lens",
-      "kind": "extension",
-      "category": "access",
-      "interest": 3,
-      "reason": "A large focus indicator and saved reading settings are useful accommodations, although an extension has to earn trust on every site.",
-      "why": "Make keyboard focus clearer and save reading settings for each site.",
-      "featured": false,
-      "tags": [
-        "access",
-        "reading",
-        "extension"
       ]
     },
     {
@@ -3852,20 +3889,6 @@
       "tags": [
         "database",
         "migrations"
-      ]
-    },
-    {
-      "slug": "mirror-orchard",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Growing symmetric patterns from a fixed seed has a pleasant visual premise, but the puzzle design must carry more than the presentation.",
-      "why": "Grow mirrored tree patterns through daily and archived visual puzzles.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
       ]
     },
     {
@@ -4755,20 +4778,6 @@
       ]
     },
     {
-      "slug": "shapeshift-set",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Pieces that change nearby tiles give this placement puzzle a worthwhile twist beyond merely filling a grid.",
-      "why": "Place five changing pieces to solve one shared daily grid puzzle.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "daily",
-        "game"
-      ]
-    },
-    {
       "slug": "shop-fit-sheet",
       "kind": "product",
       "category": "life",
@@ -5231,6 +5240,19 @@
       ]
     },
     {
+      "slug": "code-listen-cursor",
+      "kind": "extension",
+      "category": "access",
+      "interest": 2,
+      "reason": "Language-aware speech for the current line could make code review less visually exhausting, though editor integration is a hard sell.",
+      "why": "Listen to selected code as intelligible structure.",
+      "featured": false,
+      "tags": [
+        "access",
+        "extension"
+      ]
+    },
+    {
       "slug": "collections-ladder",
       "kind": "product",
       "category": "life",
@@ -5514,20 +5536,6 @@
       ]
     },
     {
-      "slug": "infra-test-evidence",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 2,
-      "reason": "Collecting proof from infrastructure tests is valuable for a release review, but it is narrow engineering paperwork rather than a destination product.",
-      "why": "Collect test evidence from infrastructure checks for a release review.",
-      "featured": false,
-      "tags": [
-        "testing",
-        "infra",
-        "developer"
-      ]
-    },
-    {
       "slug": "guided-inking-overlay",
       "kind": "product",
       "category": "play",
@@ -5586,6 +5594,20 @@
       "featured": false,
       "tags": [
         "creative",
+        "app"
+      ]
+    },
+    {
+      "slug": "local-sync-observer",
+      "kind": "installable",
+      "category": "install",
+      "interest": 2,
+      "reason": "A read-only view of local sync activity can settle a worrying question without changing files, but it serves a very specific troubleshooting moment.",
+      "why": "Watch local file sync activity without changing your files.",
+      "featured": false,
+      "tags": [
+        "sync",
+        "files",
         "app"
       ]
     },
@@ -5769,18 +5791,6 @@
       "tags": [
         "records",
         "offline"
-      ]
-    },
-    {
-      "slug": "reader-sideload-library",
-      "kind": "installable",
-      "category": "install",
-      "interest": 2,
-      "reason": "Organize DRM-free EPUB and PDF files, make ordered e-ink reader collections, copy by USB, and export highlights as Markdown is useful niche plumbing for desktop users, not a destination in its own right.",
-      "why": "Organize DRM-free EPUB and PDF files, make ordered e-ink reader collections, copy by USB.",
-      "featured": false,
-      "tags": [
-        "install"
       ]
     },
     {
@@ -6431,19 +6441,6 @@
       ]
     },
     {
-      "slug": "code-listen-cursor",
-      "kind": "extension",
-      "category": "access",
-      "interest": 2,
-      "reason": "Language-aware speech for the current line could make code review less visually exhausting, though editor integration is a hard sell.",
-      "why": "Listen to selected code as intelligible structure.",
-      "featured": false,
-      "tags": [
-        "access",
-        "extension"
-      ]
-    },
-    {
       "slug": "code-path-lens",
       "kind": "devtool",
       "category": "tools",
@@ -6798,6 +6795,20 @@
       ]
     },
     {
+      "slug": "infra-test-evidence",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Collecting proof from infrastructure tests is valuable for a release review, but it is narrow engineering paperwork rather than a destination product.",
+      "why": "Collect test evidence from infrastructure checks for a release review.",
+      "featured": false,
+      "tags": [
+        "testing",
+        "infra",
+        "developer"
+      ]
+    },
+    {
       "slug": "interview-recall-deck",
       "kind": "product",
       "category": "learn",
@@ -6883,20 +6894,6 @@
       "tags": [
         "play",
         "offline"
-      ]
-    },
-    {
-      "slug": "local-sync-observer",
-      "kind": "installable",
-      "category": "install",
-      "interest": 2,
-      "reason": "A read-only view of local sync activity can settle a worrying question without changing files, but it serves a very specific troubleshooting moment.",
-      "why": "Watch local file sync activity without changing your files.",
-      "featured": false,
-      "tags": [
-        "sync",
-        "files",
-        "app"
       ]
     },
     {
@@ -8376,107 +8373,177 @@
       ]
     },
     {
-      "slug": "dawn-run",
+      "slug": "arithmetic-steps",
+      "kind": "utility",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Moving counters and ten-frames makes each arithmetic step visible, though it remains a narrow practice aid.",
+      "why": "Practise addition and subtraction with counters you can move and replay.",
+      "featured": false,
+      "tags": [
+        "math",
+        "practice"
+      ]
+    },
+    {
+      "slug": "spanish-audio-notes",
+      "kind": "installable",
+      "category": "learn",
+      "interest": 4,
+      "reason": "Time-linked notes beside an on-device Spanish transcript turn a recording into material someone can return to, not just transcribe once.",
+      "why": "Transcribe Spanish audio on your computer and pin notes to sentences.",
+      "featured": false,
+      "tags": [
+        "Spanish",
+        "transcript",
+        "app"
+      ]
+    },
+    {
+      "slug": "client-request-catalog",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "A client-specific catalogue with quotes and an exportable inbox solves a real small-business handoff, but it is a familiar workflow.",
+      "why": "Show clients your services and collect requests in one place.",
+      "featured": false,
+      "tags": [
+        "clients",
+        "quotes"
+      ]
+    },
+    {
+      "slug": "closing-bell",
       "kind": "game",
       "category": "play",
       "interest": 3,
-      "reason": "A six-room daily run is a lean enough shape for a real habit, though the idea is familiar.",
-      "why": "Race through six short rooms in a new daily browser run.",
+      "reason": "The fixed six-minute auction and shifting public and private news give a room a crisp social game, if the rumors create enough meaningful choices.",
+      "why": "Bid on changing goods with friends in a six-minute auction.",
+      "featured": false,
+      "tags": [
+        "auction",
+        "multiplayer"
+      ]
+    },
+    {
+      "slug": "couch-crew",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Giving each player a distinct heist role while keeping controls to two buttons promises lively couch co-operation without setup bloat.",
+      "why": "Pull off a heist together using two-button phone controls.",
+      "featured": false,
+      "tags": [
+        "co-op",
+        "party"
+      ]
+    },
+    {
+      "slug": "five-minute-heist",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Planning a tiny heist against known guard loops then watching it play out gives a daily puzzle a satisfying, legible payoff.",
+      "why": "Plan five moves to steal art before the guards catch you.",
       "featured": false,
       "tags": [
         "daily",
-        "arcade"
+        "puzzle"
       ]
     },
     {
-      "slug": "finite-forge",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "A finite build-before-sunset campaign is a healthier promise than another endless crafting loop.",
-      "why": "Build a beacon before sunset in a short puzzle campaign.",
-      "featured": false,
-      "tags": [
-        "puzzle",
-        "campaign"
-      ]
-    },
-    {
-      "slug": "first-move-friends",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Guided turns make a niche tile duel approachable, but it needs a lively opponent to earn repeat visits.",
-      "why": "Learn a tile duel by playing guided turns with a friend.",
-      "featured": false,
-      "tags": [
-        "tiles",
-        "two players"
-      ]
-    },
-    {
-      "slug": "food-log-export-kit",
+      "slug": "local-data-finder",
       "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Getting data out of a food tracker is unglamorous but useful; the value depends on supporting common exports.",
-      "why": "Export your food log into files you can keep or move.",
-      "featured": false,
-      "tags": [
-        "food",
-        "export"
-      ]
-    },
-    {
-      "slug": "gaze-calibration-card",
-      "kind": "installable",
-      "category": "install",
+      "category": "life",
       "interest": 4,
-      "reason": "A quick baseline check before relying on eye input could prevent a frustrating session, even if the audience is small.",
-      "why": "Check a gaze pointer against nine targets before a demanding task.",
+      "reason": "Searching chosen folders and exported archives locally is a strong privacy-first alternative to pouring a personal archive into another cloud service.",
+      "why": "Search files and exports on your computer without uploading them.",
       "featured": false,
       "tags": [
-        "accessibility",
-        "eye input"
+        "search",
+        "offline",
+        "app"
       ]
     },
     {
-      "slug": "hotkey-runbook",
+      "slug": "mail-escape-hatch",
       "kind": "installable",
-      "category": "install",
+      "category": "life",
       "interest": 4,
-      "reason": "Showing the exact local command before it runs addresses a real operational failure mode, not merely YAML aesthetics.",
-      "why": "Review and run local YAML procedures with a clear command preview.",
+      "reason": "A mail export is only trustworthy when counts, attachments, and hashes agree; checking them before writing a portable archive is unusually careful.",
+      "why": "Check a mail export and save a portable copy on your computer.",
       "featured": false,
       "tags": [
-        "runbooks",
-        "local"
+        "mail",
+        "archive",
+        "app"
       ]
     },
     {
-      "slug": "last-lap-breakout",
+      "slug": "devcontainer-identity-audit",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Container file ownership failures are tedious and costly, so a runtime-backed audit is practical plumbing rather than a broad destination.",
+      "why": "Check who owns files in a dev container and fix mismatches.",
+      "featured": false,
+      "tags": [
+        "containers",
+        "cli"
+      ]
+    },
+    {
+      "slug": "photo-proof-pile",
+      "kind": "installable",
+      "category": "life",
+      "interest": 4,
+      "reason": "Showing every near-duplicate alongside its metadata and backup status helps people clean a photo library without blindly deleting the wrong copy.",
+      "why": "Review duplicate photos and keep the copies that matter.",
+      "featured": false,
+      "tags": [
+        "photos",
+        "cleanup",
+        "app"
+      ]
+    },
+    {
+      "slug": "stocktake-reconcile",
+      "kind": "installable",
+      "category": "money",
+      "interest": 3,
+      "reason": "Requiring a reason for a material stock difference makes this more accountable than a spreadsheet comparison, though its audience is specialised.",
+      "why": "Compare stock counts with records and explain the differences.",
+      "featured": false,
+      "tags": [
+        "stock",
+        "CSV",
+        "app"
+      ]
+    },
+    {
+      "slug": "sure-shot",
       "kind": "game",
       "category": "play",
       "interest": 3,
-      "reason": "An eight-lap arcade run promises a complete evening-sized challenge, but it must feel sharp to justify the click.",
-      "why": "Clear eight arcade laps and finish the run.",
+      "reason": "Asking for confidence before five quick judgment challenges makes the daily score reflect self-knowledge as well as correct answers.",
+      "why": "Test your judgment and compare your confidence with the result.",
       "featured": false,
       "tags": [
-        "arcade",
-        "short run"
+        "daily",
+        "challenge"
       ]
     },
     {
-      "slug": "voice-riff-loop",
-      "kind": "product",
+      "slug": "couch-creatures",
+      "kind": "game",
       "category": "play",
-      "interest": 3,
-      "reason": "Turning a spoken phrase into a rhythm loop is a charming musical constraint, though it is more toy than tool.",
-      "why": "Record a phrase and turn it into a repeating rhythm loop.",
+      "interest": 4,
+      "reason": "Shared-screen rescue play that lets phones join as simple one-thumb controllers is a thoughtful answer to mixed-age groups.",
+      "why": "Rescue creatures together with a keyboard or your phone.",
       "featured": false,
       "tags": [
-        "voice",
-        "rhythm"
+        "co-op",
+        "family"
       ]
     }
   ]
