@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T00:23:48.508Z",
+  "generated": "2026-09-02T02:05:33Z",
   "categories": [
     {
       "id": "make",
@@ -19,7 +19,7 @@
     {
       "id": "learn",
       "title": "Learn & teach",
-      "blurb": "Practise, explain, and run classes without a bloated platform."
+      "blurb": "Practise, explain, and run classes with simple tools."
     },
     {
       "id": "play",
@@ -1721,7 +1721,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Collection Escape Hatch has a concrete hook: A local CLI that reads Postman v2.1 plus one target export (initially Bruno/Hoppscotch), checks requests, folders, variables, auth, scripts, examples, and body.",
+      "reason": "The practical value is catching differences between a Postman collection and its target before migration loses request detail.",
       "why": "Compare API client exports before moving a team to another tool.",
       "featured": false,
       "tags": [
@@ -1826,7 +1826,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 2,
-      "reason": "Add words and patterns to color-only dashboard and map statuses. A local Chrome extension for people with color-vision deficiency is useful niche plumbing for browser users, not a destination in its own right.",
+      "reason": "Adding labels to colour-only statuses is an obvious but meaningful accessibility fix, even if few people will search for it.",
       "why": "Add words and patterns to color-only dashboard and map statuses.",
       "featured": false,
       "tags": [
@@ -1889,7 +1889,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The point of Concept Case Bridge becomes clear in Local case-card editor: author a compact scenario, tag the technical concept and domain signal, hide the decision, and review with a 'why not the alternative?'.",
+      "reason": "Its reveal-and-compare format makes people articulate technical judgement instead of memorising a label.",
       "why": "Practice choosing technical concepts in realistic business cases. Private, local, and offline.",
       "featured": false,
       "tags": [
@@ -2194,7 +2194,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Trace data changes before recomputing. A local CLI for data engineers that lists stale assets and their safe order is useful niche plumbing for developers, not a destination in its own right.",
+      "reason": "Knowing the stale assets and safe order before recomputing prevents an expensive blind rerun.",
       "why": "Trace data changes before recomputing.",
       "featured": false,
       "tags": [
@@ -2244,7 +2244,7 @@
       "kind": "product",
       "category": "life",
       "interest": 3,
-      "reason": "The best part is preserving the evidence around a transaction, not adding another dashboard.",
+      "reason": "Keeping the quote, approval, payment, and handoff together addresses the paper trail that freelance tools usually leave scattered.",
       "why": "Make a private, portable record of freelance work delivered and your client's response.",
       "featured": false,
       "tags": [
@@ -2295,7 +2295,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 2,
-      "reason": "A CLI that statically inspects devcontainer.json and Compose, probes a selected local backend, and reports incompatibilities for mounts, privileged mode.",
+      "reason": "Misconfigured mounts and backends waste hours, so this is a useful narrow diagnostic before a team starts debugging the wrong layer.",
       "why": "Predict devcontainer problems before changing container backends.",
       "featured": false,
       "tags": [
@@ -2512,7 +2512,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "Env Contract Check is more than a label because it includes A CLI that validates .env files against a typed contract, applies Docker/Node/Python parser profiles, flags unset/unused/unsafe values, and renders a redacted.",
+      "reason": "It prevents configuration drift across parsers, a mundane failure that is hard to trace from production errors.",
       "why": "Validate typed .env contracts against Node, Python, and Docker parser semantics before deployment.",
       "featured": false,
       "tags": [
@@ -2892,41 +2892,17 @@
       ]
     },
     {
-      "slug": "focus-study-sprint",
-      "kind": "product",
-      "category": "learn",
-      "interest": 3,
-      "reason": "Run short, private active-recall sessions with your own prompts. Built for students and self-learners fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
-      "why": "Run short, private active-recall sessions with your own prompts.",
-      "featured": false,
-      "tags": [
-        "learn"
-      ]
-    },
-    {
       "slug": "folder-recipe-switcher",
       "kind": "devtool",
       "category": "play",
       "interest": 2,
-      "reason": "Folder Recipe has a concrete hook: A local utility that writes a versioned `.photo-recipe.json` beside a folder, records camera/source heuristics and recommended editor profile/style, previews.",
+      "reason": "Saving an edit recipe beside photos makes recurring decisions inspectable instead of trapping them in someone’s memory.",
       "why": "Save editor profiles beside photo folders, check inherited recipe files, and export an import checklist.",
       "featured": false,
       "tags": [
         "play",
         "offline",
         "app"
-      ]
-    },
-    {
-      "slug": "food-log-export-kit",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Turn food tracker exports into CSV and JSON files on your device fills a real gap for desktop users, though the use case is narrower than a main shelf.",
-      "why": "Turn food tracker exports into CSV and JSON files on your device.",
-      "featured": false,
-      "tags": [
-        "install"
       ]
     },
     {
@@ -3084,7 +3060,7 @@
       "kind": "installable",
       "category": "install",
       "interest": 3,
-      "reason": "Compare an eye-controlled pointer across nine targets before a demanding task. No camera access or account fills a real gap for desktop users, though the use case is narrower than a main shelf.",
+      "reason": "Nine targets give someone a quick baseline before relying on eye control for real work.",
       "why": "Compare an eye-controlled pointer across nine targets before a demanding task.",
       "featured": false,
       "tags": [
@@ -3147,7 +3123,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "No-execution GitHub Actions workflow planner: which jobs/steps will run for a given event, and why is more than a label because it includes v1: `ghaplan --event pull_request --base main --head feat --paths src/a.ts` prints a tree of workflows → jobs → steps with run/skip decisions and the reason.",
+      "reason": "Explaining which Actions jobs will be skipped before execution cuts a frustrating loop in CI debugging.",
       "why": "Plan a GitHub Actions workflow before you push. See which jobs and steps will run or skip in your browser.",
       "featured": false,
       "tags": [
@@ -3171,7 +3147,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "The case for Non-interactive, line-range staging for git (and for coding agents) rests on v1: `git stage-lines path/to/file.ts:12-18,40 other.py:3` computes the working-tree vs index diff, builds a minimal patch containing only the requested lines.",
+      "reason": "Line-range staging has real value for code agents and scripts because normal interactive staging does not fit them.",
       "why": "Stage selected Git lines from scripts and coding agents without an interactive patch prompt.",
       "featured": false,
       "tags": [
@@ -3229,18 +3205,6 @@
       "tags": [
         "install",
         "app"
-      ]
-    },
-    {
-      "slug": "gridsong",
-      "kind": "product",
-      "category": "access",
-      "interest": 2,
-      "reason": "Compose, save, share, and export classroom songs on a simple colour grid is useful niche plumbing for people with that specific task, not a destination in its own right.",
-      "why": "Compose, save, share, and export classroom songs on a simple colour grid.",
-      "featured": false,
-      "tags": [
-        "access"
       ]
     },
     {
@@ -3338,7 +3302,7 @@
       "category": "life",
       "interest": 2,
       "reason": "Browser-only packet builder: paste/import selected values, attach source/date, add questions and a medication list, then generate a printable PDF and encrypted.",
-      "why": "Record.",
+      "why": "Prepare a private visit packet with medicines, questions, and dated health details.",
       "featured": false,
       "tags": [
         "local",
@@ -3351,7 +3315,7 @@
       "category": "access",
       "interest": 4,
       "reason": "The case for Hearing Mode Notes rests on Offline Android app with one-tap place tags, mode/volume notes, optional manual sound-comfort rating, and a lock-screen reminder of the last successful setup.",
-      "why": "Privately remember which hearing-aid mode and volume worked at each place. Offline and stored on your device.",
+      "why": "Record which hearing-aid mode and volume worked at each place on your device.",
       "featured": false,
       "tags": [
         "access",
@@ -3423,20 +3387,6 @@
       "tags": [
         "home",
         "maintenance"
-      ]
-    },
-    {
-      "slug": "hotkey-runbook",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Typed inputs and local history make YAML maintenance runs less hazardous, though the operator audience is small.",
-      "why": "Run reviewed YAML maintenance steps with typed inputs and local history.",
-      "featured": false,
-      "tags": [
-        "yaml",
-        "operations",
-        "desktop"
       ]
     },
     {
@@ -3740,7 +3690,7 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Record issued, sent, due, and paid dates for client invoices. Try three isolated sample invoices fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
+      "reason": "The send dates matter most around a dispute or payment chase, but then an accurate record pays for itself.",
       "why": "Record issued, sent, due, and paid dates for client invoices.",
       "featured": false,
       "tags": [
@@ -3752,7 +3702,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 3,
-      "reason": "Check iOS release metadata, screenshots, privacy answers, and queue timing. Print a local review packet before submission fills a real gap for developers, though the use case is narrower than a main shelf.",
+      "reason": "One local pass over the submission details can catch several costly review surprises, though it remains a specialist release tool.",
       "why": "Check iOS release metadata, screenshots, privacy answers, and queue timing.",
       "featured": false,
       "tags": [
@@ -3902,7 +3852,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 3,
-      "reason": "It has a real play pattern rather than a technology demo wearing game controls.",
+      "reason": "A bad file path can ruin a set at the worst time, but this remains a modest safeguard rather than a headline tool.",
       "why": "Share local family calendars and chores without accounts.",
       "featured": false,
       "tags": [
@@ -4066,8 +4016,8 @@
       "kind": "product",
       "category": "learn",
       "interest": 3,
-      "reason": "Six offline learning activities for children aged 5–10. No child accounts, ads, or tracking fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
-      "why": "Six offline learning activities for children aged 5–10.",
+      "reason": "A finite no-account activity collection is thoughtful for shared family computers, though it is not a teaching platform.",
+      "why": "Run six offline learning activities for children aged 5–10.",
       "featured": false,
       "tags": [
         "learn"
@@ -4096,19 +4046,6 @@
       "featured": false,
       "tags": [
         "creative"
-      ]
-    },
-    {
-      "slug": "local-data-finder",
-      "kind": "installable",
-      "category": "install",
-      "interest": 3,
-      "reason": "Local search across selected folders and exported archives offers a useful privacy boundary, although desktop search is a crowded category.",
-      "why": "Search selected folders and exported files on your computer.",
-      "featured": false,
-      "tags": [
-        "search",
-        "offline"
       ]
     },
     {
@@ -4142,7 +4079,7 @@
       "kind": "utility",
       "category": "life",
       "interest": 5,
-      "reason": "Browser-local PDF form builder, filler, signer and page editor has a concrete hook: Static page using pdf-lib/pdf.js: open a PDF, drag text/checkbox/date fields onto pages, fill existing AcroForm fields, draw or type a signature.",
+      "reason": "Keeping fill, signing, and page edits in the browser fits sensitive paperwork better than an upload service.",
       "why": "Fill, sign, add fields, and arrange PDFs on your device without uploading a file.",
       "featured": false,
       "tags": [
@@ -4409,7 +4346,7 @@
       "kind": "utility",
       "category": "learn",
       "interest": 3,
-      "reason": "It turns a familiar teaching problem into one concrete next action.",
+      "reason": "The forced choices make copying a passage into flashcards more thoughtful, even if the benefit is subtle at first glance.",
       "why": "Learn when to estimate, table, graph, and verify through 20 hands-on mathematics drills.",
       "featured": false,
       "tags": [
@@ -4422,7 +4359,7 @@
       "kind": "product",
       "category": "life",
       "interest": 5,
-      "reason": "Streamed, in-browser viewer/search/extractor for multi-GB Gmail Takeout .mbox files earns attention for Static PWA: open .mbox (or .mbox.gz) via streamed reads; build header index (from/to/date/subject/size) with progress; search/filter; render message (MIME.",
+      "reason": "Reading a huge mail archive without uploading it solves a palpable privacy and capacity problem.",
       "why": "Search a Gmail Takeout archive in your browser. Read messages and export selected emails.",
       "featured": false,
       "tags": [
@@ -4923,7 +4860,7 @@
       "kind": "product",
       "category": "make",
       "interest": 3,
-      "reason": "Compare each pixel drawing with its previous and next animation frame. Import locally, adjust onion layers, and export a contact sheet fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
+      "reason": "The two-frame comparison makes the animation task direct and avoids the overhead of a full studio.",
       "why": "Compare each pixel drawing with its previous and next animation frame.",
       "featured": false,
       "tags": [
@@ -5425,19 +5362,6 @@
       ]
     },
     {
-      "slug": "pinpoint-daily",
-      "kind": "game",
-      "category": "play",
-      "interest": 3,
-      "reason": "Showing the predicted arc before a limited set of shots makes the tiny daily course legible rather than random, but it is still an early game.",
-      "why": "Play a small daily tabletop golf course with five shots per hole.",
-      "featured": false,
-      "tags": [
-        "daily",
-        "golf"
-      ]
-    },
-    {
       "slug": "pixel-brief-builder",
       "kind": "product",
       "category": "make",
@@ -5634,7 +5558,7 @@
       "kind": "installable",
       "category": "access",
       "interest": 3,
-      "reason": "Mark each project with a stable color, name, and symbol. Confirm the project before you edit fills a real gap for desktop users, though the use case is narrower than a main shelf.",
+      "reason": "The confirmation step targets a real context-switching mistake rather than pretending colour alone solves it.",
       "why": "Mark each project with a stable color, name, and symbol.",
       "featured": false,
       "tags": [
@@ -5722,7 +5646,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 3,
-      "reason": "Correct dictated names with approved spellings. Review every local change, restore raw text, and export speech-model hints fills a real gap for developers, though the use case is narrower than a main shelf.",
+      "reason": "Local corrections are valuable for names that transcription systems reliably mangle, but the audience is specialised.",
       "why": "Correct dictated names with approved spellings.",
       "featured": false,
       "tags": [
@@ -5747,7 +5671,7 @@
       "category": "install",
       "interest": 3,
       "reason": "Private, deliberate phone-to-desktop dictation over your local network fills a real gap for desktop users, though the use case is narrower than a main shelf.",
-      "why": "Private, deliberate phone-to-desktop dictation over your local network.",
+      "why": "Send deliberate dictation from your phone to your desktop over your local network.",
       "featured": false,
       "tags": [
         "install"
@@ -5862,7 +5786,7 @@
       "kind": "devtool",
       "category": "install",
       "interest": 3,
-      "reason": "It picks a real production snag instead of inventing a vague creativity ritual.",
+      "reason": "It catches a boring but ruinous mismatch before a photo library absorbs a whole shoot.",
       "why": "Test a real camera RAW file, embedded preview, editor version, and machine before importing a full shoot.",
       "featured": false,
       "tags": [
@@ -5954,7 +5878,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 3,
-      "reason": "Save selected passages with your gloss, review missing words, and return to the original page. Your notes stay on your device fills a real gap for browser users, though the use case is narrower than a main shelf.",
+      "reason": "Returning a note to its original passage gives language learners context that isolated flashcards erase.",
       "why": "Save selected passages with your gloss, review missing words, and return to the original page.",
       "featured": false,
       "tags": [
@@ -6387,18 +6311,6 @@
       ]
     },
     {
-      "slug": "review-backlog-forecast",
-      "kind": "product",
-      "category": "life",
-      "interest": 3,
-      "reason": "Compare capped recovery plans for an overdue queue before changing cards in Anki fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
-      "why": "Compare capped recovery plans for an overdue queue before changing cards in Anki.",
-      "featured": false,
-      "tags": [
-        "life"
-      ]
-    },
-    {
       "slug": "review-backlog-restart",
       "kind": "product",
       "category": "learn",
@@ -6720,18 +6632,6 @@
       "featured": false,
       "tags": [
         "screen",
-        "access"
-      ]
-    },
-    {
-      "slug": "screen-landmark-lens",
-      "kind": "installable",
-      "category": "access",
-      "interest": 3,
-      "reason": "Find visible controls in inaccessible remote desktops and legacy apps. Screen Landmark Lens captures one chosen window and reads it locally fills a real gap for desktop users, though the use case is narrower than a main shelf.",
-      "why": "Find visible controls in inaccessible remote desktops and legacy apps.",
-      "featured": false,
-      "tags": [
         "access"
       ]
     },
@@ -7318,7 +7218,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 3,
-      "reason": "Capture, redact, replay, and compare state transitions locally. Find the first persisted field that changed between two runs fills a real gap for developers, though the use case is narrower than a main shelf.",
+      "reason": "Finding the first persistent divergence makes this debugging format sharper than a generic state dump.",
       "why": "Capture, redact, replay, and compare state transitions locally.",
       "featured": false,
       "tags": [
@@ -7470,7 +7370,7 @@
       "category": "money",
       "interest": 3,
       "reason": "Its value appears when memory and goodwill are no longer enough to settle what happened.",
-      "why": "Record.",
+      "why": "Track what each supplier is owed and when payment is due.",
       "featured": false,
       "tags": [
         "records",
@@ -7547,7 +7447,7 @@
       "kind": "library",
       "category": "tools",
       "interest": 5,
-      "reason": "v1: `tdiff a.parquet b.parquet --key id` prints row counts added/removed/modified, per-column change counts, schema differences and sample changed rows.",
+      "reason": "Key-aware output makes data-file reviews closer to code review, even though the need is specialised.",
       "why": "Compare keyed CSV, Parquet, and Arrow data snapshots from Python, Git, or DVC.",
       "featured": false,
       "tags": [
@@ -7624,7 +7524,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 3,
-      "reason": "Track recurring telemetry answers from readings you enter or import. Built for support teams without broad dashboard access fills a real gap for developers, though the use case is narrower than a main shelf.",
+      "reason": "Teams without dashboards can repeat useful questions, but manual readings keep this for a narrow audience.",
       "why": "Track recurring telemetry answers from readings you enter or import.",
       "featured": false,
       "tags": [
@@ -7868,7 +7768,7 @@
       "kind": "extension",
       "category": "access",
       "interest": 3,
-      "reason": "Turn accessible transcript text into marked study passages. Keep source links and export Markdown or CSV from a local browser extension fills a real gap for browser users, though the use case is narrower than a main shelf.",
+      "reason": "Keeping source links makes this a credible bridge from an accessibility transcript to actual revision material.",
       "why": "Turn accessible transcript text into marked study passages.",
       "featured": false,
       "tags": [
@@ -7905,7 +7805,7 @@
       "kind": "product",
       "category": "learn",
       "interest": 2,
-      "reason": "Record coding lesson attempts, outcomes, and next steps. Share a student recap only after consent is useful niche plumbing for people with that specific task, not a destination in its own right.",
+      "reason": "A consent-gated recap turns disparate attempts into a useful record without treating students as surveillance subjects.",
       "why": "Record coding lesson attempts, outcomes, and next steps.",
       "featured": false,
       "tags": [
@@ -7929,23 +7829,11 @@
       "kind": "product",
       "category": "money",
       "interest": 3,
-      "reason": "Compare task, time, and invoice CSV files. Review completed work that may still need an invoice, all in your browser fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
+      "reason": "Crosschecking three mundane exports can find lost revenue, a more compelling payoff than another timesheet.",
       "why": "Compare task, time, and invoice CSV files.",
       "featured": false,
       "tags": [
         "money"
-      ]
-    },
-    {
-      "slug": "vault-cross-search",
-      "kind": "installable",
-      "category": "install",
-      "interest": 2,
-      "reason": "Search metadata across separate local KeePass vaults without merging them or copying secrets is useful niche plumbing for desktop users, not a destination in its own right.",
-      "why": "Search metadata across separate local KeePass vaults without merging them or copying secrets.",
-      "featured": false,
-      "tags": [
-        "install"
       ]
     },
     {
@@ -8055,7 +7943,7 @@
       "kind": "extension",
       "category": "tools",
       "interest": 2,
-      "reason": "Inspect WebMCP and MCP safety declarations locally. Export review cards and fail CI when required claims are missing is useful niche plumbing for browser users, not a destination in its own right.",
+      "reason": "Safety declarations are becoming a real review surface, so local cards and CI checks are timely.",
       "why": "Inspect WebMCP and MCP safety declarations locally.",
       "featured": false,
       "tags": [
@@ -8169,7 +8057,7 @@
       "kind": "devtool",
       "category": "tools",
       "interest": 1,
-      "reason": "A CLI that reads sandbox.toml, compiles workspace/file/network/process policy to macOS Seatbelt or Linux bubblewrap, probes enforcement, and emits a capability.",
+      "reason": "It turns a policy file into enforced boundaries, which matters if the platform adapters match the stated policy.",
       "why": "Compile a sandbox file into coding-agent boundaries for Linux or macOS.",
       "featured": false,
       "tags": [
@@ -8212,6 +8100,140 @@
       "tags": [
         "install",
         "app"
+      ]
+    },
+    {
+      "slug": "accessible-table-ocr-check",
+      "kind": "product",
+      "category": "access",
+      "interest": 4,
+      "reason": "A wrongly tagged table can make a scanned document unusable; giving people a way to see and repair the reading order is unusually practical.",
+      "why": "Check an OCR table's reading order, fix headers, and export HTML or CSV.",
+      "featured": false,
+      "tags": [
+        "OCR",
+        "tables",
+        "access"
+      ]
+    },
+    {
+      "slug": "dawn-run",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "Six visible rooms and a cash-out decision give this roguelike a readable arc instead of asking players to learn an endless system.",
+      "why": "Choose tools, cross six dangerous rooms, and decide when to cash out.",
+      "featured": false,
+      "tags": [
+        "roguelike",
+        "daily"
+      ]
+    },
+    {
+      "slug": "exam-bridge",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Starting from what a student cannot yet do is a saner planning method than another blank revision timetable, though the planner remains specialised.",
+      "why": "Turn a syllabus into a confidence-based study sequence and checklist.",
+      "featured": false,
+      "tags": [
+        "study",
+        "planning"
+      ]
+    },
+    {
+      "slug": "internal-event-ledger",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "A self-hosted record of internal events is sensible operational hygiene, but it competes in a crowded and technical monitoring space.",
+      "why": "Receive internal events, search their timeline, and export the record.",
+      "featured": false,
+      "tags": [
+        "events",
+        "self-hosted"
+      ]
+    },
+    {
+      "slug": "last-lap-breakout",
+      "kind": "game",
+      "category": "play",
+      "interest": 4,
+      "reason": "The eight-lap structure and final boss give familiar breakout mechanics a proper finish, a rare bit of discipline for an arcade game.",
+      "why": "Clear eight one-minute paddle-and-orb laps and beat the final boss.",
+      "featured": false,
+      "tags": [
+        "arcade",
+        "breakout"
+      ]
+    },
+    {
+      "slug": "mirror-orchard",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "The mirrored-board premise is calm and easy to understand, but its puzzle hook needs a stronger first screen to stand apart from other daily games.",
+      "why": "Grow a mirrored orchard by solving symmetry puzzles.",
+      "featured": false,
+      "tags": [
+        "puzzle",
+        "symmetry"
+      ]
+    },
+    {
+      "slug": "clipboard-lan-bridge",
+      "kind": "installable",
+      "category": "install",
+      "interest": 4,
+      "reason": "Local encrypted sharing between a computer and phone solves an everyday annoyance without turning a clipboard into another cloud account.",
+      "why": "Send clipboard text and files between your paired devices on your local network.",
+      "featured": false,
+      "tags": [
+        "LAN",
+        "sharing",
+        "private"
+      ]
+    },
+    {
+      "slug": "code-lesson-checkpoints",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Letting students share only selected test evidence respects their work while giving instructors something concrete to respond to.",
+      "why": "Set code checkpoints and share selected test results with an instructor.",
+      "featured": false,
+      "tags": [
+        "teaching",
+        "VS Code"
+      ]
+    },
+    {
+      "slug": "visualizer-cuebook",
+      "kind": "product",
+      "category": "make",
+      "interest": 4,
+      "reason": "Marking a performer’s own audio against dependable visual scenes is a focused live-show workflow rather than a generic visualiser toy.",
+      "why": "Mark your audio with cues, preview scenes, and export a visual show plan.",
+      "featured": false,
+      "tags": [
+        "music",
+        "visuals",
+        "offline"
+      ]
+    },
+    {
+      "slug": "browser-game-replay-capsule",
+      "kind": "library",
+      "category": "tools",
+      "interest": 3,
+      "reason": "Small game teams need reproducible bug reports, and a capped input replay is more useful than another screenshot when a run goes wrong.",
+      "why": "Record browser-game inputs and checkpoints, then save a replay file.",
+      "featured": false,
+      "tags": [
+        "games",
+        "replays",
+        "npm"
       ]
     }
   ]

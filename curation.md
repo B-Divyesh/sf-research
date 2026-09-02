@@ -1,6 +1,6 @@
 # Featured picks
 
-Checked at their live addresses on 2 September 2026: all 12 returned HTTP 200, and each first screen named a recognisable job.
+Checked at their live addresses with curl on 2 September 2026: all 12 returned HTTP 200 and named a recognisable job on the first screen.
 
 - `audio-gap-loop` — It turns a learner’s own clip into a listen, speak, and repeat exercise, which is far more personal than a generic player.
 - `claim-ready-homebook` — A private home inventory only proves its worth after a loss; the claim export makes that difficult moment its real purpose.
