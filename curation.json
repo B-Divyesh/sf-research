@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T22:47:54.935Z",
+  "generated": "2026-09-02T00:23:48.508Z",
   "categories": [
     {
       "id": "make",
@@ -84,10 +84,6 @@
     },
     {
       "slug": "accessible-explanation-checkin",
-      "title": "Accessible Explanation Check-in",
-      "class": "web-with-backend",
-      "territory": "utilities",
-      "state": "POLISHING",
       "kind": "product",
       "category": "learn",
       "interest": 3,
@@ -119,19 +115,6 @@
       "interest": 2,
       "reason": "The point of Large Type Catalog becomes clear in Local browser catalog for one folder: huge thumbnails, adjustable contrast and text, keyboard-only keep/reject/tag/rename queue, and CSV sidecar export.",
       "why": "Sort and label local photos with large controls and a complete keyboard workflow. Photos stay on this device.",
-      "featured": false,
-      "tags": [
-        "access",
-        "offline"
-      ]
-    },
-    {
-      "slug": "accessible-table-ocr-check",
-      "kind": "product",
-      "category": "access",
-      "interest": 5,
-      "reason": "A local PWA that accepts page images/OCR JSON, overlays detected blocks and reading order, lets a user relabel table cells and headers, and exports HTML/CSV.",
-      "why": "Check OCR tables for reading order and export accessible HTML or CSV.",
       "featured": false,
       "tags": [
         "access",
@@ -289,6 +272,19 @@
       "featured": false,
       "tags": [
         "tools"
+      ]
+    },
+    {
+      "slug": "alert-evidence-envelope",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 2,
+      "reason": "Sending a redacted, signed slice of supporting data with an alert is careful operational plumbing, but it is too specialised to compete for general attention.",
+      "why": "Attach redacted, signed evidence to an alert before forwarding it.",
+      "featured": false,
+      "tags": [
+        "alerts",
+        "security"
       ]
     },
     {
@@ -547,6 +543,19 @@
       "tags": [
         "archive",
         "backup"
+      ]
+    },
+    {
+      "slug": "arithmetic-steps",
+      "kind": "product",
+      "category": "learn",
+      "interest": 3,
+      "reason": "Counters, ten-frames, and spoken steps make the calculation visible, though it remains a focused practice drill rather than a broad maths course.",
+      "why": "Practise addition and subtraction with counters, ten-frames, and spoken steps.",
+      "featured": false,
+      "tags": [
+        "maths",
+        "practice"
       ]
     },
     {
@@ -1088,18 +1097,6 @@
       ]
     },
     {
-      "slug": "browser-game-replay-capsule",
-      "kind": "library",
-      "category": "tools",
-      "interest": 1,
-      "reason": "Replay browser-game bugs from a small local file with inputs, timing, a seed, and checkpoints is useful niche plumbing for developers, not a destination in its own right.",
-      "why": "Replay browser-game bugs from a small local file with inputs, timing, a seed, and checkpoints.",
-      "featured": false,
-      "tags": [
-        "tools"
-      ]
-    },
-    {
       "slug": "browser-history-export-sentinel",
       "kind": "devtool",
       "category": "install",
@@ -1133,12 +1130,12 @@
       "interest": 4,
       "reason": "Selective calendar snapshots make a frightening restore job safer, even if this remains a desktop niche.",
       "why": "Save calendar copies, compare changes, and restore selected events on your computer.",
+      "featured": false,
       "tags": [
         "calendar",
         "backup",
         "desktop"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "calm-language-routine",
@@ -1617,6 +1614,19 @@
       ]
     },
     {
+      "slug": "client-request-catalog",
+      "kind": "product",
+      "category": "money",
+      "interest": 3,
+      "reason": "A client-specific catalogue that records price, availability, and requests can save a small business from a messy email thread, but it is not yet a finished release.",
+      "why": "Share a client catalogue, collect requests, and export the request list.",
+      "featured": false,
+      "tags": [
+        "clients",
+        "requests"
+      ]
+    },
+    {
       "slug": "client-request-quote-sheet",
       "kind": "product",
       "category": "money",
@@ -1700,11 +1710,11 @@
       "interest": 3,
       "reason": "Reversible staging makes bulk catalogue edits less reckless, but it mainly serves people already managing collections.",
       "why": "Stage collection edits, export a patch CSV, and undo them when needed.",
+      "featured": false,
       "tags": [
         "collections",
         "local"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "collection-escape-hatch",
@@ -2300,11 +2310,11 @@
       "interest": 2,
       "reason": "It catches writable-mount mistakes before a container starts, a recurring but unglamorous developer failure.",
       "why": "Check Dev Container mount permissions before startup.",
+      "featured": false,
       "tags": [
         "containers",
         "permissions"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "diagram-source-studio",
@@ -2747,11 +2757,11 @@
       "interest": 4,
       "reason": "A factory campaign that ends rejects the genre’s usual grind, though it needs a finished build before a lead shelf.",
       "why": "Plan factory routes and finish a six-level campaign.",
+      "featured": false,
       "tags": [
         "factory",
         "strategy"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "firebase-environment-doctor",
@@ -3422,12 +3432,12 @@
       "interest": 3,
       "reason": "Typed inputs and local history make YAML maintenance runs less hazardous, though the operator audience is small.",
       "why": "Run reviewed YAML maintenance steps with typed inputs and local history.",
+      "featured": false,
       "tags": [
         "yaml",
         "operations",
         "desktop"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "house-history-pack",
@@ -3661,19 +3671,6 @@
       ]
     },
     {
-      "slug": "internal-event-ledger",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 3,
-      "reason": "A self-hosted inbox for low-priority webhooks can reduce alert fatigue without exporting incident data.",
-      "why": "Review low-priority webhook events in a searchable self-hosted ledger.",
-      "tags": [
-        "webhooks",
-        "self-hosted"
-      ],
-      "featured": false
-    },
-    {
       "slug": "interview-recall-deck",
       "kind": "product",
       "category": "learn",
@@ -3693,11 +3690,11 @@
       "interest": 3,
       "reason": "Timed shared holds solve a real double-selling problem, but matter only to shops with scarce stock.",
       "why": "Create timed shared holds so scarce stock is not promised twice.",
+      "featured": false,
       "tags": [
         "inventory",
         "shops"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "invoice-approval-gate",
@@ -4033,11 +4030,11 @@
       "interest": 3,
       "reason": "Putting pools, seating, a timer, and a host sheet together is a thoughtful tabletop aid rather than a game itself.",
       "why": "Plan a tabletop event with pools, seating, a timer, and a host sheet.",
+      "featured": false,
       "tags": [
         "tabletop",
         "events"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "line-take-match",
@@ -4102,6 +4099,19 @@
       ]
     },
     {
+      "slug": "local-data-finder",
+      "kind": "installable",
+      "category": "install",
+      "interest": 3,
+      "reason": "Local search across selected folders and exported archives offers a useful privacy boundary, although desktop search is a crowded category.",
+      "why": "Search selected folders and exported files on your computer.",
+      "featured": false,
+      "tags": [
+        "search",
+        "offline"
+      ]
+    },
+    {
       "slug": "local-file-triage",
       "kind": "utility",
       "category": "life",
@@ -4125,18 +4135,6 @@
       "tags": [
         "finance",
         "exports"
-      ]
-    },
-    {
-      "slug": "local-live-captions",
-      "kind": "installable",
-      "category": "access",
-      "interest": 3,
-      "reason": "Caption Linux calls, lectures, and recordings on your computer. Try a private sample before downloading the desktop app fills a real gap for desktop users, though the use case is narrower than a main shelf.",
-      "why": "Caption Linux calls, lectures, and recordings on your computer.",
-      "featured": false,
-      "tags": [
-        "access"
       ]
     },
     {
@@ -4608,19 +4606,6 @@
       "tags": [
         "creative"
       ]
-    },
-    {
-      "slug": "mirror-orchard",
-      "kind": "game",
-      "category": "play",
-      "interest": 4,
-      "reason": "Forty teaching boards and reproducible daily puzzles give a simple symmetry game welcome structure.",
-      "why": "Learn a mirrored planting puzzle through boards and daily challenges.",
-      "tags": [
-        "puzzle",
-        "symmetry"
-      ],
-      "featured": false
     },
     {
       "slug": "mobile-sprite-pack",
@@ -5138,6 +5123,19 @@
       ]
     },
     {
+      "slug": "pause-garden",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Letting an absent player become a harmless helper is a thoughtful answer to the usual frustration of scheduling a co-op game, though this one is still verifying.",
+      "why": "Restore a garden with friends in short room-code game chapters.",
+      "featured": false,
+      "tags": [
+        "co-op",
+        "garden"
+      ]
+    },
+    {
       "slug": "payout-bundle-matcher",
       "kind": "product",
       "category": "money",
@@ -5424,6 +5422,19 @@
       "tags": [
         "creative",
         "offline"
+      ]
+    },
+    {
+      "slug": "pinpoint-daily",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Showing the predicted arc before a limited set of shots makes the tiny daily course legible rather than random, but it is still an early game.",
+      "why": "Play a small daily tabletop golf course with five shots per hole.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "golf"
       ]
     },
     {
@@ -6174,12 +6185,12 @@
       "interest": 3,
       "reason": "Keeping payment reminders while archiving duplicate invoices resolves a precise office annoyance cleanly.",
       "why": "Archive one invoice from each reminder thread while keeping payment reminders.",
+      "featured": false,
       "tags": [
         "email",
         "invoices",
         "desktop"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "remote-code-lesson-replay",
@@ -6298,6 +6309,18 @@
       ]
     },
     {
+      "slug": "restore-drill",
+      "kind": "devtool",
+      "category": "tools",
+      "interest": 1,
+      "reason": "Restore Drill has a concrete hook: A Docker-first CLI that restores a chosen Postgres dump/volume into an isolated network, runs configurable SQL/HTTP smoke assertions, records duration.",
+      "why": "Restore Drill helps small self-hosted teams rehearse a Postgres backup restore in an isolated Docker network.",
+      "featured": false,
+      "tags": [
+        "developer"
+      ]
+    },
+    {
       "slug": "restore-drill-attestor",
       "kind": "devtool",
       "category": "tools",
@@ -6309,18 +6332,6 @@
         "backup",
         "restore",
         "cli"
-      ]
-    },
-    {
-      "slug": "restore-drill",
-      "kind": "devtool",
-      "category": "tools",
-      "interest": 1,
-      "reason": "Restore Drill has a concrete hook: A Docker-first CLI that restores a chosen Postgres dump/volume into an isolated network, runs configurable SQL/HTTP smoke assertions, records duration.",
-      "why": "Restore Drill helps small self-hosted teams rehearse a Postgres backup restore in an isolated Docker network.",
-      "featured": false,
-      "tags": [
-        "developer"
       ]
     },
     {
@@ -6449,6 +6460,19 @@
       ]
     },
     {
+      "slug": "riddle-grid",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A single correct grid with optional, score-costing hints gives a daily puzzle proper stakes without turning it into a grind.",
+      "why": "Arrange illustrated clues into the one correct daily grid.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "logic"
+      ]
+    },
+    {
       "slug": "route-fidelity-check",
       "kind": "utility",
       "category": "life",
@@ -6471,6 +6495,19 @@
       "featured": false,
       "tags": [
         "local"
+      ]
+    },
+    {
+      "slug": "route-of-the-day",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "Changing one routing rule each day is enough to keep a small tile puzzle fresh, though the format is familiar.",
+      "why": "Lay route tiles to connect landmarks under a daily rule.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "tiles"
       ]
     },
     {
@@ -6545,6 +6582,19 @@
       "featured": false,
       "tags": [
         "tools"
+      ]
+    },
+    {
+      "slug": "scaled-cook-card",
+      "kind": "utility",
+      "category": "life",
+      "interest": 3,
+      "reason": "Keeping ingredient amounts tied to each cooking step avoids the common mistake of scaling a recipe on one screen and cooking from another.",
+      "why": "Scale a recipe and keep each cooking step linked to its ingredients.",
+      "featured": false,
+      "tags": [
+        "cooking",
+        "offline"
       ]
     },
     {
@@ -7192,12 +7242,12 @@
       "interest": 3,
       "reason": "Captions placed by speaker direction answer a concrete access need, although small in-person groups are a limited setting.",
       "why": "Place live captions in left, centre, and right speaker lanes.",
+      "featured": false,
       "tags": [
         "captions",
         "android",
         "access"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "speaking-subtitle-ladder",
@@ -7636,17 +7686,30 @@
       ]
     },
     {
+      "slug": "tide-and-tile",
+      "kind": "game",
+      "category": "play",
+      "interest": 3,
+      "reason": "A compact route puzzle with a visible turn target is easy to grasp and replay, but the daily format alone does not make it stand out yet.",
+      "why": "Rotate water channels to make one harbor route in a daily puzzle.",
+      "featured": false,
+      "tags": [
+        "daily",
+        "puzzle"
+      ]
+    },
+    {
       "slug": "tilt-tag",
       "kind": "game",
       "category": "play",
       "interest": 3,
       "reason": "A 90-second tilt game is instantly legible, but its daily format needs polish before it competes with fuller games.",
       "why": "Tilt or touch to collect targets and dodge hazards in 90 seconds.",
+      "featured": false,
       "tags": [
         "arcade",
         "daily"
-      ],
-      "featured": false
+      ]
     },
     {
       "slug": "time-budget-new-cards",
@@ -7910,18 +7973,6 @@
         "developer",
         "offline",
         "extension"
-      ]
-    },
-    {
-      "slug": "visualizer-cuebook",
-      "kind": "product",
-      "category": "make",
-      "interest": 3,
-      "reason": "Build repeatable visual cues for your audio in this private, offline rehearsal tool fills a real gap for people with that specific task, though the use case is narrower than a main shelf.",
-      "why": "Build repeatable visual cues for your audio in this private, offline rehearsal tool.",
-      "featured": false,
-      "tags": [
-        "make"
       ]
     },
     {

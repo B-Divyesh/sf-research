@@ -1,18 +1,15 @@
-# Catalogue curation handoff
+# Curation handoff
 
-Updated the Hello Factory catalogue for the 635-product inventory.
+Created and committed `curation.json` and `curation.md` for the 639-product Hello Factory catalogue.
 
-- `curation.json` has eight store-style shelves, one curation record per supplied slug, and exactly 12 featured products.
-- The old list’s eight retired records were removed and its twelve current omissions were added.
-- Placeholder descriptions that only said “Use [product name]” were replaced with plain task descriptions.
-- The featured URLs were fetched on 2026-09-01; every one returned HTTP 200 and is in `RELEASED` state.
-- `curation.md` records the featured editorial choices and five first-screen copy problems for the repair loop.
+- The catalogue has eight store-style categories and one complete curation record per live product.
+- There are exactly 12 featured, released picks. Each was checked with `curl` on 2 September 2026 and returned HTTP 200 with a recognisable first-screen job.
+- `curation.md` records the featured editorial choices and five first screens that need copy work.
 
 Verify with:
 
 ```sh
-jq -e '(.products | length == 635) and ([.products[] | select(.featured)] | length == 12)' curation.json
-jq -e '([.products[] | select((.why | length) > 110 or (.tags | length) > 3)] | length == 0)' curation.json
+node -e "const c=require('./curation.json'); console.log(c.products.length, c.products.filter(p=>p.featured).length)"
 ```
 
-No build is required: this is a research and curation repository. The pre-existing change in `graphify-out/cache/stat-index.json` was intentionally left uncommitted.
+This prints `639 12`.
